@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>GitPage</title>
+      <link>https://techshinobi.org/tags/gitpage/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/gitpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HUGO</title>
+      <link>https://techshinobi.org/tags/hugo/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mind</title>
       <link>https://techshinobi.org/tags/mind/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
@@ -34,11 +52,29 @@
     </item>
     
     <item>
+      <title>PaperMod</title>
+      <link>https://techshinobi.org/tags/papermod/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/papermod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>podcast</title>
       <link>https://techshinobi.org/tags/podcast/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://techshinobi.org/tags/privacy/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/privacy/</guid>
       <description></description>
     </item>
     
