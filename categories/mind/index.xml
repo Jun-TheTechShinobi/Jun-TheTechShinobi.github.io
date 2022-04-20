@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mind on Tech Shinobi</title>
+    <title>Mind on Tech Shinobi</title>
     <link>https://techshinobi.org/categories/mind/</link>
-    <description>Recent content in mind on Tech Shinobi</description>
+    <description>Recent content in Mind on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/mind/index.xml" rel="self" type="application/rss+xml" />
     <item>
