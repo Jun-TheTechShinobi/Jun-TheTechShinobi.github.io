@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on Tech Shinobi</title>
+    <link>https://techshinobi.org/categories/android/</link>
+    <description>Recent content in Android on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edge TTS reader</title>
+      <link>https://techshinobi.org/posts/edgetts/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/edgetts/</guid>
+      <description>Back to the Command-line For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.
+Therefore, I found a work around with edge-tts. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.
+After installation, use edge-tts --list-voices | grep US to show English speaking characters and now I can locate a text file in the terminal to be read.</description>
+    </item>
+    
+  </channel>
+</rss>
