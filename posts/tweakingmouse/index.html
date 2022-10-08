@@ -73,8 +73,8 @@ Permanently disabling acceleration for Windows is simple. Besides unchecking the
   "keywords": [
     "mouse", "mice", "trackball", "script", "gesture", "nostalgia"
   ],
-  "articleBody": "Acceleration During my teenage years, I was really into FPS and RTS games. That’s why I’m kind of picky on computer mouses and being paranoid of acceleration in the OS.\nPermanently disabling acceleration for Windows is simple. Besides unchecking the “Enhance pointer precision” in the main.cpl, some registry hacks such as the good old classic “CPL Mouse Fix” or the later “MarkC” would do it easily by a REG/batch file. It is also possible doing manually if you want.\nHowever, this is much harder for Linux.\nI can’t express more that how much I rely on ArchWiki when tweaking any Linux-based system. By following the wiki page, I can temporarily accomplish the result but failed autostarting 50-mouse-acceleration.conf to preserve the result after rebooting.\njagardaniel is my savior by sharing this script on reddit. My only change is the device name (find it by xinput --list) and Accel Speed:\n#!/bin/sh device=\"my mouse\" if xinput list --id-only \"${device}\"  /dev/null 2\u00261; then xinput --set-prop \"${device}\" 'libinput Accel Profile Enabled' 0, 1 xinput --set-prop \"${device}\" 'libinput Accel Speed' 0 notify-send \"Mouse settings applied\" else echo \"Unable to find device ${device}\" \u00262 exit 1 fi After saving it, run chmod +x script.sh from terminal to ensure its permission and add it into Startup Applications Preferences. This works perfectly.\nTrackball This method of autostarting script also works with my Kensington trackball thanks for ArtiomSu creating this fantastic script. It enables natural scrolling and disables acceleration. The only change I made is the key mapping:\nmouse_name=\"Kensington Expert Wireless TB Mouse\" check=$(xinput | grep \"$mouse_name\") if [[ ! -z \"$check\" ]]; then mouse_id=$(xinput | grep \"$mouse_name\" | sed 's/^.*id=\\([0-9]*\\)[ \\t].*$/\\1/') # swap right and back button then swap middle and back button xinput set-button-map $mouse_id 1 8 3 4 5 6 7 2 9 # enable better scrolling xinput set-prop $mouse_id \"libinput Natural Scrolling Enabled\" 1 # disable acceliration for the ball xinput set-prop $mouse_id \"libinput Accel Profile Enabled\" 0, 1 # allow scrolling by holding middle mouse button and using the ball to scroll ( really smooth and fast ). xinput set-prop $mouse_id \"libinput Scroll Method Enabled\" 0, 0, 1 # allow the remmaped middle mouse to be used for middle mouse scroll xinput set-prop $mouse_id \"libinput Button Scrolling Button\" 8 fi The original layout:\n______________ _________ ________________ | back | | | | right click | -------------- | | ---------------- ______________ | | ________________ | left click | | | | middle click | -------------- --------- ---------------- My layout:\n______________ _________ ________________ | back | | | | middle click | -------------- | | ---------------- ______________ | | ________________ | left click | | | | right click | -------------- --------- ---------------- Gesture I’d like to use gestures whenever there are tabs within a program, mainly browsers, file manager and terminal. Therefore, one universal gesture tool that runs at desktop/system level is necessary. For Windows, there are many choices and I use StrokesPlus.\nHowever, for Linux, it’s so hard to find any alternative.\nI’ve tried easystroke which is no longer maintained for many years. It works very well and has all the functions I needed. Unfortunately, there is one problem ruined everything. It crashes randomly and kills the Xorg/X11 server. That results rebooting of the desktop environment and send me back to the log-in window while force quitting all running processes.\nThis can be disastrous while working and it happens so randomly that is very difficult to troubleshoot with.\nI had to fall back to browser extensions and set them up one by one. There are two open source options, Gesturefy for Firefox-based, smartUp for Chromium-based and no love for Webkit. They are great compare to other extensions and by design there is NO extensions that work with loading page and internal pages. So I have to keep pressing Ctrl+Tab and Ctrl+Shift+Tab when I have to.\nMaybe I can find/create something better in the future.\n",
-  "wordCount" : "650",
+  "articleBody": "Acceleration During my teenage years, I was really into FPS and RTS games. That’s why I’m kind of picky on computer mouses and being paranoid of acceleration in the OS.\nPermanently disabling acceleration for Windows is simple. Besides unchecking the “Enhance pointer precision” in the main.cpl, some registry hacks such as the good old classic “CPL Mouse Fix” or the later “MarkC” would do it easily by a REG/batch file. It is also possible doing manually if you want.\nHowever, this is much harder for Linux.\nI can’t express more that how much I rely on ArchWiki when tweaking any Linux-based system. By following the wiki page, I can temporarily accomplish the result but failed autostarting 50-mouse-acceleration.conf to preserve the result after rebooting.\njagardaniel is my savior by sharing this script on reddit. My only change is the device name (find it by xinput --list) and Accel Speed:\n#!/bin/sh device=\"my mouse\" if xinput list --id-only \"${device}\"  /dev/null 2\u00261; then xinput --set-prop \"${device}\" 'libinput Accel Profile Enabled' 0, 1 xinput --set-prop \"${device}\" 'libinput Accel Speed' 0 notify-send \"Mouse settings applied\" else echo \"Unable to find device ${device}\" \u00262 exit 1 fi After saving it, run chmod +x script.sh from terminal to ensure its permission and add it into Startup Applications Preferences. This works perfectly.\nTrackball This method of autostarting script also works with my Kensington trackball thanks for ArtiomSu creating this fantastic script. It enables natural scrolling and disables acceleration. The only change I made is the key mapping:\nmouse_name=\"Kensington Expert Wireless TB Mouse\" check=$(xinput | grep \"$mouse_name\") if [[ ! -z \"$check\" ]]; then mouse_id=$(xinput | grep \"$mouse_name\" | sed 's/^.*id=\\([0-9]*\\)[ \\t].*$/\\1/') # swap right and back button then swap middle and back button xinput set-button-map $mouse_id 1 8 3 4 5 6 7 2 9 # enable better scrolling xinput set-prop $mouse_id \"libinput Natural Scrolling Enabled\" 1 # disable acceliration for the ball xinput set-prop $mouse_id \"libinput Accel Profile Enabled\" 0, 1 # allow scrolling by holding middle mouse button and using the ball to scroll ( really smooth and fast ). xinput set-prop $mouse_id \"libinput Scroll Method Enabled\" 0, 0, 1 # allow the remmaped middle mouse to be used for middle mouse scroll xinput set-prop $mouse_id \"libinput Button Scrolling Button\" 8 fi The original layout:\n______________ _________ ________________ | back | | | | right click | -------------- | | ---------------- ______________ | | ________________ | left click | | | | middle click | -------------- --------- ---------------- My layout:\n______________ _________ ________________ | back | | | | middle click | -------------- | | ---------------- ______________ | | ________________ | left click | | | | right click | -------------- --------- ---------------- Gesture I’d like to use gestures whenever there are tabs within a program, mainly browsers, file manager and terminal. Therefore, one universal gesture tool that runs at desktop/system level is necessary. For Windows, there are many choices and I use StrokesPlus.\nHowever, for Linux, it’s so hard to find any alternative.\nI’ve tried easystroke which is no longer maintained for many years. It works very well and has all the functions I needed. Unfortunately, there is one problem ruined everything. It crashes randomly and kills the Xorg/X11 server. That results rebooting of the desktop environment and send me back to the log-in window while force quitting all running processes.\nThis can be disastrous while working and it happens so randomly that is very difficult to troubleshoot with.\nI had to fall back to browser extensions and set them up one by one. There are two open source options, Gesturefy for Firefox-based, smartUp for Chromium-based and no love for Webkit. They are great compare to other extensions and by design there is NO extensions that work with loading page and internal pages. So I have to keep pressing Ctrl+Tab and Ctrl+Shift+Tab when I have to.\nMaybe I can find/create something better in the future.\nTrackPoint There are also problems with Windows undoubtedly. The TrackPoint on my old ThinkPad is a big one, especially with newer versions of Windows 10. Although I can make it work perfectly by sneak the outdated Synaptics and UltraNav into the newer OS, the process is tedious and painful.\nI also use portable USB keyboards with TrackPoint so a light and portable solution is needed. My requirement is simple, just to make the TrackPoint behave like under most Linux desktop:\n Move to scroll while holding down the middle button Perform middle click as a mouse wheel  An AutoHotkey script works great and easy to set up.\nFirst, install the latest AHK 1.x from its release page\nThen, download the script and simply run it to try and tweak. Or copy paste the script code into notepad and save as TP_middle_Scroll.ahk\n; Midbutton down for scrolling {{{ ; Feature: with acceleration as intended. ; Source: http://forum.notebookreview.com/threads/ultranav-middle-click-button-scroll.423415/ ; Linking source: https://superuser.com/questions/91074/thinkpad-trackpoint-scrolling-and-middle-click-possible ; Working version {{{ $*MButton:: Hotkey, $*MButton Up, MButtonup, off KeyWait, MButton, T0.2 If ErrorLevel = 1 { Hotkey, $*MButton Up, MButtonup, on MouseGetPos, ox, oy SetTimer, WatchTheMouse, 5 SystemCursor(\"Toggle\") } Else Send {MButton} return MButtonup: Hotkey, $*MButton Up, MButtonup, off SetTimer, WatchTheMouse, off SystemCursor(\"Toggle\") return WatchTheMouse: MouseGetPos, nx, ny dy := ny-oy dx := nx-ox If (dx**2  0 and dx**2dy**2) ;edit 4 for sensitivity (changes sensitivity to movement) { times := Abs(dy)/1 ;edit 1 for sensitivity (changes frequency of scroll signal) Loop, %times% { If (dx  0) Click WheelRight Else Click WheelLeft } } If (dy**2  0 and dy**2dx**2) ;edit 0 for sensitivity (changes sensitivity to movement) { times := Abs(dy)/1 ;edit 1 for sensitivity (changes frequency of scroll signal) Loop, %times% { If (dy  0) Click WheelDown Else Click WheelUp } } MouseMove ox, oy return SystemCursor(OnOff=1) ; INIT = \"I\",\"Init\"; OFF = 0,\"Off\"; TOGGLE = -1,\"T\",\"Toggle\"; ON = others { static AndMask, XorMask, $, h_cursor ,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13 ; system cursors , b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13 ; blank cursors , h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13 ; handles of default cursors if (OnOff = \"Init\" or OnOff = \"I\" or $ = \"\") ; init when requested or at first call { $ = h ; active default cursors VarSetCapacity( h_cursor,4444, 1 ) VarSetCapacity( AndMask, 32*4, 0xFF ) VarSetCapacity( XorMask, 32*4, 0 ) system_cursors = 32512,32513,32514,32515,32516,32642,32643,32644,32645,32646,32648,32649,32650 StringSplit c, system_cursors, `, Loop %c0% { h_cursor := DllCall( \"LoadCursor\", \"uint\",0, \"uint\",c%A_Index% ) h%A_Index% := DllCall( \"CopyImage\", \"uint\",h_cursor, \"uint\",2, \"int\",0, \"int\",0, \"uint\",0 ) b%A_Index% := DllCall(\"CreateCursor\",\"uint\",0, \"int\",0, \"int\",0 , \"int\",32, \"int\",32, \"uint\",\u0026AndMask, \"uint\",\u0026XorMask ) } } if (OnOff = 0 or OnOff = \"Off\" or $ = \"h\" and (OnOff To make the script auto start with the system, create a shortcut link under C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\ by drag and drop while hoding ALT key. Or Right Click - New - Shortcut - Browse or Type /path/to/TP_middle_Scroll.ahk , then reboot the system to confirm the result.\n",
+  "wordCount" : "1178",
   "inLanguage": "en",
   "datePublished": "2022-09-22T00:00:00Z",
   "dateModified": "2022-09-22T00:00:00Z",
@@ -165,7 +165,7 @@ Permanently disabling acceleration for Windows is simple. Besides unchecking the
     <h1 class="post-title">
       Tweaking the Mouse
     </h1>
-    <div class="post-meta"><span title='2022-09-22 00:00:00 +0000 UTC'>September 22, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Jun
+    <div class="post-meta"><span title='2022-09-22 00:00:00 +0000 UTC'>September 22, 2022</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Jun
 
 </div>
   </header> <div class="toc">
@@ -180,7 +180,9 @@ Permanently disabling acceleration for Windows is simple. Besides unchecking the
                 <li>
                     <a href="#trackball" aria-label="Trackball">Trackball</a></li>
                 <li>
-                    <a href="#gesture" aria-label="Gesture">Gesture</a>
+                    <a href="#gesture" aria-label="Gesture">Gesture</a></li>
+                <li>
+                    <a href="#trackpoint" aria-label="TrackPoint">TrackPoint</a>
                 </li>
             </ul>
         </div>
@@ -247,6 +249,104 @@ ______________   |       |  ________________
 <p>This can be disastrous while working and it happens so randomly that is very difficult to troubleshoot with.</p>
 <p>I had to fall back to browser extensions and set them up one by one. There are two open source options, <a href="https://github.com/Robbendebiene/Gesturefy">Gesturefy</a> for Firefox-based, <a href="https://github.com/zimocode/smartup">smartUp</a> for Chromium-based and no love for Webkit. They are great compare to other extensions and by design there is NO extensions that work with loading page and internal pages. So I have to keep pressing Ctrl+Tab and Ctrl+Shift+Tab when I have to.</p>
 <p>Maybe I can find/create something better in the future.</p>
+<h2 id="trackpoint">TrackPoint<a hidden class="anchor" aria-hidden="true" href="#trackpoint">#</a></h2>
+<p>There are also problems with Windows undoubtedly. The TrackPoint on my old ThinkPad is a big one, especially with newer versions of Windows 10. Although I can make it work perfectly by sneak the outdated Synaptics and UltraNav into the newer OS, the process is tedious and painful.</p>
+<p>I also use portable USB keyboards with TrackPoint so a light and portable solution is needed. My requirement is simple, just to make the TrackPoint behave like under most Linux desktop:</p>
+<ol>
+<li>Move to scroll while holding down the middle button</li>
+<li>Perform middle click as a mouse wheel</li>
+</ol>
+<p>An AutoHotkey script works great and easy to set up.</p>
+<p>First, install the latest AHK 1.x from its <a href="https://github.com/Lexikos/AutoHotkey_L/releases">release page</a></p>
+<p>Then, download the <a href="https://gist.github.com/llinfeng/c09d6c1de0d0646dd2d11a5fa15382e1">script</a> and simply run it to try and tweak. Or copy paste the script code into notepad and save as TP_middle_Scroll.ahk</p>
+<pre tabindex="0"><code>; Midbutton down for scrolling {{{
+; Feature: with acceleration as intended.
+; Source: http://forum.notebookreview.com/threads/ultranav-middle-click-button-scroll.423415/
+; Linking source: https://superuser.com/questions/91074/thinkpad-trackpoint-scrolling-and-middle-click-possible
+; Working version {{{
+$*MButton::
+Hotkey, $*MButton Up, MButtonup, off
+KeyWait, MButton, T0.2
+If ErrorLevel = 1
+{
+	Hotkey, $*MButton Up, MButtonup, on
+	MouseGetPos, ox, oy
+ 	SetTimer, WatchTheMouse, 5
+	SystemCursor(&#34;Toggle&#34;)
+}
+Else
+	Send {MButton}
+return
+MButtonup:
+Hotkey, $*MButton Up, MButtonup, off
+SetTimer, WatchTheMouse, off
+SystemCursor(&#34;Toggle&#34;)
+return
+WatchTheMouse:
+MouseGetPos, nx, ny
+dy := ny-oy
+dx := nx-ox
+If (dx**2 &gt; 0 and dx**2&gt;dy**2) ;edit 4 for sensitivity (changes sensitivity to movement)
+{
+	times := Abs(dy)/1 ;edit 1 for sensitivity (changes frequency of scroll signal)
+	Loop, %times%
+	{
+		If (dx &gt; 0)
+			Click WheelRight
+		Else
+			Click WheelLeft
+   	}
+}
+If (dy**2 &gt; 0 and dy**2&gt;dx**2) ;edit 0 for sensitivity (changes sensitivity to movement)
+{
+	times := Abs(dy)/1 ;edit 1 for sensitivity (changes frequency of scroll signal)
+	Loop, %times% 
+	{
+		If (dy &gt; 0)
+			Click WheelDown
+		Else
+			Click WheelUp
+	}   
+}
+MouseMove ox, oy
+return
+SystemCursor(OnOff=1)   ; INIT = &#34;I&#34;,&#34;Init&#34;; OFF = 0,&#34;Off&#34;; TOGGLE = -1,&#34;T&#34;,&#34;Toggle&#34;; ON = others
+{
+    static AndMask, XorMask, $, h_cursor
+        ,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13 ; system cursors
+        , b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13   ; blank cursors
+        , h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13   ; handles of default cursors
+    if (OnOff = &#34;Init&#34; or OnOff = &#34;I&#34; or $ = &#34;&#34;)       ; init when requested or at first call
+    {
+        $ = h                                          ; active default cursors
+        VarSetCapacity( h_cursor,4444, 1 )
+        VarSetCapacity( AndMask, 32*4, 0xFF )
+        VarSetCapacity( XorMask, 32*4, 0 )
+        system_cursors = 32512,32513,32514,32515,32516,32642,32643,32644,32645,32646,32648,32649,32650
+        StringSplit c, system_cursors, `,
+        Loop %c0%
+        {
+            h_cursor   := DllCall( &#34;LoadCursor&#34;, &#34;uint&#34;,0, &#34;uint&#34;,c%A_Index% )
+            h%A_Index% := DllCall( &#34;CopyImage&#34;,  &#34;uint&#34;,h_cursor, &#34;uint&#34;,2, &#34;int&#34;,0, &#34;int&#34;,0, &#34;uint&#34;,0 )
+            b%A_Index% := DllCall(&#34;CreateCursor&#34;,&#34;uint&#34;,0, &#34;int&#34;,0, &#34;int&#34;,0
+                , &#34;int&#34;,32, &#34;int&#34;,32, &#34;uint&#34;,&amp;AndMask, &#34;uint&#34;,&amp;XorMask )
+        }
+    }
+    if (OnOff = 0 or OnOff = &#34;Off&#34; or $ = &#34;h&#34; and (OnOff &lt; 0 or OnOff = &#34;Toggle&#34; or OnOff = &#34;T&#34;))
+        $ = b  ; use blank cursors
+    else
+        $ = h  ; use the saved cursors
+    Loop %c0%
+    {
+        h_cursor := DllCall( &#34;CopyImage&#34;, &#34;uint&#34;,%$%%A_Index%, &#34;uint&#34;,2, &#34;int&#34;,0, &#34;int&#34;,0, &#34;uint&#34;,0 )
+        DllCall( &#34;SetSystemCursor&#34;, &#34;uint&#34;,h_cursor, &#34;uint&#34;,c%A_Index% )
+    }
+}
+; }}}
+; }}}
+</code></pre><p>To make the script auto start with the system, create a shortcut link under
+<code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\</code> by drag and drop while hoding ALT key.
+Or Right Click - New - Shortcut - Browse or Type /path/to/TP_middle_Scroll.ahk , then reboot the system to confirm the result.</p>
 
 
   </div>

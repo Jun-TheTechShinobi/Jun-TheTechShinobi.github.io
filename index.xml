@@ -5,7 +5,18 @@
     <link>https://techshinobi.org/</link>
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kali and Anonsurf</title>
+      <link>https://techshinobi.org/posts/kalianon/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/kalianon/</guid>
+      <description>Kali Linux &amp;amp; FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.
+I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.
+The graphic installer is much simpler than Parrot OS that may not be an issue for most people.</description>
+    </item>
+    
     <item>
       <title>Edge TTS Reader</title>
       <link>https://techshinobi.org/posts/edgetts/</link>
