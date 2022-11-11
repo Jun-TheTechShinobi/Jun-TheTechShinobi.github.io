@@ -2,10 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://techshinobi.org/tags/alpine/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+    <loc>https://techshinobi.org/tags/arkenfox/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/bootloader/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/c13/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/chromebook/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/debloat/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/depthboot/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/tpc13/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/keyd/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/linux/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ltsc/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/mate/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/optimazation/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/thinkpad/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/windows/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/yoga/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/alpine/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/custom/</loc>
@@ -20,9 +77,6 @@
     <loc>https://techshinobi.org/tags/linux/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/linux/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/posts/pmos/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,15 +84,6 @@
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/postmarketos/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/anonsurf/</loc>
@@ -54,9 +99,6 @@
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/privacy/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/tor/</loc>

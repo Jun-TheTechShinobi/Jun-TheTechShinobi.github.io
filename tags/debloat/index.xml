@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debloat on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/debloat/</link>
+    <description>Recent content in Debloat on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/debloat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimenting with ThinkPad C13 Yoga</title>
+      <link>https://techshinobi.org/posts/tpc13/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <description>Recently, I got a new ThinkPad which took Lenovo over 2 month preparing for shipping. For the price, it worth waiting. This is the first Chromebook I&amp;rsquo;ve ever had, so I did quite a lot experiments with it.
+Hardware The model is C13 Yoga Chromebook (MORPHIUS) with AMD Athlon gold 3015c (Picasso) 4GB RAM and 32GB eMMc storage.
+There are multiple variations in C13 models and mine is the lowest-end of them.</description>
+    </item>
+    
+  </channel>
+</rss>
