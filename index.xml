@@ -5,7 +5,30 @@
     <link>https://techshinobi.org/</link>
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing with Different GPT-3 and ChatGPT models</title>
+      <link>https://techshinobi.org/posts/playing-gpt/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
+      <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
+ text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001  The playground can test them all using the web interface.
+Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
+To ChatGPT webpage: Who is Paul Graham?</description>
+    </item>
+    
+    <item>
+      <title>Unblock URLs from My Own Filter Lists</title>
+      <link>https://techshinobi.org/posts/unblock-podcast/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/unblock-podcast/</guid>
+      <description>Podcast doesn&amp;rsquo;t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.
+Recently, I found out there is a broken one in my podcast subscriptions.
+It&amp;rsquo;s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling&amp;rsquo;s new show called MicroConf.</description>
+    </item>
+    
     <item>
       <title>Experimenting with ThinkPad C13 Yoga</title>
       <link>https://techshinobi.org/posts/tpc13/</link>

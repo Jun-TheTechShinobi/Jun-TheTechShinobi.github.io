@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>models on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/models/</link>
+    <description>Recent content in models on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing with Different GPT-3 and ChatGPT models</title>
+      <link>https://techshinobi.org/posts/playing-gpt/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
+      <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
+ text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001  The playground can test them all using the web interface.
+Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
+To ChatGPT webpage: Who is Paul Graham?</description>
+    </item>
+    
+  </channel>
+</rss>
