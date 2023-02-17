@@ -5,7 +5,19 @@
     <link>https://techshinobi.org/tags/api/</link>
     <description>Recent content in api on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
+      <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
+      <description>The latest news updated on waylaidwanderer&amp;rsquo;s repo says:
+ 2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
+ Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
+Why use API instead of the Ordinary Way After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.</description>
+    </item>
+    
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
       <link>https://techshinobi.org/posts/playing-gpt/</link>
