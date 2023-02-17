@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techshinobi.org/categories/ai/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/api/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/bypass-chatgpt/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/chatgpt/</loc>
@@ -38,6 +44,9 @@
     <loc>https://techshinobi.org/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://techshinobi.org/categories/chatgpt/</loc>
+    <lastmod>2023-02-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/leaked/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,9 +66,6 @@
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/blocklists/</loc>
-    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/dns-detector/</loc>
