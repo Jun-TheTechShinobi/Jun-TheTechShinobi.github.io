@@ -5,22 +5,103 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api</title>
       <link>https://techshinobi.org/tags/api/</link>
-      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>AUTOMATIC1111</title>
+      <link>https://techshinobi.org/tags/automatic1111/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/automatic1111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ChatGPT</title>
       <link>https://techshinobi.org/tags/chatgpt/</link>
-      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cheapskate</title>
+      <link>https://techshinobi.org/tags/cheapskate/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/cheapskate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://techshinobi.org/tags/debian/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://techshinobi.org/tags/hardware/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI</title>
+      <link>https://techshinobi.org/tags/openai/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://techshinobi.org/tags/opensource/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://techshinobi.org/tags/script/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Healing</title>
+      <link>https://techshinobi.org/tags/self-healing/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/self-healing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StableDiffusion</title>
+      <link>https://techshinobi.org/tags/stablediffusion/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/stablediffusion/</guid>
       <description></description>
     </item>
     
@@ -66,15 +147,6 @@
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/local/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenAI</title>
-      <link>https://techshinobi.org/tags/openai/</link>
-      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/openai/</guid>
       <description></description>
     </item>
     
@@ -466,15 +538,6 @@
     </item>
     
     <item>
-      <title>script</title>
-      <link>https://techshinobi.org/tags/script/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/script/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Speech Synthesis</title>
       <link>https://techshinobi.org/tags/speech-synthesis/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
@@ -543,15 +606,6 @@
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/mind/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opensource</title>
-      <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/opensource/</guid>
       <description></description>
     </item>
     

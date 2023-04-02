@@ -5,7 +5,18 @@
     <link>https://techshinobi.org/tags/chatgpt/</link>
     <description>Recent content in ChatGPT on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheapskate&#39;s Stable Diffusion Server</title>
+      <link>https://techshinobi.org/posts/cheapsd/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/cheapsd/</guid>
+      <description>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
+Before we start, here&amp;rsquo;s some comments on OpenAI:
+ The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
+    </item>
+    
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
       <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
