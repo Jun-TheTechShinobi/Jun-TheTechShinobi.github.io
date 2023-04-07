@@ -126,5 +126,15 @@ Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or tel
 Dilemma of Giving Back The beginning of my Linux journey was with some early version of OpenWrt and BackTrack, then Puppy and Ubuntu.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://techshinobi.org/posts/aisecph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <description>https://techshinobi.org/AI-CyberSec-PH-presentation/
+AI CyberSecurity, ChatGPT and Post-humanism Reconnaissance Introduction of Open-Source Intelligence (OSINT)  https://www.sans.org/blog/what-is-open-source-intelligence/ ethical hacking footprinting  Use of AI-OSINT  The OSINTion and Trace Labs AMA - Part 1 - Aliases, Logging, ChatGPT Generating profile photo, bio, resume and content post, even videos and audio for alias account, bypass web servie security check in social engineering and anti-reconnaissance  https://youtu.be/iP0UfmYCklQ   PimEyes face recognition for reverse image search, finding people Also need extra steps to detect AI generated data for inltelligence collection fake profile detector ChatGPT currently cannot search the web but GPT4.</description>
+    </item>
+    
   </channel>
 </rss>
