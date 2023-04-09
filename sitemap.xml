@@ -2,19 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techshinobi.org/tags/ai/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/categories/ai/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/aisecph/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/chatgpt/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/cybersecurity/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/heidegger/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/ideology/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/mind/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/openai/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/opensource/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/osint/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/philosophy/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/post-humanism/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/stablediffusion/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/zizek/</loc>
+    <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/api/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/automatic1111/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/chatgpt/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/cheapskate/</loc>
@@ -32,34 +83,13 @@
     <loc>https://techshinobi.org/categories/linux/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openai/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/opensource/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/script/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/self-healing/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/stablediffusion/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/posts/bypass-chatgpt/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/chatgpt/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/github/</loc>
@@ -114,9 +144,6 @@
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/podcast/</loc>
-    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/tracking/</loc>
@@ -180,9 +207,6 @@
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/ideology/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/ideology/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/linux/</loc>
@@ -266,13 +290,8 @@
     <loc>https://techshinobi.org/tags/mind/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/mind/</loc>
-    <lastmod>2022-04-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/posts/why-i-started/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/aisecph/</loc>
   </url><url>
     <loc>https://techshinobi.org/archives/</loc>
   </url><url>

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Kali and Anonsurf | Tech Shinobi</title>
-<meta name="keywords" content="linux, anonsurf, tor, privacy, kali, parrotos, vpn">
+<meta name="keywords" content="linux, anonsurf, tor, Privacy, kali, parrotos, vpn">
 <meta name="description" content="Kali Linux &amp; FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&rsquo;s not Parrot OS&rsquo;s fault, I switched to Kali Linux as a workaround.
 I&rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.
 The graphic installer is much simpler than Parrot OS that may not be an issue for most people.">
@@ -74,7 +74,7 @@ The graphic installer is much simpler than Parrot OS that may not be an issue fo
   "name": "Kali and Anonsurf",
   "description": "Kali Linux \u0026amp; FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it\u0026rsquo;s not Parrot OS\u0026rsquo;s fault, I switched to Kali Linux as a workaround.\nI\u0026rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.\nThe graphic installer is much simpler than Parrot OS that may not be an issue for most people.",
   "keywords": [
-    "linux", "anonsurf", "tor", "privacy", "kali", "parrotos", "vpn"
+    "linux", "anonsurf", "tor", "Privacy", "kali", "parrotos", "vpn"
   ],
   "articleBody": "Kali Linux \u0026 FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it’s not Parrot OS’s fault, I switched to Kali Linux as a workaround.\nI’ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.\nThe graphic installer is much simpler than Parrot OS that may not be an issue for most people. My complain is just because my multi-boot hard drive has a very complex partition structure where an advanced installer is needed.\nThe driver support of Kali Linux is also inferior to Parrot OS. I have to prepare or install the wlan driver manually although it’s a common problem with Broadcom chips.\nUnfortunately, This auto installing script did not work and sudo apt-get install firmware-b43-installer worked partially.\nThe wlan adapter wouldn’t connect to a router with 802.11 N only mode. It only connects with Auto or B/G mixed mode. This is acceptable since I just need to tweak settings in the router system freshtomato. Basic - Network - Wireless eth - Wireless Network Mode - Auto In this case I don’t care much about network performance.\nAnonsurf To be honest, I only use this system occasionally. So as long as it’s not rolling release, I’m OK with it.\nIt’s glad to have those pre-installed VPN clients but I still miss Anonsurf from Parrot OS. VPN provides good security against MITM attacks but in case of privacy and tracking, VPNs can’t compete with TOR at all. When needed, it’s better to have both VPN and TOR at the same time to maximize security and privacy.\nIn my case, I just need TOR running system-wide (a.k.a. Torification) like Whonix or Tails. The built-in Anonsurf is the main reason I had been using Parrot OS. Thanks to Und3rf10w maintaining kali-anonsurf so I can still have Anonsurf around even without Parrot OS.\nInstallation is easy by following this guide but it’s not as handy as in Parrot OS where I can run anonsurf with one-click.\nSo I made a simple script for that reason.\nFirst, create anonsurf.sh by nano or text editor with contents below:\n#!/bin/sh sudo anonsurf start sudo anonsurf myip sudo anonsurf status Save it and chmod +x anonsurf.sh in case of permission issue.\nThen, create a shortcut on taskbar:\nPanel - Add New Items - Launcher - Properties - Add a new empty item\nName: anonsurf Command: /path/to/anonsurf.sh Icon: network-disconnect check Run in terminal Done. Now by clicking the shortcut, it will start anonsurf and show connection info within terminal. Close the window and run it again will change to another node automatically.\nIt’s good to set the script auto start with the system but I’d prefer to run it manually with one-click shortcut button.\n",
   "wordCount" : "472",
@@ -226,7 +226,7 @@ check Run in terminal
       <li><a href="https://techshinobi.org/tags/linux/">linux</a></li>
       <li><a href="https://techshinobi.org/tags/anonsurf/">anonsurf</a></li>
       <li><a href="https://techshinobi.org/tags/tor/">tor</a></li>
-      <li><a href="https://techshinobi.org/tags/privacy/">privacy</a></li>
+      <li><a href="https://techshinobi.org/tags/privacy/">Privacy</a></li>
       <li><a href="https://techshinobi.org/tags/kali/">kali</a></li>
       <li><a href="https://techshinobi.org/tags/parrotos/">parrotos</a></li>
       <li><a href="https://techshinobi.org/tags/vpn/">vpn</a></li>
@@ -247,7 +247,7 @@ check Run in terminal
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Kali and Anonsurf on twitter"
-        href="https://twitter.com/intent/tweet/?text=Kali%20and%20Anonsurf&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fkalianon%2f&amp;hashtags=linux%2canonsurf%2ctor%2cprivacy%2ckali%2cparrotos%2cvpn">
+        href="https://twitter.com/intent/tweet/?text=Kali%20and%20Anonsurf&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fkalianon%2f&amp;hashtags=linux%2canonsurf%2ctor%2cPrivacy%2ckali%2cparrotos%2cvpn">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />

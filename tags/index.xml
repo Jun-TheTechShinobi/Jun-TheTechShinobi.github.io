@@ -5,7 +5,106 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://techshinobi.org/tags/ai/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ChatGPT</title>
+      <link>https://techshinobi.org/tags/chatgpt/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CyberSecurity</title>
+      <link>https://techshinobi.org/tags/cybersecurity/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heidegger</title>
+      <link>https://techshinobi.org/tags/heidegger/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/heidegger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI</title>
+      <link>https://techshinobi.org/tags/openai/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://techshinobi.org/tags/opensource/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://techshinobi.org/tags/osint/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/osint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>https://techshinobi.org/tags/philosophy/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post-humanism</title>
+      <link>https://techshinobi.org/tags/post-humanism/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/post-humanism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StableDiffusion</title>
+      <link>https://techshinobi.org/tags/stablediffusion/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/stablediffusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zizek</title>
+      <link>https://techshinobi.org/tags/zizek/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/zizek/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>api</title>
       <link>https://techshinobi.org/tags/api/</link>
@@ -21,15 +120,6 @@
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/automatic1111/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ChatGPT</title>
-      <link>https://techshinobi.org/tags/chatgpt/</link>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/chatgpt/</guid>
       <description></description>
     </item>
     
@@ -61,24 +151,6 @@
     </item>
     
     <item>
-      <title>OpenAI</title>
-      <link>https://techshinobi.org/tags/openai/</link>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/openai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>script</title>
       <link>https://techshinobi.org/tags/script/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
@@ -93,15 +165,6 @@
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/self-healing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>StableDiffusion</title>
-      <link>https://techshinobi.org/tags/stablediffusion/</link>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/stablediffusion/</guid>
       <description></description>
     </item>
     
@@ -475,7 +538,7 @@
     </item>
     
     <item>
-      <title>privacy</title>
+      <title>Privacy</title>
       <link>https://techshinobi.org/tags/privacy/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
       

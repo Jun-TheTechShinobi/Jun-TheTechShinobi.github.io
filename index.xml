@@ -5,7 +5,17 @@
     <link>https://techshinobi.org/</link>
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
+      <link>https://techshinobi.org/posts/aisecph/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <description>This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for Daniela Baron&amp;rsquo;s guide which helped me tremendously for creating the slides with RevealJS.
+Hey everyone. Okay, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.</description>
+    </item>
+    
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
       <link>https://techshinobi.org/posts/cheapsd/</link>
@@ -111,7 +121,7 @@ Permanently disabling acceleration for Windows is simple. Besides unchecking the
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/posts/little-things-behind/</guid>
-      <description>This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.
+      <description>#aliases: [&amp;ldquo;standby&amp;rdquo;] This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.
 All the steps I have done are very similar to this article, except making the Personal Access Token and Custom Domain (these are easy to find separately).</description>
     </item>
     
@@ -124,16 +134,6 @@ All the steps I have done are very similar to this article, except making the Pe
       <description>In This Day and Age? Back then, when MySpace and 000webhost was the thing. I wrote blog regularly about my life and hobby. That was the beginning of my Internet journey and tweaking CSS code while posting an article was fun.
 Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or telegram channel but here I am. Because I feel most comfortable this way.
 Dilemma of Giving Back The beginning of my Linux journey was with some early version of OpenWrt and BackTrack, then Puppy and Ubuntu.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://techshinobi.org/posts/aisecph/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/posts/aisecph/</guid>
-      <description>https://techshinobi.org/AI-CyberSec-PH-presentation/
-AI CyberSecurity, ChatGPT and Post-humanism Reconnaissance Introduction of Open-Source Intelligence (OSINT)  https://www.sans.org/blog/what-is-open-source-intelligence/ ethical hacking footprinting  Use of AI-OSINT  The OSINTion and Trace Labs AMA - Part 1 - Aliases, Logging, ChatGPT Generating profile photo, bio, resume and content post, even videos and audio for alias account, bypass web servie security check in social engineering and anti-reconnaissance  https://youtu.be/iP0UfmYCklQ   PimEyes face recognition for reverse image search, finding people Also need extra steps to detect AI generated data for inltelligence collection fake profile detector ChatGPT currently cannot search the web but GPT4.</description>
     </item>
     
     
