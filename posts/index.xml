@@ -5,7 +5,17 @@
     <link>https://techshinobi.org/posts/</link>
     <description>Recent content in Posts on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
+      <link>https://techshinobi.org/posts/gensub-whisper/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
+      <description>I use Generate-subtitles  as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
+When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are Subtitle Edit and Aegisub. SE provides a great online version and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support.</description>
+    </item>
+    
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
       <link>https://techshinobi.org/posts/aisecph/</link>

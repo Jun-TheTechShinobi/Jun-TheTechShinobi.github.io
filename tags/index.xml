@@ -5,13 +5,58 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://techshinobi.org/tags/ai/</link>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generate-subtitles</title>
+      <link>https://techshinobi.org/tags/generate-subtitles/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/generate-subtitles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUI</title>
+      <link>https://techshinobi.org/tags/gui/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/gui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI</title>
+      <link>https://techshinobi.org/tags/openai/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://techshinobi.org/tags/opensource/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisper</title>
+      <link>https://techshinobi.org/tags/wisper/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/wisper/</guid>
       <description></description>
     </item>
     
@@ -39,24 +84,6 @@
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/heidegger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenAI</title>
-      <link>https://techshinobi.org/tags/openai/</link>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/openai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/opensource/</guid>
       <description></description>
     </item>
     
