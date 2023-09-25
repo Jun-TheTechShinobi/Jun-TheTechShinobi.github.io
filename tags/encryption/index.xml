@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>encryption on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/encryption/</link>
+    <description>Recent content in encryption on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recovering from Data Loss due to LUKS Failure</title>
+      <link>https://techshinobi.org/posts/recoverluks/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/recoverluks/</guid>
+      <description>Background Story Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.
+The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption.</description>
+    </item>
+    
+  </channel>
+</rss>

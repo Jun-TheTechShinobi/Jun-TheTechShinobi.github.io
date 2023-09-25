@@ -2,13 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techshinobi.org/tags/backup/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/encryption/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/grub/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/linux/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/luks/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/recoverluks/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/rustic/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/security/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ssd/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/timeshift/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/tty/</loc>
+    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/ai/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/ai/</loc>
-    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/generate-subtitles/</loc>
@@ -17,25 +59,13 @@
     <loc>https://techshinobi.org/tags/gui/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/linux/</loc>
-    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/openai/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/opensource/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/posts/gensub-whisper/</loc>
-    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/wisper/</loc>

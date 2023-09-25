@@ -5,7 +5,17 @@
     <link>https://techshinobi.org/posts/</link>
     <description>Recent content in Posts on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recovering from Data Loss due to LUKS Failure</title>
+      <link>https://techshinobi.org/posts/recoverluks/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/recoverluks/</guid>
+      <description>Background Story Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.
+The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption.</description>
+    </item>
+    
     <item>
       <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
       <link>https://techshinobi.org/posts/gensub-whisper/</link>
