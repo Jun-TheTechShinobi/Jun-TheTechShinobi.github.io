@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hardware on Tech Shinobi</title>
+    <title>Hardware on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/hardware/</link>
-    <description>Recent content in hardware on Tech Shinobi</description>
+    <description>Recent content in Hardware on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheapskate&#39;s Homebrew AI Lab</title>
+      <link>https://techshinobi.org/posts/cheapai/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/cheapai/</guid>
+      <description>Old Stories The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.
+Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig.</description>
+    </item>
+    
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
       <link>https://techshinobi.org/posts/cheapsd/</link>
