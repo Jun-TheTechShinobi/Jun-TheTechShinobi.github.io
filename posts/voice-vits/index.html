@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 | Tech Shinobi</title>
+<meta name="keywords" content="Bert-VITS2, Cheapskate, Audacity, Opensource, Free Software, FOSS, so-vits-svc, DDSP-SVC,  vits-simple-api, so-vits-svc-fork, Ultimate Vocal Remover, Vocal Recording, Hardware, Audio Equipment, Audio Interface, Microphone, TTS Generation WebUI, Voice Clone, Headphones, anaconda, Model Training, Inference, realtime voice changing, Diffusion, Text-to-Speech, DeBERTa, BERT, RoBERTa, whisper, long text tts, AI Vtuber">
+<meta name="description" content="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project.">
+<meta name="author" content="Jun">
+<link rel="canonical" href="https://techshinobi.org/posts/voice-vits/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.e85ad0406048e8176e1c7661b25d5c69297ddfe41dc4124cf75ecb99a4f7b3d1.js" integrity="sha256-6FrQQGBI6BduHHZhsl1caSl93&#43;QdxBJM917LmaT3s9E="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://techshinobi.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://techshinobi.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://techshinobi.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://techshinobi.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://techshinobi.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2" />
+<meta property="og:description" content="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techshinobi.org/posts/voice-vits/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-27T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2024-01-27T00:00:00&#43;00:00" /><meta property="og:site_name" content="TechShinobi" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2"/>
+<meta name="twitter:description" content="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://techshinobi.org/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2",
+      "item": "https://techshinobi.org/posts/voice-vits/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2",
+  "name": "A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2",
+  "description": "A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it\u0026rsquo;s interesting. So, I decide to train a usable model with my own voice.\nThis voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.\nI have tested several tools for this project.",
+  "keywords": [
+    "Bert-VITS2", "Cheapskate", "Audacity", "Opensource", "Free Software", "FOSS", "so-vits-svc", "DDSP-SVC", " vits-simple-api", "so-vits-svc-fork", "Ultimate Vocal Remover", "Vocal Recording", "Hardware", "Audio Equipment", "Audio Interface", "Microphone", "TTS Generation WebUI", "Voice Clone", "Headphones", "anaconda", "Model Training", "Inference", "realtime voice changing", "Diffusion", "Text-to-Speech", "DeBERTa", "BERT", "RoBERTa", "whisper", "long text tts", "AI Vtuber"
+  ],
+  "articleBody": "A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it’s interesting. So, I decide to train a usable model with my own voice.\nThis voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.\nI have tested several tools for this project. Many of the good guides, like this, this and this, are in Chinese. So, I thought it’s useful to post my notes in English.\nAlthough so-vits-svc has been archived for a few months, probably due to oppression, it is still the tool for the best result.\nOther related tools such as so-vits-svc-fork, so-vits-svc-5.0, DDSP-SVC, and RVC provide either faster/liter optimization, more features or better interfaces.\nBut with enough time and resources, none of these alternatives can compete with the superior result generated by the original so-vits-svc.\nFor TTS, a new tool called Bert-VITS2 works fantastically and has already matured with its final release last month. It has some very different use case, for example, audio content creation.\nPrepare Dataset The audio files of the dataset should be WAV format, 44100 Hz, 16bit, mono, 1-2 hours ideally.\nExtract from a Song Ultimate Vocal Remover is the easiest tool for this job. There is a thread explains everything in details.\nUVR Workflows  Remove and extract Instrumental  Model: VR - UVR(4_HP-Vocal-UVR) Settings: 512 - 10 - GPU Output Instrumental and unclean vocal   Remove and extract background vocal  Model: VR - UVR(5_HP-Karaoke-UVR) Settings: 512 - 10 - GPU Output background vocal and unclean main vocal   Remove reverb and noise  Model: VR - UVR-DeEcho-DeReverb \u0026 UVR-DeNoise Settings: 512 - 10 - GPU - No Other Only Output clean main vocal   (Optional) Using RipX (non-free) to perform a manual fine cleaning  Preparation for vocal recording It’s better to record in a treated room with condenser microphone, otherwise use a directional or dynamic microphone to reduce noise.\nCheapskate’s Audio Equipment The very first time I’ve got into music was during my high school, with the blue Sennheiser MX500 and Koss Porta Pro. I still remember the first time I was recording a song that was on a Sony VAIO with Cool Edit Pro.\nNowadays, I still resist to spend a lot of money on audio hardware as an amateur because it is literally a money-sucking blackhole.\nNonetheless, I really appreciate the reliability of those cheap production equipment.\nThe core part of my setup is a Behringer UCA202 and it’s perfect for my use cases. I bought it for $10 while a price drop.\nIt is so called “Audio Interface” but basically just a sound card with multiple ports. I used RCA to 3.5mm TRS cables for my headphones, a semi-open K240s for regular output and a closed-back HD669/MDR7506 for monitor output.\nAll three mentioned headphones are under $100 for normal price. And there are clones from Samson, Tascam, Knox Gear and more out there for less than $50.\nFor the input device, I’m using a dynamic microphone for the sake of my environmental noises. It is a SM58 copy (Pyle) + a Tascam DR-05 recorder (as amplifier). Other clones such as SL84c or wm58 would do it too.\nI use a XLR to 3.5mm TRS cable to connect the microphone to the MIC/External-input of the recorder, and then use an AUX cable to connect between the line-out of the recorder and the input of the UCA202.\nIt’s not recommend to buy an “audio interface” and a dedicated amplifier to replicate my setup. A $10 c-media USB sound card should be good enough. The Syba model that I owned is capable to “pre-amp” dynamic microphones directly and even some lower-end phantom powered microphones.\nThe setup can go extremely cheap ($40~60) but with UCA202 and DR-05, the sound is much cleaner. And I really like the physical controls, versatility and portability of my old good digital recorder.\nAudacity workflows Although when I was getting paid as a designer, I was pretty happy with Audition. But for personal use on a fun project, Audacity is the way to avoid the chaotic evil of Adobe.\n Noise Reduction Dereverb Truncate Silence Normalize  audio-slicer Use audio-slicer or audio-slicer (gui) to slice the audio file into small pieces for later use.\nDefault setting works great.\nCleaning dataset Remove those very short ones and re-slice which are still over 10 seconds.\nIn case of large dataset, remove all that are less than 4 sec. In case of small dataset, remove only under 2 sec.\nIf necessary, perform manual inspection for every single file.\nMatch loudness Use Audacity again with Loudness Normalization, 0db should do it.\nso-vits-svc Set up environment Virtual environment is essential to run multiple python tools inside one system. I used to use VMs and Docker, but now I found anaconda is way quicker, handier than the others.\nCreate a new environment for so-vits-svc and activate it\nconda create -n so-vits-svc python=3.8 conda activate so-vits-svc Then install requirements\ngit clone https://github.com/svc-develop-team/so-vits-svc cd so-vits-svc pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 #for linux pip install -r requirements.txt #for windows pip install -r requirements_win.txt pip install --upgrade fastapi==0.84.0 pip install --upgrade gradio==3.41.2 pip install --upgrade pydantic==1.10.12 pip install fastapi uvicorn Initialization Download pretrained models  pretrain  wget https://huggingface.co/WitchHuntTV/checkpoint_best_legacy_500.pt/resolve/main/checkpoint_best_legacy_500.pt wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/rmvpe.pt   logs/44k  wget https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth wget https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth   logs/44k/diffusion  wget https://huggingface.co/datasets/ms903/Diff-SVC-refactor-pre-trained-model/resolve/main/fix_pitch_add_vctk_600k/model_0.pt (Alternative) wget https://huggingface.co/datasets/ms903/DDSP-SVC-4.0/resolve/main/pre-trained-model/model_0.pt (Alternative) wget https://huggingface.co/datasets/ms903/Diff-SVC-refactor-pre-trained-model/blob/main/hubertsoft_fix_pitch_add_vctk_500k/model_0.pt   pretrain/nsf_hifigan  wget -P pretrain/ https://github.com/openvpi/vocoders/releases/download/nsf-hifigan-v1/nsf_hifigan_20221211.zip unzip -od pretrain/nsf_hifigan pretrain/nsf_hifigan_20221211.zip    Dataset Preparation Put all Prepared audio.wav files into dataset_raw/character\ncd so-vits-svc python resample.py --skip_loudnorm python preprocess_flist_config.py --speech_encoder vec768l12 --vol_aug python preprocess_hubert_f0.py --use_diff Edit Configs The file is located at configs/config.json\nlog interval : the frequency of printing log eval interval : the frequency of saving checkpoints epochs : total steps keep ckpts : numbers of saved checkpoints, 0 for unlimited. half_type : fp32 in my case batch_size : the smaller the faster (rougher), the larger the slower (better). Recommended batch_size per VRAM: 4=6G；6=8G；10=12G；14=16G；20=24G\nKeep default for configs/diffusion.yaml\nTraining python cluster/train_cluster.py --gpu python train_index.py -c configs/config.json python train.py -c configs/config.json -m 44k python train_diff.py -c configs/diffusion.yaml On training steps:\nUse train.py to train the main model, usually 20k-30k would be usable, and 50k and up would be good enough. This can take a few days depending on the GPU speed. Feel free to stop it by ctrl+c and it will be continue training by re-run python train.py -c configs/config.json -m 44k anytime.\nUse train_diff.py to train diffusion model, training steps is recommended at 1/3 of the main model.\nBe aware of over training. Use tensorboard --logdir=./logs/44k to monitor the plots to see if it goes flat.\nChange the learning rate from 0.0001 to 0.00005 if necessary.\nWhen done, share/transport these files for inference.\n config/  config.json diffusion.yaml   logs/44k  feature_and_index.pkl kmeans_10000.pt model_0.pt G_xxxxx.pt    Inference It’s time to try out the trained model. I’d prefer webui for convenience of tweaking the parameters.\nBut before fire it up, edit following lines in webUI.py for LAN access:\nos.system(\"start http://localhost:7860\") app.launch(server_name=\"0.0.0.0\", server_port=7860) Run python webUI.py then access its ipaddress:7860 from web browser.\nThe webui has no English localization, but Immersive Translate would be helpful.\nMost parameters would work well with default value. Refer to this and this to make changes.\nUpload these 5 files:\nmain model.pt and its config.json\ndiffusion model.pt and its diffusion.yaml\nEither cluster model kmeans_10000.pt for speaking or feature retrieval feature_and_index.pkl for singing.\nF0 predictor is for speaking only, not for singing. Recommend RMVPE when using.\nPitch change is useful when singing a feminine song using a model with masculine voice, or vice versa.\nClustering model/feature retrieval mixing ratio is the way of controlling the tone. Use 0.1 to get clearest speech, and use 0.9 to get the closest tone to the model.\nshallow diffusion steps should be set around 50, it enhances the result at 30-100 steps.\nAudio Editing This procedure is optional. Just for production of a better song.\nI won’t go into details in this since the audio editing software, or so called DAW (digital audio workstation), that I’m using are non-free. I have no intention to advocate proprietary software even though the entire industry is paywalled and closed-source.\nAudacity supports multitrack, effects and a lot more. It does load some advanced VST plugins as well.\nIt’s not hard to find tutorials on mastering songs with Audacity.\nTypically, the mastering process should be mixing/balancing, EQ/compressing, reverb, imaging. The more advanced the tool is, the easier the process will be.\nI’ll definitely spend more time on adopting Audacity for my mastering process in the future and I recommend everyone do so.\nso-vits-svc-fork This is a so-vits-svc fork with realtime support and the models are compatible. Easier to use but does not support Diffusion model. For dedicated realtime voice changing, voice-changer is more recommended.\nInstallation conda create -n so-vits-svc-fork python=3.10 pip conda activate so-vits-svc-fork git clone https://github.com/voicepaw/so-vits-svc-fork cd so-vits-svc-fork python -m pip install -U pip setuptools wheel pip install -U torch torchaudio --index-url https://download.pytorch.org/whl/cu118 pip install -U so-vits-svc-fork pip install click sudo apt-get install libportaudio2 Preparation Put dataset .wav files into so-vits-svc-fork/dataset_raw\nsvc pre-resample svc pre-config Edit batch_size in configs/44k/config.json. This fork takes larger size than the original.\nTraining svc pre-hubert svc train -t svc train-cluster Inference Use GUI with svcg. This requires local desktop environment.\nOr use CLI with svc vc for realtime andsvc infer -m \"logs/44k/xxxxx.pth\" -c \"configs/config.json\" raw/xxx.wav for generating.\nDDSP-SVC DDSP-SVC requires less hardware resources and runs faster than so-vits-svc. It supports both realtime and diffusion model (Diff-SVC).\nconda create -n DDSP-SVC python=3.8 conda activate DDSP-SVC git clone https://github.com/yxlllc/DDSP-SVC cd DDSP-SVC pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 pip install -r requirements.txt Refer to Initialization section for the two files:\npretrain/rmvpe/model.pt pretrain/contentvec/checkpoint_best_legacy_500.pt Preparation python draw.py python preprocess.py -c configs/combsub.yaml python preprocess.py -c configs/diffusion-new.yaml Edit configs/\nbatch_size: 32 (16 for diffusion) cache_all_data: false cache_device: 'cuda' cache_fp16: false Training conda activate DDSP-SVC python train.py -c configs/combsub.yaml python train_diff.py -c configs/diffusion-new.yaml tensorboard --logdir=exp Inference It’s recommended to use main_diff.py since it includes both DDSP and diffusion model.\npython main_diff.py -i \"input.wav\" -diff \"model_xxxxxx.pt\" -o \"output.wav\"\nRealtime gui for voice cloning:\npython gui_diff.py Bert-vits2-V2.3 This is a TTS tool which is completely different from everything above. By using it, I have already created several audio books with my voice for my parents, and they really enjoy it.\nInstead of using the oringal, I used the fork by v3u for easier setup.\nInitialization conda create -n bert-vits2 python=3.9 conda activate bert-vits2 git clone https://github.com/v3ucn/Bert-vits2-V2.3.git cd Bert-vits2-V2.3 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118 pip install -r requirements.txt Download pretrained models (includes Chinese, Japanese and English):\nwget -P slm/wavlm-base-plus/ https://huggingface.co/microsoft/wavlm-base-plus/resolve/main/pytorch_model.bin wget -P emotional/clap-htsat-fused/ https://huggingface.co/laion/clap-htsat-fused/resolve/main/pytorch_model.bin wget -P emotional/wav2vec2-large-robust-12-ft-emotion-msp-dim/ https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim/resolve/main/pytorch_model.bin wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/pytorch_model.bin wget -P bert/bert-base-japanese-v3/ https://huggingface.co/cl-tohoku/bert-base-japanese-v3/resolve/main/pytorch_model.bin wget -P bert/deberta-v3-large/ https://huggingface.co/microsoft/deberta-v3-large/resolve/main/pytorch_model.bin wget -P bert/deberta-v3-large/ https://huggingface.co/microsoft/deberta-v3-large/resolve/main/pytorch_model.generator.bin wget -P bert/deberta-v2-large-japanese/ https://huggingface.co/ku-nlp/deberta-v2-large-japanese/resolve/main/pytorch_model.bin Create a character model folder mkdir -p Data/xxx/models/\nDownload base models:\n!wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/DUR_0.pth !wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/D_0.pth !wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/G_0.pth !wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/WD_0.pth #More options https://openi.pcl.ac.cn/Stardust_minus/Bert-VITS2/modelmanage/model_filelist_tmpl?name=Bert-VITS2_2.3%E5%BA%95%E6%A8%A1 https://huggingface.co/Erythrocyte/bert-vits2_base_model/tree/main https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/tree/main Edit train_ms.py by replacing all bfloat16 to float16\nEdit webui.py for LAN access:\nwebbrowser.open(f\"start http://localhost:7860\") app.launch(server_name=\"0.0.0.0\", server_port=7860) Edit Data/xxx/config.json for batch_size and spk2id\nPreparation Similar workflow as in previous section.\nRemove noise and silence, normalization, then put the un-sliced WAV file into Data/xxx/raw.\nEdit config.yml for dataset_path, num_workers and keep_ckpts.\nRun python3 audio_slicer.py to slice the WAV file.\nClean the dataset (Data/xxx/raw) by removing small files that are under 2 sec.\nTranscription Install whisper pip install git+https://github.com/openai/whisper.git\nTo turn off language auto-detection, set it to English only, and use large model, edit short_audio_transcribe.py as below:\n # set the spoken language to english print('language: en') lang = 'en' options = whisper.DecodingOptions(language='en') result = whisper.decode(model, mel, options) # set to use large model parser.add_argument(\"--whisper_size\", default=\"large\") #Solve error \"Given groups=1, weight of size [1280, 128, 3], expected input[1, 80, 3000] to have 128 channels, but got 80 channels instead\" while using large model mel = whisper.log_mel_spectrogram(audio,n_mels = 128).to(model.device) Run python3 short_audio_transcribe.py to start transcription\nRe-sample the sliced dataset: python3 resample.py --sr 44100 --in_dir ./Data/zizek/raw/ --out_dir ./Data/zizek/wavs/\nPreprocess transcription: python3 preprocess_text.py --transcription-path ./Data/zizek/esd.list\nGenerate BERT feature config: python3 bert_gen.py --config-path ./Data/zizek/configs/config.json\nTraining and Inference Run python3 train_ms.py to start training\nEdit config.yml for model path:\nmodel: \"models/G_20900.pth\" Run python3 webui.py to start webui for inference\nvits-simple-api vits-simple-api is a web frontend for using trained models. I use this mainly for its long text support which the oringal project doesn’t have.\ngit clone https://github.com/Artrajz/vits-simple-api git pull https://github.com/Artrajz/vits-simple-api cd vits-simple-api conda create -n vits-simple-api python=3.10 pip conda activate vits-simple-api \u0026\u0026 pip install -r requirements.txt (Optional) Copy pretrained model files from Bert-vits2-V2.3/ to vits-simple-api/bert_vits2/\nCopy Bert-vits2-V2.3/Data/xxx/models/G_xxxxx.pth and Bert-vits2-V2.3/Data/xxx/config.json to vits-simple-api/Model/xxx/\nEdit config.py for MODEL_LIST and Default parameter as preferred\nEdit Model/xxx/config.json as below:\n \"data\": { \"training_files\": \"Data/train.list\", \"validation_files\": \"Data/val.list\", \"version\": \"2.3\" Check/Edit model_list in config.yml as [xxx/G_xxxxx.pth, xxx/config.json]\nRun python app.py\nTweaks SDP Ratio for tone Noise for randomness Noise_W for pronounciation Length for speed emotion and style are self-explanatory\nShare models In its Hugging Face repo, there are a lot of VITS models shared by others. You can try it out first and then download desired models from Files.\nGenshin model is widely used in some content creation community because its high quality. It contains hundreds of characters, although only Chinese and Japanese are supported.\nIn another repo, there are a lot of Bert-vits2 models that made from popular Chinese streamers and VTubers.\nThere are already projects making AI Vtuber like this and this. I’m looking forward how this technology can change the industry in the near future.\n",
+  "wordCount" : "2245",
+  "inLanguage": "en",
+  "datePublished": "2024-01-27T00:00:00Z",
+  "dateModified": "2024-01-27T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Jun"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techshinobi.org/posts/voice-vits/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tech Shinobi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://techshinobi.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://techshinobi.org/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://techshinobi.org/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://techshinobi.org/">Home</a>&nbsp;»&nbsp;<a href="https://techshinobi.org/posts/">Posts</a></div>
+    <h1 class="post-title">
+      A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2
+    </h1>
+    <div class="post-meta"><span title='2024-01-27 00:00:00 +0000 UTC'>January 27, 2024</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Jun
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2" aria-label="A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2">A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</a><ul>
+                        
+                <li>
+                    <a href="#prepare-dataset" aria-label="Prepare Dataset">Prepare Dataset</a><ul>
+                        
+                <li>
+                    <a href="#extract-from-a-song" aria-label="Extract from a Song">Extract from a Song</a><ul>
+                        
+                <li>
+                    <a href="#uvr-workflows" aria-label="UVR Workflows">UVR Workflows</a></li></ul>
+                </li>
+                <li>
+                    <a href="#preparation-for-vocal-recording" aria-label="Preparation for vocal recording">Preparation for vocal recording</a><ul>
+                        
+                <li>
+                    <a href="#cheapskates-audio-equipment" aria-label="Cheapskate&amp;rsquo;s Audio Equipment">Cheapskate&rsquo;s Audio Equipment</a></li>
+                <li>
+                    <a href="#audacity-workflows" aria-label="Audacity workflows">Audacity workflows</a></li></ul>
+                </li>
+                <li>
+                    <a href="#audio-slicer" aria-label="audio-slicer">audio-slicer</a><ul>
+                        
+                <li>
+                    <a href="#cleaning-dataset" aria-label="Cleaning dataset">Cleaning dataset</a></li>
+                <li>
+                    <a href="#match-loudness" aria-label="Match loudness">Match loudness</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#so-vits-svc" aria-label="so-vits-svc">so-vits-svc</a><ul>
+                        
+                <li>
+                    <a href="#set-up-environment" aria-label="Set up environment">Set up environment</a></li>
+                <li>
+                    <a href="#initialization" aria-label="Initialization">Initialization</a><ul>
+                        
+                <li>
+                    <a href="#download-pretrained-models" aria-label="Download pretrained models">Download pretrained models</a></li>
+                <li>
+                    <a href="#dataset-preparation" aria-label="Dataset Preparation">Dataset Preparation</a></li>
+                <li>
+                    <a href="#edit-configs" aria-label="Edit Configs">Edit Configs</a></li></ul>
+                </li>
+                <li>
+                    <a href="#training" aria-label="Training">Training</a></li>
+                <li>
+                    <a href="#inference" aria-label="Inference">Inference</a></li>
+                <li>
+                    <a href="#audio-editing" aria-label="Audio Editing">Audio Editing</a></li></ul>
+                </li>
+                <li>
+                    <a href="#so-vits-svc-fork" aria-label="so-vits-svc-fork">so-vits-svc-fork</a><ul>
+                        
+                <li>
+                    <a href="#installation" aria-label="Installation">Installation</a></li>
+                <li>
+                    <a href="#preparation" aria-label="Preparation">Preparation</a></li>
+                <li>
+                    <a href="#training-1" aria-label="Training">Training</a></li>
+                <li>
+                    <a href="#inference-1" aria-label="Inference">Inference</a></li></ul>
+                </li>
+                <li>
+                    <a href="#ddsp-svc" aria-label="DDSP-SVC">DDSP-SVC</a><ul>
+                        
+                <li>
+                    <a href="#preparation-1" aria-label="Preparation">Preparation</a></li>
+                <li>
+                    <a href="#training-2" aria-label="Training">Training</a></li>
+                <li>
+                    <a href="#inference-2" aria-label="Inference">Inference</a></li></ul>
+                </li>
+                <li>
+                    <a href="#bert-vits2-v23" aria-label="Bert-vits2-V2.3">Bert-vits2-V2.3</a><ul>
+                        
+                <li>
+                    <a href="#initialization-1" aria-label="Initialization">Initialization</a></li>
+                <li>
+                    <a href="#preparation-2" aria-label="Preparation">Preparation</a><ul>
+                        
+                <li>
+                    <a href="#transcription" aria-label="Transcription">Transcription</a></li></ul>
+                </li>
+                <li>
+                    <a href="#training-and-inference" aria-label="Training and Inference">Training and Inference</a></li></ul>
+                </li>
+                <li>
+                    <a href="#vits-simple-api" aria-label="vits-simple-api">vits-simple-api</a><ul>
+                        
+                <li>
+                    <a href="#tweaks" aria-label="Tweaks">Tweaks</a></li>
+                <li>
+                    <a href="#share-models" aria-label="Share models">Share models</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2">A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2<a hidden class="anchor" aria-hidden="true" href="#a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2">#</a></h1>
+<p>In the <a href="https://techshinobi.org/posts/cheapai/#tts-generation-webui">previous post</a>, I have tried a little bit of <a href="https://github.com/rsxdalv/tts-generation-webui">TTS Generation WebUI</a> and found it&rsquo;s interesting. So, I decide to train a usable model with my own voice.</p>
+<p>This voice cloning project explores both SVC for Voice Changing and <a href="https://github.com/jaywalnut310/vits">VITS</a> for Text-to-Speech. There is no one tool does all jobs.</p>
+<p>I have tested several tools for this project. Many of the good guides, like <a href="https://github.com/SUC-DriverOld/so-vits-svc-Chinese-Detaild-Documents">this</a>, <a href="https://www.bilibili.com/video/BV1Hr4y197Cy">this</a> and <a href="https://www.yuque.com/umoubuton/ueupp5">this</a>, are in Chinese. So, I thought it&rsquo;s useful to post my notes in English.</p>
+<p>Although <a href="https://github.com/svc-develop-team/so-vits-svc">so-vits-svc</a> has been archived for a few months, probably due to oppression, it is still the tool for the best result.</p>
+<p>Other related tools such as <a href="https://github.com/voicepaw/so-vits-svc-fork">so-vits-svc-fork</a>, <a href="https://github.com/PlayVoice/so-vits-svc-5.0">so-vits-svc-5.0</a>, <a href="https://github.com/yxlllc/DDSP-SVC">DDSP-SVC</a>, and <a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC</a> provide either faster/liter optimization, more features or better interfaces.</p>
+<p>But with enough time and resources, none of these alternatives can compete with the superior result generated by the original so-vits-svc.</p>
+<p>For TTS, a new tool called <a href="https://github.com/fishaudio/Bert-VITS2">Bert-VITS2</a> works fantastically and has already matured with its final release last month. It has some very different use case, for example, audio content creation.</p>
+<h2 id="prepare-dataset">Prepare Dataset<a hidden class="anchor" aria-hidden="true" href="#prepare-dataset">#</a></h2>
+<p>The audio files of the dataset should be WAV format, 44100 Hz, 16bit, mono, 1-2 hours ideally.</p>
+<h3 id="extract-from-a-song">Extract from a Song<a hidden class="anchor" aria-hidden="true" href="#extract-from-a-song">#</a></h3>
+<p><a href="https://github.com/Anjok07/ultimatevocalremovergui">Ultimate Vocal Remover</a> is the easiest tool for this job. There is a <a href="https://reddit.com/r/IsolatedTracks/comments/vuavwq/ultimate_vocal_remover/">thread</a> explains everything in details.</p>
+<h4 id="uvr-workflows">UVR Workflows<a hidden class="anchor" aria-hidden="true" href="#uvr-workflows">#</a></h4>
+<ul>
+<li>Remove and extract Instrumental
+<ul>
+<li>Model: VR - UVR(4_HP-Vocal-UVR)</li>
+<li>Settings: 512 - 10 - GPU</li>
+<li>Output <strong>Instrumental</strong> and unclean vocal</li>
+</ul>
+</li>
+<li>Remove and extract background vocal
+<ul>
+<li>Model: VR - UVR(5_HP-Karaoke-UVR)</li>
+<li>Settings: 512 - 10 - GPU</li>
+<li>Output <strong>background vocal</strong> and unclean main vocal</li>
+</ul>
+</li>
+<li>Remove reverb and noise
+<ul>
+<li>Model: VR - UVR-DeEcho-DeReverb &amp; UVR-DeNoise</li>
+<li>Settings: 512 - 10 - GPU - No Other Only</li>
+<li>Output <strong>clean main vocal</strong></li>
+</ul>
+</li>
+<li>(Optional) Using RipX (non-free) to perform a manual fine cleaning</li>
+</ul>
+<h3 id="preparation-for-vocal-recording">Preparation for vocal recording<a hidden class="anchor" aria-hidden="true" href="#preparation-for-vocal-recording">#</a></h3>
+<p>It&rsquo;s better to record in a treated room with condenser microphone, otherwise use a directional or dynamic microphone to reduce noise.</p>
+<h4 id="cheapskates-audio-equipment">Cheapskate&rsquo;s Audio Equipment<a hidden class="anchor" aria-hidden="true" href="#cheapskates-audio-equipment">#</a></h4>
+<p>The very first time I&rsquo;ve got into music was during my high school, with the blue Sennheiser MX500 and Koss Porta Pro. I still remember the first time I was recording a song that was on a Sony VAIO with Cool Edit Pro.</p>
+<p>Nowadays, I still resist to spend a lot of money on audio hardware as an amateur because it is literally a money-sucking blackhole.</p>
+<p>Nonetheless, I really appreciate the reliability of those cheap production equipment.</p>
+<p>The core part of my setup is a Behringer UCA202 and it&rsquo;s perfect for my use cases. I bought it for $10 while a price drop.</p>
+<p>It is so called &ldquo;Audio Interface&rdquo; but basically just a sound card with multiple ports. I used RCA to 3.5mm TRS cables for my headphones, a semi-open K240s for regular output and a closed-back HD669/MDR7506 for monitor output.</p>
+<p>All three mentioned headphones are under $100 for normal price. And there are clones from Samson,  Tascam, Knox Gear and more out there for less than $50.</p>
+<p>For the input device, I&rsquo;m using a dynamic microphone for the sake of my environmental noises. It is a SM58 copy (Pyle) + a Tascam DR-05 recorder (as amplifier). Other clones such as SL84c or wm58 would do it too.</p>
+<p>I use a XLR to 3.5mm TRS cable to connect the microphone to the MIC/External-input of the recorder, and then use an AUX cable to connect between the line-out of the recorder and the input of the UCA202.</p>
+<p>It&rsquo;s not recommend to buy an &ldquo;audio interface&rdquo; and a dedicated amplifier to replicate my setup. A $10 c-media USB sound card should be good enough. The Syba model that I owned is capable to &ldquo;pre-amp&rdquo; dynamic microphones directly and even some lower-end phantom powered microphones.</p>
+<p>The setup can go extremely cheap ($40~60) but with UCA202 and DR-05, the sound is much cleaner. And I really like the physical controls, versatility and portability of my old good digital recorder.</p>
+<h4 id="audacity-workflows">Audacity workflows<a hidden class="anchor" aria-hidden="true" href="#audacity-workflows">#</a></h4>
+<p>Although when I was getting paid as a designer, I was pretty happy with Audition. But for personal use on a fun project, Audacity is the way to avoid the chaotic evil of Adobe.</p>
+<ul>
+<li><a href="https://manual.audacityteam.org/man/noise_reduction.html">Noise Reduction</a></li>
+<li><a href="https://forum.audacityteam.org/t/dereverb/65383">Dereverb</a></li>
+<li><a href="https://manual.audacityteam.org/man/truncate_silence.html">Truncate Silence</a></li>
+<li><a href="https://manual.audacityteam.org/man/normalize.html">Normalize</a></li>
+</ul>
+<h3 id="audio-slicer">audio-slicer<a hidden class="anchor" aria-hidden="true" href="#audio-slicer">#</a></h3>
+<p>Use <a href="https://github.com/openvpi/audio-slicer">audio-slicer</a> or <a href="https://github.com/flutydeer/audio-slicer">audio-slicer (gui)</a> to slice the audio file into small pieces for later use.</p>
+<p>Default setting works great.</p>
+<h4 id="cleaning-dataset">Cleaning dataset<a hidden class="anchor" aria-hidden="true" href="#cleaning-dataset">#</a></h4>
+<p>Remove those very short ones and re-slice which are still over 10 seconds.</p>
+<p>In case of large dataset, remove all that are less than 4 sec. In case of small dataset, remove only under 2 sec.</p>
+<p>If necessary, perform manual inspection for every single file.</p>
+<h4 id="match-loudness">Match loudness<a hidden class="anchor" aria-hidden="true" href="#match-loudness">#</a></h4>
+<p>Use Audacity again with <a href="https://manual.audacityteam.org/man/loudness_normalization.html">Loudness Normalization</a>, 0db should do it.</p>
+<h2 id="so-vits-svc">so-vits-svc<a hidden class="anchor" aria-hidden="true" href="#so-vits-svc">#</a></h2>
+<h3 id="set-up-environment">Set up environment<a hidden class="anchor" aria-hidden="true" href="#set-up-environment">#</a></h3>
+<p>Virtual environment is essential to run multiple python tools inside one system. I used to use VMs and Docker, but now I found <a href="https://www.anaconda.com/products/distribution">anaconda</a> is way quicker, handier than the others.</p>
+<p>Create a new environment for so-vits-svc and activate it</p>
+<pre tabindex="0"><code>conda create -n so-vits-svc python=3.8
+conda activate so-vits-svc
+</code></pre><p>Then install requirements</p>
+<pre tabindex="0"><code>git clone https://github.com/svc-develop-team/so-vits-svc
+cd so-vits-svc
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+#for linux
+pip install -r requirements.txt
+
+#for windows
+pip install -r requirements_win.txt
+pip install --upgrade fastapi==0.84.0
+pip install --upgrade gradio==3.41.2
+pip install --upgrade pydantic==1.10.12
+pip install fastapi uvicorn
+</code></pre><h3 id="initialization">Initialization<a hidden class="anchor" aria-hidden="true" href="#initialization">#</a></h3>
+<h4 id="download-pretrained-models">Download pretrained models<a hidden class="anchor" aria-hidden="true" href="#download-pretrained-models">#</a></h4>
+<ul>
+<li>pretrain
+<ul>
+<li><code>wget https://huggingface.co/WitchHuntTV/checkpoint_best_legacy_500.pt/resolve/main/checkpoint_best_legacy_500.pt</code></li>
+<li><code>wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/rmvpe.pt</code></li>
+</ul>
+</li>
+<li>logs/44k
+<ul>
+<li><code>wget https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_D_320000.pth</code></li>
+<li><code>wget https://huggingface.co/datasets/ms903/sovits4.0-768vec-layer12/resolve/main/sovits_768l12_pre_large_320k/clean_G_320000.pth</code></li>
+</ul>
+</li>
+<li>logs/44k/diffusion
+<ul>
+<li><code>wget https://huggingface.co/datasets/ms903/Diff-SVC-refactor-pre-trained-model/resolve/main/fix_pitch_add_vctk_600k/model_0.pt</code></li>
+<li>(Alternative) <code>wget https://huggingface.co/datasets/ms903/DDSP-SVC-4.0/resolve/main/pre-trained-model/model_0.pt</code></li>
+<li>(Alternative) <code>wget https://huggingface.co/datasets/ms903/Diff-SVC-refactor-pre-trained-model/blob/main/hubertsoft_fix_pitch_add_vctk_500k/model_0.pt</code></li>
+</ul>
+</li>
+<li>pretrain/nsf_hifigan
+<ul>
+<li><code>wget -P pretrain/ https://github.com/openvpi/vocoders/releases/download/nsf-hifigan-v1/nsf_hifigan_20221211.zip</code></li>
+<li><code>unzip -od pretrain/nsf_hifigan pretrain/nsf_hifigan_20221211.zip</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="dataset-preparation">Dataset Preparation<a hidden class="anchor" aria-hidden="true" href="#dataset-preparation">#</a></h4>
+<p>Put all Prepared audio.wav files into <code>dataset_raw/character</code></p>
+<pre tabindex="0"><code>cd so-vits-svc
+python resample.py --skip_loudnorm
+python preprocess_flist_config.py --speech_encoder vec768l12 --vol_aug
+python preprocess_hubert_f0.py --use_diff
+</code></pre><h4 id="edit-configs">Edit Configs<a hidden class="anchor" aria-hidden="true" href="#edit-configs">#</a></h4>
+<p>The file is located at <code>configs/config.json</code></p>
+<p><code>log interval</code> :  the frequency of printing log
+<code>eval interval</code> :  the frequency of saving checkpoints
+<code>epochs</code> : total steps
+<code>keep ckpts</code> : numbers of saved checkpoints, 0 for unlimited.
+<code>half_type</code> : fp32 in my case
+<code>batch_size</code> : the smaller the faster (rougher), the larger the slower (better).
+Recommended batch_size per VRAM: 4=6G；6=8G；10=12G；14=16G；20=24G</p>
+<p>Keep default for <code>configs/diffusion.yaml</code></p>
+<h3 id="training">Training<a hidden class="anchor" aria-hidden="true" href="#training">#</a></h3>
+<pre tabindex="0"><code>python cluster/train_cluster.py --gpu
+python train_index.py -c configs/config.json
+python train.py -c configs/config.json -m 44k
+python train_diff.py -c configs/diffusion.yaml
+</code></pre><p>On training steps:</p>
+<p>Use <code>train.py</code> to train the main model, usually 20k-30k would be usable, and 50k and up would be good enough. This can take a few days depending on the GPU speed. Feel free to stop it by <code>ctrl+c</code>  and it will be continue training by re-run <code>python train.py -c configs/config.json -m 44k</code> anytime.</p>
+<p>Use <code>train_diff.py</code> to train diffusion model, training steps is recommended at 1/3 of the main model.</p>
+<p>Be aware of over training. Use <code>tensorboard --logdir=./logs/44k</code> to monitor the plots to see if it goes flat.</p>
+<p>Change the <code>learning rate</code> from 0.0001 to 0.00005 if necessary.</p>
+<p>When done, share/transport these files for inference.</p>
+<ul>
+<li>config/
+<ul>
+<li>config.json</li>
+<li>diffusion.yaml</li>
+</ul>
+</li>
+<li>logs/44k
+<ul>
+<li>feature_and_index.pkl</li>
+<li>kmeans_10000.pt</li>
+<li>model_0.pt</li>
+<li>G_xxxxx.pt</li>
+</ul>
+</li>
+</ul>
+<h3 id="inference">Inference<a hidden class="anchor" aria-hidden="true" href="#inference">#</a></h3>
+<p>It&rsquo;s time to try out the trained model. I&rsquo;d prefer webui for convenience of tweaking the parameters.</p>
+<p>But before fire it up, edit following lines in <code>webUI.py</code> for LAN access:</p>
+<pre tabindex="0"><code>os.system(&#34;start http://localhost:7860&#34;)
+app.launch(server_name=&#34;0.0.0.0&#34;, server_port=7860)
+</code></pre><p>Run <code>python webUI.py</code> then access its <code>ipaddress:7860</code> from web browser.</p>
+<p>The webui has no English localization, but <a href="https://immersivetranslate.com/en/">Immersive Translate</a> would be helpful.</p>
+<p>Most parameters would work well with default value. Refer to <a href="https://github.com/svc-develop-team/so-vits-svc#-inference">this</a> and <a href="https://www.yuque.com/umoubuton/ueupp5/ig624aweut2rvc43">this</a> to make changes.</p>
+<p>Upload these 5 files:</p>
+<p><code>main model.pt</code> and its <code>config.json</code></p>
+<p><code>diffusion model.pt</code> and its <code>diffusion.yaml</code></p>
+<p>Either cluster model <code>kmeans_10000.pt</code> for speaking or feature retrieval <code>feature_and_index.pkl</code> for singing.</p>
+<p><code>F0 predictor</code> is for speaking only, not for singing. Recommend <code>RMVPE</code> when using.</p>
+<p><code>Pitch change</code> is useful when singing a feminine song using a model with masculine voice, or vice versa.</p>
+<p><code>Clustering model/feature retrieval mixing ratio</code> is the way of controlling the tone. Use <code>0.1</code> to get clearest speech, and use <code>0.9</code> to get the closest tone to the model.</p>
+<p><code>shallow diffusion steps</code> should be set around <code>50</code>, it enhances the result at <code>30-100</code> steps.</p>
+<h3 id="audio-editing">Audio Editing<a hidden class="anchor" aria-hidden="true" href="#audio-editing">#</a></h3>
+<p>This procedure is optional. Just for production of a better song.</p>
+<p>I won&rsquo;t go into details in this since the audio editing software, or so called DAW (digital audio workstation), that I&rsquo;m using are non-free. I have no intention to advocate proprietary software even though the entire industry is paywalled and closed-source.</p>
+<p>Audacity supports multitrack, effects and a lot more. It does load some advanced VST plugins as well.</p>
+<p>It&rsquo;s not hard to find tutorials on mastering songs with Audacity.</p>
+<p>Typically, the mastering process should be mixing/balancing, EQ/compressing, reverb, imaging. The more advanced the tool is, the easier the process will be.</p>
+<p>I&rsquo;ll definitely spend more time on adopting Audacity for my mastering process in the future and I recommend everyone do so.</p>
+<h2 id="so-vits-svc-fork">so-vits-svc-fork<a hidden class="anchor" aria-hidden="true" href="#so-vits-svc-fork">#</a></h2>
+<p>This is a so-vits-svc <a href="https://github.com/voicepaw/so-vits-svc-fork">fork</a> with realtime support and the models are compatible. Easier to use but does not support Diffusion model. For dedicated realtime voice changing, <a href="https://github.com/w-okada/voice-changer/tree/master">voice-changer</a> is more recommended.</p>
+<h3 id="installation">Installation<a hidden class="anchor" aria-hidden="true" href="#installation">#</a></h3>
+<pre tabindex="0"><code>conda create -n so-vits-svc-fork python=3.10 pip
+conda activate so-vits-svc-fork
+
+git clone https://github.com/voicepaw/so-vits-svc-fork
+cd so-vits-svc-fork
+
+python -m pip install -U pip setuptools wheel
+pip install -U torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -U so-vits-svc-fork
+pip install click
+sudo apt-get install libportaudio2
+</code></pre><h3 id="preparation">Preparation<a hidden class="anchor" aria-hidden="true" href="#preparation">#</a></h3>
+<p>Put dataset .wav files into <code>so-vits-svc-fork/dataset_raw</code></p>
+<pre tabindex="0"><code>svc pre-resample
+svc pre-config
+</code></pre><p>Edit <code>batch_size</code> in <code>configs/44k/config.json</code>. This fork takes larger size than the original.</p>
+<h3 id="training-1">Training<a hidden class="anchor" aria-hidden="true" href="#training-1">#</a></h3>
+<pre tabindex="0"><code>svc pre-hubert
+svc train -t
+svc train-cluster
+</code></pre><h3 id="inference-1">Inference<a hidden class="anchor" aria-hidden="true" href="#inference-1">#</a></h3>
+<p>Use GUI with <code>svcg</code>. This requires local desktop environment.</p>
+<p>Or use CLI with <code>svc vc</code> for realtime and<code>svc infer -m &quot;logs/44k/xxxxx.pth&quot; -c &quot;configs/config.json&quot; raw/xxx.wav</code> for generating.</p>
+<h2 id="ddsp-svc">DDSP-SVC<a hidden class="anchor" aria-hidden="true" href="#ddsp-svc">#</a></h2>
+<p><a href="https://github.com/yxlllc/DDSP-SVC">DDSP-SVC</a> requires less hardware resources and runs faster than so-vits-svc. It supports both realtime and diffusion model (Diff-SVC).</p>
+<pre tabindex="0"><code>conda create -n DDSP-SVC python=3.8
+conda activate DDSP-SVC
+
+git clone https://github.com/yxlllc/DDSP-SVC
+cd DDSP-SVC
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+</code></pre><p>Refer to <a href="#Download-pretrained-models">Initialization section</a> for the two files:</p>
+<pre tabindex="0"><code>pretrain/rmvpe/model.pt
+pretrain/contentvec/checkpoint_best_legacy_500.pt
+</code></pre><h3 id="preparation-1">Preparation<a hidden class="anchor" aria-hidden="true" href="#preparation-1">#</a></h3>
+<pre tabindex="0"><code>python draw.py
+python preprocess.py -c configs/combsub.yaml
+python preprocess.py -c configs/diffusion-new.yaml
+</code></pre><p>Edit <code>configs/</code></p>
+<pre tabindex="0"><code>batch_size: 32  (16 for diffusion)
+cache_all_data: false
+cache_device: &#39;cuda&#39;
+cache_fp16: false
+</code></pre><h3 id="training-2">Training<a hidden class="anchor" aria-hidden="true" href="#training-2">#</a></h3>
+<pre tabindex="0"><code>conda activate DDSP-SVC
+python train.py -c configs/combsub.yaml
+python train_diff.py -c configs/diffusion-new.yaml
+
+tensorboard --logdir=exp
+</code></pre><h3 id="inference-2">Inference<a hidden class="anchor" aria-hidden="true" href="#inference-2">#</a></h3>
+<p>It&rsquo;s recommended to use <code>main_diff.py</code> since it includes both DDSP and diffusion model.</p>
+<p><code>python main_diff.py -i &quot;input.wav&quot; -diff &quot;model_xxxxxx.pt&quot; -o &quot;output.wav&quot;</code></p>
+<p>Realtime gui for voice cloning:</p>
+<pre tabindex="0"><code>python gui_diff.py
+</code></pre><h2 id="bert-vits2-v23">Bert-vits2-V2.3<a hidden class="anchor" aria-hidden="true" href="#bert-vits2-v23">#</a></h2>
+<p>This is a TTS tool which is completely different from everything above. By using it, I have already created several audio books with my voice for my parents, and they really enjoy it.</p>
+<p>Instead of using the <a href="https://github.com/fishaudio/Bert-VITS2">oringal</a>, I used the fork by <a href="https://v3u.cn/a_id_341">v3u</a> for easier setup.</p>
+<h3 id="initialization-1">Initialization<a hidden class="anchor" aria-hidden="true" href="#initialization-1">#</a></h3>
+<pre tabindex="0"><code>conda create -n bert-vits2 python=3.9
+conda activate bert-vits2
+
+git clone https://github.com/v3ucn/Bert-vits2-V2.3.git
+cd Bert-vits2-V2.3
+
+pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+</code></pre><p>Download pretrained models (includes Chinese, Japanese and English):</p>
+<pre tabindex="0"><code>wget -P slm/wavlm-base-plus/ https://huggingface.co/microsoft/wavlm-base-plus/resolve/main/pytorch_model.bin
+wget -P emotional/clap-htsat-fused/ https://huggingface.co/laion/clap-htsat-fused/resolve/main/pytorch_model.bin
+wget -P emotional/wav2vec2-large-robust-12-ft-emotion-msp-dim/ https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim/resolve/main/pytorch_model.bin
+wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/pytorch_model.bin
+wget -P bert/bert-base-japanese-v3/ https://huggingface.co/cl-tohoku/bert-base-japanese-v3/resolve/main/pytorch_model.bin
+wget -P bert/deberta-v3-large/ https://huggingface.co/microsoft/deberta-v3-large/resolve/main/pytorch_model.bin
+wget -P bert/deberta-v3-large/ https://huggingface.co/microsoft/deberta-v3-large/resolve/main/pytorch_model.generator.bin
+wget -P bert/deberta-v2-large-japanese/ https://huggingface.co/ku-nlp/deberta-v2-large-japanese/resolve/main/pytorch_model.bin
+</code></pre><p>Create a character model folder <code>mkdir -p Data/xxx/models/</code></p>
+<p>Download base models:</p>
+<pre tabindex="0"><code>!wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/DUR_0.pth
+!wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/D_0.pth
+!wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/G_0.pth
+!wget -P Data/xxx/models/ https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/resolve/main/WD_0.pth
+
+#More options
+https://openi.pcl.ac.cn/Stardust_minus/Bert-VITS2/modelmanage/model_filelist_tmpl?name=Bert-VITS2_2.3%E5%BA%95%E6%A8%A1
+https://huggingface.co/Erythrocyte/bert-vits2_base_model/tree/main
+https://huggingface.co/OedoSoldier/Bert-VITS2-2.3/tree/main
+</code></pre><p>Edit <code>train_ms.py</code> by replacing all <code>bfloat16</code> to <code>float16</code></p>
+<p>Edit <code>webui.py</code> for LAN access:</p>
+<pre tabindex="0"><code>webbrowser.open(f&#34;start http://localhost:7860&#34;)
+app.launch(server_name=&#34;0.0.0.0&#34;, server_port=7860)
+</code></pre><p>Edit <code>Data/xxx/config.json</code> for <code>batch_size</code> and <code>spk2id</code></p>
+<h3 id="preparation-2">Preparation<a hidden class="anchor" aria-hidden="true" href="#preparation-2">#</a></h3>
+<p>Similar workflow as in <a href="#Preparation-for-voice-recording">previous section</a>.</p>
+<p>Remove noise and silence, normalization, then put the un-sliced WAV file into <code>Data/xxx/raw</code>.</p>
+<p>Edit <code>config.yml</code> for <code>dataset_path</code>, <code>num_workers</code> and <code>keep_ckpts</code>.</p>
+<p>Run <code>python3 audio_slicer.py</code> to slice the WAV file.</p>
+<p>Clean the dataset (<code>Data/xxx/raw</code>) by removing small files that are under 2 sec.</p>
+<h4 id="transcription">Transcription<a hidden class="anchor" aria-hidden="true" href="#transcription">#</a></h4>
+<p>Install whisper <code>pip install git+https://github.com/openai/whisper.git</code></p>
+<p>To turn off language auto-detection, set it to English only, and use <code>large</code> model, edit <code>short_audio_transcribe.py</code> as below:</p>
+<pre tabindex="0"><code>    # set the spoken language to english
+    print(&#39;language: en&#39;)
+    lang = &#39;en&#39;
+    options = whisper.DecodingOptions(language=&#39;en&#39;)
+    result = whisper.decode(model, mel, options)
+	
+    # set to use large model
+    parser.add_argument(&#34;--whisper_size&#34;, default=&#34;large&#34;)
+
+    #Solve error &#34;Given groups=1, weight of size [1280, 128, 3], expected input[1, 80, 3000] to have 128 channels, but got 80 channels instead&#34; while using large model
+    mel = whisper.log_mel_spectrogram(audio,n_mels = 128).to(model.device)
+</code></pre><p>Run <code>python3 short_audio_transcribe.py</code> to start transcription</p>
+<p>Re-sample the sliced dataset:
+<code>python3 resample.py --sr 44100 --in_dir ./Data/zizek/raw/ --out_dir ./Data/zizek/wavs/</code></p>
+<p>Preprocess transcription:
+<code>python3 preprocess_text.py --transcription-path ./Data/zizek/esd.list</code></p>
+<p>Generate BERT feature config:
+<code>python3 bert_gen.py --config-path ./Data/zizek/configs/config.json</code></p>
+<h3 id="training-and-inference">Training and Inference<a hidden class="anchor" aria-hidden="true" href="#training-and-inference">#</a></h3>
+<p>Run <code>python3 train_ms.py</code> to start training</p>
+<p>Edit <code>config.yml</code> for model path:</p>
+<pre tabindex="0"><code>model: &#34;models/G_20900.pth&#34;
+</code></pre><p>Run <code>python3 webui.py</code> to start webui for inference</p>
+<h2 id="vits-simple-api">vits-simple-api<a hidden class="anchor" aria-hidden="true" href="#vits-simple-api">#</a></h2>
+<p><a href="https://github.com/Artrajz/vits-simple-api">vits-simple-api</a> is a web frontend for using trained models. I use this mainly for its long text support which the oringal project doesn&rsquo;t have.</p>
+<pre tabindex="0"><code>git clone https://github.com/Artrajz/vits-simple-api
+git pull https://github.com/Artrajz/vits-simple-api
+cd vits-simple-api
+
+conda create -n vits-simple-api python=3.10 pip
+conda activate vits-simple-api &amp;&amp; 
+
+pip install -r requirements.txt
+</code></pre><p>(Optional) Copy pretrained model files from <code>Bert-vits2-V2.3/</code> to <code>vits-simple-api/bert_vits2/</code></p>
+<p>Copy <code>Bert-vits2-V2.3/Data/xxx/models/G_xxxxx.pth</code> and <code>Bert-vits2-V2.3/Data/xxx/config.json</code> to <code>vits-simple-api/Model/xxx/</code></p>
+<p>Edit <code>config.py</code> for <code>MODEL_LIST</code> and <code>Default parameter</code> as preferred</p>
+<p>Edit <code>Model/xxx/config.json</code> as below:</p>
+<pre tabindex="0"><code>  &#34;data&#34;: {
+    &#34;training_files&#34;: &#34;Data/train.list&#34;,
+    &#34;validation_files&#34;: &#34;Data/val.list&#34;,
+	
+  &#34;version&#34;: &#34;2.3&#34;
+</code></pre><p>Check/Edit <code>model_list</code> in <code>config.yml</code> as <code>[xxx/G_xxxxx.pth, xxx/config.json]</code></p>
+<p>Run <code>python app.py</code></p>
+<h3 id="tweaks">Tweaks<a hidden class="anchor" aria-hidden="true" href="#tweaks">#</a></h3>
+<p><code>SDP Ratio</code>  for tone
+<code>Noise</code>  for randomness
+<code>Noise_W</code> for pronounciation
+<code>Length</code> for speed
+<code>emotion</code> and <code>style</code> are self-explanatory</p>
+<h3 id="share-models">Share models<a hidden class="anchor" aria-hidden="true" href="#share-models">#</a></h3>
+<p>In its <a href="https://huggingface.co/spaces/Artrajz/vits-simple-api">Hugging Face repo</a>, there are a lot of VITS models shared by others. You can try it out first and then download desired models from <a href="https://huggingface.co/spaces/Artrajz/vits-simple-api/tree/main/Model">Files</a>.</p>
+<p><a href="https://huggingface.co/spaces/zomehwh/vits-uma-genshin-honkai">Genshin model</a> is widely used in some content creation community because its high quality. It contains hundreds of characters, although only Chinese and Japanese are supported.</p>
+<p>In <a href="https://huggingface.co/XzJosh">another repo</a>, there are a lot of Bert-vits2 models that made from popular Chinese streamers and VTubers.</p>
+<p>There are already projects making AI Vtuber like <a href="https://github.com/ardha27/AI-Waifu-Vtuber">this</a> and <a href="https://github.com/cdfmlr/muvtuber">this</a>. I&rsquo;m looking forward how this technology can change the industry in the near future.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://techshinobi.org/tags/bert-vits2/">Bert-VITS2</a></li>
+      <li><a href="https://techshinobi.org/tags/cheapskate/">Cheapskate</a></li>
+      <li><a href="https://techshinobi.org/tags/audacity/">Audacity</a></li>
+      <li><a href="https://techshinobi.org/tags/opensource/">Opensource</a></li>
+      <li><a href="https://techshinobi.org/tags/free-software/">Free Software</a></li>
+      <li><a href="https://techshinobi.org/tags/foss/">FOSS</a></li>
+      <li><a href="https://techshinobi.org/tags/so-vits-svc/">so-vits-svc</a></li>
+      <li><a href="https://techshinobi.org/tags/ddsp-svc/">DDSP-SVC</a></li>
+      <li><a href="https://techshinobi.org/tags/vits-simple-api/"> vits-simple-api</a></li>
+      <li><a href="https://techshinobi.org/tags/so-vits-svc-fork/">so-vits-svc-fork</a></li>
+      <li><a href="https://techshinobi.org/tags/ultimate-vocal-remover/">Ultimate Vocal Remover</a></li>
+      <li><a href="https://techshinobi.org/tags/vocal-recording/">Vocal Recording</a></li>
+      <li><a href="https://techshinobi.org/tags/hardware/">Hardware</a></li>
+      <li><a href="https://techshinobi.org/tags/audio-equipment/">Audio Equipment</a></li>
+      <li><a href="https://techshinobi.org/tags/audio-interface/">Audio Interface</a></li>
+      <li><a href="https://techshinobi.org/tags/microphone/">Microphone</a></li>
+      <li><a href="https://techshinobi.org/tags/tts-generation-webui/">TTS Generation WebUI</a></li>
+      <li><a href="https://techshinobi.org/tags/voice-clone/">Voice Clone</a></li>
+      <li><a href="https://techshinobi.org/tags/headphones/">Headphones</a></li>
+      <li><a href="https://techshinobi.org/tags/anaconda/">anaconda</a></li>
+      <li><a href="https://techshinobi.org/tags/model-training/">Model Training</a></li>
+      <li><a href="https://techshinobi.org/tags/inference/">Inference</a></li>
+      <li><a href="https://techshinobi.org/tags/realtime-voice-changing/">realtime voice changing</a></li>
+      <li><a href="https://techshinobi.org/tags/diffusion/">Diffusion</a></li>
+      <li><a href="https://techshinobi.org/tags/text-to-speech/">Text-to-Speech</a></li>
+      <li><a href="https://techshinobi.org/tags/deberta/">DeBERTa</a></li>
+      <li><a href="https://techshinobi.org/tags/bert/">BERT</a></li>
+      <li><a href="https://techshinobi.org/tags/roberta/">RoBERTa</a></li>
+      <li><a href="https://techshinobi.org/tags/whisper/">whisper</a></li>
+      <li><a href="https://techshinobi.org/tags/long-text-tts/">long text tts</a></li>
+      <li><a href="https://techshinobi.org/tags/ai-vtuber/">AI Vtuber</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://techshinobi.org/posts/cheapnas/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</span>
+  </a>
+</nav>
+
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on twitter"
+        href="https://twitter.com/intent/tweet/?text=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f&amp;hashtags=Bert-VITS2%2cCheapskate%2cAudacity%2cOpensource%2cFreeSoftware%2cFOSS%2cso-vits-svc%2cDDSP-SVC%2cvits-simple-api%2cso-vits-svc-fork%2cUltimateVocalRemover%2cVocalRecording%2cHardware%2cAudioEquipment%2cAudioInterface%2cMicrophone%2cTTSGenerationWebUI%2cVoiceClone%2cHeadphones%2canaconda%2cModelTraining%2cInference%2crealtimevoicechanging%2cDiffusion%2cText-to-Speech%2cDeBERTa%2cBERT%2cRoBERTa%2cwhisper%2clongtexttts%2cAIVtuber">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f&amp;title=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2&amp;summary=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2&amp;source=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f&title=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on whatsapp"
+        href="https://api.whatsapp.com/send?text=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2%20-%20https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 on telegram"
+        href="https://telegram.me/share/url?text=A%20Deep%20Dive%20into%20Voice%20Cloning%20with%20SoftVC%20VITS%20and%20Bert-VITS2&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fvoice-vits%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://techshinobi.org/">Tech Shinobi</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

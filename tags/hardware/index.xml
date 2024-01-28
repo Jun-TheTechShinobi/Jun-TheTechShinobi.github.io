@@ -5,7 +5,29 @@
     <link>https://techshinobi.org/tags/hardware/</link>
     <description>Recent content in Hardware on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
+      <link>https://techshinobi.org/posts/voice-vits/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/voice-vits/</guid>
+      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project.</description>
+    </item>
+    
+    <item>
+      <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
+      <link>https://techshinobi.org/posts/cheapnas/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/cheapnas/</guid>
+      <description>Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault For decades, I come across a lot of abandoned computers and recycled parts out of them.
+This article is about the recycled Dell Vostro 220s with LGA771 to LGA775 Mod I mentioned in the last post.
+It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.</description>
+    </item>
+    
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
       <link>https://techshinobi.org/posts/cheapai/</link>

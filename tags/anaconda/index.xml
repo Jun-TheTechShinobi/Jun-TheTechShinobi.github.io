@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>anaconda on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/anaconda/</link>
+    <description>Recent content in anaconda on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/anaconda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
+      <link>https://techshinobi.org/posts/voice-vits/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/voice-vits/</guid>
+      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project.</description>
+    </item>
+    
+  </channel>
+</rss>

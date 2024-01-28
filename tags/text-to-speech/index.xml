@@ -5,7 +5,18 @@
     <link>https://techshinobi.org/tags/text-to-speech/</link>
     <description>Recent content in Text-to-Speech on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/text-to-speech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/text-to-speech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
+      <link>https://techshinobi.org/posts/voice-vits/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/voice-vits/</guid>
+      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
+This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
+I have tested several tools for this project.</description>
+    </item>
+    
     <item>
       <title>Edge TTS Reader</title>
       <link>https://techshinobi.org/posts/edgetts/</link>

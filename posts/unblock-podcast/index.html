@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Unblock URLs from My Own Filter Lists | Tech Shinobi</title>
-<meta name="keywords" content="unblock, filterlists, blocklists, adblock, NextDNS, AdGuard, VPN, tracking, dns-detector, podcast, keycdn, network">
+<meta name="keywords" content="unblock, filterlists, blocklists, adblock, NextDNS, AdGuard, VPN, tracking, dns-detector, podcast, keycdn, networking">
 <meta name="description" content="Podcast doesn&rsquo;t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.
 Recently, I found out there is a broken one in my podcast subscriptions.
 It&rsquo;s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling&rsquo;s new show called MicroConf.">
@@ -74,7 +74,7 @@ It&rsquo;s been a long time not listening to the podcast, Startups For the Rest 
   "name": "Unblock URLs from My Own Filter Lists",
   "description": "Podcast doesn\u0026rsquo;t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.\nRecently, I found out there is a broken one in my podcast subscriptions.\nIt\u0026rsquo;s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling\u0026rsquo;s new show called MicroConf.",
   "keywords": [
-    "unblock", "filterlists", "blocklists", "adblock", "NextDNS", "AdGuard", "VPN", "tracking", "dns-detector", "podcast", "keycdn", "network"
+    "unblock", "filterlists", "blocklists", "adblock", "NextDNS", "AdGuard", "VPN", "tracking", "dns-detector", "podcast", "keycdn", "networking"
   ],
   "articleBody": "Podcast doesn’t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.\nRecently, I found out there is a broken one in my podcast subscriptions.\nIt’s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling’s new show called MicroConf. However, I want to return for the bonus episodes on SFTROU occasionally.\nBut it’s broken— my podcast client couldn’t fetch the RSS feed.\nThe official URL is:\nhttps://www.startupsfortherestofus.com/feed/podcast However, it redirects to:\nhttps://feeds.feedblitz.com/startupsfortherestofus\u0026x=1 FeedBlitz is a marketing platform that seems not respectful to our privacy. This is why it gets blocked by my filter lists. Though, I have to whitelist it for the SFTROU podcast. It’s fairly easy to do for NextDNS.\nTools to Find out the IP For other cases, I have to create an override rule with a working IP address.\nIf I ping feeds.feedblitz.com, it returns from localhost (127.0.0.1) because it’s been blocked by my filters.\nThe lazy way is turn off all filters temporarily, which I don’t want.\nThere are network tools from keycdn such as IP and DNS lookup, either would work. These can get the IP addresses outside from my filtered network.\nAnother option is a cool tool called dns-detector, which is a nodejs cli tool.\nInstall it by simply npm i -g dns-detector and use it with\ndns --host=feeds.feedblitz.com The result looks like:\nResolving  IP... + 8.8.8.8  **ms  198.71.55.253 74.208.183.175 74.208.186.160 Then, just pick one like 198.71.55.253 to pair with feeds.feedblitz.com in the whitelist override rule. The broken SFTROU podcast would back to normal.\n",
   "wordCount" : "288",
@@ -229,7 +229,7 @@ Though, I have to whitelist it for the SFTROU podcast. It&rsquo;s fairly <a href
       <li><a href="https://techshinobi.org/tags/dns-detector/">dns-detector</a></li>
       <li><a href="https://techshinobi.org/tags/podcast/">podcast</a></li>
       <li><a href="https://techshinobi.org/tags/keycdn/">keycdn</a></li>
-      <li><a href="https://techshinobi.org/tags/network/">network</a></li>
+      <li><a href="https://techshinobi.org/tags/networking/">networking</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://techshinobi.org/posts/playing-gpt/">
@@ -247,7 +247,7 @@ Though, I have to whitelist it for the SFTROU podcast. It&rsquo;s fairly <a href
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Unblock URLs from My Own Filter Lists on twitter"
-        href="https://twitter.com/intent/tweet/?text=Unblock%20URLs%20from%20My%20Own%20Filter%20Lists&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2funblock-podcast%2f&amp;hashtags=unblock%2cfilterlists%2cblocklists%2cadblock%2cNextDNS%2cAdGuard%2cVPN%2ctracking%2cdns-detector%2cpodcast%2ckeycdn%2cnetwork">
+        href="https://twitter.com/intent/tweet/?text=Unblock%20URLs%20from%20My%20Own%20Filter%20Lists&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2funblock-podcast%2f&amp;hashtags=unblock%2cfilterlists%2cblocklists%2cadblock%2cNextDNS%2cAdGuard%2cVPN%2ctracking%2cdns-detector%2cpodcast%2ckeycdn%2cnetworking">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
@@ -295,7 +295,7 @@ Though, I have to whitelist it for the SFTROU podcast. It&rsquo;s fairly <a href
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://techshinobi.org/">Tech Shinobi</a></span>
+    <span>&copy; 2024 <a href="https://techshinobi.org/">Tech Shinobi</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
