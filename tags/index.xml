@@ -5,7 +5,115 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://techshinobi.org/tags/android/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bloatware</title>
+      <link>https://techshinobi.org/tags/bloatware/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/bloatware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debloat</title>
+      <link>https://techshinobi.org/tags/debloat/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/debloat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>good enough privacy</title>
+      <link>https://techshinobi.org/tags/good-enough-privacy/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/good-enough-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://techshinobi.org/tags/hardware/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metro</title>
+      <link>https://techshinobi.org/tags/metro/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/metro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://techshinobi.org/tags/mobile/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OnePlus</title>
+      <link>https://techshinobi.org/tags/oneplus/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/oneplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://techshinobi.org/tags/opensource/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OxygenOS</title>
+      <link>https://techshinobi.org/tags/oxygenos/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/oxygenos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spyware</title>
+      <link>https://techshinobi.org/tags/spyware/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/spyware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threat modeling</title>
+      <link>https://techshinobi.org/tags/threat-modeling/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/threat-modeling/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title> vits-simple-api</title>
       <link>https://techshinobi.org/tags/vits-simple-api/</link>
@@ -133,15 +241,6 @@
     </item>
     
     <item>
-      <title>Hardware</title>
-      <link>https://techshinobi.org/tags/hardware/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Headphones</title>
       <link>https://techshinobi.org/tags/headphones/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
@@ -183,15 +282,6 @@
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/model-training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/opensource/</guid>
       <description></description>
     </item>
     
@@ -921,15 +1011,6 @@
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/chromebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Debloat</title>
-      <link>https://techshinobi.org/tags/debloat/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/debloat/</guid>
       <description></description>
     </item>
     
