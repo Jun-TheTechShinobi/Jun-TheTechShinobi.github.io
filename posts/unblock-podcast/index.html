@@ -13,7 +13,7 @@ It&rsquo;s been a long time not listening to the podcast, Startups For the Rest 
 <meta name="author" content="Jun">
 <link rel="canonical" href="https://techshinobi.org/posts/unblock-podcast/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.e85ad0406048e8176e1c7661b25d5c69297ddfe41dc4124cf75ecb99a4f7b3d1.js" integrity="sha256-6FrQQGBI6BduHHZhsl1caSl93&#43;QdxBJM917LmaT3s9E="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://techshinobi.org/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://techshinobi.org/favicon-16x16.png">
@@ -76,7 +76,7 @@ It&rsquo;s been a long time not listening to the podcast, Startups For the Rest 
   "keywords": [
     "unblock", "filterlists", "blocklists", "adblock", "NextDNS", "AdGuard", "VPN", "tracking", "dns-detector", "podcast", "keycdn", "networking"
   ],
-  "articleBody": "Podcast doesn’t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.\nRecently, I found out there is a broken one in my podcast subscriptions.\nIt’s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling’s new show called MicroConf. However, I want to return for the bonus episodes on SFTROU occasionally.\nBut it’s broken— my podcast client couldn’t fetch the RSS feed.\nThe official URL is:\nhttps://www.startupsfortherestofus.com/feed/podcast However, it redirects to:\nhttps://feeds.feedblitz.com/startupsfortherestofus\u0026x=1 FeedBlitz is a marketing platform that seems not respectful to our privacy. This is why it gets blocked by my filter lists. Though, I have to whitelist it for the SFTROU podcast. It’s fairly easy to do for NextDNS.\nTools to Find out the IP For other cases, I have to create an override rule with a working IP address.\nIf I ping feeds.feedblitz.com, it returns from localhost (127.0.0.1) because it’s been blocked by my filters.\nThe lazy way is turn off all filters temporarily, which I don’t want.\nThere are network tools from keycdn such as IP and DNS lookup, either would work. These can get the IP addresses outside from my filtered network.\nAnother option is a cool tool called dns-detector, which is a nodejs cli tool.\nInstall it by simply npm i -g dns-detector and use it with\ndns --host=feeds.feedblitz.com The result looks like:\nResolving  IP... + 8.8.8.8  **ms  198.71.55.253 74.208.183.175 74.208.186.160 Then, just pick one like 198.71.55.253 to pair with feeds.feedblitz.com in the whitelist override rule. The broken SFTROU podcast would back to normal.\n",
+  "articleBody": "Podcast doesn’t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.\nRecently, I found out there is a broken one in my podcast subscriptions.\nIt’s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling’s new show called MicroConf. However, I want to return for the bonus episodes on SFTROU occasionally.\nBut it’s broken— my podcast client couldn’t fetch the RSS feed.\nThe official URL is:\nhttps://www.startupsfortherestofus.com/feed/podcast However, it redirects to:\nhttps://feeds.feedblitz.com/startupsfortherestofus\u0026x=1 FeedBlitz is a marketing platform that seems not respectful to our privacy. This is why it gets blocked by my filter lists. Though, I have to whitelist it for the SFTROU podcast. It’s fairly easy to do for NextDNS.\nTools to Find out the IP For other cases, I have to create an override rule with a working IP address.\nIf I ping feeds.feedblitz.com, it returns from localhost (127.0.0.1) because it’s been blocked by my filters.\nThe lazy way is turn off all filters temporarily, which I don’t want.\nThere are network tools from keycdn such as IP and DNS lookup, either would work. These can get the IP addresses outside from my filtered network.\nAnother option is a cool tool called dns-detector, which is a nodejs cli tool.\nInstall it by simply npm i -g dns-detector and use it with\ndns --host=feeds.feedblitz.com The result looks like:\nResolving IP... + 8.8.8.8 \u003e **ms \u003e\u003e 198.71.55.253 74.208.183.175 74.208.186.160 Then, just pick one like 198.71.55.253 to pair with feeds.feedblitz.com in the whitelist override rule. The broken SFTROU podcast would back to normal.\n",
   "wordCount" : "288",
   "inLanguage": "en",
   "datePublished": "2023-01-26T00:00:00Z",
@@ -237,10 +237,10 @@ Though, I have to whitelist it for the SFTROU podcast. It&rsquo;s fairly <a href
     <br>
     <span>Playing with Different GPT-3 and ChatGPT models</span>
   </a>
-  <a class="next" href="https://techshinobi.org/posts/tpc13/">
+  <a class="next" href="https://techshinobi.org/posts/pmos/">
     <span class="title">Next Page »</span>
     <br>
-    <span>Experimenting with ThinkPad C13 Yoga</span>
+    <span>Nokia N900, postmarketOS and Ideology</span>
   </a>
 </nav>
 

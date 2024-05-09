@@ -5,7 +5,20 @@
     <link>https://techshinobi.org/categories/privacy/</link>
     <description>Recent content in Privacy on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updating ThinkPad C13 Yoga</title>
+      <link>https://techshinobi.org/posts/tpc13/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <description>2024 Update MrChromebox.tech had a major update a few month ago, so I decide to move on as well.
+But before that, use Clonezilla or rsync -aHAXS to back up the 32 GB emmc first.
+Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo; cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
+After reboot, a full version of coreboot is installed, by replacing the previous SeaBIOS which is partial and limited.
+This makes this laptop now with a free firmware.</description>
+    </item>
+    
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
       <link>https://techshinobi.org/posts/opn30/</link>
@@ -36,17 +49,6 @@ Hey everyone. Well, first, I have to confess and apologize that I could not prep
       <description>Podcast doesn&amp;rsquo;t fetch I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.
 Recently, I found out there is a broken one in my podcast subscriptions.
 It&amp;rsquo;s been a long time not listening to the podcast, Startups For the Rest of Us, since I started following Rob Walling&amp;rsquo;s new show called MicroConf.</description>
-    </item>
-    
-    <item>
-      <title>Experimenting with ThinkPad C13 Yoga</title>
-      <link>https://techshinobi.org/posts/tpc13/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/posts/tpc13/</guid>
-      <description>Recently, I got a new ThinkPad which took Lenovo over 2 month preparing for shipping. For the price, it worth waiting. This is the first Chromebook I&amp;rsquo;ve ever had, so I did quite a lot experiments with it.
-Hardware The model is C13 Yoga Chromebook (MORPHIUS) with AMD Athlon gold 3015c (Picasso) 4GB RAM and 32GB eMMc storage.
-There are multiple variations in C13 models and mine is the lowest-end of them.</description>
     </item>
     
     <item>

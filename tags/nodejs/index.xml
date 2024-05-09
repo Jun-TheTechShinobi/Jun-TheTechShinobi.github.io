@@ -13,7 +13,7 @@
       
       <guid>https://techshinobi.org/posts/playing-gpt/</guid>
       <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
- text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001  The playground can test them all using the web interface.
+text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001 The playground can test them all using the web interface.
 Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
 To ChatGPT webpage: Who is Paul Graham?</description>
     </item>

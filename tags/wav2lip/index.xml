@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wav2Lip on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/wav2lip/</link>
+    <description>Recent content in Wav2Lip on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/wav2lip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimenting Lip Syncing Deepfake Tools</title>
+      <link>https://techshinobi.org/posts/lipsync/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/lipsync/</guid>
+      <description>AI-Generated content can be fun or &amp;ldquo;slop&amp;rdquo; according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.
+Some of my readers may have already known that recently I&amp;rsquo;m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.</description>
+    </item>
+    
+  </channel>
+</rss>

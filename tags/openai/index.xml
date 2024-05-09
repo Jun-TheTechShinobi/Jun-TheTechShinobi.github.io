@@ -12,7 +12,7 @@
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
-      <description>I use Generate-subtitles  as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
+      <description>I use Generate-subtitles as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
 When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are Subtitle Edit and Aegisub. SE provides a great online version and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support.</description>
     </item>
     
@@ -34,7 +34,7 @@ Hey everyone. Well, first, I have to confess and apologize that I could not prep
       <guid>https://techshinobi.org/posts/cheapsd/</guid>
       <description>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
 Before we start, here&amp;rsquo;s some comments on OpenAI:
- The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
+The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
     </item>
     
     <item>
@@ -44,8 +44,8 @@ Before we start, here&amp;rsquo;s some comments on OpenAI:
       
       <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
       <description>The latest news updated on waylaidwanderer&amp;rsquo;s repo says:
- 2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
- Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
+2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
+Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
 Why use API instead of the Ordinary Way After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.</description>
     </item>
     
@@ -56,7 +56,7 @@ Why use API instead of the Ordinary Way After OpenAI fired up their paid subscri
       
       <guid>https://techshinobi.org/posts/playing-gpt/</guid>
       <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
- text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001  The playground can test them all using the web interface.
+text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001 The playground can test them all using the web interface.
 Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
 To ChatGPT webpage: Who is Paul Graham?</description>
     </item>

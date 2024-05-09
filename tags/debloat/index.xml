@@ -5,7 +5,20 @@
     <link>https://techshinobi.org/tags/debloat/</link>
     <description>Recent content in debloat on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/debloat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/debloat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updating ThinkPad C13 Yoga</title>
+      <link>https://techshinobi.org/posts/tpc13/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <description>2024 Update MrChromebox.tech had a major update a few month ago, so I decide to move on as well.
+But before that, use Clonezilla or rsync -aHAXS to back up the 32 GB emmc first.
+Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo; cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
+After reboot, a full version of coreboot is installed, by replacing the previous SeaBIOS which is partial and limited.
+This makes this laptop now with a free firmware.</description>
+    </item>
+    
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
       <link>https://techshinobi.org/posts/opn30/</link>
@@ -15,17 +28,6 @@
       <description>Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.
 However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.
 A few days ago, I unlocked it by simply go to About Phone then click Unlock.</description>
-    </item>
-    
-    <item>
-      <title>Experimenting with ThinkPad C13 Yoga</title>
-      <link>https://techshinobi.org/posts/tpc13/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/posts/tpc13/</guid>
-      <description>Recently, I got a new ThinkPad which took Lenovo over 2 month preparing for shipping. For the price, it worth waiting. This is the first Chromebook I&amp;rsquo;ve ever had, so I did quite a lot experiments with it.
-Hardware The model is C13 Yoga Chromebook (MORPHIUS) with AMD Athlon gold 3015c (Picasso) 4GB RAM and 32GB eMMc storage.
-There are multiple variations in C13 models and mine is the lowest-end of them.</description>
     </item>
     
   </channel>

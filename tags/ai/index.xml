@@ -12,7 +12,7 @@
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
-      <description>I use Generate-subtitles  as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
+      <description>I use Generate-subtitles as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
 When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are Subtitle Edit and Aegisub. SE provides a great online version and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support.</description>
     </item>
     
