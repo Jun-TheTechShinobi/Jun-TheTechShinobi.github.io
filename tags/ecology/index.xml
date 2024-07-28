@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ecology on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/ecology/</link>
+    <description>Recent content in Ecology on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/ecology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
+      <link>https://techshinobi.org/posts/ethics-llm/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/ethics-llm/</guid>
+      <description>the &amp;ldquo;Open Source AI Manifesto&amp;rdquo; Mark Zuckerberg has been hated by Richard Stallman for decades and he is the only person who appears on both cover image of the video essays: How the Internet was Stolen and How AI was Stolen by Then &amp;amp; Now.
+However, things has changed recently after his adoption of the Fediverse and open-sourcing of Llama continuously.
+In Zuckerberg&amp;rsquo;s latest &amp;ldquo;Open Source AI Manifesto&amp;rdquo;, he stated 5 needs of open-source:</description>
+    </item>
+    
+  </channel>
+</rss>
