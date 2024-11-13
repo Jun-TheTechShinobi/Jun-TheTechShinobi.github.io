@@ -5,7 +5,115 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://techshinobi.org/tags/docker/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://techshinobi.org/tags/opensource/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote desktop</title>
+      <link>https://techshinobi.org/tags/remote-desktop/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/remote-desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RustDesk</title>
+      <link>https://techshinobi.org/tags/rustdesk/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/rustdesk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-host</title>
+      <link>https://techshinobi.org/tags/self-host/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/self-host/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://techshinobi.org/tags/server/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI coding</title>
+      <link>https://techshinobi.org/tags/ai-coding/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/ai-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>browser</title>
+      <link>https://techshinobi.org/tags/browser/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/browser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ChatGPT</title>
+      <link>https://techshinobi.org/tags/chatgpt/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://techshinobi.org/tags/javascript/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>troubleshooting</title>
+      <link>https://techshinobi.org/tags/troubleshooting/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>userscript</title>
+      <link>https://techshinobi.org/tags/userscript/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/userscript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Anthropocene</title>
       <link>https://techshinobi.org/tags/anthropocene/</link>
@@ -66,15 +174,6 @@
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/openai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/opensource/</guid>
       <description></description>
     </item>
     
@@ -979,15 +1078,6 @@
     </item>
     
     <item>
-      <title>ChatGPT</title>
-      <link>https://techshinobi.org/tags/chatgpt/</link>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CyberSecurity</title>
       <link>https://techshinobi.org/tags/cybersecurity/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
@@ -1092,15 +1182,6 @@
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://techshinobi.org/tags/javascript/</link>
-      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/javascript/</guid>
       <description></description>
     </item>
     

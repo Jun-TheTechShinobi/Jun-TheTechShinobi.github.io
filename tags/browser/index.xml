@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>browser on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/browser/</link>
+    <description>Recent content in browser on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
+      <link>https://techshinobi.org/posts/chat-scroll/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/chat-scroll/</guid>
+      <description>Recently, I encountered a scrolling problem on ChatGPT web like this. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.
+Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.
+(function () { document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) { var s = getComputedStyle(node); if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.</description>
+    </item>
+    
+  </channel>
+</rss>

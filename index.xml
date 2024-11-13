@@ -5,7 +5,29 @@
     <link>https://techshinobi.org/</link>
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosting RustDesk Server via Docker Compose</title>
+      <link>https://techshinobi.org/posts/rustdesk-server/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
+      <description>RustDesk is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.
+As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though I suppose to.
+For some reason, one of my RustDesk client got blocked to the official servers.</description>
+    </item>
+    
+    <item>
+      <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
+      <link>https://techshinobi.org/posts/chat-scroll/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/chat-scroll/</guid>
+      <description>Recently, I encountered a scrolling problem on ChatGPT web like this. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.
+Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.
+(function () { document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) { var s = getComputedStyle(node); if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.</description>
+    </item>
+    
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
       <link>https://techshinobi.org/posts/ethics-llm/</link>
