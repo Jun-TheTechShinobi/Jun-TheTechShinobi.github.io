@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SSH on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/ssh/</link>
+    <description>Recent content in SSH on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
+      <link>https://techshinobi.org/posts/tethering-hotspot/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
+      <description>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
+So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,22 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://techshinobi.org/categories/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <loc>https://techshinobi.org/tags/anonymity/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/docker/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/cryptocurrenty/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/desktop/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/feather-wallet/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/gnupg/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/good-enough-privacy/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/haveno-reto/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/keepass/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/kicksecure/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/linux/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/networking/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <loc>https://techshinobi.org/tags/monero/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/online-hygiene/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/opensource/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/security/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/menero-wallet/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/tails/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/threat-modeling/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/tor/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/veracrypt/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/yubikey/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/big-tech/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/business/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/capitalism/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/cory-doctorow/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/proton-shit/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/enshittification/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/ideology/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/marketing-strategy/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/openvpn/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/privacy/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/protonmail/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/protonvpn/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/wireguard/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ethernet-over-usb/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/gl.inet/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/networking/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/openwrt/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ssh/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/tethering-hotspot/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/docker/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/remote-desktop/</loc>
@@ -33,12 +150,6 @@
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/server/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/ai/</loc>
@@ -78,9 +189,6 @@
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/free-software/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/ideology/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/llama/</loc>
@@ -170,9 +278,6 @@
     <loc>https://techshinobi.org/tags/optimazation/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/system-migration/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -200,9 +305,6 @@
     <loc>https://techshinobi.org/posts/opn30/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/good-enough-privacy/</loc>
-    <lastmod>2024-02-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/hardware/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -219,9 +321,6 @@
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/spyware/</loc>
-    <lastmod>2024-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/threat-modeling/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/vits-simple-api/</loc>
@@ -404,9 +503,6 @@
     <loc>https://techshinobi.org/tags/rustic/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/security/</loc>
-    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/ssd/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -561,12 +657,6 @@
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/parrotos/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/privacy/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/tor/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/audiobook/</loc>

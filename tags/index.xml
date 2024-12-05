@@ -5,22 +5,292 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker</title>
-      <link>https://techshinobi.org/tags/docker/</link>
-      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <title>Anonymity</title>
+      <link>https://techshinobi.org/tags/anonymity/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://techshinobi.org/tags/docker/</guid>
+      <guid>https://techshinobi.org/tags/anonymity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrenty</title>
+      <link>https://techshinobi.org/tags/cryptocurrenty/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/cryptocurrenty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desktop</title>
+      <link>https://techshinobi.org/tags/desktop/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feather Wallet</title>
+      <link>https://techshinobi.org/tags/feather-wallet/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/feather-wallet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GnuPG</title>
+      <link>https://techshinobi.org/tags/gnupg/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/gnupg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>good enough privacy</title>
+      <link>https://techshinobi.org/tags/good-enough-privacy/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/good-enough-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haveno-reto</title>
+      <link>https://techshinobi.org/tags/haveno-reto/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/haveno-reto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KeepAss</title>
+      <link>https://techshinobi.org/tags/keepass/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/keepass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kicksecure</title>
+      <link>https://techshinobi.org/tags/kicksecure/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/kicksecure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monero</title>
+      <link>https://techshinobi.org/tags/monero/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/monero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Hygiene</title>
+      <link>https://techshinobi.org/tags/online-hygiene/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/online-hygiene/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opensource</title>
       <link>https://techshinobi.org/tags/opensource/</link>
-      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tails</title>
+      <link>https://techshinobi.org/tags/tails/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/tails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threat modeling</title>
+      <link>https://techshinobi.org/tags/threat-modeling/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/threat-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tor</title>
+      <link>https://techshinobi.org/tags/tor/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/tor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Veracrypt</title>
+      <link>https://techshinobi.org/tags/veracrypt/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/veracrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YubiKey</title>
+      <link>https://techshinobi.org/tags/yubikey/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/yubikey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Tech</title>
+      <link>https://techshinobi.org/tags/big-tech/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/big-tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capitalism</title>
+      <link>https://techshinobi.org/tags/capitalism/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/capitalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cory Doctorow</title>
+      <link>https://techshinobi.org/tags/cory-doctorow/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/cory-doctorow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enshittification</title>
+      <link>https://techshinobi.org/tags/enshittification/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/enshittification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing Strategy</title>
+      <link>https://techshinobi.org/tags/marketing-strategy/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/marketing-strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenVPN</title>
+      <link>https://techshinobi.org/tags/openvpn/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/openvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://techshinobi.org/tags/privacy/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ProtonMail</title>
+      <link>https://techshinobi.org/tags/protonmail/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/protonmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ProtonVPN</title>
+      <link>https://techshinobi.org/tags/protonvpn/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/protonvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WireGuard</title>
+      <link>https://techshinobi.org/tags/wireguard/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/wireguard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethernet over USB</title>
+      <link>https://techshinobi.org/tags/ethernet-over-usb/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/ethernet-over-usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GL.iNet</title>
+      <link>https://techshinobi.org/tags/gl.inet/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/gl.inet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenWrt</title>
+      <link>https://techshinobi.org/tags/openwrt/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>https://techshinobi.org/tags/ssh/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://techshinobi.org/tags/docker/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -448,15 +718,6 @@
     </item>
     
     <item>
-      <title>good enough privacy</title>
-      <link>https://techshinobi.org/tags/good-enough-privacy/</link>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/good-enough-privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hardware</title>
       <link>https://techshinobi.org/tags/hardware/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
@@ -507,15 +768,6 @@
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/spyware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>threat modeling</title>
-      <link>https://techshinobi.org/tags/threat-modeling/</link>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/threat-modeling/</guid>
       <description></description>
     </item>
     
@@ -1407,24 +1659,6 @@
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/parrotos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>https://techshinobi.org/tags/privacy/</link>
-      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tor</title>
-      <link>https://techshinobi.org/tags/tor/</link>
-      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/tor/</guid>
       <description></description>
     </item>
     

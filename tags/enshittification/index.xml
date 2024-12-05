@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Enshittification on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/enshittification/</link>
+    <description>Recent content in Enshittification on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/enshittification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dealing with the Enshittification of Proton VPN on Free Plan&#39;s Server Selection</title>
+      <link>https://techshinobi.org/posts/proton-shit/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/proton-shit/</guid>
+      <description>As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.
+Being a free account user, I&amp;rsquo;ve never done torrenting or any other heavy usage on their servers. It is not moral even though the provider allows me to.
+Probably because of my account was old enough so that my country selection feature wasn&amp;rsquo;t banned until latest update.</description>
+    </item>
+    
+  </channel>
+</rss>
