@@ -5,7 +5,18 @@
     <link>https://techshinobi.org/categories/ideology/</link>
     <description>Recent content in Ideology on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/ideology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/ideology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Windows: 11 LTSC Debloat, 7 Nostalgia, Linux and Its Discontents</title>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
+      <description>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
+For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
+The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.</description>
+    </item>
+    
     <item>
       <title>Dealing with the Enshittification of Proton VPN on Free Plan&#39;s Server Selection</title>
       <link>https://techshinobi.org/posts/proton-shit/</link>
