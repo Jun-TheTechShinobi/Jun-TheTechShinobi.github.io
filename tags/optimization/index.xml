@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>optimization on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/optimization/</link>
+    <description>Recent content in optimization on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Windows: 7 Nostalgia, Linux and Its Discontents, Double Debloat, Tiny 11 LTSC WTG</title>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
+      <description>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
+For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
+The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.</description>
+    </item>
+    
+  </channel>
+</rss>

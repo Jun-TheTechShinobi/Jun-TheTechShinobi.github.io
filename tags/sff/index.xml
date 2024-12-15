@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SFF on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/sff/</link>
+    <description>Recent content in SFF on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/sff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviving ThinkCentre M58p in 2024</title>
+      <link>https://techshinobi.org/posts/m58p/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/m58p/</guid>
+      <description>Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.
+Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat.</description>
+    </item>
+    
+  </channel>
+</rss>
