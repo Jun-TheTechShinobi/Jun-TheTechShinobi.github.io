@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OPSEC on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/opsec/</link>
+    <description>Recent content in OPSEC on Tech Shinobi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/opsec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set up Monero Wallet Securely with Anonymity</title>
+      <link>https://techshinobi.org/posts/menero-wallet/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
+      <description>Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.
+But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.</description>
+    </item>
+    
+  </channel>
+</rss>
