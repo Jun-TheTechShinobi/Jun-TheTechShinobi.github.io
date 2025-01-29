@@ -13,7 +13,7 @@
       
       <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
       <description>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
-In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
+In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
     </item>
     
   </channel>
