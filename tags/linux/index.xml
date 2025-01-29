@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>linux on Tech Shinobi</title>
+    <title>Linux on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/linux/</link>
-    <description>Recent content in linux on Tech Shinobi</description>
+    <description>Recent content in Linux on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
+      <link>https://techshinobi.org/posts/easy-local-llm/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
+      <description>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
+In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
+    </item>
+    
     <item>
       <title>Nokia N900, postmarketOS and Ideology</title>
       <link>https://techshinobi.org/posts/pmos/</link>

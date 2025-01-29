@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) | Tech Shinobi</title>
+<meta name="keywords" content="DeepSeek, Ollama, Opensource, Open-WebUI, SearXNG, Local LLM, Local AI, Self-hosting, Privacy, Private LLM, Server, Service, Docker, Harbor, Debian, Linux, OpenAI">
+<meta name="description" content="Lately, there is a need of private chatbot service as a complete alternative to OpenAI&rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
+In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).">
+<meta name="author" content="Jun">
+<link rel="canonical" href="https://techshinobi.org/posts/easy-local-llm/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://techshinobi.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://techshinobi.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://techshinobi.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://techshinobi.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://techshinobi.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)" />
+<meta property="og:description" content="Lately, there is a need of private chatbot service as a complete alternative to OpenAI&rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
+In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techshinobi.org/posts/easy-local-llm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-01-26T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2025-01-26T00:00:00&#43;00:00" /><meta property="og:site_name" content="TechShinobi" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)"/>
+<meta name="twitter:description" content="Lately, there is a need of private chatbot service as a complete alternative to OpenAI&rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
+In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude)."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://techshinobi.org/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama+Open-WebUI+SearXNG)",
+      "item": "https://techshinobi.org/posts/easy-local-llm/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama+Open-WebUI+SearXNG)",
+  "name": "Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama\u002bOpen-WebUI\u002bSearXNG)",
+  "description": "Lately, there is a need of private chatbot service as a complete alternative to OpenAI\u0026rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).\nIn the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).",
+  "keywords": [
+    "DeepSeek", "Ollama", "Opensource", "Open-WebUI", "SearXNG", "Local LLM", "Local AI", "Self-hosting", "Privacy", "Private LLM", "Server", "Service", "Docker", "Harbor", "Debian", "Linux", "OpenAI"
+  ],
+  "articleBody": "Lately, there is a need of private chatbot service as a complete alternative to OpenAI’s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).\nIn the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).\nHowever, as we all know—things have changed recently. I have been using DeepSeek-V2 occasionally every time I got tired with Qwen2.5 and have been falling behind with DeepSeek V2.5 and V3 due to lack of hardware. But DeepSeek didn’t let me down, R1 performs so impressive and provides as small as 1.5B!\nThis means you can run it even on CPU with some considerable user experience. As many people has GPUs for gaming, speed is not an issue. To make local LLMs process uploaded documents and images is a big advantage since OpenAI limits this usage for free accounts.\nAlthough Installing Open WebUI with Bundled Ollama Support is very easy with offical one-line command:\ndocker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama But to get RAG (Web access) working is not easy for most people, so I would like to find some preconfigured all-in-one solution.\nAs I mentioned in my last post, harbor is a great testbed for experimenting with different LLM stack. But it is not only for that, it’s also an one-stop-shop for self-hosting local LLMs with RAG working out-of-box. So, let’s begin implement it from the scratch and feel free to skip steps since most people don’t start from OS installation.\nSystem Preparation (Optional) As same as previously, go through install process using debian-11.6.0-amd64-netinst.iso\nAdd to sudoer usermod -aG sudo username then reboot\n(Optional) Add extra swap\nfallocate -l 64G /home/swapfile chmod 600 /home/swapfile mkswap /home/swapfile swapon /home/swapfile and make the swapfile persistent nano /etc/fstab\nUUID=xxxxx-xxx swap swap defaults,pri=100 0 0 /home/swapfile swap swap defaults,pri=10 0 0 Check with swapon --show or free -h\nDisable Nouveau driver\nbash -c \"echo blacklist nouveau \u003e /etc/modprobe.d/blacklist-nvidia-nouveau.conf\" bash -c \"echo options nouveau modeset=0 \u003e\u003e /etc/modprobe.d/blacklist-nvidia-nouveau.conf\" update-initramfs -u update-grub reboot Install dependencies\napt install linux-headers-`uname -r` build-essential libglu1-mesa-dev libx11-dev libxi-dev libxmu-dev gcc software-properties-common sudo git python3 python3-venv pip libgl1 git-lfs -y (Optional) Perform uninstall if needed\napt-get purge nvidia* apt remove nvidia* apt-get purge cuda* apt remove cuda* rm /etc/apt/sources.list.d/cuda* apt-get autoremove \u0026\u0026 apt-get autoclean rm -rf /usr/local/cuda* Install cuda-tookit and cuda\nwget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda-repo-debian11-12-4-local_12.4.1-550.54.15-1_amd64.deb sudo dpkg -i cuda-repo-debian11-12-4-local_12.4.1-550.54.15-1_amd64.debsudo cp /var/cuda-repo-debian11-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/ sudo add-apt-repository contrib sudo apt-get update sudo apt-get -y install cuda-toolkit-12-4 sudo apt install libxnvctrl0=550.54.15-1 sudo apt-get install -y cuda-drivers Install the NVIDIA Container Toolkit since harbor is docker-based\ncurl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \\ \u0026\u0026 curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \\ sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \\ sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list Then sudo apt-get update and sudo apt-get install -y nvidia-container-toolkit\nPerform a cuda post-install action\nnano ~/.bashrc export PATH=/usr/local/cuda-12.4/bin${PATH:+:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} sudo update-initramfs -u ldconfig source ~/.bashrc after reboot, confirm with nvidia-smi and nvcc --version\nInstall Miniconda (Optional, not for harbor)\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \u0026\u0026 sudo chmod +x Miniconda3-latest-Linux-x86_64.sh \u0026\u0026 bash Miniconda3-latest-Linux-x86_64.sh Docker \u0026 Harbor Install docker\n# Add Docker's official GPG key: sudo apt-get update sudo apt-get install ca-certificates curl sudo install -m 0755 -d /etc/apt/keyrings sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc sudo chmod a+r /etc/apt/keyrings/docker.asc # Add the repository to Apt sources: echo \\ \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \\ $(. /etc/os-release \u0026\u0026 echo \"$VERSION_CODENAME\") stable\" | \\ sudo tee /etc/apt/sources.list.d/docker.list \u003e /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin Perform post-install for docker without sudo\nsudo groupadd docker sudo usermod -aG docker $USER newgrp docker docker run hello-world Manual install Harbor\ngit clone https://github.com/av/harbor.git \u0026\u0026 cd harbor ./harbor.sh ln Verify with harbor --version\nAdd with RAG support to defaults with harbor defaults add searxng\nUse harbor defaults list to check, now there are three services active: ollama, webui, searxng\nRun with harbor up to bring up these services in docker\nUse harbor ps as docker ps , and harbor logs to see tailing logs\nNow the open-webui frontend is serving at 0.0.0.0:33801 and can be accessed from http://localhost:33801 or clients from LAN with server’s IP address.\nMonitor VRAM usage with watch -n 0.3 nvidia-smi\nMonitor log with harbor up ollama --tail or harbor logs\nAll ollama commands are usable such as harbor ollama list\nIt’s time to access from other devices (desktop/mobile) to register an admin account and download models now.\nUsing Local LLM After login with admin account, click top right avatar icon, open Admin Panel then Settings, or simply access via `http://ip:33801/admin/settings.\nClick Models, and at the top right click the Manage Models which looks like a download button.\nPut deepseek-r1 or any other model in the textbox below Pull a model from Ollama.com and click the download button on the right side.\nAfter model downloaded, it may require a refresh and the newly downloaded model will be usable under the drop down menu on the New Chat (home) page.\nNow, it’s not only running a chatbot alternative to ChatGPT, but also a fully functional API alternative to OpenAI API, plus a private search engine alternative to Google!\nwebui is accessible within LAN via: http://ip:33801\nollama is accessible within LAN via: http://ip:33821\nsearxng is accessible within LAN via: http://ip:33811\nCall Ollama API with any application with LLM integration:\nhttp://ip:33821/api/ps http://ip:33821/v1/models http://ip:33821/api/generate http://ip:33821/v1/chat/completions ",
+  "wordCount" : "920",
+  "inLanguage": "en",
+  "datePublished": "2025-01-26T00:00:00Z",
+  "dateModified": "2025-01-26T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Jun"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techshinobi.org/posts/easy-local-llm/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tech Shinobi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://techshinobi.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://techshinobi.org/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://techshinobi.org/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://techshinobi.org/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://techshinobi.org/">Home</a>&nbsp;»&nbsp;<a href="https://techshinobi.org/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)
+    </h1>
+    <div class="post-meta"><span title='2025-01-26 00:00:00 +0000 UTC'>January 26, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Jun
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#system-preparation-optional" aria-label="System Preparation (Optional)">System Preparation (Optional)</a></li>
+                <li>
+                    <a href="#docker--harbor" aria-label="Docker &amp;amp; Harbor">Docker &amp; Harbor</a></li>
+                <li>
+                    <a href="#using-local-llm" aria-label="Using Local LLM">Using Local LLM</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).</p>
+<p>In the past, I used to recommend others using Llama series for English tasks and Qwen series for Chinese tasks. There were no open-source model that strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</p>
+<p>However, as we all know—things have changed recently. I have been using DeepSeek-V2 occasionally every time I got tired with Qwen2.5 and have been falling behind with DeepSeek V2.5 and V3 due to lack of hardware. But DeepSeek didn&rsquo;t let me down, R1 performs so impressive and provides as small as 1.5B!</p>
+<p>This means you can run it even on CPU with some considerable user experience. As many people has GPUs for gaming, speed is not an issue. To make local LLMs process uploaded documents and images is a big advantage since OpenAI limits this usage for free accounts.</p>
+<p>Although <a href="https://github.com/open-webui/open-webui/pkgs/container/open-webui#installing-open-webui-with-bundled-ollama-support">Installing Open WebUI with Bundled Ollama Support</a> is very easy with offical one-line command:</p>
+<pre tabindex="0"><code>docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+</code></pre><p>But to get RAG (Web access) working is not easy for most people, so I would like to find some preconfigured all-in-one solution.</p>
+<p>As I mentioned in <a href="https://techshinobi.org/posts/learn-ai/#afterwords">my last post</a>, harbor is a great testbed for experimenting with different LLM stack. But it is not only for that, it&rsquo;s also an one-stop-shop for self-hosting local LLMs with RAG working out-of-box. So, let&rsquo;s begin implement it from the scratch and feel free to skip steps since most people don&rsquo;t start from OS installation.</p>
+<h2 id="system-preparation-optional">System Preparation (Optional)<a hidden class="anchor" aria-hidden="true" href="#system-preparation-optional">#</a></h2>
+<p>As same as <a href="https://techshinobi.org/posts/cheapai/#debian">previously</a>, go through install process using <code>debian-11.6.0-amd64-netinst.iso</code></p>
+<p>Add to sudoer <code>usermod -aG sudo username</code> then reboot</p>
+<p>(Optional) Add extra swap</p>
+<pre tabindex="0"><code>fallocate -l 64G /home/swapfile
+chmod 600 /home/swapfile
+mkswap /home/swapfile
+swapon /home/swapfile
+</code></pre><p>and make the swapfile persistent <code>nano /etc/fstab</code></p>
+<pre tabindex="0"><code>UUID=xxxxx-xxx swap swap defaults,pri=100 0 0
+/home/swapfile swap swap defaults,pri=10 0 0
+</code></pre><p>Check with <code>swapon --show</code> or <code>free -h</code></p>
+<p>Disable Nouveau driver</p>
+<pre tabindex="0"><code>bash -c &#34;echo blacklist nouveau &gt; /etc/modprobe.d/blacklist-nvidia-nouveau.conf&#34;
+bash -c &#34;echo options nouveau modeset=0 &gt;&gt; /etc/modprobe.d/blacklist-nvidia-nouveau.conf&#34;
+update-initramfs -u
+update-grub
+reboot
+</code></pre><p>Install dependencies</p>
+<pre tabindex="0"><code>apt install linux-headers-`uname -r` build-essential libglu1-mesa-dev libx11-dev libxi-dev libxmu-dev gcc software-properties-common sudo git python3 python3-venv pip libgl1 git-lfs -y
+</code></pre><p>(Optional) Perform uninstall if needed</p>
+<pre tabindex="0"><code>apt-get purge nvidia*
+apt remove nvidia*
+apt-get purge cuda*
+apt remove cuda*
+rm /etc/apt/sources.list.d/cuda*
+apt-get autoremove &amp;&amp; apt-get autoclean
+rm -rf /usr/local/cuda*
+</code></pre><p><a href="https://developer.nvidia.com/cuda-12-4-1-download-archive?target_os=Linux&amp;target_arch=x86_64&amp;Distribution=Debian&amp;target_version=11&amp;target_type=deb_local">Install cuda-tookit and cuda</a></p>
+<pre tabindex="0"><code>wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda-repo-debian11-12-4-local_12.4.1-550.54.15-1_amd64.deb
+sudo dpkg -i cuda-repo-debian11-12-4-local_12.4.1-550.54.15-1_amd64.debsudo cp /var/cuda-repo-debian11-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/
+sudo add-apt-repository contrib
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-4
+
+sudo apt install libxnvctrl0=550.54.15-1
+sudo apt-get install -y cuda-drivers
+</code></pre><p><a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html">Install the NVIDIA Container Toolkit</a> since harbor is docker-based</p>
+<pre tabindex="0"><code>curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  &amp;&amp; curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed &#39;s#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g&#39; | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+</code></pre><p>Then <code>sudo apt-get update</code> and <code>sudo apt-get install -y nvidia-container-toolkit</code></p>
+<p>Perform a cuda <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions">post-install action</a></p>
+<pre tabindex="0"><code>nano ~/.bashrc
+export PATH=/usr/local/cuda-12.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+sudo update-initramfs -u
+ldconfig
+source ~/.bashrc
+</code></pre><p>after reboot, confirm with <code>nvidia-smi</code> and <code>nvcc --version</code></p>
+<p>Install Miniconda (Optional, not for harbor)</p>
+<pre tabindex="0"><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &amp;&amp; sudo chmod +x Miniconda3-latest-Linux-x86_64.sh &amp;&amp; bash Miniconda3-latest-Linux-x86_64.sh
+</code></pre><h2 id="docker--harbor">Docker &amp; Harbor<a hidden class="anchor" aria-hidden="true" href="#docker--harbor">#</a></h2>
+<p><a href="https://docs.docker.com/engine/install/debian/">Install docker</a></p>
+<pre tabindex="0"><code># Add Docker&#39;s official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  &#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release &amp;&amp; echo &#34;$VERSION_CODENAME&#34;) stable&#34; | \
+  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre><p>Perform <a href="https://docs.docker.com/engine/install/linux-postinstall/">post-install</a> for docker without sudo</p>
+<pre tabindex="0"><code>sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+</code></pre><p><a href="https://github.com/av/harbor/wiki/1.0.-Installing-Harbor#manual-install">Manual install Harbor</a></p>
+<pre tabindex="0"><code>git clone https://github.com/av/harbor.git &amp;&amp; cd harbor
+./harbor.sh ln
+</code></pre><p>Verify with <code>harbor --version</code></p>
+<p>Add with RAG support to defaults with <code>harbor defaults add searxng</code></p>
+<p>Use <code>harbor defaults list</code> to check, now there are three services active: <code>ollama</code>, <code>webui</code>, <code>searxng</code></p>
+<p>Run with <code>harbor up</code> to bring up these services in docker</p>
+<p>Use <code>harbor ps</code> as <code>docker ps</code> , and <code>harbor logs</code> to see tailing logs</p>
+<p>Now the open-webui frontend is serving at <code>0.0.0.0:33801</code> and can be accessed from <code>http://localhost:33801</code> or clients from LAN with server&rsquo;s IP address.</p>
+<p>Monitor VRAM usage with <code>watch -n 0.3 nvidia-smi</code></p>
+<p>Monitor log with <code>harbor up ollama --tail</code> or <code>harbor logs</code></p>
+<p>All ollama commands are usable such as <code>harbor ollama list</code></p>
+<p>It&rsquo;s time to access from other devices (desktop/mobile) to register an admin account and download models now.</p>
+<h2 id="using-local-llm">Using Local LLM<a hidden class="anchor" aria-hidden="true" href="#using-local-llm">#</a></h2>
+<p>After login with admin account, click top right avatar icon, open <code>Admin Panel</code> then <code>Settings</code>, or simply access via `http://ip:33801/admin/settings.</p>
+<p>Click <code>Models</code>, and at the top right click the <code>Manage Models</code> which looks like a download button.</p>
+<p>Put <code>deepseek-r1</code> or <a href="https://ollama.com/library">any other model</a> in the textbox below <code>Pull a model from Ollama.com</code> and click the download button on the right side.</p>
+<p>After model downloaded, it may require a refresh and the newly downloaded model will be usable under the drop down menu on the <code>New Chat</code> (home) page.</p>
+<p>Now, it&rsquo;s not only running a chatbot alternative to ChatGPT, but also a fully functional API alternative to OpenAI API, plus a private search engine alternative to Google!</p>
+<p>webui is accessible within LAN via:  <code>http://ip:33801</code></p>
+<p>ollama is accessible within LAN via:  <code>http://ip:33821</code></p>
+<p>searxng is accessible within LAN via:  <code>http://ip:33811</code></p>
+<p>Call <a href="https://github.com/ollama/ollama/blob/main/docs/api.md">Ollama API</a> with any application with LLM integration:</p>
+<pre tabindex="0"><code>http://ip:33821/api/ps
+http://ip:33821/v1/models
+http://ip:33821/api/generate
+http://ip:33821/v1/chat/completions
+</code></pre>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://techshinobi.org/tags/deepseek/">DeepSeek</a></li>
+      <li><a href="https://techshinobi.org/tags/ollama/">Ollama</a></li>
+      <li><a href="https://techshinobi.org/tags/opensource/">Opensource</a></li>
+      <li><a href="https://techshinobi.org/tags/open-webui/">Open-WebUI</a></li>
+      <li><a href="https://techshinobi.org/tags/searxng/">SearXNG</a></li>
+      <li><a href="https://techshinobi.org/tags/local-llm/">Local LLM</a></li>
+      <li><a href="https://techshinobi.org/tags/local-ai/">Local AI</a></li>
+      <li><a href="https://techshinobi.org/tags/self-hosting/">Self-hosting</a></li>
+      <li><a href="https://techshinobi.org/tags/privacy/">Privacy</a></li>
+      <li><a href="https://techshinobi.org/tags/private-llm/">Private LLM</a></li>
+      <li><a href="https://techshinobi.org/tags/server/">Server</a></li>
+      <li><a href="https://techshinobi.org/tags/service/">Service</a></li>
+      <li><a href="https://techshinobi.org/tags/docker/">Docker</a></li>
+      <li><a href="https://techshinobi.org/tags/harbor/">Harbor</a></li>
+      <li><a href="https://techshinobi.org/tags/debian/">Debian</a></li>
+      <li><a href="https://techshinobi.org/tags/linux/">Linux</a></li>
+      <li><a href="https://techshinobi.org/tags/openai/">OpenAI</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://techshinobi.org/posts/learn-ai/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>My AI Learning Materials and News Feeds</span>
+  </a>
+</nav>
+
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on twitter"
+        href="https://twitter.com/intent/tweet/?text=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f&amp;hashtags=DeepSeek%2cOllama%2cOpensource%2cOpen-WebUI%2cSearXNG%2cLocalLLM%2cLocalAI%2cSelf-hosting%2cPrivacy%2cPrivateLLM%2cServer%2cService%2cDocker%2cHarbor%2cDebian%2cLinux%2cOpenAI">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f&amp;title=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29&amp;summary=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29&amp;source=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f&title=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on whatsapp"
+        href="https://api.whatsapp.com/send?text=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29%20-%20https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG) on telegram"
+        href="https://telegram.me/share/url?text=Self-hosting%20Local%20LLMs%20%28DeepSeek-R1%29%20Easily%20with%20Harbor%20%28Ollama%2bOpen-WebUI%2bSearXNG%29&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2feasy-local-llm%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="https://techshinobi.org/">Tech Shinobi</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -2,22 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techshinobi.org/categories/ai/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/debian/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/deepseek/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/docker/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/harbor/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/linux/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/linux/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/local-ai/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/local-llm/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ollama/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/open-webui/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/openai/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/opensource/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/privacy/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/private-llm/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/searxng/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/self-hosting/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/easy-local-llm/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/server/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/service/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/2025/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/ai/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/ai/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/blogs/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/business/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/llm/</loc>
@@ -35,9 +104,6 @@
     <loc>https://techshinobi.org/tags/podcast/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/reading-list/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,12 +111,6 @@
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/self-learning/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/771-to-775/</loc>
@@ -63,9 +123,6 @@
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/ideology/</loc>
-    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/linux/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/networking/</loc>
@@ -179,13 +236,7 @@
     <loc>https://techshinobi.org/tags/online-hygiene/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/opensource/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/opsec/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/menero-wallet/</loc>
@@ -227,9 +278,6 @@
     <loc>https://techshinobi.org/tags/openvpn/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/privacy/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/protonmail/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -254,9 +302,6 @@
     <loc>https://techshinobi.org/posts/tethering-hotspot/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/docker/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/remote-desktop/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -267,9 +312,6 @@
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/rustdesk-server/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/server/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/ai-coding/</loc>
@@ -311,12 +353,6 @@
     <loc>https://techshinobi.org/tags/llama/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/local-llm/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/openai/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/philosophy/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -324,9 +360,6 @@
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/richard-m.-stallman/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/self-hosting/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/sustainability/</loc>
@@ -563,9 +596,6 @@
     <loc>https://techshinobi.org/tags/chinese-llms/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/debian/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/h2ogpt/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -735,9 +765,6 @@
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/ideology/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/linux/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/pmos/</loc>
