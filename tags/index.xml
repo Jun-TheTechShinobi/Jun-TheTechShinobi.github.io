@@ -5,7 +5,70 @@
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>boot-repair-disk</title>
+      <link>https://techshinobi.org/tags/boot-repair-disk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/boot-repair-disk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clonezilla</title>
+      <link>https://techshinobi.org/tags/clonezilla/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/clonezilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grub</title>
+      <link>https://techshinobi.org/tags/grub/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/grub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Live USB</title>
+      <link>https://techshinobi.org/tags/live-usb/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/live-usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rescuezilla</title>
+      <link>https://techshinobi.org/tags/rescuezilla/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/rescuezilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VirtualBox</title>
+      <link>https://techshinobi.org/tags/virtualbox/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMware</title>
+      <link>https://techshinobi.org/tags/vmware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://techshinobi.org/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title> Sideloadly</title>
       <link>https://techshinobi.org/tags/sideloadly/</link>
@@ -552,15 +615,6 @@
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/vhd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VirtualBox</title>
-      <link>https://techshinobi.org/tags/virtualbox/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/virtualbox/</guid>
       <description></description>
     </item>
     
@@ -1758,15 +1812,6 @@
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://techshinobi.org/tags/encryption/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>grub</title>
-      <link>https://techshinobi.org/tags/grub/</link>
-      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/grub/</guid>
       <description></description>
     </item>
     
