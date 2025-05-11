@@ -4,82 +4,104 @@
     <title>Hardware on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/hardware/</link>
     <description>Recent content in Hardware on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrading/Fixing Cheapskate&#39;s AI Server</title>
+      <link>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</guid>
+      <description>&lt;p&gt;This is &lt;a href=&#34;https://techshinobi.org/posts/cheapai/&#34;&gt;the server I build back in 2023&lt;/a&gt;, based on a moded Dell Optiplex 3010 SFF motherboard with i5-2300 and Tesla M40. I wasn&amp;rsquo;t planning to put an Xeon E3 back then but something happened which changed my mind.&lt;/p&gt;
+&lt;p&gt;After approximately 1.5 years of 24/7 running, my CPU power extension cable melted.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;meltdown2&#34; loading=&#34;lazy&#34; src=&#34;images/meltdown2.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is just like the PCIe to EPS adapter situation &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#about-power-supply&#34;&gt;last time&lt;/a&gt;, so I have to replace it with a heavier gauge (something better than the cheapest like above).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
       <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/m58p/</guid>
-      <description>Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.
-Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat.</description>
+      <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
+&lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>On Windows: 7 Nostalgia, Linux and Its Discontents, Double Debloat, Tiny 11 LTSC WTG</title>
+      <title>On Windows Nostalgia, Linux and Its Discontents</title>
       <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/11-7-linux/</guid>
-      <description>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
-For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
-The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.</description>
+      <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
+&lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
+&lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
+&lt;p&gt;The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
+      <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
+&lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
+&lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
       <link>https://techshinobi.org/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/opn30/</guid>
-      <description>Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.
-However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.
-A few days ago, I unlocked it by simply go to About Phone then click Unlock.</description>
+      <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
+&lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
+&lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
       <link>https://techshinobi.org/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/voice-vits/</guid>
-      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
-This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
-I have tested several tools for this project.</description>
+      <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
+&lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;
+&lt;p&gt;I have tested several tools for this project. Many of the good guides, like &lt;a href=&#34;https://github.com/SUC-DriverOld/so-vits-svc-Chinese-Detaild-Documents&#34;&gt;this&lt;/a&gt;, &lt;a href=&#34;https://www.bilibili.com/video/BV1Hr4y197Cy&#34;&gt;this&lt;/a&gt; and &lt;a href=&#34;https://www.yuque.com/umoubuton/ueupp5&#34;&gt;this&lt;/a&gt;, are in Chinese. So, I thought it&amp;rsquo;s useful to post my notes in English.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
       <link>https://techshinobi.org/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapnas/</guid>
-      <description>Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault For decades, I come across a lot of abandoned computers and recycled parts out of them.
-This article is about the recycled Dell Vostro 220s with LGA771 to LGA775 Mod I mentioned in the last post.
-It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.</description>
+      <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
+&lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
+&lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
+&lt;p&gt;It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
       <link>https://techshinobi.org/posts/cheapai/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapai/</guid>
-      <description>Old Stories The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.
-Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig.</description>
+      <description>&lt;h2 id=&#34;old-stories&#34;&gt;Old Stories&lt;/h2&gt;
+&lt;p&gt;The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.&lt;/p&gt;
+&lt;p&gt;Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig. I played a lot of games on that, such as Dark Souls series and Metro series. Before it was sold, last games I played on this build was Metro Exodus and Elden Ring.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
       <link>https://techshinobi.org/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapsd/</guid>
-      <description>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here&amp;rsquo;s some comments on OpenAI:
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
+      <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
+&lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
+&lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/history-of-openai-company-chatgpt-elon-musk-founded-2022-12&#34;&gt;The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit&#34;&gt;OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scribe.nixnet.services/geekculture/will-chatgpt-be-open-source-4b2928d57a2&#34;&gt;Will ChatGPT be open source?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theregister.com/2023/03/24/column/&#34;&gt;ChatGPT, how did you get here? It was a long journey through open source AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tcrn.ch/3MKBD5P&#34;&gt;When big AI labs refuse to open source their models, the community steps in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Sqa8Zo2XWc4&#34;&gt;Artificial Intelligence: Last Week Tonight with John Oliver (HBO)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/hZTv-R6E32Y&#34;&gt;The TRUTH about OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have been using ChatGPT and its API regulary. Since my &lt;a href=&#34;https://techshinobi.org/posts/bypass-chatgpt/&#34;&gt;last post&lt;/a&gt;, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

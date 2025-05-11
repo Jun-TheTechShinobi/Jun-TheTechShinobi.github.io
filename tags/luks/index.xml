@@ -4,17 +4,18 @@
     <title>LUKS on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/luks/</link>
     <description>Recent content in LUKS on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/luks/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/luks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recovering from Data Loss due to LUKS Failure</title>
       <link>https://techshinobi.org/posts/recoverluks/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/recoverluks/</guid>
-      <description>Background Story Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.
-The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption.</description>
+      <description>&lt;h2 id=&#34;background-story&#34;&gt;Background Story&lt;/h2&gt;
+&lt;p&gt;Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.&lt;/p&gt;
+&lt;p&gt;The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption. I don&amp;rsquo;t have the header backed up and have stopped using &lt;a href=&#34;https://github.com/teejee2008/timeshift&#34;&gt;Timeshift&lt;/a&gt; for a long time due to it&amp;rsquo;s unschedulable which lead to chaotic performance impact.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

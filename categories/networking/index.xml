@@ -4,49 +4,52 @@
     <title>Networking on Tech Shinobi</title>
     <link>https://techshinobi.org/categories/networking/</link>
     <description>Recent content in Networking on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating VMs from ESXi to Proxmox VE</title>
+      <link>https://techshinobi.org/posts/migratevm/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/migratevm/</guid>
+      <description>&lt;p&gt;There are many reasons why I&amp;rsquo;m doing this. In the days when Virtual Machine was the thing, VMware Workstation was the go-to option for a Windows host to run VMs. We have to find cracked version for personal use, since there was no VirtualBox neither Hyper-V.&lt;/p&gt;
+&lt;p&gt;Many years ago, when I first decided to have a proper homelab in my household, I went blindly into ESXi just because VMware Workstation has already installed on all of my computers. Although I was pretty like Proxmox during that time, it was considered for not so serious projects.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
       <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/m58p/</guid>
-      <description>Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.
-Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat.</description>
+      <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
+&lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
       <link>https://techshinobi.org/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
-      <description>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
-So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.</description>
+      <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
+&lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Self-hosting RustDesk Server via Docker Compose</title>
       <link>https://techshinobi.org/posts/rustdesk-server/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
-      <description>RustDesk is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.
-As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though I suppose to.
-For some reason, one of my RustDesk client got blocked to the official servers.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.&lt;/p&gt;
+&lt;p&gt;As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
       <link>https://techshinobi.org/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapnas/</guid>
-      <description>Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault For decades, I come across a lot of abandoned computers and recycled parts out of them.
-This article is about the recycled Dell Vostro 220s with LGA771 to LGA775 Mod I mentioned in the last post.
-It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.</description>
+      <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
+&lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
+&lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
+&lt;p&gt;It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

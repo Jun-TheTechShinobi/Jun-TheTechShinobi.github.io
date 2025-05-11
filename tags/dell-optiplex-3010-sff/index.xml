@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dell Optiplex 3010 SFF on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/dell-optiplex-3010-sff/</link>
+    <description>Recent content in Dell Optiplex 3010 SFF on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/dell-optiplex-3010-sff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrading/Fixing Cheapskate&#39;s AI Server</title>
+      <link>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</guid>
+      <description>&lt;p&gt;This is &lt;a href=&#34;https://techshinobi.org/posts/cheapai/&#34;&gt;the server I build back in 2023&lt;/a&gt;, based on a moded Dell Optiplex 3010 SFF motherboard with i5-2300 and Tesla M40. I wasn&amp;rsquo;t planning to put an Xeon E3 back then but something happened which changed my mind.&lt;/p&gt;
+&lt;p&gt;After approximately 1.5 years of 24/7 running, my CPU power extension cable melted.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;meltdown2&#34; loading=&#34;lazy&#34; src=&#34;images/meltdown2.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is just like the PCIe to EPS adapter situation &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#about-power-supply&#34;&gt;last time&lt;/a&gt;, so I have to replace it with a heavier gauge (something better than the cheapest like above).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

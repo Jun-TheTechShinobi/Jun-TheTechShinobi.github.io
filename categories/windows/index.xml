@@ -4,31 +4,50 @@
     <title>Windows on Tech Shinobi</title>
     <link>https://techshinobi.org/categories/windows/</link>
     <description>Recent content in Windows on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>On Windows: 7 Nostalgia, Linux and Its Discontents, Double Debloat, Tiny 11 LTSC WTG</title>
+      <title>On Windows Nostalgia, Linux and Its Discontents</title>
       <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/11-7-linux/</guid>
-      <description>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
-For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
-The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.</description>
+      <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
+&lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
+&lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
+&lt;p&gt;The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
+      <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
+&lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
+&lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu on Windows via WSL2</title>
+      <link>https://techshinobi.org/posts/wsl2/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/wsl2/</guid>
+      <description>&lt;h3 id=&#34;wsl-installation&#34;&gt;WSL Installation&lt;/h3&gt;
+&lt;p&gt;There are some special use cases where I would like to go through and show the process of setting up WSL. &lt;a href=&#34;https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/&#34;&gt;Ubuntu&amp;rsquo;s official document&lt;/a&gt; works well on Windows 11 LTSC for WSL installation, there is also a tutorial from &lt;a href=&#34;https://www.sitepoint.com/wsl2/&#34;&gt;sitepoint&lt;/a&gt; with more details.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m doing this on a double debloated version of Windows 11 from previous post of Tiny 11 WTG, where I downloaded &lt;a href=&#34;https://github.com/microsoft/winget-cli/releases&#34;&gt;WinGet&lt;/a&gt;, extracted &lt;code&gt;DesktopAppInstaller_Dependencies.zip&lt;/code&gt; and installed with PowerShell:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
       <link>https://techshinobi.org/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tpc13/</guid>
-      <description>2024 Update MrChromebox.tech had a major update a few month ago, so I decide to move on as well.
-But before that, use Clonezilla or rsync -aHAXS to back up the 32 GB emmc first.
-Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo; cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
-After reboot, a full version of coreboot is installed, by replacing the previous SeaBIOS which is partial and limited.
-This makes this laptop now with a free firmware.</description>
+      <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
+&lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;
+&lt;p&gt;Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo;
+&lt;code&gt;cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After reboot, a full version of  &lt;a href=&#34;http://www.coreboot.org/&#34;&gt;coreboot&lt;/a&gt; is installed, by replacing the previous &lt;a href=&#34;http://www.seabios.org/&#34;&gt;SeaBIOS&lt;/a&gt; which is partial and limited.&lt;/p&gt;
+&lt;p&gt;This makes this laptop now with a free firmware. A free GNU/Linux distro is needed to be reinstalled.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

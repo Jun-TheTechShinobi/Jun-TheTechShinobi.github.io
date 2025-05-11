@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>nodejs on Tech Shinobi</title>
+    <title>Nodejs on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/nodejs/</link>
-    <description>Recent content in nodejs on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Nodejs on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
       <link>https://techshinobi.org/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/playing-gpt/</guid>
-      <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
-text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001 The playground can test them all using the web interface.
-Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
-To ChatGPT webpage: Who is Paul Graham?</description>
+      <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;text-davinci-003&lt;/li&gt;
+&lt;li&gt;text-curie-001&lt;/li&gt;
+&lt;li&gt;text-babbage-001&lt;/li&gt;
+&lt;li&gt;text-ada-001&lt;/li&gt;
+&lt;li&gt;code-davinci-002&lt;/li&gt;
+&lt;li&gt;code-cushman-001&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://platform.openai.com/playground&#34;&gt;playground&lt;/a&gt; can test them all using the web interface.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.&lt;/p&gt;
+&lt;p&gt;To &lt;strong&gt;ChatGPT&lt;/strong&gt; webpage:
+&lt;code&gt;Who is Paul Graham?&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Paul Graham is an American computer scientist, entrepreneur, and investor. He is best known as the co-founder of the startup accelerator and seed capital firm Y Combinator.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

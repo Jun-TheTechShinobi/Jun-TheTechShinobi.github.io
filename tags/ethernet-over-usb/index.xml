@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ethernet over USB on Tech Shinobi</title>
+    <title>Ethernet Over USB on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/ethernet-over-usb/</link>
-    <description>Recent content in Ethernet over USB on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/ethernet-over-usb/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Ethernet Over USB on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/ethernet-over-usb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
       <link>https://techshinobi.org/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
-      <description>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
-So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.</description>
+      <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
+&lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

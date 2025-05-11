@@ -4,29 +4,28 @@
     <title>Android on Tech Shinobi</title>
     <link>https://techshinobi.org/categories/android/</link>
     <description>Recent content in Android on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
       <link>https://techshinobi.org/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/opn30/</guid>
-      <description>Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.
-However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.
-A few days ago, I unlocked it by simply go to About Phone then click Unlock.</description>
+      <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
+&lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
+&lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Edge TTS Reader</title>
       <link>https://techshinobi.org/posts/edgetts/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/edgetts/</guid>
-      <description>Back to the Command-line For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.
-Therefore, I found a work around with edge-tts. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.
-After installation, use edge-tts --list-voices | grep US to show English speaking characters and now I can locate a text file in the terminal to be read.</description>
+      <description>&lt;h2 id=&#34;back-to-the-command-line&#34;&gt;Back to the Command-line&lt;/h2&gt;
+&lt;p&gt;For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.&lt;/p&gt;
+&lt;p&gt;Therefore, I found a work around with &lt;a href=&#34;https://github.com/rany2/edge-tts&#34;&gt;edge-tts&lt;/a&gt;. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.&lt;/p&gt;
+&lt;p&gt;After installation, use &lt;code&gt;edge-tts --list-voices | grep US&lt;/code&gt; to show English speaking characters and now I can locate a text file in the terminal to be read.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

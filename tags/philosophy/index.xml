@@ -4,38 +4,46 @@
     <title>Philosophy on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/philosophy/</link>
     <description>Recent content in Philosophy on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
       <link>https://techshinobi.org/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/ethics-llm/</guid>
-      <description>the &amp;ldquo;Open Source AI Manifesto&amp;rdquo; Mark Zuckerberg has been hated by Richard Stallman for decades and he is the only person who appears on both cover image of the video essays: How the Internet was Stolen and How AI was Stolen by Then &amp;amp; Now.
-However, things has changed recently after his adoption of the Fediverse and open-sourcing of Llama continuously.
-In Zuckerberg&amp;rsquo;s latest &amp;ldquo;Open Source AI Manifesto&amp;rdquo;, he stated 5 needs of open-source:</description>
+      <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
+&lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/&#34;&gt;Zuckerberg&amp;rsquo;s latest &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/a&gt;, he stated 5 needs of open-source:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We need to train, fine-tune, and distill our own models.&lt;/li&gt;
+&lt;li&gt;We need to control our own destiny and not get locked into a closed vendor.&lt;/li&gt;
+&lt;li&gt;We need to protect our data.&lt;/li&gt;
+&lt;li&gt;We need a model that is efficient and affordable to run.&lt;/li&gt;
+&lt;li&gt;We want to invest in the ecosystem that’s going to be the standard for the long term.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;That describes the needs of tech individuals and small businesses accurately.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
       <link>https://techshinobi.org/posts/cheapai/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapai/</guid>
-      <description>Old Stories The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.
-Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig.</description>
+      <description>&lt;h2 id=&#34;old-stories&#34;&gt;Old Stories&lt;/h2&gt;
+&lt;p&gt;The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.&lt;/p&gt;
+&lt;p&gt;Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig. I played a lot of games on that, such as Dark Souls series and Metro series. Before it was sold, last games I played on this build was Metro Exodus and Elden Ring.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
       <link>https://techshinobi.org/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/aisecph/</guid>
-      <description>This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for Daniela Baron&amp;rsquo;s guide which helped me tremendously for creating the slides with RevealJS.
-Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.</description>
+      <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

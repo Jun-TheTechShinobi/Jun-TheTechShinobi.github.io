@@ -4,59 +4,53 @@
     <title>Privacy on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/privacy/</link>
     <description>Recent content in Privacy on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
       <link>https://techshinobi.org/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
-      <description>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
-In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
+      <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
+&lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dealing with the Enshittification of Proton VPN on Free Plan&#39;s Server Selection</title>
       <link>https://techshinobi.org/posts/proton-shit/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/proton-shit/</guid>
-      <description>As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.
-Being a free account user, I&amp;rsquo;ve never done torrenting or any other heavy usage on their servers. It is not moral even though the provider allows me to.
-Probably because of my account was old enough so that my country selection feature wasn&amp;rsquo;t banned until latest update.</description>
+      <description>&lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;
+&lt;p&gt;Being a free account user, I&amp;rsquo;ve never done torrenting or any other heavy usage on their servers. It is not moral even though the provider allows me to.&lt;/p&gt;
+&lt;p&gt;Probably because of my account was old enough so that my country selection feature wasn&amp;rsquo;t banned until latest update.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
       <link>https://techshinobi.org/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
-      <description>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
-So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.</description>
+      <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
+&lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kali and Anonsurf</title>
       <link>https://techshinobi.org/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/kalianon/</guid>
-      <description>Kali Linux &amp;amp; FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.
-I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.
-The graphic installer is much simpler than Parrot OS that may not be an issue for most people.</description>
+      <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
+&lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;
+&lt;p&gt;The graphic installer is much simpler than Parrot OS that may not be an issue for most people. My complain is just because my multi-boot hard drive has a very complex partition structure where an advanced installer is needed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Little Things Behind This Website</title>
       <link>https://techshinobi.org/posts/little-things-behind/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/little-things-behind/</guid>
-      <description>#aliases: [&amp;ldquo;standby&amp;rdquo;] This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.
-All the steps I have done are very similar to this article, except making the Personal Access Token and Custom Domain (these are easy to find separately).</description>
+      <description>&lt;h2 id=&#34;aliases-standby&#34;&gt;#aliases: [&amp;ldquo;standby&amp;rdquo;]&lt;/h2&gt;
+&lt;p&gt;This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.&lt;/p&gt;
+&lt;p&gt;All the steps I have done are very similar to &lt;a href=&#34;https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7?gi=5d5639ec8417&#34;&gt;this article&lt;/a&gt;, except making the Personal Access Token and Custom Domain (these are easy to find separately).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

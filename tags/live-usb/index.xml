@@ -4,18 +4,18 @@
     <title>Live USB on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/live-usb/</link>
     <description>Recent content in Live USB on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/live-usb/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/live-usb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating Linux VM to a Portable Live USB</title>
       <link>https://techshinobi.org/posts/clonevm/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/clonevm/</guid>
-      <description>Last time, I mentioned Creating Ventoy VDI for Linux Live USB , however, it may not boot on some strange hardware and I unfortunately have quite a few of those. So in such cases, it&amp;rsquo;s better to boot Linux natively.
-By doing this, we need Rescuezilla/Clonezilla to extract the Linux system out of Virtualbox&amp;rsquo;s hard drive (VDI/VMDK).
-Download and load the ISO of Rescuezilla, a GUI version of Clonezilla, it&amp;rsquo;s larger but eaiser to use.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/11-7-linux/#tiny-11-ltsc-wtg-on-ventoy&#34;&gt;Last time&lt;/a&gt;, I mentioned &lt;a href=&#34;https://www.ventoy.net/en/plugin_vtoyboot.html&#34;&gt;Creating Ventoy VDI for Linux Live USB&lt;/a&gt; , however, it may not boot on some strange hardware and I unfortunately have quite a few of those. So in such cases, it&amp;rsquo;s better to boot Linux natively.&lt;/p&gt;
+&lt;p&gt;By doing this, we need &lt;a href=&#34;https://rescuezilla.com/&#34;&gt;Rescuezilla&lt;/a&gt;/&lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; to extract the Linux system out of Virtualbox&amp;rsquo;s hard drive (VDI/VMDK).&lt;/p&gt;
+&lt;p&gt;Download and load the ISO of Rescuezilla, a GUI version of Clonezilla, it&amp;rsquo;s larger but eaiser to use.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

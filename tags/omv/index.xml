@@ -4,18 +4,19 @@
     <title>OMV on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/omv/</link>
     <description>Recent content in OMV on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/omv/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/omv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
       <link>https://techshinobi.org/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapnas/</guid>
-      <description>Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault For decades, I come across a lot of abandoned computers and recycled parts out of them.
-This article is about the recycled Dell Vostro 220s with LGA771 to LGA775 Mod I mentioned in the last post.
-It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.</description>
+      <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
+&lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
+&lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
+&lt;p&gt;It was running Unraid with a low power Xeon L5410 and 2 GB of RAM for many years. The only repair was a PSU replacement two years ago.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,63 +4,87 @@
     <title>ChatGPT on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/chatgpt/</link>
     <description>Recent content in ChatGPT on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
       <link>https://techshinobi.org/posts/chat-scroll/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/chat-scroll/</guid>
-      <description>Recently, I encountered a scrolling problem on ChatGPT web like this. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.
-Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.
-(function () { document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) { var s = getComputedStyle(node); if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.</description>
+      <description>&lt;p&gt;Recently, I encountered a scrolling problem on ChatGPT web like &lt;a href=&#34;https://community.openai.com/t/after-submitting-query-to-chatgpt-cant-scroll-at-all/696051/58?page=4&#34;&gt;this&lt;/a&gt;. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.&lt;/p&gt;
+&lt;p&gt;Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(function () {
+  document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) {
+  var s = getComputedStyle(node);
+  if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.style[&amp;#39;overflow&amp;#39;] = &amp;#39;visible&amp;#39;; }
+  });
+})();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;However, this script stopped working just a few days after, and I couldn&amp;rsquo;t fix it since something in the server-end must have changed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
       <link>https://techshinobi.org/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/aisecph/</guid>
-      <description>This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for Daniela Baron&amp;rsquo;s guide which helped me tremendously for creating the slides with RevealJS.
-Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.</description>
+      <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
       <link>https://techshinobi.org/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapsd/</guid>
-      <description>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here&amp;rsquo;s some comments on OpenAI:
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
+      <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
+&lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
+&lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/history-of-openai-company-chatgpt-elon-musk-founded-2022-12&#34;&gt;The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit&#34;&gt;OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scribe.nixnet.services/geekculture/will-chatgpt-be-open-source-4b2928d57a2&#34;&gt;Will ChatGPT be open source?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theregister.com/2023/03/24/column/&#34;&gt;ChatGPT, how did you get here? It was a long journey through open source AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tcrn.ch/3MKBD5P&#34;&gt;When big AI labs refuse to open source their models, the community steps in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Sqa8Zo2XWc4&#34;&gt;Artificial Intelligence: Last Week Tonight with John Oliver (HBO)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/hZTv-R6E32Y&#34;&gt;The TRUTH about OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have been using ChatGPT and its API regulary. Since my &lt;a href=&#34;https://techshinobi.org/posts/bypass-chatgpt/&#34;&gt;last post&lt;/a&gt;, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
       <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
-      <description>The latest news updated on waylaidwanderer&amp;rsquo;s repo says:
-2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
-Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
-Why use API instead of the Ordinary Way After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.</description>
+      <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2023-02-15
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
+&lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
+&lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
       <link>https://techshinobi.org/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/playing-gpt/</guid>
-      <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
-text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001 The playground can test them all using the web interface.
-Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
-To ChatGPT webpage: Who is Paul Graham?</description>
+      <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;text-davinci-003&lt;/li&gt;
+&lt;li&gt;text-curie-001&lt;/li&gt;
+&lt;li&gt;text-babbage-001&lt;/li&gt;
+&lt;li&gt;text-ada-001&lt;/li&gt;
+&lt;li&gt;code-davinci-002&lt;/li&gt;
+&lt;li&gt;code-cushman-001&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://platform.openai.com/playground&#34;&gt;playground&lt;/a&gt; can test them all using the web interface.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.&lt;/p&gt;
+&lt;p&gt;To &lt;strong&gt;ChatGPT&lt;/strong&gt; webpage:
+&lt;code&gt;Who is Paul Graham?&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Paul Graham is an American computer scientist, entrepreneur, and investor. He is best known as the co-founder of the startup accelerator and seed capital firm Y Combinator.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

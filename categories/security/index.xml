@@ -4,46 +4,41 @@
     <title>Security on Tech Shinobi</title>
     <link>https://techshinobi.org/categories/security/</link>
     <description>Recent content in Security on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My AI Learning Materials and News Feeds</title>
       <link>https://techshinobi.org/posts/learn-ai/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/learn-ai/</guid>
-      <description>As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been in the game since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.</description>
+      <description>&lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been in the game since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
       <link>https://techshinobi.org/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/menero-wallet/</guid>
-      <description>Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.
-But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.</description>
+      <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
+&lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
       <link>https://techshinobi.org/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
-      <description>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
-So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.</description>
+      <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
+&lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recovering from Data Loss due to LUKS Failure</title>
       <link>https://techshinobi.org/posts/recoverluks/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/recoverluks/</guid>
-      <description>Background Story Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.
-The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption.</description>
+      <description>&lt;h2 id=&#34;background-story&#34;&gt;Background Story&lt;/h2&gt;
+&lt;p&gt;Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.&lt;/p&gt;
+&lt;p&gt;The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption. I don&amp;rsquo;t have the header backed up and have stopped using &lt;a href=&#34;https://github.com/teejee2008/timeshift&#34;&gt;Timeshift&lt;/a&gt; for a long time due to it&amp;rsquo;s unschedulable which lead to chaotic performance impact.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

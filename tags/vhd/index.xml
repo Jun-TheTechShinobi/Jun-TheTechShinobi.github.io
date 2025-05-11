@@ -4,18 +4,18 @@
     <title>VHD on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/vhd/</link>
     <description>Recent content in VHD on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/vhd/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/vhd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>On Windows: 7 Nostalgia, Linux and Its Discontents, Double Debloat, Tiny 11 LTSC WTG</title>
-      <link>https://techshinobi.org/posts/11-7-linux/</link>
+      <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
-      <description>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
-For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
-The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.</description>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
+      <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
+&lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
+&lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

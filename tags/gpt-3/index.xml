@@ -4,31 +4,44 @@
     <title>GPT-3 on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/gpt-3/</link>
     <description>Recent content in GPT-3 on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/gpt-3/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/gpt-3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
       <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
-      <description>The latest news updated on waylaidwanderer&amp;rsquo;s repo says:
-2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
-Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
-Why use API instead of the Ordinary Way After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.</description>
+      <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2023-02-15
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
+&lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
+&lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
       <link>https://techshinobi.org/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/playing-gpt/</guid>
-      <description>The Original Flavors In OpenAI&amp;rsquo;s documentation there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.
-text-davinci-003 text-curie-001 text-babbage-001 text-ada-001 code-davinci-002 code-cushman-001 The playground can test them all using the web interface.
-Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.
-To ChatGPT webpage: Who is Paul Graham?</description>
+      <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;text-davinci-003&lt;/li&gt;
+&lt;li&gt;text-curie-001&lt;/li&gt;
+&lt;li&gt;text-babbage-001&lt;/li&gt;
+&lt;li&gt;text-ada-001&lt;/li&gt;
+&lt;li&gt;code-davinci-002&lt;/li&gt;
+&lt;li&gt;code-cushman-001&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://platform.openai.com/playground&#34;&gt;playground&lt;/a&gt; can test them all using the web interface.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see how good they are comparing to the free ChatGPT.&lt;/p&gt;
+&lt;p&gt;To &lt;strong&gt;ChatGPT&lt;/strong&gt; webpage:
+&lt;code&gt;Who is Paul Graham?&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Paul Graham is an American computer scientist, entrepreneur, and investor. He is best known as the co-founder of the startup accelerator and seed capital firm Y Combinator.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

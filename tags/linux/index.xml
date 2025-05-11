@@ -4,38 +4,36 @@
     <title>Linux on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/linux/</link>
     <description>Recent content in Linux on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
       <link>https://techshinobi.org/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
-      <description>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
-In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
+      <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
+&lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nokia N900, postmarketOS and Ideology</title>
       <link>https://techshinobi.org/posts/pmos/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/pmos/</guid>
-      <description>0x00 Before Start Recently, I just gave my iPhone 4S away. This phone runs smoothly with jailbreak iOS 6.1.3. It was siting in my nostalgia box for years and has never been my daily driver.
-Back in time, I was a big fun of Motorola Milestone/Droid series and my main phone was the last of these QWERTY phones, Photon Q (XT897). Its keyboard was fantastic and CyanogenMod 11 (Android 4.4 KitKat) with XPosed framework was perfect in both productivity and aesthetics.</description>
+      <description>&lt;h2 id=&#34;0x00-before-start&#34;&gt;0x00 Before Start&lt;/h2&gt;
+&lt;p&gt;Recently, I just gave my iPhone 4S away. This phone runs smoothly with jailbreak iOS 6.1.3. It was siting in my nostalgia box for years and has never been my daily driver.&lt;/p&gt;
+&lt;p&gt;Back in time, I was a big fun of Motorola Milestone/Droid series and my main phone was the last of these QWERTY phones, Photon Q (XT897). Its keyboard was fantastic and CyanogenMod 11 (Android 4.4 KitKat) with XPosed framework was perfect in both productivity and aesthetics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kali and Anonsurf</title>
       <link>https://techshinobi.org/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/kalianon/</guid>
-      <description>Kali Linux &amp;amp; FreshTomato Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.
-I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.
-The graphic installer is much simpler than Parrot OS that may not be an issue for most people.</description>
+      <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
+&lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;
+&lt;p&gt;The graphic installer is much simpler than Parrot OS that may not be an issue for most people. My complain is just because my multi-boot hard drive has a very complex partition structure where an advanced installer is needed.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

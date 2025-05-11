@@ -4,18 +4,19 @@
     <title>DDSP-SVC on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/ddsp-svc/</link>
     <description>Recent content in DDSP-SVC on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/ddsp-svc/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/ddsp-svc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
       <link>https://techshinobi.org/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/voice-vits/</guid>
-      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
-This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
-I have tested several tools for this project.</description>
+      <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
+&lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;
+&lt;p&gt;I have tested several tools for this project. Many of the good guides, like &lt;a href=&#34;https://github.com/SUC-DriverOld/so-vits-svc-Chinese-Detaild-Documents&#34;&gt;this&lt;/a&gt;, &lt;a href=&#34;https://www.bilibili.com/video/BV1Hr4y197Cy&#34;&gt;this&lt;/a&gt; and &lt;a href=&#34;https://www.yuque.com/umoubuton/ueupp5&#34;&gt;this&lt;/a&gt;, are in Chinese. So, I thought it&amp;rsquo;s useful to post my notes in English.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ID/Relay Server on Tech Shinobi</title>
+    <link>http://localhost:1313/tags/id/relay-server/</link>
+    <description>Recent content in ID/Relay Server on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/id/relay-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosting RustDesk Server via Docker Compose</title>
+      <link>http://localhost:1313/posts/self-hosting-rustdesk-server-via-docker-compose/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/self-hosting-rustdesk-server-via-docker-compose/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop alternative to closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the LastPass/1Password market.&lt;/p&gt;
+&lt;p&gt;As a light user of RustDesk, I use it at a frequency like once per month. So I didn&amp;rsquo;t set up my own server on my VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For some reason, one of my RustDesk client got network blocked to the official servers. So now I have enough reason to properly doing it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

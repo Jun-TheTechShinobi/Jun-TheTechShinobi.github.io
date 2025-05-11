@@ -2,10 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://techshinobi.org/tags/boot-repair-disk/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/esxi/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/ideology/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/migratevm/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/mind/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/networking/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/open-source/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ovf/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/proxmox-ve/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/pve-mods/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/spice/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/virt-viewer/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/virtual-machine/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/vmware-workstation/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/boot-repair-disk/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/clonezilla/</loc>
@@ -23,16 +71,7 @@
     <loc>https://techshinobi.org/posts/clonevm/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/rescuezilla/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/virtualbox/</loc>
@@ -41,7 +80,28 @@
     <loc>https://techshinobi.org/tags/vmware/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sideloadly/</loc>
+    <loc>https://techshinobi.org/categories/ai/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/corsair-aio/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/dell-optiplex-3010-sff/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/e3-1230-v3/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/hardware/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/tesla-m40/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/-sideloadly/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/antennapod/</loc>
@@ -65,13 +125,7 @@
     <loc>https://techshinobi.org/tags/hackintosh/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/ideology/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/iphone-se/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/mind/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/muffinstore/</loc>
@@ -81,9 +135,6 @@
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/on-iphone/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/open-source/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/opml/</loc>
@@ -103,9 +154,6 @@
   </url><url>
     <loc>https://techshinobi.org/tags/ux/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/ai/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/debian/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
@@ -140,10 +188,10 @@
     <loc>https://techshinobi.org/tags/opensource/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/privacy/</loc>
+    <loc>https://techshinobi.org/categories/privacy/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <loc>https://techshinobi.org/tags/privacy/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/private-llm/</loc>
@@ -197,12 +245,6 @@
     <loc>https://techshinobi.org/tags/bios/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hardware/</loc>
-    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/networking/</loc>
-    <lastmod>2024-12-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/posts/m58p/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -225,6 +267,9 @@
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/daily-driver/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/full-desktop-environment/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/livecd/</loc>
@@ -251,6 +296,15 @@
     <loc>https://techshinobi.org/tags/sse4.2/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://techshinobi.org/posts/tiny11wtg/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ubuntu/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/wsl2/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/vdi/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -269,6 +323,9 @@
     <loc>https://techshinobi.org/tags/windows-11/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://techshinobi.org/tags/windows-11-ltsc/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/tags/windows-7/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -276,6 +333,15 @@
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/windows-to-go/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/winget/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/wsl2/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/wslg/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/anonymity/</loc>
@@ -512,10 +578,10 @@
     <loc>https://techshinobi.org/tags/yoga/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/android/</loc>
+    <loc>https://techshinobi.org/categories/android/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/android/</loc>
+    <loc>https://techshinobi.org/tags/android/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/bloatware/</loc>
@@ -542,7 +608,7 @@
     <loc>https://techshinobi.org/tags/spyware/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vits-simple-api/</loc>
+    <loc>https://techshinobi.org/tags/-vits-simple-api/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/voice-vits/</loc>

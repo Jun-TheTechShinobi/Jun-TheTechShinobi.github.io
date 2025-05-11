@@ -4,29 +4,38 @@
     <title>Free Software on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/free-software/</link>
     <description>Recent content in Free Software on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
       <link>https://techshinobi.org/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/ethics-llm/</guid>
-      <description>the &amp;ldquo;Open Source AI Manifesto&amp;rdquo; Mark Zuckerberg has been hated by Richard Stallman for decades and he is the only person who appears on both cover image of the video essays: How the Internet was Stolen and How AI was Stolen by Then &amp;amp; Now.
-However, things has changed recently after his adoption of the Fediverse and open-sourcing of Llama continuously.
-In Zuckerberg&amp;rsquo;s latest &amp;ldquo;Open Source AI Manifesto&amp;rdquo;, he stated 5 needs of open-source:</description>
+      <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
+&lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/&#34;&gt;Zuckerberg&amp;rsquo;s latest &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/a&gt;, he stated 5 needs of open-source:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We need to train, fine-tune, and distill our own models.&lt;/li&gt;
+&lt;li&gt;We need to control our own destiny and not get locked into a closed vendor.&lt;/li&gt;
+&lt;li&gt;We need to protect our data.&lt;/li&gt;
+&lt;li&gt;We need a model that is efficient and affordable to run.&lt;/li&gt;
+&lt;li&gt;We want to invest in the ecosystem that’s going to be the standard for the long term.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;That describes the needs of tech individuals and small businesses accurately.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
       <link>https://techshinobi.org/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/voice-vits/</guid>
-      <description>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2 In the previous post, I have tried a little bit of TTS Generation WebUI and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.
-This voice cloning project explores both SVC for Voice Changing and VITS for Text-to-Speech. There is no one tool does all jobs.
-I have tested several tools for this project.</description>
+      <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
+&lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;
+&lt;p&gt;I have tested several tools for this project. Many of the good guides, like &lt;a href=&#34;https://github.com/SUC-DriverOld/so-vits-svc-Chinese-Detaild-Documents&#34;&gt;this&lt;/a&gt;, &lt;a href=&#34;https://www.bilibili.com/video/BV1Hr4y197Cy&#34;&gt;this&lt;/a&gt; and &lt;a href=&#34;https://www.yuque.com/umoubuton/ueupp5&#34;&gt;this&lt;/a&gt;, are in Chinese. So, I thought it&amp;rsquo;s useful to post my notes in English.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

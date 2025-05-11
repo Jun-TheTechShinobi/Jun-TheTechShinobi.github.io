@@ -4,18 +4,28 @@
     <title>AUTOMATIC1111 on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/automatic1111/</link>
     <description>Recent content in AUTOMATIC1111 on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/automatic1111/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/automatic1111/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
       <link>https://techshinobi.org/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/cheapsd/</guid>
-      <description>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here&amp;rsquo;s some comments on OpenAI:
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source?</description>
+      <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
+&lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
+&lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/history-of-openai-company-chatgpt-elon-musk-founded-2022-12&#34;&gt;The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit&#34;&gt;OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scribe.nixnet.services/geekculture/will-chatgpt-be-open-source-4b2928d57a2&#34;&gt;Will ChatGPT be open source?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theregister.com/2023/03/24/column/&#34;&gt;ChatGPT, how did you get here? It was a long journey through open source AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tcrn.ch/3MKBD5P&#34;&gt;When big AI labs refuse to open source their models, the community steps in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Sqa8Zo2XWc4&#34;&gt;Artificial Intelligence: Last Week Tonight with John Oliver (HBO)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/hZTv-R6E32Y&#34;&gt;The TRUTH about OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have been using ChatGPT and its API regulary. Since my &lt;a href=&#34;https://techshinobi.org/posts/bypass-chatgpt/&#34;&gt;last post&lt;/a&gt;, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

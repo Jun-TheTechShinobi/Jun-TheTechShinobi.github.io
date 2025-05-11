@@ -4,20 +4,22 @@
     <title>Depthboot on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/depthboot/</link>
     <description>Recent content in Depthboot on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/depthboot/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/depthboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
       <link>https://techshinobi.org/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/tpc13/</guid>
-      <description>2024 Update MrChromebox.tech had a major update a few month ago, so I decide to move on as well.
-But before that, use Clonezilla or rsync -aHAXS to back up the 32 GB emmc first.
-Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo; cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh
-After reboot, a full version of coreboot is installed, by replacing the previous SeaBIOS which is partial and limited.
-This makes this laptop now with a free firmware.</description>
+      <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
+&lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;
+&lt;p&gt;Run in terminal, install &amp;ldquo;Full UEFI Firmware&amp;rdquo;
+&lt;code&gt;cd; curl -LO mrchromebox.tech/firmware-util.sh &amp;amp;&amp;amp; sudo bash firmware-util.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After reboot, a full version of  &lt;a href=&#34;http://www.coreboot.org/&#34;&gt;coreboot&lt;/a&gt; is installed, by replacing the previous &lt;a href=&#34;http://www.seabios.org/&#34;&gt;SeaBIOS&lt;/a&gt; which is partial and limited.&lt;/p&gt;
+&lt;p&gt;This makes this laptop now with a free firmware. A free GNU/Linux distro is needed to be reinstalled.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

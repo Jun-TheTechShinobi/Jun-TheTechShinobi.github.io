@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>javascript on Tech Shinobi</title>
+    <title>Javascript on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/javascript/</link>
-    <description>Recent content in javascript on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Javascript on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
       <link>https://techshinobi.org/posts/chat-scroll/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/chat-scroll/</guid>
-      <description>Recently, I encountered a scrolling problem on ChatGPT web like this. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.
-Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.
-(function () { document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) { var s = getComputedStyle(node); if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.</description>
+      <description>&lt;p&gt;Recently, I encountered a scrolling problem on ChatGPT web like &lt;a href=&#34;https://community.openai.com/t/after-submitting-query-to-chatgpt-cant-scroll-at-all/696051/58?page=4&#34;&gt;this&lt;/a&gt;. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.&lt;/p&gt;
+&lt;p&gt;Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(function () {
+  document.querySelectorAll(&amp;#39;html *&amp;#39;).forEach(function(node) {
+  var s = getComputedStyle(node);
+  if (s[&amp;#39;overflow&amp;#39;] === &amp;#39;hidden&amp;#39;) { node.style[&amp;#39;overflow&amp;#39;] = &amp;#39;visible&amp;#39;; }
+  });
+})();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;However, this script stopped working just a few days after, and I couldn&amp;rsquo;t fix it since something in the server-end must have changed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
       <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
-      <description>The latest news updated on waylaidwanderer&amp;rsquo;s repo says:
-2023-02-15 The method we were using to access the ChatGPT raw models has been patched, unfortunately.
-Therefore, the party is over. It was fun to play with those leaked models such as text-davinci-002-render, text-chat-davinci-002-20221122, and text-chat-davinci-002-sh-alpha-aoruigiofdj83. They&amp;rsquo;re not as good as the official model text-davinci-003 after all as my previous post said.
-Why use API instead of the Ordinary Way After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.</description>
+      <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2023-02-15
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
+&lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
+&lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

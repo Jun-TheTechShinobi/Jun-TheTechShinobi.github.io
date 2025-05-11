@@ -4,28 +4,26 @@
     <title>Server on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/server/</link>
     <description>Recent content in Server on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
       <link>https://techshinobi.org/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
-      <description>Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).
-In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).</description>
+      <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
+&lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Self-hosting RustDesk Server via Docker Compose</title>
       <link>https://techshinobi.org/posts/rustdesk-server/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
-      <description>RustDesk is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.
-As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though I suppose to.
-For some reason, one of my RustDesk client got blocked to the official servers.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.&lt;/p&gt;
+&lt;p&gt;As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

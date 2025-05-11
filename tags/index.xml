@@ -4,2311 +4,1927 @@
     <title>Tags on Tech Shinobi</title>
     <link>https://techshinobi.org/tags/</link>
     <description>Recent content in Tags on Tech Shinobi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>boot-repair-disk</title>
+      <title>ESXi</title>
+      <link>https://techshinobi.org/tags/esxi/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/esxi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://techshinobi.org/tags/open-source/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OVF</title>
+      <link>https://techshinobi.org/tags/ovf/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ovf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox VE</title>
+      <link>https://techshinobi.org/tags/proxmox-ve/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/proxmox-ve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PVE-Mods</title>
+      <link>https://techshinobi.org/tags/pve-mods/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/pve-mods/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPICE</title>
+      <link>https://techshinobi.org/tags/spice/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/spice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virt-Viewer</title>
+      <link>https://techshinobi.org/tags/virt-viewer/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/virt-viewer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtual Machine</title>
+      <link>https://techshinobi.org/tags/virtual-machine/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/virtual-machine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VMware Workstation</title>
+      <link>https://techshinobi.org/tags/vmware-workstation/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/vmware-workstation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boot-Repair-Disk</title>
       <link>https://techshinobi.org/tags/boot-repair-disk/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/boot-repair-disk/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Clonezilla</title>
       <link>https://techshinobi.org/tags/clonezilla/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/clonezilla/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grub</title>
+      <title>Grub</title>
       <link>https://techshinobi.org/tags/grub/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/grub/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Live USB</title>
       <link>https://techshinobi.org/tags/live-usb/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/live-usb/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Rescuezilla</title>
       <link>https://techshinobi.org/tags/rescuezilla/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/rescuezilla/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VirtualBox</title>
       <link>https://techshinobi.org/tags/virtualbox/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/virtualbox/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VMware</title>
       <link>https://techshinobi.org/tags/vmware/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vmware/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title> Sideloadly</title>
-      <link>https://techshinobi.org/tags/sideloadly/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/sideloadly/</guid>
+      <title>Corsair AIO</title>
+      <link>https://techshinobi.org/tags/corsair-aio/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/corsair-aio/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Dell Optiplex 3010 SFF</title>
+      <link>https://techshinobi.org/tags/dell-optiplex-3010-sff/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/dell-optiplex-3010-sff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>E3-1230 V3</title>
+      <link>https://techshinobi.org/tags/e3-1230-v3/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/e3-1230-v3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://techshinobi.org/tags/hardware/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tesla M40</title>
+      <link>https://techshinobi.org/tags/tesla-m40/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/tesla-m40/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title> Sideloadly</title>
+      <link>https://techshinobi.org/tags/-sideloadly/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/-sideloadly/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AntennaPod</title>
       <link>https://techshinobi.org/tags/antennapod/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/antennapod/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Anytime Podcast Player</title>
       <link>https://techshinobi.org/tags/anytime-podcast-player/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/anytime-podcast-player/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Design</title>
       <link>https://techshinobi.org/tags/design/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/design/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ergonomics</title>
+      <title>Ergonomics</title>
       <link>https://techshinobi.org/tags/ergonomics/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ergonomics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Feeder</title>
       <link>https://techshinobi.org/tags/feeder/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/feeder/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hackintosh</title>
       <link>https://techshinobi.org/tags/hackintosh/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/hackintosh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>iPhone SE</title>
+      <title>IPhone SE</title>
       <link>https://techshinobi.org/tags/iphone-se/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/iphone-se/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MuffinStore</title>
       <link>https://techshinobi.org/tags/muffinstore/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/muffinstore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NetNewsWire</title>
       <link>https://techshinobi.org/tags/netnewswire/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/netnewswire/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Open-Source</title>
-      <link>https://techshinobi.org/tags/open-source/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>OPML</title>
       <link>https://techshinobi.org/tags/opml/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/opml/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>podcast</title>
+      <title>Podcast</title>
       <link>https://techshinobi.org/tags/podcast/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/podcast/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RSS</title>
       <link>https://techshinobi.org/tags/rss/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/rss/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Steve Jobs</title>
       <link>https://techshinobi.org/tags/steve-jobs/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/steve-jobs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TrollStore</title>
       <link>https://techshinobi.org/tags/trollstore/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/trollstore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>UX</title>
       <link>https://techshinobi.org/tags/ux/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Debian</title>
       <link>https://techshinobi.org/tags/debian/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/debian/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DeepSeek</title>
       <link>https://techshinobi.org/tags/deepseek/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/deepseek/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Docker</title>
       <link>https://techshinobi.org/tags/docker/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Harbor</title>
       <link>https://techshinobi.org/tags/harbor/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/harbor/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux</title>
       <link>https://techshinobi.org/tags/linux/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Local AI</title>
       <link>https://techshinobi.org/tags/local-ai/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/local-ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Local LLM</title>
       <link>https://techshinobi.org/tags/local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/local-llm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ollama</title>
       <link>https://techshinobi.org/tags/ollama/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ollama/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Open-WebUI</title>
       <link>https://techshinobi.org/tags/open-webui/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/open-webui/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenAI</title>
       <link>https://techshinobi.org/tags/openai/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/openai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Opensource</title>
       <link>https://techshinobi.org/tags/opensource/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/opensource/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Privacy</title>
       <link>https://techshinobi.org/tags/privacy/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/privacy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Private LLM</title>
       <link>https://techshinobi.org/tags/private-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/private-llm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SearXNG</title>
       <link>https://techshinobi.org/tags/searxng/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/searxng/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Self-hosting</title>
+      <title>Self-Hosting</title>
       <link>https://techshinobi.org/tags/self-hosting/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/self-hosting/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Server</title>
       <link>https://techshinobi.org/tags/server/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/server/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Service</title>
       <link>https://techshinobi.org/tags/service/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/service/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>2025</title>
       <link>https://techshinobi.org/tags/2025/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/2025/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AI</title>
       <link>https://techshinobi.org/tags/ai/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blogs</title>
+      <title>Blogs</title>
       <link>https://techshinobi.org/tags/blogs/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/blogs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LLM</title>
       <link>https://techshinobi.org/tags/llm/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/llm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>newsletters</title>
+      <title>Newsletters</title>
       <link>https://techshinobi.org/tags/newsletters/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/newsletters/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reading list</title>
+      <title>Reading List</title>
       <link>https://techshinobi.org/tags/reading-list/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/reading-list/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>self-learning</title>
+      <title>Self-Learning</title>
       <link>https://techshinobi.org/tags/self-learning/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/self-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>771 to 775</title>
       <link>https://techshinobi.org/tags/771-to-775/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/771-to-775/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BIOS</title>
       <link>https://techshinobi.org/tags/bios/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/bios/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://techshinobi.org/tags/hardware/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>SFF</title>
       <link>https://techshinobi.org/tags/sff/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/sff/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>upgrade</title>
+      <title>Upgrade</title>
       <link>https://techshinobi.org/tags/upgrade/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/upgrade/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Xeon Mod</title>
       <link>https://techshinobi.org/tags/xeon-mod/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/xeon-mod/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>24H2</title>
       <link>https://techshinobi.org/tags/24h2/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/24h2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>alternatives</title>
+      <title>Alternatives</title>
       <link>https://techshinobi.org/tags/alternatives/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/alternatives/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>custom build</title>
+      <title>Custom Build</title>
       <link>https://techshinobi.org/tags/custom-build/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/custom-build/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>daily driver</title>
+      <title>Daily Driver</title>
       <link>https://techshinobi.org/tags/daily-driver/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/daily-driver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>livecd</title>
+      <title>Full Desktop Environment</title>
+      <link>https://techshinobi.org/tags/full-desktop-environment/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/full-desktop-environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Livecd</title>
       <link>https://techshinobi.org/tags/livecd/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/livecd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LiveUSB</title>
       <link>https://techshinobi.org/tags/liveusb/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/liveusb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>NAND longevity</title>
+      <title>NAND Longevity</title>
       <link>https://techshinobi.org/tags/nand-longevity/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nand-longevity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>optimization</title>
+      <title>Optimization</title>
       <link>https://techshinobi.org/tags/optimization/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/optimization/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>privacy.sexy</title>
+      <title>Privacy.sexy</title>
       <link>https://techshinobi.org/tags/privacy.sexy/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/privacy.sexy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Software</title>
       <link>https://techshinobi.org/tags/software/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/software/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SSE4.2</title>
       <link>https://techshinobi.org/tags/sse4.2/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/sse4.2/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://techshinobi.org/tags/ubuntu/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ubuntu/</guid>
+      <description></description>
+    </item>
     <item>
       <title>VDI</title>
       <link>https://techshinobi.org/tags/vdi/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vdi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ventoy</title>
       <link>https://techshinobi.org/tags/ventoy/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ventoy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VHD</title>
       <link>https://techshinobi.org/tags/vhd/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vhd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Win11Debloat</title>
       <link>https://techshinobi.org/tags/win11debloat/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/win11debloat/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows 11</title>
       <link>https://techshinobi.org/tags/windows-11/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/windows-11/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Windows 11 LTSC</title>
+      <link>https://techshinobi.org/tags/windows-11-ltsc/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/windows-11-ltsc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Windows 7</title>
       <link>https://techshinobi.org/tags/windows-7/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/windows-7/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows PE</title>
       <link>https://techshinobi.org/tags/windows-pe/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/windows-pe/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Windows To Go</title>
+      <title>Windows to Go</title>
       <link>https://techshinobi.org/tags/windows-to-go/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/windows-to-go/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>WinGet</title>
+      <link>https://techshinobi.org/tags/winget/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/winget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSL2</title>
+      <link>https://techshinobi.org/tags/wsl2/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/wsl2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSLg</title>
+      <link>https://techshinobi.org/tags/wslg/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/wslg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Anonymity</title>
       <link>https://techshinobi.org/tags/anonymity/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/anonymity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cryptocurrenty</title>
       <link>https://techshinobi.org/tags/cryptocurrenty/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/cryptocurrenty/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Desktop</title>
       <link>https://techshinobi.org/tags/desktop/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/desktop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Feather Wallet</title>
       <link>https://techshinobi.org/tags/feather-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/feather-wallet/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GnuPG</title>
       <link>https://techshinobi.org/tags/gnupg/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gnupg/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Haveno-reto</title>
+      <title>Haveno-Reto</title>
       <link>https://techshinobi.org/tags/haveno-reto/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/haveno-reto/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>KeepAss</title>
       <link>https://techshinobi.org/tags/keepass/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/keepass/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kicksecure</title>
       <link>https://techshinobi.org/tags/kicksecure/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/kicksecure/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Monero</title>
       <link>https://techshinobi.org/tags/monero/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/monero/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Online Hygiene</title>
       <link>https://techshinobi.org/tags/online-hygiene/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/online-hygiene/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OPSEC</title>
       <link>https://techshinobi.org/tags/opsec/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/opsec/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tails</title>
       <link>https://techshinobi.org/tags/tails/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tails/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>threat modeling</title>
+      <title>Threat Modeling</title>
       <link>https://techshinobi.org/tags/threat-modeling/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/threat-modeling/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tor</title>
+      <title>Tor</title>
       <link>https://techshinobi.org/tags/tor/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tor/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Veracrypt</title>
       <link>https://techshinobi.org/tags/veracrypt/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/veracrypt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>YubiKey</title>
       <link>https://techshinobi.org/tags/yubikey/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/yubikey/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Big Tech</title>
       <link>https://techshinobi.org/tags/big-tech/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/big-tech/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Capitalism</title>
       <link>https://techshinobi.org/tags/capitalism/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/capitalism/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cory Doctorow</title>
       <link>https://techshinobi.org/tags/cory-doctorow/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/cory-doctorow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Enshittification</title>
       <link>https://techshinobi.org/tags/enshittification/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/enshittification/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Marketing Strategy</title>
       <link>https://techshinobi.org/tags/marketing-strategy/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/marketing-strategy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenVPN</title>
       <link>https://techshinobi.org/tags/openvpn/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/openvpn/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ProtonMail</title>
       <link>https://techshinobi.org/tags/protonmail/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/protonmail/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ProtonVPN</title>
       <link>https://techshinobi.org/tags/protonvpn/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/protonvpn/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WireGuard</title>
       <link>https://techshinobi.org/tags/wireguard/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/wireguard/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Ethernet over USB</title>
+      <title>Ethernet Over USB</title>
       <link>https://techshinobi.org/tags/ethernet-over-usb/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ethernet-over-usb/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GL.iNet</title>
       <link>https://techshinobi.org/tags/gl.inet/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gl.inet/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenWrt</title>
       <link>https://techshinobi.org/tags/openwrt/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/openwrt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SSH</title>
       <link>https://techshinobi.org/tags/ssh/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ssh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>remote desktop</title>
+      <title>Remote Desktop</title>
       <link>https://techshinobi.org/tags/remote-desktop/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/remote-desktop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RustDesk</title>
       <link>https://techshinobi.org/tags/rustdesk/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/rustdesk/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Self-host</title>
+      <title>Self-Host</title>
       <link>https://techshinobi.org/tags/self-host/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/self-host/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>AI coding</title>
+      <title>AI Coding</title>
       <link>https://techshinobi.org/tags/ai-coding/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ai-coding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>browser</title>
+      <title>Browser</title>
       <link>https://techshinobi.org/tags/browser/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/browser/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ChatGPT</title>
       <link>https://techshinobi.org/tags/chatgpt/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/chatgpt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javascript</title>
+      <title>Javascript</title>
       <link>https://techshinobi.org/tags/javascript/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>troubleshooting</title>
+      <title>Troubleshooting</title>
       <link>https://techshinobi.org/tags/troubleshooting/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/troubleshooting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>userscript</title>
+      <title>Userscript</title>
       <link>https://techshinobi.org/tags/userscript/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/userscript/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Anthropocene</title>
       <link>https://techshinobi.org/tags/anthropocene/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/anthropocene/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ecology</title>
       <link>https://techshinobi.org/tags/ecology/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ecology/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Entrepreneurship</title>
       <link>https://techshinobi.org/tags/entrepreneurship/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/entrepreneurship/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Free Software</title>
       <link>https://techshinobi.org/tags/free-software/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/free-software/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Llama</title>
       <link>https://techshinobi.org/tags/llama/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/llama/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Philosophy</title>
       <link>https://techshinobi.org/tags/philosophy/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/philosophy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Psychoanalysis</title>
       <link>https://techshinobi.org/tags/psychoanalysis/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/psychoanalysis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Richard M. Stallman</title>
       <link>https://techshinobi.org/tags/richard-m.-stallman/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/richard-m.-stallman/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Sustainability</title>
       <link>https://techshinobi.org/tags/sustainability/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/sustainability/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>AI-generated Video</title>
+      <title>AI-Generated Video</title>
       <link>https://techshinobi.org/tags/ai-generated-video/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ai-generated-video/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deepfake</title>
+      <title>Deepfake</title>
       <link>https://techshinobi.org/tags/deepfake/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/deepfake/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>face swap</title>
+      <title>Face Swap</title>
       <link>https://techshinobi.org/tags/face-swap/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/face-swap/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ffmpeg</title>
+      <title>Ffmpeg</title>
       <link>https://techshinobi.org/tags/ffmpeg/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ffmpeg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SadTalker</title>
       <link>https://techshinobi.org/tags/sadtalker/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/sadtalker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SadTalker-Video-Lip-Sync</title>
       <link>https://techshinobi.org/tags/sadtalker-video-lip-sync/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/sadtalker-video-lip-sync/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>so-vits-svc</title>
+      <title>So-Vits-Svc</title>
       <link>https://techshinobi.org/tags/so-vits-svc/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/so-vits-svc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stable diffusion</title>
+      <title>Stable Diffusion</title>
       <link>https://techshinobi.org/tags/stable-diffusion/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/stable-diffusion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Wav2Lip</title>
       <link>https://techshinobi.org/tags/wav2lip/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/wav2lip/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Arkenfox</title>
       <link>https://techshinobi.org/tags/arkenfox/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/arkenfox/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bootloader</title>
+      <title>Bootloader</title>
       <link>https://techshinobi.org/tags/bootloader/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/bootloader/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>C13</title>
       <link>https://techshinobi.org/tags/c13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/c13/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Chromebook</title>
       <link>https://techshinobi.org/tags/chromebook/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/chromebook/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>coreboot</title>
+      <title>Coreboot</title>
       <link>https://techshinobi.org/tags/coreboot/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/coreboot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>debloat</title>
+      <title>Debloat</title>
       <link>https://techshinobi.org/tags/debloat/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/debloat/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Depthboot</title>
       <link>https://techshinobi.org/tags/depthboot/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/depthboot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>keyd</title>
+      <title>Keyd</title>
       <link>https://techshinobi.org/tags/keyd/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/keyd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LTSC</title>
       <link>https://techshinobi.org/tags/ltsc/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ltsc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MATE</title>
       <link>https://techshinobi.org/tags/mate/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Optimazation</title>
       <link>https://techshinobi.org/tags/optimazation/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/optimazation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>system migration</title>
+      <title>System Migration</title>
       <link>https://techshinobi.org/tags/system-migration/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/system-migration/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ThinkPad</title>
       <link>https://techshinobi.org/tags/thinkpad/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/thinkpad/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yoga</title>
       <link>https://techshinobi.org/tags/yoga/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/yoga/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Android</title>
       <link>https://techshinobi.org/tags/android/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/android/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bloatware</title>
+      <title>Bloatware</title>
       <link>https://techshinobi.org/tags/bloatware/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/bloatware/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>good enough privacy</title>
+      <title>Good Enough Privacy</title>
       <link>https://techshinobi.org/tags/good-enough-privacy/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/good-enough-privacy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Metro</title>
       <link>https://techshinobi.org/tags/metro/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/metro/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mobile</title>
       <link>https://techshinobi.org/tags/mobile/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mobile/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OnePlus</title>
       <link>https://techshinobi.org/tags/oneplus/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/oneplus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OxygenOS</title>
       <link>https://techshinobi.org/tags/oxygenos/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/oxygenos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spyware</title>
+      <title>Spyware</title>
       <link>https://techshinobi.org/tags/spyware/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/spyware/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title> vits-simple-api</title>
-      <link>https://techshinobi.org/tags/vits-simple-api/</link>
+      <title> Vits-Simple-Api</title>
+      <link>https://techshinobi.org/tags/-vits-simple-api/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://techshinobi.org/tags/vits-simple-api/</guid>
+      <guid>https://techshinobi.org/tags/-vits-simple-api/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AI Vtuber</title>
       <link>https://techshinobi.org/tags/ai-vtuber/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ai-vtuber/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>anaconda</title>
+      <title>Anaconda</title>
       <link>https://techshinobi.org/tags/anaconda/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/anaconda/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Audacity</title>
       <link>https://techshinobi.org/tags/audacity/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/audacity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Audio Equipment</title>
       <link>https://techshinobi.org/tags/audio-equipment/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/audio-equipment/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Audio Interface</title>
       <link>https://techshinobi.org/tags/audio-interface/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/audio-interface/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BERT</title>
       <link>https://techshinobi.org/tags/bert/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/bert/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bert-VITS2</title>
       <link>https://techshinobi.org/tags/bert-vits2/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/bert-vits2/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cheapskate</title>
       <link>https://techshinobi.org/tags/cheapskate/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/cheapskate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DDSP-SVC</title>
       <link>https://techshinobi.org/tags/ddsp-svc/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ddsp-svc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DeBERTa</title>
       <link>https://techshinobi.org/tags/deberta/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/deberta/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Diffusion</title>
       <link>https://techshinobi.org/tags/diffusion/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/diffusion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FOSS</title>
       <link>https://techshinobi.org/tags/foss/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/foss/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Headphones</title>
       <link>https://techshinobi.org/tags/headphones/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/headphones/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Inference</title>
       <link>https://techshinobi.org/tags/inference/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/inference/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>long text tts</title>
+      <title>Long Text Tts</title>
       <link>https://techshinobi.org/tags/long-text-tts/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/long-text-tts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Microphone</title>
       <link>https://techshinobi.org/tags/microphone/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/microphone/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Model Training</title>
       <link>https://techshinobi.org/tags/model-training/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/model-training/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>realtime voice changing</title>
+      <title>Realtime Voice Changing</title>
       <link>https://techshinobi.org/tags/realtime-voice-changing/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/realtime-voice-changing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RoBERTa</title>
       <link>https://techshinobi.org/tags/roberta/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/roberta/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>so-vits-svc-fork</title>
+      <title>So-Vits-Svc-Fork</title>
       <link>https://techshinobi.org/tags/so-vits-svc-fork/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/so-vits-svc-fork/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Text-to-Speech</title>
       <link>https://techshinobi.org/tags/text-to-speech/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/text-to-speech/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TTS Generation WebUI</title>
       <link>https://techshinobi.org/tags/tts-generation-webui/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tts-generation-webui/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ultimate Vocal Remover</title>
       <link>https://techshinobi.org/tags/ultimate-vocal-remover/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ultimate-vocal-remover/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Vocal Recording</title>
       <link>https://techshinobi.org/tags/vocal-recording/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vocal-recording/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Voice Clone</title>
       <link>https://techshinobi.org/tags/voice-clone/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/voice-clone/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>whisper</title>
+      <title>Whisper</title>
       <link>https://techshinobi.org/tags/whisper/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/whisper/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FlashMemory</title>
       <link>https://techshinobi.org/tags/flashmemory/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/flashmemory/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MergerFS</title>
       <link>https://techshinobi.org/tags/mergerfs/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mergerfs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NAS</title>
       <link>https://techshinobi.org/tags/nas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nas/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OMV</title>
       <link>https://techshinobi.org/tags/omv/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/omv/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Openmediavault</title>
       <link>https://techshinobi.org/tags/openmediavault/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/openmediavault/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SnapRAID</title>
       <link>https://techshinobi.org/tags/snapraid/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/snapraid/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Unraid</title>
       <link>https://techshinobi.org/tags/unraid/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/unraid/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Vostro</title>
       <link>https://techshinobi.org/tags/vostro/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vostro/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>api</title>
+      <title>Api</title>
       <link>https://techshinobi.org/tags/api/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/api/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Artificial Imbecility</title>
       <link>https://techshinobi.org/tags/artificial-imbecility/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/artificial-imbecility/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>chatpdf</title>
+      <title>Chatpdf</title>
       <link>https://techshinobi.org/tags/chatpdf/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/chatpdf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Chinese LLMs</title>
       <link>https://techshinobi.org/tags/chinese-llms/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/chinese-llms/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>h2oGPT</title>
+      <title>H2oGPT</title>
       <link>https://techshinobi.org/tags/h2ogpt/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/h2ogpt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Llama2 uncensored</title>
+      <title>Llama2 Uncensored</title>
       <link>https://techshinobi.org/tags/llama2-uncensored/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/llama2-uncensored/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NVIDIA Tesla M40</title>
       <link>https://techshinobi.org/tags/nvidia-tesla-m40/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nvidia-tesla-m40/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Optiplex</title>
       <link>https://techshinobi.org/tags/optiplex/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/optiplex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Richard M. Stallma</title>
       <link>https://techshinobi.org/tags/richard-m.-stallma/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/richard-m.-stallma/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Subs AI Whisper</title>
       <link>https://techshinobi.org/tags/subs-ai-whisper/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/subs-ai-whisper/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>swap</title>
+      <title>Swap</title>
       <link>https://techshinobi.org/tags/swap/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/swap/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Text generation web UI</title>
+      <title>Text Generation Web UI</title>
       <link>https://techshinobi.org/tags/text-generation-web-ui/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/text-generation-web-ui/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Thermal Mod</title>
       <link>https://techshinobi.org/tags/thermal-mod/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/thermal-mod/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>backup</title>
+      <title>Backup</title>
       <link>https://techshinobi.org/tags/backup/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/backup/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>encryption</title>
+      <title>Encryption</title>
       <link>https://techshinobi.org/tags/encryption/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/encryption/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LUKS</title>
       <link>https://techshinobi.org/tags/luks/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/luks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rustic</title>
+      <title>Rustic</title>
       <link>https://techshinobi.org/tags/rustic/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/rustic/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SSD</title>
       <link>https://techshinobi.org/tags/ssd/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ssd/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>timeshift</title>
+      <title>Timeshift</title>
       <link>https://techshinobi.org/tags/timeshift/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/timeshift/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TTY</title>
       <link>https://techshinobi.org/tags/tty/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tty/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Generate-subtitles</title>
+      <title>Generate-Subtitles</title>
       <link>https://techshinobi.org/tags/generate-subtitles/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/generate-subtitles/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GUI</title>
       <link>https://techshinobi.org/tags/gui/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gui/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Wisper</title>
       <link>https://techshinobi.org/tags/wisper/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/wisper/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CyberSecurity</title>
       <link>https://techshinobi.org/tags/cybersecurity/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/cybersecurity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Heidegger</title>
       <link>https://techshinobi.org/tags/heidegger/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/heidegger/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OSINT</title>
       <link>https://techshinobi.org/tags/osint/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/osint/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Post-humanism</title>
+      <title>Post-Humanism</title>
       <link>https://techshinobi.org/tags/post-humanism/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/post-humanism/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>StableDiffusion</title>
       <link>https://techshinobi.org/tags/stablediffusion/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/stablediffusion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Zizek</title>
       <link>https://techshinobi.org/tags/zizek/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/zizek/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AUTOMATIC1111</title>
       <link>https://techshinobi.org/tags/automatic1111/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/automatic1111/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>script</title>
+      <title>Script</title>
       <link>https://techshinobi.org/tags/script/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/script/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Self-Healing</title>
       <link>https://techshinobi.org/tags/self-healing/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/self-healing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GitHub</title>
       <link>https://techshinobi.org/tags/github/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/github/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GPT-3</title>
       <link>https://techshinobi.org/tags/gpt-3/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gpt-3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>HTML</title>
       <link>https://techshinobi.org/tags/html/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/html/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>local</title>
+      <title>Local</title>
       <link>https://techshinobi.org/tags/local/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/local/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>leaked</title>
+      <title>Leaked</title>
       <link>https://techshinobi.org/tags/leaked/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/leaked/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>models</title>
+      <title>Models</title>
       <link>https://techshinobi.org/tags/models/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/models/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nodejs</title>
+      <title>Nodejs</title>
       <link>https://techshinobi.org/tags/nodejs/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nodejs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>adblock</title>
+      <title>Adblock</title>
       <link>https://techshinobi.org/tags/adblock/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/adblock/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AdGuard</title>
       <link>https://techshinobi.org/tags/adguard/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/adguard/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blocklists</title>
+      <title>Blocklists</title>
       <link>https://techshinobi.org/tags/blocklists/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/blocklists/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dns-detector</title>
+      <title>Dns-Detector</title>
       <link>https://techshinobi.org/tags/dns-detector/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/dns-detector/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>filterlists</title>
+      <title>Filterlists</title>
       <link>https://techshinobi.org/tags/filterlists/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/filterlists/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>keycdn</title>
+      <title>Keycdn</title>
       <link>https://techshinobi.org/tags/keycdn/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/keycdn/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>https://techshinobi.org/tags/networking/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/networking/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NextDNS</title>
       <link>https://techshinobi.org/tags/nextdns/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nextdns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tracking</title>
+      <title>Tracking</title>
       <link>https://techshinobi.org/tags/tracking/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tracking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>unblock</title>
+      <title>Unblock</title>
       <link>https://techshinobi.org/tags/unblock/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/unblock/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vpn</title>
+      <title>VPN</title>
       <link>https://techshinobi.org/tags/vpn/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/vpn/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>alpine</title>
+      <title>Alpine</title>
       <link>https://techshinobi.org/tags/alpine/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/alpine/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>custom</title>
+      <title>Custom</title>
       <link>https://techshinobi.org/tags/custom/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/custom/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ideology</title>
+      <title>Ideology</title>
       <link>https://techshinobi.org/tags/ideology/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/ideology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nostalgia</title>
+      <title>Nostalgia</title>
       <link>https://techshinobi.org/tags/nostalgia/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/nostalgia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>postmarketOS</title>
+      <title>PostmarketOS</title>
       <link>https://techshinobi.org/tags/postmarketos/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/postmarketos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>anonsurf</title>
+      <title>Anonsurf</title>
       <link>https://techshinobi.org/tags/anonsurf/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/anonsurf/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kali</title>
+      <title>Kali</title>
       <link>https://techshinobi.org/tags/kali/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/kali/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>parrotos</title>
+      <title>Parrotos</title>
       <link>https://techshinobi.org/tags/parrotos/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/parrotos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>audiobook</title>
+      <title>Audiobook</title>
       <link>https://techshinobi.org/tags/audiobook/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/audiobook/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gesture</title>
+      <title>Gesture</title>
       <link>https://techshinobi.org/tags/gesture/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gesture/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GrapheneOS</title>
       <link>https://techshinobi.org/tags/grapheneos/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/grapheneos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mice</title>
+      <title>Mice</title>
       <link>https://techshinobi.org/tags/mice/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mice/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mouse</title>
+      <title>Mouse</title>
       <link>https://techshinobi.org/tags/mouse/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mouse/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Speech Synthesis</title>
       <link>https://techshinobi.org/tags/speech-synthesis/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/speech-synthesis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>trackball</title>
+      <title>Trackball</title>
       <link>https://techshinobi.org/tags/trackball/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/trackball/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TTS</title>
       <link>https://techshinobi.org/tags/tts/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/tts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GitPage</title>
       <link>https://techshinobi.org/tags/gitpage/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/gitpage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>HUGO</title>
       <link>https://techshinobi.org/tags/hugo/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PaperMod</title>
       <link>https://techshinobi.org/tags/papermod/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/papermod/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mind</title>
+      <title>Mind</title>
       <link>https://techshinobi.org/tags/mind/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://techshinobi.org/tags/mind/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
