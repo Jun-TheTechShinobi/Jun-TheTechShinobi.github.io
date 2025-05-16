@@ -6,16 +6,16 @@
     <description>Recent content in Marketing Strategy on Tech Shinobi</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/tags/marketing-strategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dealing with the Enshittification of Proton VPN on Free Plan&#39;s Server Selection</title>
+      <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
       <link>https://techshinobi.org/posts/proton-shit/</link>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/posts/proton-shit/</guid>
-      <description>&lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;
-&lt;p&gt;Being a free account user, I&amp;rsquo;ve never done torrenting or any other heavy usage on their servers. It is not moral even though the provider allows me to.&lt;/p&gt;
-&lt;p&gt;Probably because of my account was old enough so that my country selection feature wasn&amp;rsquo;t banned until latest update.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My AI Learning Materials and News Feeds (Updated)</title>
+      <link>https://techshinobi.org/posts/learn-ai/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/learn-ai/</guid>
+      <description>&lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been in the game since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
+      <link>https://techshinobi.org/posts/proton-shit/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/proton-shit/</guid>
+      <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Migrating VMs from ESXi to Proxmox VE</title>
       <link>https://techshinobi.org/posts/migratevm/</link>
@@ -54,13 +70,6 @@
 &lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My AI Learning Materials and News Feeds</title>
-      <link>https://techshinobi.org/posts/learn-ai/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/learn-ai/</guid>
-      <description>&lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been in the game since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
       <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
@@ -103,15 +112,6 @@
       <guid>https://techshinobi.org/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dealing with the Enshittification of Proton VPN on Free Plan&#39;s Server Selection</title>
-      <link>https://techshinobi.org/posts/proton-shit/</link>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/proton-shit/</guid>
-      <description>&lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;
-&lt;p&gt;Being a free account user, I&amp;rsquo;ve never done torrenting or any other heavy usage on their servers. It is not moral even though the provider allows me to.&lt;/p&gt;
-&lt;p&gt;Probably because of my account was old enough so that my country selection feature wasn&amp;rsquo;t banned until latest update.&lt;/p&gt;</description>
     </item>
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
