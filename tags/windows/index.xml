@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/windows/</link>
+    <description>Recent content in Windows on Tech Shinobi</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating Harbor instance from Linux to WSL2</title>
+      <link>https://techshinobi.org/posts/harbor-wsl/</link>
+      <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
+      <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
+&lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Linux hardware: copy Harbor files from&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/home/username/Harbor
+/home/username/.ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Windows hardware: connect the USB drive containing Harbor files and run&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

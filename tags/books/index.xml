@@ -6,14 +6,16 @@
     <description>Recent content in Books on Tech Shinobi</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
       <link>https://techshinobi.org/posts/learn-ai/</link>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/posts/learn-ai/</guid>
-      <description>&lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been in the game since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
+&lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

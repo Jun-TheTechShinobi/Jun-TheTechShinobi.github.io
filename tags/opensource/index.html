@@ -108,6 +108,40 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Revisiting Voice Cloning with GPT-SoVITS and so on
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Forewords
+My last article on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.
+Refering to some Chinese source such as this blog and this video, I was attempting to adopt new tools for my audio book service, such as CosyVoice, F5-TTS, GPT-SoVITS, and fish-speech.
+But before we start, I recommend to:
+Install miniconda for dependency sanity
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &amp;&amp; sudo chmod &#43;x Miniconda3-latest-Linux-x86_64.sh &amp;&amp; bash Miniconda3-latest-Linux-x86_64.sh Setup PyTorch environment as needed and confirm with python -m torch.utils.collect_env
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-11 00:00:00 +0000 UTC'>June 11, 2025</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Revisiting Voice Cloning with GPT-SoVITS and so on" href="https://techshinobi.org/posts/vits-re/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don’t have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)
     </h2>
   </header>
@@ -146,35 +180,6 @@ But in this time, I found some good VPN deals which I would like to pay with XMR
   </div>
   <footer class="entry-footer"><span title='2024-11-30 00:00:00 +0000 UTC'>November 30, 2024</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to Set up Monero Wallet Securely with Anonymity" href="https://techshinobi.org/posts/menero-wallet/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">USB Tethering a Portable Router into a Mobile WiFi Hotspot
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.
-So it has to be done with DIY, like USB tethering with a router. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-11-25 00:00:00 +0000 UTC'>November 25, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to USB Tethering a Portable Router into a Mobile WiFi Hotspot" href="https://techshinobi.org/posts/tethering-hotspot/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Self-hosting RustDesk Server via Docker Compose
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>RustDesk is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It’s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.
-As a light user of RustDesk, I use it only occasionally. So I didn’t setup my own RD server on VPS even though I suppose to.
-For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-11-03 00:00:00 +0000 UTC'>November 3, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Self-hosting RustDesk Server via Docker Compose" href="https://techshinobi.org/posts/rustdesk-server/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

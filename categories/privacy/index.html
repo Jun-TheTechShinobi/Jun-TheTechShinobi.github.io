@@ -108,6 +108,22 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don’t have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)
     </h2>
   </header>
@@ -163,21 +179,6 @@ This makes this laptop now with a free firmware. A free GNU/Linux distro is need
   </div>
   <footer class="entry-footer"><span title='2024-02-16 00:00:00 +0000 UTC'>February 16, 2024</span>&nbsp;·&nbsp;17 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to Updating ThinkPad C13 Yoga" href="https://techshinobi.org/posts/tpc13/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Dehaunting OnePlus Nord N30 5G
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.
-However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.
-A few days ago, I unlocked it by simply go to About Phone then click Unlock.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-03 00:00:00 +0000 UTC'>February 3, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Dehaunting OnePlus Nord N30 5G" href="https://techshinobi.org/posts/opn30/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

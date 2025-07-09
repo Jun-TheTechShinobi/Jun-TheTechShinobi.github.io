@@ -112,11 +112,47 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I’m currently into. Although I’ve been in the game since 2022, my background wasn’t focused on AI. So, like everyone else, I had to do some “AI For Dummies” level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.
+    <p>Forewords
+This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term “Prompt Engineering” is a bit controversial but people will get better understanding after learning the listed materials.
+As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I’m currently into. Although I’ve been using AI tools since 2022, my background wasn’t focused on AI. So, like everyone else, I had to do some “AI For Dummies” level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-05-15 00:00:00 +0000 UTC'>May 15, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Jun</footer>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to My AI Learning Materials and News Feeds (Updated)" href="https://techshinobi.org/posts/learn-ai/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Revisiting Voice Cloning with GPT-SoVITS and so on
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Forewords
+My last article on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.
+Refering to some Chinese source such as this blog and this video, I was attempting to adopt new tools for my audio book service, such as CosyVoice, F5-TTS, GPT-SoVITS, and fish-speech.
+But before we start, I recommend to:
+Install miniconda for dependency sanity
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &amp;&amp; sudo chmod &#43;x Miniconda3-latest-Linux-x86_64.sh &amp;&amp; bash Miniconda3-latest-Linux-x86_64.sh Setup PyTorch environment as needed and confirm with python -m torch.utils.collect_env
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-11 00:00:00 +0000 UTC'>June 11, 2025</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Revisiting Voice Cloning with GPT-SoVITS and so on" href="https://techshinobi.org/posts/vits-re/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don’t have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -146,37 +182,6 @@ In the past, I used to recommend people using Llama series for English tasks and
   </div>
   <footer class="entry-footer"><span title='2025-01-26 00:00:00 +0000 UTC'>January 26, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)" href="https://techshinobi.org/posts/easy-local-llm/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Fixing Missing Scrollbar for ChatGPT with ChatGPT
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Recently, I encountered a scrolling problem on ChatGPT web like this. I don’t use any userscript or extensions for OpenAI’s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.
-Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.
-(function () { document.querySelectorAll(&#39;html *&#39;).forEach(function(node) { var s = getComputedStyle(node); if (s[&#39;overflow&#39;] === &#39;hidden&#39;) { node.style[&#39;overflow&#39;] = &#39;visible&#39;; } }); })(); However, this script stopped working just a few days after, and I couldn’t fix it since something in the server-end must have changed.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-10-13 00:00:00 +0000 UTC'>October 13, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Fixing Missing Scrollbar for ChatGPT with ChatGPT" href="https://techshinobi.org/posts/chat-scroll/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>the “Open Source AI Manifesto” Mark Zuckerberg has been hated by Richard Stallman for decades and he is the only person who appears on both cover image of the video essays: How the Internet was Stolen and How AI was Stolen by Then &amp; Now.
-However, things has changed recently after his adoption of the Fediverse and open-sourcing of Llama continuously.
-In Zuckerberg’s latest “Open Source AI Manifesto”, he stated 5 needs of open-source:
-We need to train, fine-tune, and distill our own models. We need to control our own destiny and not get locked into a closed vendor. We need to protect our data. We need a model that is efficient and affordable to run. We want to invest in the ecosystem that’s going to be the standard for the long term. That describes the needs of tech individuals and small businesses accurately.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-07-25 00:00:00 +0000 UTC'>July 25, 2024</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;" href="https://techshinobi.org/posts/ethics-llm/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

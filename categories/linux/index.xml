@@ -6,8 +6,34 @@
     <description>Recent content in Linux on Tech Shinobi</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revisiting Voice Cloning with GPT-SoVITS and so on</title>
+      <link>https://techshinobi.org/posts/vits-re/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/vits-re/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/voice-vits/&#34;&gt;My last article&lt;/a&gt; on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.&lt;/p&gt;
+&lt;p&gt;Refering to some Chinese source such as &lt;a href=&#34;https://www.tangshuang.net/9063.html&#34;&gt;this blog&lt;/a&gt; and &lt;a href=&#34;https://www.bilibili.com/video/BV1hukmYhEJX&#34;&gt;this video&lt;/a&gt;, I was attempting to adopt new tools for my audio book service, such as &lt;a href=&#34;%5Bhttps://github.com/FunAudioLLM/CosyVoice&#34;&gt;CosyVoice&lt;/a&gt;, &lt;a href=&#34;https://github.com/SWivid/F5-TTS/&#34;&gt;F5-TTS&lt;/a&gt;, &lt;a href=&#34;https://github.com/RVC-Boss/GPT-SoVITS&#34;&gt;GPT-SoVITS&lt;/a&gt;, and &lt;a href=&#34;https://github.com/fishaudio/fish-speech&#34;&gt;fish-speech&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But before we start, I recommend to:&lt;/p&gt;
+&lt;p&gt;Install miniconda for dependency sanity&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &amp;amp;&amp;amp; sudo chmod +x Miniconda3-latest-Linux-x86_64.sh &amp;amp;&amp;amp; bash Miniconda3-latest-Linux-x86_64.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Setup &lt;a href=&#34;https://pytorch.org/get-started/previous-versions/#linux-and-windows-2&#34;&gt;PyTorch environment&lt;/a&gt; as needed and confirm with &lt;code&gt;python -m torch.utils.collect_env&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrating Harbor instance from Linux to WSL2</title>
+      <link>https://techshinobi.org/posts/harbor-wsl/</link>
+      <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
+      <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
+&lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Linux hardware: copy Harbor files from&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/home/username/Harbor
+/home/username/.ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Windows hardware: connect the USB drive containing Harbor files and run&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Migrating Linux VM to a Portable Live USB</title>
       <link>https://techshinobi.org/posts/clonevm/</link>

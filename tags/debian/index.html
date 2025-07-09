@@ -108,6 +108,22 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don’t have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)
     </h2>
   </header>

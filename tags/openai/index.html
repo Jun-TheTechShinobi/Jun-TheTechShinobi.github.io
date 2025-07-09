@@ -108,6 +108,22 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don鈥檛 have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;路&nbsp;1 min&nbsp;路&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)
     </h2>
   </header>
@@ -163,21 +179,6 @@ I don鈥檛 know if anyone is interested in that direction, but I digressed, let鈥
   </div>
   <footer class="entry-footer"><span title='2023-04-06 00:00:00 +0000 UTC'>April 6, 2023</span>&nbsp;路&nbsp;17 min&nbsp;路&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to AI CyberSecurity, ChatGPT and Post-humanism" href="https://techshinobi.org/posts/aisecph/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Cheapskate&#39;s Stable Diffusion Server
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here鈥檚 some comments on OpenAI:
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source? ChatGPT, how did you get here? It was a long journey through open source AI When big AI labs refuse to open source their models, the community steps in Artificial Intelligence: Last Week Tonight with John Oliver (HBO) The TRUTH about OpenAI I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-03-28 00:00:00 +0000 UTC'>March 28, 2023</span>&nbsp;路&nbsp;10 min&nbsp;路&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Cheapskate&#39;s Stable Diffusion Server" href="https://techshinobi.org/posts/cheapsd/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
