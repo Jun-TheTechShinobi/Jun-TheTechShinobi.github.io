@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Torrc on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/torrc/</link>
+    <description>Recent content in Torrc on Tech Shinobi</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/torrc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
+      <link>https://techshinobi.org/posts/ytproxy/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ytproxy/</guid>
+      <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
+&lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;There are many ways to get around this IP block. Because I think switching VPN server is too heavy just for this, I would like to use a proxy.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

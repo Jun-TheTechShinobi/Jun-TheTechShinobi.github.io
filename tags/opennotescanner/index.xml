@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenNoteScanner on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/opennotescanner/</link>
+    <description>Recent content in OpenNoteScanner on Tech Shinobi</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/opennotescanner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Scan, OCR and Share a Book Anonymously</title>
+      <link>https://techshinobi.org/posts/bookscan/</link>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/bookscan/</guid>
+      <description>&lt;p&gt;Recently, I have encountered a very rare out-of-print book that I decided to save it for the world with modern technology.&lt;/p&gt;
+&lt;p&gt;Because I don&amp;rsquo;t have a real scanner, I tested all sorts of scanner android apps that are open source.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/allgood/OpenNoteScanner&#34;&gt;OpenNoteScanner&lt;/a&gt; not working on every phone, auto cropping not working properly, capture fast with postprocessing, high quality result.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ethereal-developers/OpenScan&#34;&gt;OpenScan&lt;/a&gt; no auto cropping&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LittleTrickster/PDF-Doc-Scan&#34;&gt;PDF-Doc-Scan&lt;/a&gt; auto cropping not working with book at all&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Breta01/docus&#34;&gt;docus&lt;/a&gt; not so good auto cropping, no retouch&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/clean-apps/CleanSCAN&#34;&gt;CleanSCAN&lt;/a&gt; no auto cropping&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Akylas/OSS-DocumentScanner&#34;&gt;OSS-DocumentScanner&lt;/a&gt; with functional auto cropping most of the times, has filter and postprocessing but at cost of slow capture, very high quality result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It ends up &lt;code&gt;OSS-DocumentScanner&lt;/code&gt; is the best of all. To make things easier, I customized the best gamma, contrast and filter as default, based on my lighting and book condition.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
