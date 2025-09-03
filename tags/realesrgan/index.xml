@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Realesrgan on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/realesrgan/</link>
+    <description>Recent content in Realesrgan on Tech Shinobi</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/realesrgan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Increasing Video Resolution and Frame Rate with video2x</title>
+      <link>https://techshinobi.org/posts/video2x/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/video2x/</guid>
+      <description>&lt;p&gt;Recently, I downloaded an old documentary made in early 2000s. The original resolution was 854×480 with a less than 1000 KB/S bitrate. Because I like the content so there is enough reason to enhance my watching experience.&lt;/p&gt;
+&lt;p&gt;Download installer instead of the zip pack from &lt;a href=&#34;https://github.com/k4yt3x/video2x/releases/&#34;&gt;k4yt3x&amp;rsquo;s github repo&lt;/a&gt;, this will install all binaries and dependencies for Windows.&lt;/p&gt;
+&lt;p&gt;After restart the system, open video2x and load a video, it can automatically detect the GPU if it exists. Gaming GPU with higher frequency/hashrate is preferred over larger VRAM in this case.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

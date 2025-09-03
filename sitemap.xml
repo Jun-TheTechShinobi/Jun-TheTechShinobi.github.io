@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://techshinobi.org/tags/acemagic-t8-plus/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/decoding/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/frame-interpolation/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/video2x/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/mind/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/mpv/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/realesrgan/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/upscaling/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/upscayl/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/video2x/</loc>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/acemagic-t8-plus/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/firewall/</loc>
@@ -35,9 +71,6 @@
     <loc>https://techshinobi.org/tags/pfsense/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/realtek/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,12 +78,6 @@
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/soft-router/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/troubleshooting/</loc>
@@ -66,9 +93,6 @@
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/ideology/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/mpv/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/categories/privacy/</loc>
@@ -225,9 +249,6 @@
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/llm/</loc>
-    <lastmod>2025-07-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/mind/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/posts/learn-ai/</loc>
