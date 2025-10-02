@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Translation on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/translation/</link>
+    <description>Recent content in Translation on Tech Shinobi</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting a Multi-Lingual GitBook on GitHub Pages</title>
+      <link>https://techshinobi.org/posts/osway/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/osway/</guid>
+      <description>&lt;p&gt;Contributing back to the community has been my duty consciously for years. Lately, I&amp;rsquo;m working on the &lt;a href=&#34;https://github.com/theopensourcewaycn/guidebook&#34;&gt;translation project&lt;/a&gt; of &lt;a href=&#34;https://github.com/theopensourceway/guidebook&#34;&gt;The Open Source Way&lt;/a&gt; ebook.&lt;/p&gt;
+&lt;p&gt;Fork a downstream repo of the project and &lt;code&gt;git clone https://github.com/Jun-TheTechShinobi/guidebook.git &amp;amp;&amp;amp; cd guidebook&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/package-manager/all&#34;&gt;Node.js/NPM&lt;/a&gt; through cli package manager&lt;/p&gt;
+&lt;p&gt;Install gitbook &lt;code&gt;npm install @gitbook-ng/gitbook&lt;/code&gt; for the project&lt;/p&gt;
+&lt;p&gt;Now, the book is supposed to be hosted locally with &lt;code&gt;npx gitbook serve&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;However, I&amp;rsquo;m getting &lt;code&gt;unknown block tag: hint&lt;/code&gt; error because of lack of plugins&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
