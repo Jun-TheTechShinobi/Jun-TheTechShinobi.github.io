@@ -6,8 +6,17 @@
     <description>Recent content in Hardware on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
+      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
+&lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
+&lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
       <link>https://techshinobi.org/posts/n100pfsense/</link>

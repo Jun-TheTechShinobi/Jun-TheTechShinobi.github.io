@@ -6,8 +6,36 @@
     <description>Recent content in Security on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Harden AI Instances for Privacy and Security</title>
+      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
+&lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
+      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
+&lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
+&lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
+      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
+&lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
+&lt;p&gt;Note: For operational security, all initial settings should be done without physical Internet/WAN connection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
       <link>https://techshinobi.org/posts/n100pfsense/</link>

@@ -6,8 +6,36 @@
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Harden AI Instances for Privacy and Security</title>
+      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
+&lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
+      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
+&lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
+&lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
+      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
+&lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
+&lt;p&gt;Note: For operational security, all initial settings should be done without physical Internet/WAN connection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hosting a Multi-Lingual GitBook on GitHub Pages</title>
       <link>https://techshinobi.org/posts/osway/</link>
@@ -19,6 +47,23 @@
 &lt;p&gt;Install gitbook &lt;code&gt;npm install @gitbook-ng/gitbook&lt;/code&gt; for the project&lt;/p&gt;
 &lt;p&gt;Now, the book is supposed to be hosted locally with &lt;code&gt;npx gitbook serve&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;However, I&amp;rsquo;m getting &lt;code&gt;unknown block tag: hint&lt;/code&gt; error because of lack of plugins&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The HackerNoon Problems</title>
+      <link>https://techshinobi.org/posts/hackernoon/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/hackernoon/</guid>
+      <description>&lt;p&gt;To boost my article visibility on the fractured internet, reposting to larger platforms is my strategy to grow and HackerNoon has been my choice for years.&lt;/p&gt;
+&lt;p&gt;However, this platform is a boat which sinks even faster than Medium. I have been rejected arbitrarily by the editor earlier this year just for minor formatting improvements, which is still tolerable.&lt;/p&gt;
+&lt;p&gt;This time, they not only rejected my submission, but also banned me from the platform for no reason whatsoever. I can&amp;rsquo;t find any information in my Inbox, notifications or anywhere else. Whenever I&amp;rsquo;m trying to edit or write a post, I get a red warning saying &amp;ldquo;You have been banned&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
+      <link>https://techshinobi.org/posts/mineru/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
+      <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
+&lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Increasing Video Resolution and Frame Rate with video2x</title>

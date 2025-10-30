@@ -6,8 +6,17 @@
     <description>Recent content in Harbor on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/tags/harbor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Harden AI Instances for Privacy and Security</title>
+      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
+&lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Migrating Harbor instance from Linux to WSL2</title>
       <link>https://techshinobi.org/posts/harbor-wsl/</link>

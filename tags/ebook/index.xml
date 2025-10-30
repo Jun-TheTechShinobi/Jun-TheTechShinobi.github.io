@@ -20,5 +20,13 @@
 &lt;p&gt;Now, the book is supposed to be hosted locally with &lt;code&gt;npx gitbook serve&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;However, I&amp;rsquo;m getting &lt;code&gt;unknown block tag: hint&lt;/code&gt; error because of lack of plugins&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
+      <link>https://techshinobi.org/posts/mineru/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
+      <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
+&lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

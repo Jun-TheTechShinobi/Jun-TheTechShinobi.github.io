@@ -6,8 +6,183 @@
     <description>Recent content in Tags on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics</title>
+      <link>https://techshinobi.org/tags/analytics/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browser</title>
+      <link>https://techshinobi.org/tags/browser/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/browser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Censys</title>
+      <link>https://techshinobi.org/tags/censys/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/censys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Collection</title>
+      <link>https://techshinobi.org/tags/data-collection/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/data-collection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://techshinobi.org/tags/docker/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gradio</title>
+      <link>https://techshinobi.org/tags/gradio/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/gradio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harbor</title>
+      <link>https://techshinobi.org/tags/harbor/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/harbor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://techshinobi.org/tags/ollama/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ollama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streamlit</title>
+      <link>https://techshinobi.org/tags/streamlit/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Hardening</title>
+      <link>https://techshinobi.org/tags/system-hardening/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/system-hardening/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Telemetry</title>
+      <link>https://techshinobi.org/tags/telemetry/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/telemetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DD-WRT</title>
+      <link>https://techshinobi.org/tags/dd-wrt/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/dd-wrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardening</title>
+      <link>https://techshinobi.org/tags/hardening/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/hardening/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MR7350</title>
+      <link>https://techshinobi.org/tags/mr7350/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/mr7350/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenWrt</title>
+      <link>https://techshinobi.org/tags/openwrt/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Router</title>
+      <link>https://techshinobi.org/tags/router/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/router/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WiFi</title>
+      <link>https://techshinobi.org/tags/wifi/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/wifi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireless</title>
+      <link>https://techshinobi.org/tags/wireless/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/wireless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Channel Analysis</title>
+      <link>https://techshinobi.org/tags/channel-analysis/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/channel-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GL-MT6000</title>
+      <link>https://techshinobi.org/tags/gl-mt6000/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/gl-mt6000/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GL.iNet Flint 2</title>
+      <link>https://techshinobi.org/tags/gl.inet-flint-2/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/gl.inet-flint-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://techshinobi.org/tags/hardware/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operational Security</title>
+      <link>https://techshinobi.org/tags/operational-security/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/operational-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set-and-Forget</title>
+      <link>https://techshinobi.org/tags/set-and-forget/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/set-and-forget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snowden&#39;s Rule</title>
+      <link>https://techshinobi.org/tags/snowdens-rule/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/snowdens-rule/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ebook</title>
       <link>https://techshinobi.org/tags/ebook/</link>
@@ -48,6 +223,97 @@
       <link>https://techshinobi.org/tags/translation/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/tags/translation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ban</title>
+      <link>https://techshinobi.org/tags/ban/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ban/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deplatform</title>
+      <link>https://techshinobi.org/tags/deplatform/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/deplatform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HackerNoon</title>
+      <link>https://techshinobi.org/tags/hackernoon/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/hackernoon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mastodon</title>
+      <link>https://techshinobi.org/tags/mastodon/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/mastodon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calibre</title>
+      <link>https://techshinobi.org/tags/calibre/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/calibre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ebook-Translator-Calibre-Plugin</title>
+      <link>https://techshinobi.org/tags/ebook-translator-calibre-plugin/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ebook-translator-calibre-plugin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EPUB</title>
+      <link>https://techshinobi.org/tags/epub/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/epub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://techshinobi.org/tags/markdown/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MinerU</title>
+      <link>https://techshinobi.org/tags/mineru/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/mineru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OCR</title>
+      <link>https://techshinobi.org/tags/ocr/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/ocr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOM</title>
+      <link>https://techshinobi.org/tags/oom/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/oom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>https://techshinobi.org/tags/prompt-engineering/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regex</title>
+      <link>https://techshinobi.org/tags/regex/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/tags/regex/</guid>
       <description></description>
     </item>
     <item>
@@ -265,13 +531,6 @@
       <link>https://techshinobi.org/tags/digital-hygiene/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/tags/digital-hygiene/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://techshinobi.org/tags/docker/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/docker/</guid>
       <description></description>
     </item>
     <item>
@@ -513,13 +772,6 @@
       <description></description>
     </item>
     <item>
-      <title>Prompt Engineering</title>
-      <link>https://techshinobi.org/tags/prompt-engineering/</link>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/prompt-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Reading List</title>
       <link>https://techshinobi.org/tags/reading-list/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
@@ -629,13 +881,6 @@
       <link>https://techshinobi.org/tags/debian/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/tags/debian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Harbor</title>
-      <link>https://techshinobi.org/tags/harbor/</link>
-      <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/harbor/</guid>
       <description></description>
     </item>
     <item>
@@ -933,13 +1178,6 @@
       <description></description>
     </item>
     <item>
-      <title>Hardware</title>
-      <link>https://techshinobi.org/tags/hardware/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/hardware/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tesla M40</title>
       <link>https://techshinobi.org/tags/tesla-m40/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
@@ -1056,13 +1294,6 @@
       <link>https://techshinobi.org/tags/deepseek/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/tags/deepseek/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ollama</title>
-      <link>https://techshinobi.org/tags/ollama/</link>
-      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/ollama/</guid>
       <description></description>
     </item>
     <item>
@@ -1367,13 +1598,6 @@
       <description></description>
     </item>
     <item>
-      <title>OpenWrt</title>
-      <link>https://techshinobi.org/tags/openwrt/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/openwrt/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>SSH</title>
       <link>https://techshinobi.org/tags/ssh/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
@@ -1406,13 +1630,6 @@
       <link>https://techshinobi.org/tags/ai-coding/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://techshinobi.org/tags/ai-coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Browser</title>
-      <link>https://techshinobi.org/tags/browser/</link>
-      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/tags/browser/</guid>
       <description></description>
     </item>
     <item>

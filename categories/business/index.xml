@@ -6,8 +6,18 @@
     <description>Recent content in Business on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/categories/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
+      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
+&lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
+&lt;p&gt;Note: For operational security, all initial settings should be done without physical Internet/WAN connection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
       <link>https://techshinobi.org/posts/learn-ai/</link>
