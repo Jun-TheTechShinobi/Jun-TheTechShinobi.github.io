@@ -6,8 +6,44 @@
     <description>Recent content on Tech Shinobi</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://techshinobi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shutting Off Annoying Autoupdate Notification for Mullvad Browser</title>
+      <link>https://techshinobi.org/posts/mullvad/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/mullvad/</guid>
+      <description>&lt;p&gt;This has been a problem for a while now. That green dot and popup notification persisted on my Mullvad browser makes me feel like using a bloatware than a FOSS.&lt;/p&gt;
+&lt;p&gt;The right way to do this is either follow their upstream Tor browser update model—just force updating seamlessly without any user interaction. Or, like LibreWolf, manual update with the system package manager.&lt;/p&gt;
+&lt;p&gt;This situation might be because of I&amp;rsquo;m using the portable version of Mullvad browser. If that&amp;rsquo;s the case, I shouldn&amp;rsquo;t blame it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trying out Immutable/Atomic Linux: Secureblue, Guix and NixOS</title>
+      <link>https://techshinobi.org/posts/atomic/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/atomic/</guid>
+      <description>&lt;h2 id=&#34;background-with-kicksecure&#34;&gt;Background with Kicksecure&lt;/h2&gt;
+&lt;p&gt;Last year, I set up my Monero Wallet with Kicksecure and happy about it. This distro is really lightweight and easy to use. However, it failed completely after a recent upgrade, which was a major version leap from Debian 12 to 13.&lt;/p&gt;
+&lt;p&gt;It lost drivers, desktop environment stopped working and probably much more which I couldn&amp;rsquo;t discover because I stacked at a login screen loop. After troubleshooting for a couple of hours, it turns out all lightdm related DEs are unusable and Gnome and KDE are working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On iPhone, Design and Jailbreak (Updated)</title>
+      <link>https://techshinobi.org/posts/on-iphone/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/on-iphone/</guid>
+      <description>&lt;p&gt;This post was originally published on February 2025, and I recently updated the IPATool section in the end as a alternative method to prior ones.&lt;/p&gt;
+&lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
+&lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cheapskate&#39;s TrueNAS Build with 6 Drives RAID-Z2</title>
+      <link>https://techshinobi.org/posts/truenas/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/truenas/</guid>
+      <description>&lt;p&gt;After almost two years later, the hardware of &lt;a href=&#34;https://techshinobi.org/posts/cheapnas/#old-stories&#34;&gt;my Openmediavault NAS&lt;/a&gt; is going to be upgraded from Vostro to Precision. Which is a big leap, that I don&amp;rsquo;t have to do any hardware modification to use Xeon CPUs.&lt;/p&gt;
+&lt;p&gt;Thanks for my friend&amp;rsquo;s donation. This junkstation comes with E3-1245, 16GB and 4 SATA HDD port. What I added is a ASMedia 106x SATA PCIE card for 2 more SATA HDD capacity (6 HDD in total), and a PCIe to NVMe adapter for accommodating a
+OS drive (128GB SSD).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
       <link>https://techshinobi.org/posts/ai-privacy/</link>
@@ -193,15 +229,6 @@
 &lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Jun-TheTechShinobi/Jun-TheTechShinobi.github.io/45b89958caec4b3d2293d63c214ec871a2331a1e/posts/upgrade-ai-server/images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;meltdown2&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Jun-TheTechShinobi/Jun-TheTechShinobi.github.io/45b89958caec4b3d2293d63c214ec871a2331a1e/posts/upgrade-ai-server/images/meltdown2.JPG&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is just like the PCIe to EPS adapter situation &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#about-power-supply&#34;&gt;last time&lt;/a&gt;, so I have to replace it with a heavier gauge (something better than the cheapest like above).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>On iPhone, Design and Jailbreak</title>
-      <link>https://techshinobi.org/posts/on-iphone/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/on-iphone/</guid>
-      <description>&lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
-&lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Despite how much I dislike iPhone&amp;rsquo;s disruptive innovation and its market breakthrough as well as Apple&amp;rsquo;s philosophy behind it. There is one thing true about the spirit of Steve Jobs, that is, a phone should be comfortably used in one hand. Although this was his defense of iPhone&amp;rsquo;s 3.5 inch screen size, I strongly agree with his ergonomics minded UX design.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>

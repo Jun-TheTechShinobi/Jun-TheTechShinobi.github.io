@@ -2,6 +2,165 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techshinobi.org/categories/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/firefox-policy/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/ideology/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/linux/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/mind/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/mullvad-browser/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/mullvad/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/appimage/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/atomic-linux-distros/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/debian/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/fedora/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/guix/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/immutable-linux-distributions/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/linux-review/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/nixos/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/open-source/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/rpm-ostree/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/secureblue/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/security/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/atomic/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/-sideloadly/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/antennapod/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/anytime-podcast-player/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/business/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/design/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ergonomics/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/feeder/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/hackintosh/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ipatool/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/iphone-se/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/muffinstore/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/netnewswire/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/on-iphone/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/opml/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/podcast/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/rss/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/steve-jobs/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/trollstore/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/ux/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/acl/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/posts/truenas/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/clover/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/dell-precision-t1600/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/hardware/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/categories/networking/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/nfs/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/opensource/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/pcie-boot/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/smb/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techshinobi.org/tags/truenas/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://techshinobi.org/categories/ai/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +168,6 @@
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/browser/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/censys/</loc>
@@ -32,34 +188,16 @@
     <loc>https://techshinobi.org/posts/ai-privacy/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/linux/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/networking/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/ollama/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/categories/privacy/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/security/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/streamlit/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/system-hardening/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2025-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/telemetry/</loc>
@@ -72,12 +210,6 @@
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/hardening/</loc>
-    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/hardware/</loc>
-    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/mind/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/mr7350/</loc>
@@ -94,9 +226,6 @@
   </url><url>
     <loc>https://techshinobi.org/tags/wireless/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/categories/business/</loc>
-    <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/channel-analysis/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
@@ -134,13 +263,7 @@
     <loc>https://techshinobi.org/posts/osway/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/ideology/</loc>
-    <lastmod>2025-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/multiple-languages/</loc>
-    <lastmod>2025-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/opensource/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/translation/</loc>
@@ -407,9 +530,6 @@
     <loc>https://techshinobi.org/tags/newsletters/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/podcast/</loc>
-    <lastmod>2025-07-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/reading-list/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -457,9 +577,6 @@
   </url><url>
     <loc>https://techshinobi.org/tags/whisper/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/debian/</loc>
-    <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/linux/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
@@ -542,9 +659,6 @@
     <loc>https://techshinobi.org/posts/migratevm/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/open-source/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://techshinobi.org/tags/ovf/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -604,54 +718,6 @@
   </url><url>
     <loc>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/-sideloadly/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/antennapod/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/anytime-podcast-player/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/design/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/ergonomics/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/feeder/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/hackintosh/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/iphone-se/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/muffinstore/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/netnewswire/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/on-iphone/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/opml/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/rss/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/steve-jobs/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/trollstore/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/ux/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://techshinobi.org/tags/deepseek/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>

@@ -108,6 +108,49 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Recovering from Data Loss due to LUKS Failure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Background Story Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren’t backed up. I’ve recovered everything from backup this time so I decide to document it.
+The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption. I don’t have the header backed up and have stopped using Timeshift for a long time due to it’s unschedulable which lead to chaotic performance impact.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-24 00:00:00 +0000 UTC'>September 24, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Recovering from Data Loss due to LUKS Failure" href="https://techshinobi.org/posts/recoverluks/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Setting up a Wisper Server with GUI using Generate-subtitles
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I use Generate-subtitles as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.
+When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are Subtitle Edit and Aegisub. SE provides a great online version and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support. Aegisub works with .ASS format which fits into NixieVideoKit automated workflow.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-10 00:00:00 +0000 UTC'>June 10, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Setting up a Wisper Server with GUI using Generate-subtitles" href="https://techshinobi.org/posts/gensub-whisper/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cheapskate&#39;s Stable Diffusion Server
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
+Before we start, here’s some comments on OpenAI:
+The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source? ChatGPT, how did you get here? It was a long journey through open source AI When big AI labs refuse to open source their models, the community steps in Artificial Intelligence: Last Week Tonight with John Oliver (HBO) The TRUTH about OpenAI I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-03-28 00:00:00 +0000 UTC'>March 28, 2023</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Cheapskate&#39;s Stable Diffusion Server" href="https://techshinobi.org/posts/cheapsd/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Nokia N900, postmarketOS and Ideology
     </h2>
   </header>
@@ -134,39 +177,12 @@ The graphic installer is much simpler than Parrot OS that may not be an issue fo
   <footer class="entry-footer"><span title='2022-10-07 00:00:00 +0000 UTC'>October 7, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to Kali and Anonsurf" href="https://techshinobi.org/posts/kalianon/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Edge TTS Reader
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Back to the Command-line For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.
-Therefore, I found a work around with edge-tts. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.
-After installation, use edge-tts --list-voices | grep US to show English speaking characters and now I can locate a text file in the terminal to be read.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-09-22 00:00:00 +0000 UTC'>September 22, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Edge TTS Reader" href="https://techshinobi.org/posts/edgetts/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Tweaking the Mouse
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Acceleration During my teenage years, I was really into FPS and RTS games. That’s why I’m kind of picky on computer mouses and being paranoid of acceleration in the OS.
-Permanently disabling acceleration for Windows is simple. Besides unchecking the “Enhance pointer precision” in the main.cpl, some registry hacks such as the good old classic “CPL Mouse Fix” or the later “MarkC” would do it easily by a REG/batch file. It is also possible doing manually if you want.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-09-22 00:00:00 +0000 UTC'>September 22, 2022</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Tweaking the Mouse" href="https://techshinobi.org/posts/tweakingmouse/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://techshinobi.org/categories/linux/page/4/">
       «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://techshinobi.org/categories/linux/page/6/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>

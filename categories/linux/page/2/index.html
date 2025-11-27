@@ -108,6 +108,54 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Creating EPUB from Scanned PDF with MinerU and LLMs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can’t always get books in EPUB/MOBI especially for rare or old books.
+Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn’t blame on them since I’ve been doing that before and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-16 00:00:00 +0000 UTC'>September 16, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Creating EPUB from Scanned PDF with MinerU and LLMs" href="https://techshinobi.org/posts/mineru/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Revisiting Voice Cloning with GPT-SoVITS and so on
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Forewords
+My last article on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.
+Refering to some Chinese source such as this blog and this video, I was attempting to adopt new tools for my audio book service, such as CosyVoice, F5-TTS, GPT-SoVITS, and fish-speech.
+But before we start, I recommend to:
+Install miniconda for dependency sanity
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &amp;&amp; sudo chmod &#43;x Miniconda3-latest-Linux-x86_64.sh &amp;&amp; bash Miniconda3-latest-Linux-x86_64.sh Setup PyTorch environment as needed and confirm with python -m torch.utils.collect_env
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-11 00:00:00 +0000 UTC'>June 11, 2025</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Revisiting Voice Cloning with GPT-SoVITS and so on" href="https://techshinobi.org/posts/vits-re/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Migrating Harbor instance from Linux to WSL2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In the past, I have covered how to set up Ubuntu in WSL2 and hosting local LLMs with Harbor, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don’t have to set it up from scratch.
+First thing to do is to open firewall port
+netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx On Linux hardware: copy Harbor files from
+/home/username/Harbor /home/username/.ollama On Windows hardware: connect the USB drive containing Harbor files and run
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-26 00:00:00 +0000 UTC'>May 26, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jun</footer>
+  <a class="entry-link" aria-label="post link to Migrating Harbor instance from Linux to WSL2" href="https://techshinobi.org/posts/harbor-wsl/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Migrating Linux VM to a Portable Live USB
     </h2>
   </header>
@@ -133,49 +181,6 @@ In the past, I used to recommend people using Llama series for English tasks and
   </div>
   <footer class="entry-footer"><span title='2025-01-26 00:00:00 +0000 UTC'>January 26, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Jun</footer>
   <a class="entry-link" aria-label="post link to Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)" href="https://techshinobi.org/posts/easy-local-llm/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Reviving ThinkCentre M58p in 2024
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.
-Back then, the performance of SoC was too weak so that even laptops wouldn’t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-12-14 00:00:00 +0000 UTC'>December 14, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Reviving ThinkCentre M58p in 2024" href="https://techshinobi.org/posts/m58p/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">On Windows Nostalgia, Linux and Its Discontents
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Windows Nostalgia A recent video on Windows 7 as daily driver OS by Brodie Robertson was hilarious but also arguable.
-For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.
-The compromise would be Windows 7. I agree there are too much of accumulated unpatched security vulnerabilities, but there are tricks to mitigate most of those either technically or strategically.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-12-06 00:00:00 +0000 UTC'>December 6, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to On Windows Nostalgia, Linux and Its Discontents" href="https://techshinobi.org/posts/11-7-linux/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Ubuntu on Windows via WSL2
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>WSL Installation There are some special use cases where I would like to go through and show the process of setting up WSL. Ubuntu’s official document works well on Windows 11 LTSC for WSL installation, there is also a tutorial from sitepoint with more details.
-I’m doing this on a double debloated version of Windows 11 from previous post of Tiny 11 WTG, where I downloaded WinGet, extracted DesktopAppInstaller_Dependencies.zip and installed with PowerShell:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-12-06 00:00:00 +0000 UTC'>December 6, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Jun</footer>
-  <a class="entry-link" aria-label="post link to Ubuntu on Windows via WSL2" href="https://techshinobi.org/posts/wsl2/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux Review on Tech Shinobi</title>
+    <link>https://techshinobi.org/tags/linux-review/</link>
+    <description>Recent content in Linux Review on Tech Shinobi</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techshinobi.org/tags/linux-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trying out Immutable/Atomic Linux: Secureblue, Guix and NixOS</title>
+      <link>https://techshinobi.org/posts/atomic/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://techshinobi.org/posts/atomic/</guid>
+      <description>&lt;h2 id=&#34;background-with-kicksecure&#34;&gt;Background with Kicksecure&lt;/h2&gt;
+&lt;p&gt;Last year, I set up my Monero Wallet with Kicksecure and happy about it. This distro is really lightweight and easy to use. However, it failed completely after a recent upgrade, which was a major version leap from Debian 12 to 13.&lt;/p&gt;
+&lt;p&gt;It lost drivers, desktop environment stopped working and probably much more which I couldn&amp;rsquo;t discover because I stacked at a login screen loop. After troubleshooting for a couple of hours, it turns out all lightdm related DEs are unusable and Gnome and KDE are working.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
