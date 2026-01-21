@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Networking on Tech Shinobi</title>
-    <link>https://techshinobi.org/categories/networking/</link>
+    <link>http://localhost:1313/categories/networking/</link>
     <description>Recent content in Networking on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s TrueNAS Build with 6 Drives RAID-Z2</title>
-      <link>https://techshinobi.org/posts/truenas/</link>
+      <link>http://localhost:1313/posts/truenas/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/truenas/</guid>
+      <guid>http://localhost:1313/posts/truenas/</guid>
       <description>&lt;p&gt;After almost two years later, the hardware of &lt;a href=&#34;https://techshinobi.org/posts/cheapnas/#old-stories&#34;&gt;my Openmediavault NAS&lt;/a&gt; is going to be upgraded from Vostro to Precision. Which is a big leap, that I don&amp;rsquo;t have to do any hardware modification to use Xeon CPUs.&lt;/p&gt;
 &lt;p&gt;Thanks for my friend&amp;rsquo;s donation. This junkstation comes with E3-1245, 16GB and 4 SATA HDD port. What I added is a ASMedia 106x SATA PCIE card for 2 more SATA HDD capacity (6 HDD in total), and a PCIe to NVMe adapter for accommodating a
 OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
-      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <link>http://localhost:1313/posts/ddwrt-mr7350/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <guid>http://localhost:1313/posts/ddwrt-mr7350/</guid>
       <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
 &lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
 &lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
-      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <link>http://localhost:1313/posts/openwrt-flint2/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <guid>http://localhost:1313/posts/openwrt-flint2/</guid>
       <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
 &lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
@@ -47,9 +47,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
-      <link>https://techshinobi.org/posts/n100pfsense/</link>
+      <link>http://localhost:1313/posts/n100pfsense/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/n100pfsense/</guid>
+      <guid>http://localhost:1313/posts/n100pfsense/</guid>
       <description>&lt;p&gt;Since I was a teenager, I have started voluntarily helping people around me with my skill of technology. This time, I&amp;rsquo;m helping someone to build up a robust, secure and cost-effective firewall/gateway/soft router at home.&lt;/p&gt;
 &lt;p&gt;It ends up on a $100 worth N100 mini-pc with dual Ethernet port, which can be a great pfSense box for home or even business use.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-tweaks&#34;&gt;Hardware Tweaks&lt;/h2&gt;
@@ -57,42 +57,42 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating VMs from ESXi to Proxmox VE</title>
-      <link>https://techshinobi.org/posts/migratevm/</link>
+      <link>http://localhost:1313/posts/migratevm/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/migratevm/</guid>
+      <guid>http://localhost:1313/posts/migratevm/</guid>
       <description>&lt;p&gt;There are many reasons why I&amp;rsquo;m doing this. In the days when Virtual Machine was the thing, VMware Workstation was the go-to option for a Windows host to run VMs. We have to find cracked version for personal use, since there was no VirtualBox neither Hyper-V.&lt;/p&gt;
 &lt;p&gt;Many years ago, when I first decided to have a proper homelab in my household, I went blindly into ESXi just because VMware Workstation has already installed on all of my computers. Although I was pretty like Proxmox during that time, it was considered for not so serious projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
-      <link>https://techshinobi.org/posts/m58p/</link>
+      <link>http://localhost:1313/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/m58p/</guid>
+      <guid>http://localhost:1313/posts/m58p/</guid>
       <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
 &lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
-      <link>https://techshinobi.org/posts/tethering-hotspot/</link>
+      <link>http://localhost:1313/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
+      <guid>http://localhost:1313/posts/tethering-hotspot/</guid>
       <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
 &lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-hosting RustDesk Server via Docker Compose</title>
-      <link>https://techshinobi.org/posts/rustdesk-server/</link>
+      <link>http://localhost:1313/posts/rustdesk-server/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
+      <guid>http://localhost:1313/posts/rustdesk-server/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.&lt;/p&gt;
 &lt;p&gt;As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
-      <link>https://techshinobi.org/posts/cheapnas/</link>
+      <link>http://localhost:1313/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapnas/</guid>
+      <guid>http://localhost:1313/posts/cheapnas/</guid>
       <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
 &lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
 &lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;

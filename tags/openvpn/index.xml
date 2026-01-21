@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenVPN on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/openvpn/</link>
+    <link>http://localhost:1313/tags/openvpn/</link>
     <description>Recent content in OpenVPN on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
-      <link>https://techshinobi.org/posts/proton-shit/</link>
+      <link>http://localhost:1313/posts/proton-shit/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/proton-shit/</guid>
+      <guid>http://localhost:1313/posts/proton-shit/</guid>
       <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>

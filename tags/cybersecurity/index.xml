@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CyberSecurity on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/cybersecurity/</link>
+    <link>http://localhost:1313/tags/cybersecurity/</link>
     <description>Recent content in CyberSecurity on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>https://techshinobi.org/posts/aisecph/</link>
+      <link>http://localhost:1313/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <guid>http://localhost:1313/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>

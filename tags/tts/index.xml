@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TTS on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/tts/</link>
+    <link>http://localhost:1313/tags/tts/</link>
     <description>Recent content in TTS on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/tts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edge TTS Reader</title>
-      <link>https://techshinobi.org/posts/edgetts/</link>
+      <link>http://localhost:1313/posts/edgetts/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/edgetts/</guid>
+      <guid>http://localhost:1313/posts/edgetts/</guid>
       <description>&lt;h2 id=&#34;back-to-the-command-line&#34;&gt;Back to the Command-line&lt;/h2&gt;
 &lt;p&gt;For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.&lt;/p&gt;
 &lt;p&gt;Therefore, I found a work around with &lt;a href=&#34;https://github.com/rany2/edge-tts&#34;&gt;edge-tts&lt;/a&gt;. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.&lt;/p&gt;

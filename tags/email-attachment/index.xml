@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Email Attachment on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/email-attachment/</link>
+    <link>http://localhost:1313/tags/email-attachment/</link>
     <description>Recent content in Email Attachment on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/email-attachment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/email-attachment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Operational Security with Documents</title>
-      <link>https://techshinobi.org/posts/opsecdocs/</link>
+      <link>http://localhost:1313/posts/opsecdocs/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opsecdocs/</guid>
+      <guid>http://localhost:1313/posts/opsecdocs/</guid>
       <description>&lt;p&gt;Recently, I started sending/receiving documents to/from untrusted sources. In my threat model, this requires extra operational security to prevent privacy exposure and security risk.&lt;/p&gt;
 &lt;p&gt;Since the &lt;a href=&#34;https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#windows&#34;&gt;offical guide&lt;/a&gt; is not so detailed for Windows, I decided to write one while installing on a &lt;a href=&#34;https://techshinobi.org/posts/tiny11wtg/#windows-11-ltsc-double-debloat&#34;&gt;Windows 11 LTSC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First, in Windows Terminal/PowerShell, run &lt;code&gt;wsl --install&lt;/code&gt; to setup WSL2. Read &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;my previous post&lt;/a&gt; for more detail.&lt;/p&gt;

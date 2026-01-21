@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hardware on Tech Shinobi</title>
-    <link>https://techshinobi.org/categories/hardware/</link>
+    <link>http://localhost:1313/categories/hardware/</link>
     <description>Recent content in Hardware on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s TrueNAS Build with 6 Drives RAID-Z2</title>
-      <link>https://techshinobi.org/posts/truenas/</link>
+      <link>http://localhost:1313/posts/truenas/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/truenas/</guid>
+      <guid>http://localhost:1313/posts/truenas/</guid>
       <description>&lt;p&gt;After almost two years later, the hardware of &lt;a href=&#34;https://techshinobi.org/posts/cheapnas/#old-stories&#34;&gt;my Openmediavault NAS&lt;/a&gt; is going to be upgraded from Vostro to Precision. Which is a big leap, that I don&amp;rsquo;t have to do any hardware modification to use Xeon CPUs.&lt;/p&gt;
 &lt;p&gt;Thanks for my friend&amp;rsquo;s donation. This junkstation comes with E3-1245, 16GB and 4 SATA HDD port. What I added is a ASMedia 106x SATA PCIE card for 2 more SATA HDD capacity (6 HDD in total), and a PCIe to NVMe adapter for accommodating a
 OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
-      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <link>http://localhost:1313/posts/ddwrt-mr7350/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <guid>http://localhost:1313/posts/ddwrt-mr7350/</guid>
       <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
 &lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
 &lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
-      <link>https://techshinobi.org/posts/n100pfsense/</link>
+      <link>http://localhost:1313/posts/n100pfsense/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/n100pfsense/</guid>
+      <guid>http://localhost:1313/posts/n100pfsense/</guid>
       <description>&lt;p&gt;Since I was a teenager, I have started voluntarily helping people around me with my skill of technology. This time, I&amp;rsquo;m helping someone to build up a robust, secure and cost-effective firewall/gateway/soft router at home.&lt;/p&gt;
 &lt;p&gt;It ends up on a $100 worth N100 mini-pc with dual Ethernet port, which can be a great pfSense box for home or even business use.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-tweaks&#34;&gt;Hardware Tweaks&lt;/h2&gt;

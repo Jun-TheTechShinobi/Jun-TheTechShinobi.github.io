@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Tech Shinobi</title>
-    <link>https://techshinobi.org/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mind</title>
+      <link>http://localhost:1313/categories/mind/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/mind/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ideology</title>
-      <link>https://techshinobi.org/categories/ideology/</link>
+      <link>http://localhost:1313/categories/ideology/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/ideology/</guid>
+      <guid>http://localhost:1313/categories/ideology/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://techshinobi.org/categories/linux/</link>
+      <link>http://localhost:1313/categories/linux/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mind</title>
-      <link>https://techshinobi.org/categories/mind/</link>
-      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/mind/</guid>
+      <guid>http://localhost:1313/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://techshinobi.org/categories/security/</link>
+      <link>http://localhost:1313/categories/security/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/security/</guid>
+      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>https://techshinobi.org/categories/business/</link>
+      <link>http://localhost:1313/categories/business/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/business/</guid>
+      <guid>http://localhost:1313/categories/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>https://techshinobi.org/categories/hardware/</link>
+      <link>http://localhost:1313/categories/hardware/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/hardware/</guid>
+      <guid>http://localhost:1313/categories/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://techshinobi.org/categories/networking/</link>
+      <link>http://localhost:1313/categories/networking/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/networking/</guid>
+      <guid>http://localhost:1313/categories/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://techshinobi.org/categories/ai/</link>
+      <link>http://localhost:1313/categories/ai/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/ai/</guid>
+      <guid>http://localhost:1313/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://techshinobi.org/categories/privacy/</link>
+      <link>http://localhost:1313/categories/privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/privacy/</guid>
+      <guid>http://localhost:1313/categories/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://techshinobi.org/categories/windows/</link>
+      <link>http://localhost:1313/categories/windows/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/windows/</guid>
+      <guid>http://localhost:1313/categories/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://techshinobi.org/categories/android/</link>
+      <link>http://localhost:1313/categories/android/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/categories/android/</guid>
+      <guid>http://localhost:1313/categories/android/</guid>
       <description></description>
     </item>
   </channel>

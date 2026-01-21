@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Podcast on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/podcast/</link>
+    <link>http://localhost:1313/tags/podcast/</link>
     <description>Recent content in Podcast on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On iPhone, Design and Jailbreak (Updated)</title>
-      <link>https://techshinobi.org/posts/on-iphone/</link>
+      <link>http://localhost:1313/posts/on-iphone/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/on-iphone/</guid>
+      <guid>http://localhost:1313/posts/on-iphone/</guid>
       <description>&lt;p&gt;This post was originally published on February 2025, and I recently updated the IPATool section in the end as a alternative method to prior ones.&lt;/p&gt;
 &lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
 &lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>https://techshinobi.org/posts/learn-ai/</link>
+      <link>http://localhost:1313/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/learn-ai/</guid>
+      <guid>http://localhost:1313/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unblock URLs from My Own Filter Lists</title>
-      <link>https://techshinobi.org/posts/unblock-podcast/</link>
+      <link>http://localhost:1313/posts/unblock-podcast/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/unblock-podcast/</guid>
+      <guid>http://localhost:1313/posts/unblock-podcast/</guid>
       <description>&lt;h2 id=&#34;podcast-doesnt-fetch&#34;&gt;Podcast doesn&amp;rsquo;t fetch&lt;/h2&gt;
 &lt;p&gt;I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.&lt;/p&gt;
 &lt;p&gt;Recently, I found out there is a broken one in my podcast subscriptions.&lt;/p&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Why I Started This Blog</title>
-      <link>https://techshinobi.org/posts/why-i-started/</link>
+      <link>http://localhost:1313/posts/why-i-started/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/why-i-started/</guid>
+      <guid>http://localhost:1313/posts/why-i-started/</guid>
       <description>&lt;h2 id=&#34;in-this-day-and-age&#34;&gt;In This Day and Age?&lt;/h2&gt;
 &lt;p&gt;Back then, when MySpace and 000webhost was the thing. I wrote blog regularly about my life and hobby. That was the beginning of my Internet journey and tweaking CSS code while posting an article was fun.&lt;/p&gt;
 &lt;p&gt;Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or telegram channel but here I am. Because I feel most comfortable this way.&lt;/p&gt;

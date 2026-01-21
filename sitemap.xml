@@ -2,1373 +2,1388 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://techshinobi.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/guideline/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hackerspace/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hackerspace/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/mind/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/shared-craft-space/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tool-library/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/firefox-policy/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/firefox-policy/</loc>
+    <loc>http://localhost:1313/categories/ideology/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/ideology/</loc>
+    <loc>http://localhost:1313/categories/linux/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/linux/</loc>
+    <loc>http://localhost:1313/tags/mullvad-browser/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/mind/</loc>
+    <loc>http://localhost:1313/posts/mullvad/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mullvad-browser/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/posts/mullvad/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://techshinobi.org/tags/appimage/</loc>
+    <loc>http://localhost:1313/tags/appimage/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/atomic-linux-distros/</loc>
+    <loc>http://localhost:1313/tags/atomic-linux-distros/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/debian/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/fedora/</loc>
+    <loc>http://localhost:1313/tags/fedora/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/guix/</loc>
+    <loc>http://localhost:1313/tags/guix/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/immutable-linux-distributions/</loc>
+    <loc>http://localhost:1313/tags/immutable-linux-distributions/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/linux-review/</loc>
+    <loc>http://localhost:1313/tags/linux-review/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nixos/</loc>
+    <loc>http://localhost:1313/tags/nixos/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/open-source/</loc>
+    <loc>http://localhost:1313/tags/open-source/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rpm-ostree/</loc>
+    <loc>http://localhost:1313/tags/rpm-ostree/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/secureblue/</loc>
+    <loc>http://localhost:1313/tags/secureblue/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/security/</loc>
+    <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/atomic/</loc>
+    <loc>http://localhost:1313/posts/atomic/</loc>
     <lastmod>2025-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/-sideloadly/</loc>
+    <loc>http://localhost:1313/tags/-sideloadly/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/antennapod/</loc>
+    <loc>http://localhost:1313/tags/antennapod/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anytime-podcast-player/</loc>
+    <loc>http://localhost:1313/tags/anytime-podcast-player/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/business/</loc>
+    <loc>http://localhost:1313/categories/business/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/design/</loc>
+    <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ergonomics/</loc>
+    <loc>http://localhost:1313/tags/ergonomics/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/feeder/</loc>
+    <loc>http://localhost:1313/tags/feeder/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hackintosh/</loc>
+    <loc>http://localhost:1313/tags/hackintosh/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ipatool/</loc>
+    <loc>http://localhost:1313/tags/ipatool/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/iphone-se/</loc>
+    <loc>http://localhost:1313/tags/iphone-se/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/muffinstore/</loc>
+    <loc>http://localhost:1313/tags/muffinstore/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/netnewswire/</loc>
+    <loc>http://localhost:1313/tags/netnewswire/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/on-iphone/</loc>
+    <loc>http://localhost:1313/posts/on-iphone/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/opml/</loc>
+    <loc>http://localhost:1313/tags/opml/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/podcast/</loc>
+    <loc>http://localhost:1313/tags/podcast/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rss/</loc>
+    <loc>http://localhost:1313/tags/rss/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/steve-jobs/</loc>
+    <loc>http://localhost:1313/tags/steve-jobs/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/trollstore/</loc>
+    <loc>http://localhost:1313/tags/trollstore/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ux/</loc>
+    <loc>http://localhost:1313/tags/ux/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/acl/</loc>
+    <loc>http://localhost:1313/tags/acl/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/truenas/</loc>
+    <loc>http://localhost:1313/posts/truenas/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/clover/</loc>
+    <loc>http://localhost:1313/tags/clover/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/dell-precision-t1600/</loc>
+    <loc>http://localhost:1313/tags/dell-precision-t1600/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/hardware/</loc>
+    <loc>http://localhost:1313/categories/hardware/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/networking/</loc>
+    <loc>http://localhost:1313/categories/networking/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nfs/</loc>
+    <loc>http://localhost:1313/tags/nfs/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/opensource/</loc>
+    <loc>http://localhost:1313/tags/opensource/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pcie-boot/</loc>
+    <loc>http://localhost:1313/tags/pcie-boot/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/smb/</loc>
+    <loc>http://localhost:1313/tags/smb/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/truenas/</loc>
+    <loc>http://localhost:1313/tags/truenas/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/ai/</loc>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/analytics/</loc>
+    <loc>http://localhost:1313/tags/analytics/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/browser/</loc>
+    <loc>http://localhost:1313/tags/browser/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/censys/</loc>
+    <loc>http://localhost:1313/tags/censys/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/data-collection/</loc>
+    <loc>http://localhost:1313/tags/data-collection/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gradio/</loc>
+    <loc>http://localhost:1313/tags/gradio/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/harbor/</loc>
+    <loc>http://localhost:1313/tags/harbor/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/ai-privacy/</loc>
+    <loc>http://localhost:1313/posts/ai-privacy/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ollama/</loc>
+    <loc>http://localhost:1313/tags/ollama/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/privacy/</loc>
+    <loc>http://localhost:1313/categories/privacy/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/streamlit/</loc>
+    <loc>http://localhost:1313/tags/streamlit/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/system-hardening/</loc>
+    <loc>http://localhost:1313/tags/system-hardening/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/telemetry/</loc>
+    <loc>http://localhost:1313/tags/telemetry/</loc>
     <lastmod>2025-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/dd-wrt/</loc>
+    <loc>http://localhost:1313/tags/dd-wrt/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/ddwrt-mr7350/</loc>
+    <loc>http://localhost:1313/posts/ddwrt-mr7350/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hardening/</loc>
+    <loc>http://localhost:1313/tags/hardening/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mr7350/</loc>
+    <loc>http://localhost:1313/tags/mr7350/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openwrt/</loc>
+    <loc>http://localhost:1313/tags/openwrt/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/router/</loc>
+    <loc>http://localhost:1313/tags/router/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wifi/</loc>
+    <loc>http://localhost:1313/tags/wifi/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wireless/</loc>
+    <loc>http://localhost:1313/tags/wireless/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/channel-analysis/</loc>
+    <loc>http://localhost:1313/tags/channel-analysis/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/openwrt-flint2/</loc>
+    <loc>http://localhost:1313/posts/openwrt-flint2/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gl-mt6000/</loc>
+    <loc>http://localhost:1313/tags/gl-mt6000/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gl.inet-flint-2/</loc>
+    <loc>http://localhost:1313/tags/gl.inet-flint-2/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hardware/</loc>
+    <loc>http://localhost:1313/tags/hardware/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/operational-security/</loc>
+    <loc>http://localhost:1313/tags/operational-security/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/set-and-forget/</loc>
+    <loc>http://localhost:1313/tags/set-and-forget/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/snowdens-rule/</loc>
+    <loc>http://localhost:1313/tags/snowdens-rule/</loc>
     <lastmod>2025-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ebook/</loc>
+    <loc>http://localhost:1313/tags/ebook/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gitbook/</loc>
+    <loc>http://localhost:1313/tags/gitbook/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/github-pages/</loc>
+    <loc>http://localhost:1313/tags/github-pages/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/osway/</loc>
+    <loc>http://localhost:1313/posts/osway/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/multiple-languages/</loc>
+    <loc>http://localhost:1313/tags/multiple-languages/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/translation/</loc>
+    <loc>http://localhost:1313/tags/translation/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ban/</loc>
+    <loc>http://localhost:1313/tags/ban/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/deplatform/</loc>
+    <loc>http://localhost:1313/tags/deplatform/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hackernoon/</loc>
+    <loc>http://localhost:1313/tags/hackernoon/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mastodon/</loc>
+    <loc>http://localhost:1313/tags/mastodon/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/hackernoon/</loc>
+    <loc>http://localhost:1313/posts/hackernoon/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/calibre/</loc>
+    <loc>http://localhost:1313/tags/calibre/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/mineru/</loc>
+    <loc>http://localhost:1313/posts/mineru/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ebook-translator-calibre-plugin/</loc>
+    <loc>http://localhost:1313/tags/ebook-translator-calibre-plugin/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/epub/</loc>
+    <loc>http://localhost:1313/tags/epub/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mineru/</loc>
+    <loc>http://localhost:1313/tags/mineru/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ocr/</loc>
+    <loc>http://localhost:1313/tags/ocr/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/oom/</loc>
+    <loc>http://localhost:1313/tags/oom/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/prompt-engineering/</loc>
+    <loc>http://localhost:1313/tags/prompt-engineering/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/regex/</loc>
+    <loc>http://localhost:1313/tags/regex/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/decoding/</loc>
+    <loc>http://localhost:1313/tags/decoding/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/frame-interpolation/</loc>
+    <loc>http://localhost:1313/tags/frame-interpolation/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/video2x/</loc>
+    <loc>http://localhost:1313/posts/video2x/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mpv/</loc>
+    <loc>http://localhost:1313/tags/mpv/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/realesrgan/</loc>
+    <loc>http://localhost:1313/tags/realesrgan/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/upscaling/</loc>
+    <loc>http://localhost:1313/tags/upscaling/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/upscayl/</loc>
+    <loc>http://localhost:1313/tags/upscayl/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/video2x/</loc>
+    <loc>http://localhost:1313/tags/video2x/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/acemagic-t8-plus/</loc>
+    <loc>http://localhost:1313/tags/acemagic-t8-plus/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/firewall/</loc>
+    <loc>http://localhost:1313/tags/firewall/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gateway/</loc>
+    <loc>http://localhost:1313/tags/gateway/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/n100pfsense/</loc>
+    <loc>http://localhost:1313/posts/n100pfsense/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mini-pc/</loc>
+    <loc>http://localhost:1313/tags/mini-pc/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/n100/</loc>
+    <loc>http://localhost:1313/tags/n100/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nuc/</loc>
+    <loc>http://localhost:1313/tags/nuc/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pfsense/</loc>
+    <loc>http://localhost:1313/tags/pfsense/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/realtek/</loc>
+    <loc>http://localhost:1313/tags/realtek/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/soft-router/</loc>
+    <loc>http://localhost:1313/tags/soft-router/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/troubleshooting/</loc>
+    <loc>http://localhost:1313/tags/troubleshooting/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/ytproxy/</loc>
+    <loc>http://localhost:1313/posts/ytproxy/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/checker/</loc>
+    <loc>http://localhost:1313/tags/checker/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/freetube/</loc>
+    <loc>http://localhost:1313/tags/freetube/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/privacy/</loc>
+    <loc>http://localhost:1313/tags/privacy/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/proxy/</loc>
+    <loc>http://localhost:1313/tags/proxy/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/scraper/</loc>
+    <loc>http://localhost:1313/tags/scraper/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tor/</loc>
+    <loc>http://localhost:1313/tags/tor/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/torrc/</loc>
+    <loc>http://localhost:1313/tags/torrc/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/unblock/</loc>
+    <loc>http://localhost:1313/tags/unblock/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vpn/</loc>
+    <loc>http://localhost:1313/tags/vpn/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/youtube/</loc>
+    <loc>http://localhost:1313/tags/youtube/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/yt-dlp/</loc>
+    <loc>http://localhost:1313/tags/yt-dlp/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/dangerzone/</loc>
+    <loc>http://localhost:1313/tags/dangerzone/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/digital-hygiene/</loc>
+    <loc>http://localhost:1313/tags/digital-hygiene/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/email-attachment/</loc>
+    <loc>http://localhost:1313/tags/email-attachment/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/exifcleaner/</loc>
+    <loc>http://localhost:1313/tags/exifcleaner/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/metadata/</loc>
+    <loc>http://localhost:1313/tags/metadata/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/opsecdocs/</loc>
+    <loc>http://localhost:1313/posts/opsecdocs/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/opsec/</loc>
+    <loc>http://localhost:1313/tags/opsec/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pdf/</loc>
+    <loc>http://localhost:1313/tags/pdf/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/risk-management/</loc>
+    <loc>http://localhost:1313/tags/risk-management/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sensitive-information/</loc>
+    <loc>http://localhost:1313/tags/sensitive-information/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/threat-modeling/</loc>
+    <loc>http://localhost:1313/tags/threat-modeling/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/windows/</loc>
+    <loc>http://localhost:1313/categories/windows/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows-11/</loc>
+    <loc>http://localhost:1313/tags/windows-11/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wsl2/</loc>
+    <loc>http://localhost:1313/tags/wsl2/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/categories/android/</loc>
+    <loc>http://localhost:1313/categories/android/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anonymity/</loc>
+    <loc>http://localhost:1313/tags/anonymity/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/archive.org/</loc>
+    <loc>http://localhost:1313/tags/archive.org/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/copyright-surveillance/</loc>
+    <loc>http://localhost:1313/tags/copyright-surveillance/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/bookscan/</loc>
+    <loc>http://localhost:1313/posts/bookscan/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/library-genesis/</loc>
+    <loc>http://localhost:1313/tags/library-genesis/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/morality/</loc>
+    <loc>http://localhost:1313/tags/morality/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ocrmypdf/</loc>
+    <loc>http://localhost:1313/tags/ocrmypdf/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/opennotescanner/</loc>
+    <loc>http://localhost:1313/tags/opennotescanner/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openscan/</loc>
+    <loc>http://localhost:1313/tags/openscan/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/oss-documentscanner/</loc>
+    <loc>http://localhost:1313/tags/oss-documentscanner/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pdf-doc-scan/</loc>
+    <loc>http://localhost:1313/tags/pdf-doc-scan/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pdfc/</loc>
+    <loc>http://localhost:1313/tags/pdfc/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pdfmini/</loc>
+    <loc>http://localhost:1313/tags/pdfmini/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/phone-scanner/</loc>
+    <loc>http://localhost:1313/tags/phone-scanner/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/shadow-library/</loc>
+    <loc>http://localhost:1313/tags/shadow-library/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/signaturepdf/</loc>
+    <loc>http://localhost:1313/tags/signaturepdf/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/umi-ocr/</loc>
+    <loc>http://localhost:1313/tags/umi-ocr/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/z-library/</loc>
+    <loc>http://localhost:1313/tags/z-library/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/2025/</loc>
+    <loc>http://localhost:1313/tags/2025/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/blogs/</loc>
+    <loc>http://localhost:1313/tags/blogs/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/books/</loc>
+    <loc>http://localhost:1313/tags/books/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/llm/</loc>
+    <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/learn-ai/</loc>
+    <loc>http://localhost:1313/posts/learn-ai/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/newsletters/</loc>
+    <loc>http://localhost:1313/tags/newsletters/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/reading-list/</loc>
+    <loc>http://localhost:1313/tags/reading-list/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/self-learning/</loc>
+    <loc>http://localhost:1313/tags/self-learning/</loc>
     <lastmod>2025-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/cosyvoice/</loc>
+    <loc>http://localhost:1313/tags/cosyvoice/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/diffusion/</loc>
+    <loc>http://localhost:1313/tags/diffusion/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/fish-speech/</loc>
+    <loc>http://localhost:1313/tags/fish-speech/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gpt-sovits/</loc>
+    <loc>http://localhost:1313/tags/gpt-sovits/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/inference/</loc>
+    <loc>http://localhost:1313/tags/inference/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/model-training/</loc>
+    <loc>http://localhost:1313/tags/model-training/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/realtime-voice-changing/</loc>
+    <loc>http://localhost:1313/tags/realtime-voice-changing/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/retrieval-based-voice-conversion/</loc>
+    <loc>http://localhost:1313/tags/retrieval-based-voice-conversion/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/vits-re/</loc>
+    <loc>http://localhost:1313/posts/vits-re/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rvc/</loc>
+    <loc>http://localhost:1313/tags/rvc/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/seed-vc/</loc>
+    <loc>http://localhost:1313/tags/seed-vc/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/text-to-speech/</loc>
+    <loc>http://localhost:1313/tags/text-to-speech/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/voice-clone/</loc>
+    <loc>http://localhost:1313/tags/voice-clone/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/whisper/</loc>
+    <loc>http://localhost:1313/tags/whisper/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/local-ai/</loc>
+    <loc>http://localhost:1313/tags/local-ai/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/local-llm/</loc>
+    <loc>http://localhost:1313/tags/local-llm/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/harbor-wsl/</loc>
+    <loc>http://localhost:1313/posts/harbor-wsl/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/open-webui/</loc>
+    <loc>http://localhost:1313/tags/open-webui/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openai/</loc>
+    <loc>http://localhost:1313/tags/openai/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/private-llm/</loc>
+    <loc>http://localhost:1313/tags/private-llm/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/self-hosting/</loc>
+    <loc>http://localhost:1313/tags/self-hosting/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/server/</loc>
+    <loc>http://localhost:1313/tags/server/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/service/</loc>
+    <loc>http://localhost:1313/tags/service/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ad-blocking/</loc>
+    <loc>http://localhost:1313/tags/ad-blocking/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anti-tracking/</loc>
+    <loc>http://localhost:1313/tags/anti-tracking/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anti-ad/</loc>
+    <loc>http://localhost:1313/tags/anti-ad/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/big-tech/</loc>
+    <loc>http://localhost:1313/tags/big-tech/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/capitalism/</loc>
+    <loc>http://localhost:1313/tags/capitalism/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/cory-doctorow/</loc>
+    <loc>http://localhost:1313/tags/cory-doctorow/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/proton-shit/</loc>
+    <loc>http://localhost:1313/posts/proton-shit/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/enshittification/</loc>
+    <loc>http://localhost:1313/tags/enshittification/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/marketing-strategy/</loc>
+    <loc>http://localhost:1313/tags/marketing-strategy/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nextdns/</loc>
+    <loc>http://localhost:1313/tags/nextdns/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openvpn/</loc>
+    <loc>http://localhost:1313/tags/openvpn/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/protonmail/</loc>
+    <loc>http://localhost:1313/tags/protonmail/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/protonvpn/</loc>
+    <loc>http://localhost:1313/tags/protonvpn/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wireguard/</loc>
+    <loc>http://localhost:1313/tags/wireguard/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/esxi/</loc>
+    <loc>http://localhost:1313/tags/esxi/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/migratevm/</loc>
+    <loc>http://localhost:1313/posts/migratevm/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ovf/</loc>
+    <loc>http://localhost:1313/tags/ovf/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/proxmox-ve/</loc>
+    <loc>http://localhost:1313/tags/proxmox-ve/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/pve-mods/</loc>
+    <loc>http://localhost:1313/tags/pve-mods/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/spice/</loc>
+    <loc>http://localhost:1313/tags/spice/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/virt-viewer/</loc>
+    <loc>http://localhost:1313/tags/virt-viewer/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/virtual-machine/</loc>
+    <loc>http://localhost:1313/tags/virtual-machine/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vmware-workstation/</loc>
+    <loc>http://localhost:1313/tags/vmware-workstation/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/boot-repair-disk/</loc>
+    <loc>http://localhost:1313/tags/boot-repair-disk/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/clonezilla/</loc>
+    <loc>http://localhost:1313/tags/clonezilla/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/grub/</loc>
+    <loc>http://localhost:1313/tags/grub/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/live-usb/</loc>
+    <loc>http://localhost:1313/tags/live-usb/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/clonevm/</loc>
+    <loc>http://localhost:1313/posts/clonevm/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rescuezilla/</loc>
+    <loc>http://localhost:1313/tags/rescuezilla/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/virtualbox/</loc>
+    <loc>http://localhost:1313/tags/virtualbox/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vmware/</loc>
+    <loc>http://localhost:1313/tags/vmware/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/corsair-aio/</loc>
+    <loc>http://localhost:1313/tags/corsair-aio/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/dell-optiplex-3010-sff/</loc>
+    <loc>http://localhost:1313/tags/dell-optiplex-3010-sff/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/e3-1230-v3/</loc>
+    <loc>http://localhost:1313/tags/e3-1230-v3/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tesla-m40/</loc>
+    <loc>http://localhost:1313/tags/tesla-m40/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</loc>
+    <loc>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/deepseek/</loc>
+    <loc>http://localhost:1313/tags/deepseek/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/searxng/</loc>
+    <loc>http://localhost:1313/tags/searxng/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/easy-local-llm/</loc>
+    <loc>http://localhost:1313/posts/easy-local-llm/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/771-to-775/</loc>
+    <loc>http://localhost:1313/tags/771-to-775/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/bios/</loc>
+    <loc>http://localhost:1313/tags/bios/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/m58p/</loc>
+    <loc>http://localhost:1313/posts/m58p/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sff/</loc>
+    <loc>http://localhost:1313/tags/sff/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/upgrade/</loc>
+    <loc>http://localhost:1313/tags/upgrade/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/xeon-mod/</loc>
+    <loc>http://localhost:1313/tags/xeon-mod/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/24h2/</loc>
+    <loc>http://localhost:1313/tags/24h2/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/alternatives/</loc>
+    <loc>http://localhost:1313/tags/alternatives/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/custom-build/</loc>
+    <loc>http://localhost:1313/tags/custom-build/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/daily-driver/</loc>
+    <loc>http://localhost:1313/tags/daily-driver/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/full-desktop-environment/</loc>
+    <loc>http://localhost:1313/tags/full-desktop-environment/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/livecd/</loc>
+    <loc>http://localhost:1313/tags/livecd/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/liveusb/</loc>
+    <loc>http://localhost:1313/tags/liveusb/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nand-longevity/</loc>
+    <loc>http://localhost:1313/tags/nand-longevity/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/11-7-linux/</loc>
+    <loc>http://localhost:1313/posts/11-7-linux/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/optimization/</loc>
+    <loc>http://localhost:1313/tags/optimization/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/privacy.sexy/</loc>
+    <loc>http://localhost:1313/tags/privacy.sexy/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sse4.2/</loc>
+    <loc>http://localhost:1313/tags/sse4.2/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/tiny11wtg/</loc>
+    <loc>http://localhost:1313/posts/tiny11wtg/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ubuntu/</loc>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/wsl2/</loc>
+    <loc>http://localhost:1313/posts/wsl2/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vdi/</loc>
+    <loc>http://localhost:1313/tags/vdi/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ventoy/</loc>
+    <loc>http://localhost:1313/tags/ventoy/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vhd/</loc>
+    <loc>http://localhost:1313/tags/vhd/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/win11debloat/</loc>
+    <loc>http://localhost:1313/tags/win11debloat/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows-11-ltsc/</loc>
+    <loc>http://localhost:1313/tags/windows-11-ltsc/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows-7/</loc>
+    <loc>http://localhost:1313/tags/windows-7/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows-pe/</loc>
+    <loc>http://localhost:1313/tags/windows-pe/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/windows-to-go/</loc>
+    <loc>http://localhost:1313/tags/windows-to-go/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/winget/</loc>
+    <loc>http://localhost:1313/tags/winget/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wslg/</loc>
+    <loc>http://localhost:1313/tags/wslg/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/cryptocurrenty/</loc>
+    <loc>http://localhost:1313/tags/cryptocurrenty/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/desktop/</loc>
+    <loc>http://localhost:1313/tags/desktop/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/feather-wallet/</loc>
+    <loc>http://localhost:1313/tags/feather-wallet/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gnupg/</loc>
+    <loc>http://localhost:1313/tags/gnupg/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/haveno-reto/</loc>
+    <loc>http://localhost:1313/tags/haveno-reto/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/keepass/</loc>
+    <loc>http://localhost:1313/tags/keepass/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/kicksecure/</loc>
+    <loc>http://localhost:1313/tags/kicksecure/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/monero/</loc>
+    <loc>http://localhost:1313/tags/monero/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/online-hygiene/</loc>
+    <loc>http://localhost:1313/tags/online-hygiene/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/menero-wallet/</loc>
+    <loc>http://localhost:1313/posts/menero-wallet/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tails/</loc>
+    <loc>http://localhost:1313/tags/tails/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/veracrypt/</loc>
+    <loc>http://localhost:1313/tags/veracrypt/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/yubikey/</loc>
+    <loc>http://localhost:1313/tags/yubikey/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ethernet-over-usb/</loc>
+    <loc>http://localhost:1313/tags/ethernet-over-usb/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gl.inet/</loc>
+    <loc>http://localhost:1313/tags/gl.inet/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ssh/</loc>
+    <loc>http://localhost:1313/tags/ssh/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/tethering-hotspot/</loc>
+    <loc>http://localhost:1313/posts/tethering-hotspot/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/remote-desktop/</loc>
+    <loc>http://localhost:1313/tags/remote-desktop/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rustdesk/</loc>
+    <loc>http://localhost:1313/tags/rustdesk/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/self-host/</loc>
+    <loc>http://localhost:1313/tags/self-host/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/rustdesk-server/</loc>
+    <loc>http://localhost:1313/posts/rustdesk-server/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ai-coding/</loc>
+    <loc>http://localhost:1313/tags/ai-coding/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/chatgpt/</loc>
+    <loc>http://localhost:1313/tags/chatgpt/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/chat-scroll/</loc>
+    <loc>http://localhost:1313/posts/chat-scroll/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/userscript/</loc>
+    <loc>http://localhost:1313/tags/userscript/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anthropocene/</loc>
+    <loc>http://localhost:1313/tags/anthropocene/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ecology/</loc>
+    <loc>http://localhost:1313/tags/ecology/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/entrepreneurship/</loc>
+    <loc>http://localhost:1313/tags/entrepreneurship/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/ethics-llm/</loc>
+    <loc>http://localhost:1313/posts/ethics-llm/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/free-software/</loc>
+    <loc>http://localhost:1313/tags/free-software/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/llama/</loc>
+    <loc>http://localhost:1313/tags/llama/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/philosophy/</loc>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/psychoanalysis/</loc>
+    <loc>http://localhost:1313/tags/psychoanalysis/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/richard-m.-stallman/</loc>
+    <loc>http://localhost:1313/tags/richard-m.-stallman/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sustainability/</loc>
+    <loc>http://localhost:1313/tags/sustainability/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ai-generated-video/</loc>
+    <loc>http://localhost:1313/tags/ai-generated-video/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/deepfake/</loc>
+    <loc>http://localhost:1313/tags/deepfake/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/lipsync/</loc>
+    <loc>http://localhost:1313/posts/lipsync/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/face-swap/</loc>
+    <loc>http://localhost:1313/tags/face-swap/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ffmpeg/</loc>
+    <loc>http://localhost:1313/tags/ffmpeg/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sadtalker/</loc>
+    <loc>http://localhost:1313/tags/sadtalker/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/sadtalker-video-lip-sync/</loc>
+    <loc>http://localhost:1313/tags/sadtalker-video-lip-sync/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/so-vits-svc/</loc>
+    <loc>http://localhost:1313/tags/so-vits-svc/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/stable-diffusion/</loc>
+    <loc>http://localhost:1313/tags/stable-diffusion/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wav2lip/</loc>
+    <loc>http://localhost:1313/tags/wav2lip/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/arkenfox/</loc>
+    <loc>http://localhost:1313/tags/arkenfox/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/bootloader/</loc>
+    <loc>http://localhost:1313/tags/bootloader/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/c13/</loc>
+    <loc>http://localhost:1313/tags/c13/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/chromebook/</loc>
+    <loc>http://localhost:1313/tags/chromebook/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/coreboot/</loc>
+    <loc>http://localhost:1313/tags/coreboot/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/debloat/</loc>
+    <loc>http://localhost:1313/tags/debloat/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/depthboot/</loc>
+    <loc>http://localhost:1313/tags/depthboot/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/keyd/</loc>
+    <loc>http://localhost:1313/tags/keyd/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ltsc/</loc>
+    <loc>http://localhost:1313/tags/ltsc/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mate/</loc>
+    <loc>http://localhost:1313/tags/mate/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/optimazation/</loc>
+    <loc>http://localhost:1313/tags/optimazation/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/system-migration/</loc>
+    <loc>http://localhost:1313/tags/system-migration/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/thinkpad/</loc>
+    <loc>http://localhost:1313/tags/thinkpad/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/tpc13/</loc>
+    <loc>http://localhost:1313/posts/tpc13/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/yoga/</loc>
+    <loc>http://localhost:1313/tags/yoga/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/android/</loc>
+    <loc>http://localhost:1313/tags/android/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/bloatware/</loc>
+    <loc>http://localhost:1313/tags/bloatware/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/opn30/</loc>
+    <loc>http://localhost:1313/posts/opn30/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/good-enough-privacy/</loc>
+    <loc>http://localhost:1313/tags/good-enough-privacy/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/metro/</loc>
+    <loc>http://localhost:1313/tags/metro/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mobile/</loc>
+    <loc>http://localhost:1313/tags/mobile/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/oneplus/</loc>
+    <loc>http://localhost:1313/tags/oneplus/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/oxygenos/</loc>
+    <loc>http://localhost:1313/tags/oxygenos/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/spyware/</loc>
+    <loc>http://localhost:1313/tags/spyware/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/-vits-simple-api/</loc>
+    <loc>http://localhost:1313/tags/-vits-simple-api/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/voice-vits/</loc>
+    <loc>http://localhost:1313/posts/voice-vits/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ai-vtuber/</loc>
+    <loc>http://localhost:1313/tags/ai-vtuber/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anaconda/</loc>
+    <loc>http://localhost:1313/tags/anaconda/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/audacity/</loc>
+    <loc>http://localhost:1313/tags/audacity/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/audio-equipment/</loc>
+    <loc>http://localhost:1313/tags/audio-equipment/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/audio-interface/</loc>
+    <loc>http://localhost:1313/tags/audio-interface/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/bert/</loc>
+    <loc>http://localhost:1313/tags/bert/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/bert-vits2/</loc>
+    <loc>http://localhost:1313/tags/bert-vits2/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/cheapskate/</loc>
+    <loc>http://localhost:1313/tags/cheapskate/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ddsp-svc/</loc>
+    <loc>http://localhost:1313/tags/ddsp-svc/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/deberta/</loc>
+    <loc>http://localhost:1313/tags/deberta/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/foss/</loc>
+    <loc>http://localhost:1313/tags/foss/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/headphones/</loc>
+    <loc>http://localhost:1313/tags/headphones/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/long-text-tts/</loc>
+    <loc>http://localhost:1313/tags/long-text-tts/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/microphone/</loc>
+    <loc>http://localhost:1313/tags/microphone/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/roberta/</loc>
+    <loc>http://localhost:1313/tags/roberta/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/so-vits-svc-fork/</loc>
+    <loc>http://localhost:1313/tags/so-vits-svc-fork/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tts-generation-webui/</loc>
+    <loc>http://localhost:1313/tags/tts-generation-webui/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ultimate-vocal-remover/</loc>
+    <loc>http://localhost:1313/tags/ultimate-vocal-remover/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vocal-recording/</loc>
+    <loc>http://localhost:1313/tags/vocal-recording/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/cheapnas/</loc>
+    <loc>http://localhost:1313/posts/cheapnas/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/flashmemory/</loc>
+    <loc>http://localhost:1313/tags/flashmemory/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mergerfs/</loc>
+    <loc>http://localhost:1313/tags/mergerfs/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nas/</loc>
+    <loc>http://localhost:1313/tags/nas/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/omv/</loc>
+    <loc>http://localhost:1313/tags/omv/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/openmediavault/</loc>
+    <loc>http://localhost:1313/tags/openmediavault/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/snapraid/</loc>
+    <loc>http://localhost:1313/tags/snapraid/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/unraid/</loc>
+    <loc>http://localhost:1313/tags/unraid/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/vostro/</loc>
+    <loc>http://localhost:1313/tags/vostro/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/api/</loc>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/artificial-imbecility/</loc>
+    <loc>http://localhost:1313/tags/artificial-imbecility/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/chatpdf/</loc>
+    <loc>http://localhost:1313/tags/chatpdf/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/cheapai/</loc>
+    <loc>http://localhost:1313/posts/cheapai/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/chinese-llms/</loc>
+    <loc>http://localhost:1313/tags/chinese-llms/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/h2ogpt/</loc>
+    <loc>http://localhost:1313/tags/h2ogpt/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/llama2-uncensored/</loc>
+    <loc>http://localhost:1313/tags/llama2-uncensored/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nvidia-tesla-m40/</loc>
+    <loc>http://localhost:1313/tags/nvidia-tesla-m40/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/optiplex/</loc>
+    <loc>http://localhost:1313/tags/optiplex/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/richard-m.-stallma/</loc>
+    <loc>http://localhost:1313/tags/richard-m.-stallma/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/subs-ai-whisper/</loc>
+    <loc>http://localhost:1313/tags/subs-ai-whisper/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/swap/</loc>
+    <loc>http://localhost:1313/tags/swap/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/text-generation-web-ui/</loc>
+    <loc>http://localhost:1313/tags/text-generation-web-ui/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/thermal-mod/</loc>
+    <loc>http://localhost:1313/tags/thermal-mod/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/backup/</loc>
+    <loc>http://localhost:1313/tags/backup/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/encryption/</loc>
+    <loc>http://localhost:1313/tags/encryption/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/luks/</loc>
+    <loc>http://localhost:1313/tags/luks/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/recoverluks/</loc>
+    <loc>http://localhost:1313/posts/recoverluks/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/rustic/</loc>
+    <loc>http://localhost:1313/tags/rustic/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ssd/</loc>
+    <loc>http://localhost:1313/tags/ssd/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/timeshift/</loc>
+    <loc>http://localhost:1313/tags/timeshift/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tty/</loc>
+    <loc>http://localhost:1313/tags/tty/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/generate-subtitles/</loc>
+    <loc>http://localhost:1313/tags/generate-subtitles/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gui/</loc>
+    <loc>http://localhost:1313/tags/gui/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/gensub-whisper/</loc>
+    <loc>http://localhost:1313/posts/gensub-whisper/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/wisper/</loc>
+    <loc>http://localhost:1313/tags/wisper/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/aisecph/</loc>
+    <loc>http://localhost:1313/posts/aisecph/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/cybersecurity/</loc>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/heidegger/</loc>
+    <loc>http://localhost:1313/tags/heidegger/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/osint/</loc>
+    <loc>http://localhost:1313/tags/osint/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/post-humanism/</loc>
+    <loc>http://localhost:1313/tags/post-humanism/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/stablediffusion/</loc>
+    <loc>http://localhost:1313/tags/stablediffusion/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/zizek/</loc>
+    <loc>http://localhost:1313/tags/zizek/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/automatic1111/</loc>
+    <loc>http://localhost:1313/tags/automatic1111/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/cheapsd/</loc>
+    <loc>http://localhost:1313/posts/cheapsd/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/script/</loc>
+    <loc>http://localhost:1313/tags/script/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/self-healing/</loc>
+    <loc>http://localhost:1313/tags/self-healing/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/bypass-chatgpt/</loc>
+    <loc>http://localhost:1313/posts/bypass-chatgpt/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gpt-3/</loc>
+    <loc>http://localhost:1313/tags/gpt-3/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/html/</loc>
+    <loc>http://localhost:1313/tags/html/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/local/</loc>
+    <loc>http://localhost:1313/tags/local/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/leaked/</loc>
+    <loc>http://localhost:1313/tags/leaked/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/models/</loc>
+    <loc>http://localhost:1313/tags/models/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nodejs/</loc>
+    <loc>http://localhost:1313/tags/nodejs/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/playing-gpt/</loc>
+    <loc>http://localhost:1313/posts/playing-gpt/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/adblock/</loc>
+    <loc>http://localhost:1313/tags/adblock/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/adguard/</loc>
+    <loc>http://localhost:1313/tags/adguard/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/blocklists/</loc>
+    <loc>http://localhost:1313/tags/blocklists/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/dns-detector/</loc>
+    <loc>http://localhost:1313/tags/dns-detector/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/filterlists/</loc>
+    <loc>http://localhost:1313/tags/filterlists/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/keycdn/</loc>
+    <loc>http://localhost:1313/tags/keycdn/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/networking/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tracking/</loc>
+    <loc>http://localhost:1313/tags/tracking/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/unblock-podcast/</loc>
+    <loc>http://localhost:1313/posts/unblock-podcast/</loc>
     <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/alpine/</loc>
+    <loc>http://localhost:1313/tags/alpine/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/custom/</loc>
+    <loc>http://localhost:1313/tags/custom/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/ideology/</loc>
+    <loc>http://localhost:1313/tags/ideology/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/pmos/</loc>
+    <loc>http://localhost:1313/posts/pmos/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/nostalgia/</loc>
+    <loc>http://localhost:1313/tags/nostalgia/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/postmarketos/</loc>
+    <loc>http://localhost:1313/tags/postmarketos/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/anonsurf/</loc>
+    <loc>http://localhost:1313/tags/anonsurf/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/kali/</loc>
+    <loc>http://localhost:1313/tags/kali/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/kalianon/</loc>
+    <loc>http://localhost:1313/posts/kalianon/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/parrotos/</loc>
+    <loc>http://localhost:1313/tags/parrotos/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/audiobook/</loc>
+    <loc>http://localhost:1313/tags/audiobook/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/edgetts/</loc>
+    <loc>http://localhost:1313/posts/edgetts/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gesture/</loc>
+    <loc>http://localhost:1313/tags/gesture/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/grapheneos/</loc>
+    <loc>http://localhost:1313/tags/grapheneos/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mice/</loc>
+    <loc>http://localhost:1313/tags/mice/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mouse/</loc>
+    <loc>http://localhost:1313/tags/mouse/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/speech-synthesis/</loc>
+    <loc>http://localhost:1313/tags/speech-synthesis/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/trackball/</loc>
+    <loc>http://localhost:1313/tags/trackball/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/tts/</loc>
+    <loc>http://localhost:1313/tags/tts/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/tweakingmouse/</loc>
+    <loc>http://localhost:1313/posts/tweakingmouse/</loc>
     <lastmod>2022-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/gitpage/</loc>
+    <loc>http://localhost:1313/tags/gitpage/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/little-things-behind/</loc>
+    <loc>http://localhost:1313/posts/little-things-behind/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/papermod/</loc>
+    <loc>http://localhost:1313/tags/papermod/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/tags/mind/</loc>
+    <loc>http://localhost:1313/tags/mind/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/posts/why-i-started/</loc>
+    <loc>http://localhost:1313/posts/why-i-started/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://techshinobi.org/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://techshinobi.org/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

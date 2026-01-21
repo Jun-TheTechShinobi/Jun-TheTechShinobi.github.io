@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VirtualBox on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/virtualbox/</link>
+    <link>http://localhost:1313/tags/virtualbox/</link>
     <description>Recent content in VirtualBox on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating Linux VM to a Portable Live USB</title>
-      <link>https://techshinobi.org/posts/clonevm/</link>
+      <link>http://localhost:1313/posts/clonevm/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/clonevm/</guid>
+      <guid>http://localhost:1313/posts/clonevm/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/11-7-linux/#tiny-11-ltsc-wtg-on-ventoy&#34;&gt;Last time&lt;/a&gt;, I mentioned &lt;a href=&#34;https://www.ventoy.net/en/plugin_vtoyboot.html&#34;&gt;Creating Ventoy VDI for Linux Live USB&lt;/a&gt; , however, it may not boot on some strange hardware and I unfortunately have quite a few of those. So in such cases, it&amp;rsquo;s better to boot Linux natively.&lt;/p&gt;
 &lt;p&gt;By doing this, we need &lt;a href=&#34;https://rescuezilla.com/&#34;&gt;Rescuezilla&lt;/a&gt;/&lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; to extract the Linux system out of Virtualbox&amp;rsquo;s hard drive (VDI/VMDK).&lt;/p&gt;
 &lt;p&gt;Download and load the ISO of Rescuezilla, a GUI version of Clonezilla, it&amp;rsquo;s larger but eaiser to use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
-      <link>https://techshinobi.org/posts/tiny11wtg/</link>
+      <link>http://localhost:1313/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
+      <guid>http://localhost:1313/posts/tiny11wtg/</guid>
       <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
 &lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
 &lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>

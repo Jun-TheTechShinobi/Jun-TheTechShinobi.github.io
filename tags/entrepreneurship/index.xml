@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Entrepreneurship on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/entrepreneurship/</link>
+    <link>http://localhost:1313/tags/entrepreneurship/</link>
     <description>Recent content in Entrepreneurship on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
-      <link>https://techshinobi.org/posts/ethics-llm/</link>
+      <link>http://localhost:1313/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ethics-llm/</guid>
+      <guid>http://localhost:1313/posts/ethics-llm/</guid>
       <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
 &lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
@@ -24,7 +24,8 @@
 &lt;li&gt;We need to protect our data.&lt;/li&gt;
 &lt;li&gt;We need a model that is efficient and affordable to run.&lt;/li&gt;
 &lt;li&gt;We want to invest in the ecosystem that’s going to be the standard for the long term.&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;That describes the needs of tech individuals and small businesses accurately.&lt;/p&gt;</description>
     </item>
   </channel>

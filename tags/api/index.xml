@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Api on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/api/</link>
+    <link>http://localhost:1313/tags/api/</link>
     <description>Recent content in Api on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
-      <link>https://techshinobi.org/posts/cheapai/</link>
+      <link>http://localhost:1313/posts/cheapai/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapai/</guid>
+      <guid>http://localhost:1313/posts/cheapai/</guid>
       <description>&lt;h2 id=&#34;old-stories&#34;&gt;Old Stories&lt;/h2&gt;
 &lt;p&gt;The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.&lt;/p&gt;
 &lt;p&gt;Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig. I played a lot of games on that, such as Dark Souls series and Metro series. Before it was sold, last games I played on this build was Metro Exodus and Elden Ring.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
-      <link>https://techshinobi.org/posts/cheapsd/</link>
+      <link>http://localhost:1313/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapsd/</guid>
+      <guid>http://localhost:1313/posts/cheapsd/</guid>
       <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
 &lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
 &lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
@@ -38,22 +38,23 @@
     </item>
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
-      <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
+      <link>http://localhost:1313/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
+      <guid>http://localhost:1313/posts/bypass-chatgpt/</guid>
       <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2023-02-15
-The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
 &lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
-      <link>https://techshinobi.org/posts/playing-gpt/</link>
+      <link>http://localhost:1313/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
+      <guid>http://localhost:1313/posts/playing-gpt/</guid>
       <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
 &lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
 &lt;ul&gt;

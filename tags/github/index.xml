@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GitHub on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/github/</link>
+    <link>http://localhost:1313/tags/github/</link>
     <description>Recent content in GitHub on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
-      <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
+      <link>http://localhost:1313/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
+      <guid>http://localhost:1313/posts/bypass-chatgpt/</guid>
       <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2023-02-15
-The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
 &lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>

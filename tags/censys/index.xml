@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Censys on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/censys/</link>
+    <link>http://localhost:1313/tags/censys/</link>
     <description>Recent content in Censys on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/censys/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/censys/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>

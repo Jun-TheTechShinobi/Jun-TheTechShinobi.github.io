@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VPN on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/vpn/</link>
+    <link>http://localhost:1313/tags/vpn/</link>
     <description>Recent content in VPN on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>https://techshinobi.org/posts/ytproxy/</link>
+      <link>http://localhost:1313/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ytproxy/</guid>
+      <guid>http://localhost:1313/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;There are many ways to get around this IP block. Because I think switching VPN server is too heavy just for this, I would like to use a proxy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unblock URLs from My Own Filter Lists</title>
-      <link>https://techshinobi.org/posts/unblock-podcast/</link>
+      <link>http://localhost:1313/posts/unblock-podcast/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/unblock-podcast/</guid>
+      <guid>http://localhost:1313/posts/unblock-podcast/</guid>
       <description>&lt;h2 id=&#34;podcast-doesnt-fetch&#34;&gt;Podcast doesn&amp;rsquo;t fetch&lt;/h2&gt;
 &lt;p&gt;I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.&lt;/p&gt;
 &lt;p&gt;Recently, I found out there is a broken one in my podcast subscriptions.&lt;/p&gt;
@@ -31,9 +32,9 @@
     </item>
     <item>
       <title>Kali and Anonsurf</title>
-      <link>https://techshinobi.org/posts/kalianon/</link>
+      <link>http://localhost:1313/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/kalianon/</guid>
+      <guid>http://localhost:1313/posts/kalianon/</guid>
       <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
 &lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;

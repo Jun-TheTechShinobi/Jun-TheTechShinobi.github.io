@@ -2,71 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Tech Shinobi</title>
-    <link>https://techshinobi.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guidelines for Shinobi Hackerspace and Tool Library</title>
+      <link>http://localhost:1313/posts/hackerspace/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hackerspace/</guid>
+      <description>&lt;p&gt;Welcome to Shinobi Hackerspace. I am the host, Shinobi.&lt;/p&gt;
+&lt;p&gt;You are seeing this probably because you have visited the Hackerspace. As the host, I am suppose to give you an on-site Orientation for the first time, but unfortunately this article is all we have right now.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be updating this guideline while we are moving forward!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Membership &amp;amp; access&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open to anyone with Innovation Center access (Please join the club).&lt;/li&gt;
+&lt;li&gt;Be informed of this guideline or someone on site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Responsibility &amp;amp; community care&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Shutting Off Annoying Autoupdate Notification for Mullvad Browser</title>
-      <link>https://techshinobi.org/posts/mullvad/</link>
+      <link>http://localhost:1313/posts/mullvad/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/mullvad/</guid>
+      <guid>http://localhost:1313/posts/mullvad/</guid>
       <description>&lt;p&gt;This has been a problem for a while now. That green dot and popup notification persisted on my Mullvad browser makes me feel like using a bloatware than a FOSS.&lt;/p&gt;
 &lt;p&gt;The right way to do this is either follow their upstream Tor browser update model—just force updating seamlessly without any user interaction. Or, like LibreWolf, manual update with the system package manager.&lt;/p&gt;
 &lt;p&gt;This situation might be because of I&amp;rsquo;m using the portable version of Mullvad browser. If that&amp;rsquo;s the case, I shouldn&amp;rsquo;t blame it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trying out Immutable/Atomic Linux: Secureblue, Guix and NixOS</title>
-      <link>https://techshinobi.org/posts/atomic/</link>
+      <link>http://localhost:1313/posts/atomic/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/atomic/</guid>
+      <guid>http://localhost:1313/posts/atomic/</guid>
       <description>&lt;h2 id=&#34;background-with-kicksecure&#34;&gt;Background with Kicksecure&lt;/h2&gt;
 &lt;p&gt;Last year, I set up my Monero Wallet with Kicksecure and happy about it. This distro is really lightweight and easy to use. However, it failed completely after a recent upgrade, which was a major version leap from Debian 12 to 13.&lt;/p&gt;
 &lt;p&gt;It lost drivers, desktop environment stopped working and probably much more which I couldn&amp;rsquo;t discover because I stacked at a login screen loop. After troubleshooting for a couple of hours, it turns out all lightdm related DEs are unusable and Gnome and KDE are working.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On iPhone, Design and Jailbreak (Updated)</title>
-      <link>https://techshinobi.org/posts/on-iphone/</link>
+      <link>http://localhost:1313/posts/on-iphone/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/on-iphone/</guid>
+      <guid>http://localhost:1313/posts/on-iphone/</guid>
       <description>&lt;p&gt;This post was originally published on February 2025, and I recently updated the IPATool section in the end as a alternative method to prior ones.&lt;/p&gt;
 &lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
 &lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s TrueNAS Build with 6 Drives RAID-Z2</title>
-      <link>https://techshinobi.org/posts/truenas/</link>
+      <link>http://localhost:1313/posts/truenas/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/truenas/</guid>
+      <guid>http://localhost:1313/posts/truenas/</guid>
       <description>&lt;p&gt;After almost two years later, the hardware of &lt;a href=&#34;https://techshinobi.org/posts/cheapnas/#old-stories&#34;&gt;my Openmediavault NAS&lt;/a&gt; is going to be upgraded from Vostro to Precision. Which is a big leap, that I don&amp;rsquo;t have to do any hardware modification to use Xeon CPUs.&lt;/p&gt;
 &lt;p&gt;Thanks for my friend&amp;rsquo;s donation. This junkstation comes with E3-1245, 16GB and 4 SATA HDD port. What I added is a ASMedia 106x SATA PCIE card for 2 more SATA HDD capacity (6 HDD in total), and a PCIe to NVMe adapter for accommodating a
 OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
-      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <link>http://localhost:1313/posts/ddwrt-mr7350/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <guid>http://localhost:1313/posts/ddwrt-mr7350/</guid>
       <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
 &lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
 &lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
-      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <link>http://localhost:1313/posts/openwrt-flint2/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <guid>http://localhost:1313/posts/openwrt-flint2/</guid>
       <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
 &lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
@@ -74,9 +93,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosting a Multi-Lingual GitBook on GitHub Pages</title>
-      <link>https://techshinobi.org/posts/osway/</link>
+      <link>http://localhost:1313/posts/osway/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/osway/</guid>
+      <guid>http://localhost:1313/posts/osway/</guid>
       <description>&lt;p&gt;Contributing back to the community has been my duty consciously for years. Lately, I&amp;rsquo;m working on the &lt;a href=&#34;https://github.com/theopensourcewaycn/guidebook&#34;&gt;translation project&lt;/a&gt; of &lt;a href=&#34;https://github.com/theopensourceway/guidebook&#34;&gt;The Open Source Way&lt;/a&gt; ebook.&lt;/p&gt;
 &lt;p&gt;Fork a downstream repo of the project and &lt;code&gt;git clone https://github.com/Jun-TheTechShinobi/guidebook.git &amp;amp;&amp;amp; cd guidebook&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/package-manager/all&#34;&gt;Node.js/NPM&lt;/a&gt; through cli package manager&lt;/p&gt;
@@ -86,35 +105,35 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The HackerNoon Problems</title>
-      <link>https://techshinobi.org/posts/hackernoon/</link>
+      <link>http://localhost:1313/posts/hackernoon/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/hackernoon/</guid>
+      <guid>http://localhost:1313/posts/hackernoon/</guid>
       <description>&lt;p&gt;To boost my article visibility on the fractured internet, reposting to larger platforms is my strategy to grow and HackerNoon has been my choice for years.&lt;/p&gt;
 &lt;p&gt;However, this platform is a boat which sinks even faster than Medium. I have been rejected arbitrarily by the editor earlier this year just for minor formatting improvements, which is still tolerable.&lt;/p&gt;
 &lt;p&gt;This time, they not only rejected my submission, but also banned me from the platform for no reason whatsoever. I can&amp;rsquo;t find any information in my Inbox, notifications or anywhere else. Whenever I&amp;rsquo;m trying to edit or write a post, I get a red warning saying &amp;ldquo;You have been banned&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
-      <link>https://techshinobi.org/posts/mineru/</link>
+      <link>http://localhost:1313/posts/mineru/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/mineru/</guid>
+      <guid>http://localhost:1313/posts/mineru/</guid>
       <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
 &lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Increasing Video Resolution and Frame Rate with video2x</title>
-      <link>https://techshinobi.org/posts/video2x/</link>
+      <link>http://localhost:1313/posts/video2x/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/video2x/</guid>
+      <guid>http://localhost:1313/posts/video2x/</guid>
       <description>&lt;p&gt;Recently, I downloaded an old documentary made in early 2000s. The original resolution was 854×480 with a less than 1000 KB/S bitrate. Because I like the content so there is enough reason to enhance my watching experience.&lt;/p&gt;
 &lt;p&gt;Download installer instead of the zip pack from &lt;a href=&#34;https://github.com/k4yt3x/video2x/releases/&#34;&gt;k4yt3x&amp;rsquo;s github repo&lt;/a&gt;, this will install all binaries and dependencies for Windows.&lt;/p&gt;
 &lt;p&gt;After restart the system, open video2x and load a video, it can automatically detect the GPU if it exists. Gaming GPU with higher frequency/hashrate is preferred over larger VRAM in this case.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
-      <link>https://techshinobi.org/posts/n100pfsense/</link>
+      <link>http://localhost:1313/posts/n100pfsense/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/n100pfsense/</guid>
+      <guid>http://localhost:1313/posts/n100pfsense/</guid>
       <description>&lt;p&gt;Since I was a teenager, I have started voluntarily helping people around me with my skill of technology. This time, I&amp;rsquo;m helping someone to build up a robust, secure and cost-effective firewall/gateway/soft router at home.&lt;/p&gt;
 &lt;p&gt;It ends up on a $100 worth N100 mini-pc with dual Ethernet port, which can be a great pfSense box for home or even business use.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-tweaks&#34;&gt;Hardware Tweaks&lt;/h2&gt;
@@ -122,20 +141,21 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>https://techshinobi.org/posts/ytproxy/</link>
+      <link>http://localhost:1313/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ytproxy/</guid>
+      <guid>http://localhost:1313/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;There are many ways to get around this IP block. Because I think switching VPN server is too heavy just for this, I would like to use a proxy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operational Security with Documents</title>
-      <link>https://techshinobi.org/posts/opsecdocs/</link>
+      <link>http://localhost:1313/posts/opsecdocs/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opsecdocs/</guid>
+      <guid>http://localhost:1313/posts/opsecdocs/</guid>
       <description>&lt;p&gt;Recently, I started sending/receiving documents to/from untrusted sources. In my threat model, this requires extra operational security to prevent privacy exposure and security risk.&lt;/p&gt;
 &lt;p&gt;Since the &lt;a href=&#34;https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#windows&#34;&gt;offical guide&lt;/a&gt; is not so detailed for Windows, I decided to write one while installing on a &lt;a href=&#34;https://techshinobi.org/posts/tiny11wtg/#windows-11-ltsc-double-debloat&#34;&gt;Windows 11 LTSC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First, in Windows Terminal/PowerShell, run &lt;code&gt;wsl --install&lt;/code&gt; to setup WSL2. Read &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;my previous post&lt;/a&gt; for more detail.&lt;/p&gt;
@@ -143,9 +163,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Scan, OCR and Share a Book Anonymously</title>
-      <link>https://techshinobi.org/posts/bookscan/</link>
+      <link>http://localhost:1313/posts/bookscan/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/bookscan/</guid>
+      <guid>http://localhost:1313/posts/bookscan/</guid>
       <description>&lt;p&gt;Recently, I have encountered a very rare out-of-print book that I decided to save it for the world with modern technology.&lt;/p&gt;
 &lt;p&gt;Because I don&amp;rsquo;t have a real scanner, I tested all sorts of scanner android apps that are open source.&lt;/p&gt;
 &lt;ul&gt;
@@ -160,18 +180,18 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>https://techshinobi.org/posts/learn-ai/</link>
+      <link>http://localhost:1313/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/learn-ai/</guid>
+      <guid>http://localhost:1313/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Revisiting Voice Cloning with GPT-SoVITS and so on</title>
-      <link>https://techshinobi.org/posts/vits-re/</link>
+      <link>http://localhost:1313/posts/vits-re/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/vits-re/</guid>
+      <guid>http://localhost:1313/posts/vits-re/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/voice-vits/&#34;&gt;My last article&lt;/a&gt; on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.&lt;/p&gt;
 &lt;p&gt;Refering to some Chinese source such as &lt;a href=&#34;https://www.tangshuang.net/9063.html&#34;&gt;this blog&lt;/a&gt; and &lt;a href=&#34;https://www.bilibili.com/video/BV1hukmYhEJX&#34;&gt;this video&lt;/a&gt;, I was attempting to adopt new tools for my audio book service, such as &lt;a href=&#34;%5Bhttps://github.com/FunAudioLLM/CosyVoice&#34;&gt;CosyVoice&lt;/a&gt;, &lt;a href=&#34;https://github.com/SWivid/F5-TTS/&#34;&gt;F5-TTS&lt;/a&gt;, &lt;a href=&#34;https://github.com/RVC-Boss/GPT-SoVITS&#34;&gt;GPT-SoVITS&lt;/a&gt;, and &lt;a href=&#34;https://github.com/fishaudio/fish-speech&#34;&gt;fish-speech&lt;/a&gt;.&lt;/p&gt;
@@ -182,9 +202,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating Harbor instance from Linux to WSL2</title>
-      <link>https://techshinobi.org/posts/harbor-wsl/</link>
+      <link>http://localhost:1313/posts/harbor-wsl/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
+      <guid>http://localhost:1313/posts/harbor-wsl/</guid>
       <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
 &lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
@@ -195,35 +215,35 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
-      <link>https://techshinobi.org/posts/proton-shit/</link>
+      <link>http://localhost:1313/posts/proton-shit/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/proton-shit/</guid>
+      <guid>http://localhost:1313/posts/proton-shit/</guid>
       <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating VMs from ESXi to Proxmox VE</title>
-      <link>https://techshinobi.org/posts/migratevm/</link>
+      <link>http://localhost:1313/posts/migratevm/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/migratevm/</guid>
+      <guid>http://localhost:1313/posts/migratevm/</guid>
       <description>&lt;p&gt;There are many reasons why I&amp;rsquo;m doing this. In the days when Virtual Machine was the thing, VMware Workstation was the go-to option for a Windows host to run VMs. We have to find cracked version for personal use, since there was no VirtualBox neither Hyper-V.&lt;/p&gt;
 &lt;p&gt;Many years ago, when I first decided to have a proper homelab in my household, I went blindly into ESXi just because VMware Workstation has already installed on all of my computers. Although I was pretty like Proxmox during that time, it was considered for not so serious projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating Linux VM to a Portable Live USB</title>
-      <link>https://techshinobi.org/posts/clonevm/</link>
+      <link>http://localhost:1313/posts/clonevm/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/clonevm/</guid>
+      <guid>http://localhost:1313/posts/clonevm/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/11-7-linux/#tiny-11-ltsc-wtg-on-ventoy&#34;&gt;Last time&lt;/a&gt;, I mentioned &lt;a href=&#34;https://www.ventoy.net/en/plugin_vtoyboot.html&#34;&gt;Creating Ventoy VDI for Linux Live USB&lt;/a&gt; , however, it may not boot on some strange hardware and I unfortunately have quite a few of those. So in such cases, it&amp;rsquo;s better to boot Linux natively.&lt;/p&gt;
 &lt;p&gt;By doing this, we need &lt;a href=&#34;https://rescuezilla.com/&#34;&gt;Rescuezilla&lt;/a&gt;/&lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; to extract the Linux system out of Virtualbox&amp;rsquo;s hard drive (VDI/VMDK).&lt;/p&gt;
 &lt;p&gt;Download and load the ISO of Rescuezilla, a GUI version of Clonezilla, it&amp;rsquo;s larger but eaiser to use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Upgrading/Fixing Cheapskate&#39;s AI Server</title>
-      <link>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</link>
+      <link>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</guid>
+      <guid>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</guid>
       <description>&lt;p&gt;This is &lt;a href=&#34;https://techshinobi.org/posts/cheapai/&#34;&gt;the server I build back in 2023&lt;/a&gt;, based on a moded Dell Optiplex 3010 SFF motherboard with i5-2300 and Tesla M40. I wasn&amp;rsquo;t planning to put an Xeon E3 back then but something happened which changed my mind.&lt;/p&gt;
 &lt;p&gt;After approximately 1.5 years of 24/7 running, my CPU power extension cable melted.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Jun-TheTechShinobi/Jun-TheTechShinobi.github.io/45b89958caec4b3d2293d63c214ec871a2331a1e/posts/upgrade-ai-server/images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
@@ -232,25 +252,25 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
-      <link>https://techshinobi.org/posts/easy-local-llm/</link>
+      <link>http://localhost:1313/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
+      <guid>http://localhost:1313/posts/easy-local-llm/</guid>
       <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
 &lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
-      <link>https://techshinobi.org/posts/m58p/</link>
+      <link>http://localhost:1313/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/m58p/</guid>
+      <guid>http://localhost:1313/posts/m58p/</guid>
       <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
 &lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Windows Nostalgia, Linux and Its Discontents</title>
-      <link>https://techshinobi.org/posts/11-7-linux/</link>
+      <link>http://localhost:1313/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
+      <guid>http://localhost:1313/posts/11-7-linux/</guid>
       <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
 &lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
 &lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
@@ -258,52 +278,52 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
-      <link>https://techshinobi.org/posts/tiny11wtg/</link>
+      <link>http://localhost:1313/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
+      <guid>http://localhost:1313/posts/tiny11wtg/</guid>
       <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
 &lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
 &lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu on Windows via WSL2</title>
-      <link>https://techshinobi.org/posts/wsl2/</link>
+      <link>http://localhost:1313/posts/wsl2/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/wsl2/</guid>
+      <guid>http://localhost:1313/posts/wsl2/</guid>
       <description>&lt;h3 id=&#34;wsl-installation&#34;&gt;WSL Installation&lt;/h3&gt;
 &lt;p&gt;There are some special use cases where I would like to go through and show the process of setting up WSL. &lt;a href=&#34;https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/&#34;&gt;Ubuntu&amp;rsquo;s official document&lt;/a&gt; works well on Windows 11 LTSC for WSL installation, there is also a tutorial from &lt;a href=&#34;https://www.sitepoint.com/wsl2/&#34;&gt;sitepoint&lt;/a&gt; with more details.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m doing this on a double debloated version of Windows 11 from previous post of Tiny 11 WTG, where I downloaded &lt;a href=&#34;https://github.com/microsoft/winget-cli/releases&#34;&gt;WinGet&lt;/a&gt;, extracted &lt;code&gt;DesktopAppInstaller_Dependencies.zip&lt;/code&gt; and installed with PowerShell:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
-      <link>https://techshinobi.org/posts/menero-wallet/</link>
+      <link>http://localhost:1313/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
+      <guid>http://localhost:1313/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
-      <link>https://techshinobi.org/posts/tethering-hotspot/</link>
+      <link>http://localhost:1313/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
+      <guid>http://localhost:1313/posts/tethering-hotspot/</guid>
       <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
 &lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-hosting RustDesk Server via Docker Compose</title>
-      <link>https://techshinobi.org/posts/rustdesk-server/</link>
+      <link>http://localhost:1313/posts/rustdesk-server/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
+      <guid>http://localhost:1313/posts/rustdesk-server/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.&lt;/p&gt;
 &lt;p&gt;As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
-      <link>https://techshinobi.org/posts/chat-scroll/</link>
+      <link>http://localhost:1313/posts/chat-scroll/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/chat-scroll/</guid>
+      <guid>http://localhost:1313/posts/chat-scroll/</guid>
       <description>&lt;p&gt;Recently, I encountered a scrolling problem on ChatGPT web like &lt;a href=&#34;https://community.openai.com/t/after-submitting-query-to-chatgpt-cant-scroll-at-all/696051/58?page=4&#34;&gt;this&lt;/a&gt;. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.&lt;/p&gt;
 &lt;p&gt;Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(function () {
@@ -316,9 +336,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
-      <link>https://techshinobi.org/posts/ethics-llm/</link>
+      <link>http://localhost:1313/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ethics-llm/</guid>
+      <guid>http://localhost:1313/posts/ethics-llm/</guid>
       <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
 &lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
@@ -330,22 +350,23 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
 &lt;li&gt;We need to protect our data.&lt;/li&gt;
 &lt;li&gt;We need a model that is efficient and affordable to run.&lt;/li&gt;
 &lt;li&gt;We want to invest in the ecosystem that’s going to be the standard for the long term.&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;That describes the needs of tech individuals and small businesses accurately.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experimenting Lip Syncing Deepfake Tools</title>
-      <link>https://techshinobi.org/posts/lipsync/</link>
+      <link>http://localhost:1313/posts/lipsync/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/lipsync/</guid>
+      <guid>http://localhost:1313/posts/lipsync/</guid>
       <description>&lt;p&gt;AI-Generated content can be fun or &amp;ldquo;slop&amp;rdquo; according to &lt;a href=&#34;https://simonwillison.net/2024/May/8/slop/&#34;&gt;Simon Willison&lt;/a&gt;, but also can be malevolent due to its abuse in phishing attacks.&lt;/p&gt;
 &lt;p&gt;Some of my readers may have already known that recently I&amp;rsquo;m working on a &lt;a href=&#34;https://ai.techshinobi.org/&#34;&gt;side project&lt;/a&gt; , which based on&lt;a href=&#34;https://github.com/appatalks/chatgpt-html&#34;&gt;chatgpt-html&lt;/a&gt; and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
-      <link>https://techshinobi.org/posts/tpc13/</link>
+      <link>http://localhost:1313/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <guid>http://localhost:1313/posts/tpc13/</guid>
       <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
 &lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;
@@ -356,18 +377,18 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
-      <link>https://techshinobi.org/posts/opn30/</link>
+      <link>http://localhost:1313/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opn30/</guid>
+      <guid>http://localhost:1313/posts/opn30/</guid>
       <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
 &lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
 &lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
-      <link>https://techshinobi.org/posts/voice-vits/</link>
+      <link>http://localhost:1313/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/voice-vits/</guid>
+      <guid>http://localhost:1313/posts/voice-vits/</guid>
       <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
 &lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
 &lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;
@@ -375,9 +396,9 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
-      <link>https://techshinobi.org/posts/cheapnas/</link>
+      <link>http://localhost:1313/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapnas/</guid>
+      <guid>http://localhost:1313/posts/cheapnas/</guid>
       <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
 &lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
 &lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
@@ -385,45 +406,45 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
-      <link>https://techshinobi.org/posts/cheapai/</link>
+      <link>http://localhost:1313/posts/cheapai/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapai/</guid>
+      <guid>http://localhost:1313/posts/cheapai/</guid>
       <description>&lt;h2 id=&#34;old-stories&#34;&gt;Old Stories&lt;/h2&gt;
 &lt;p&gt;The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.&lt;/p&gt;
 &lt;p&gt;Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig. I played a lot of games on that, such as Dark Souls series and Metro series. Before it was sold, last games I played on this build was Metro Exodus and Elden Ring.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recovering from Data Loss due to LUKS Failure</title>
-      <link>https://techshinobi.org/posts/recoverluks/</link>
+      <link>http://localhost:1313/posts/recoverluks/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/recoverluks/</guid>
+      <guid>http://localhost:1313/posts/recoverluks/</guid>
       <description>&lt;h2 id=&#34;background-story&#34;&gt;Background Story&lt;/h2&gt;
 &lt;p&gt;Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.&lt;/p&gt;
 &lt;p&gt;The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption. I don&amp;rsquo;t have the header backed up and have stopped using &lt;a href=&#34;https://github.com/teejee2008/timeshift&#34;&gt;Timeshift&lt;/a&gt; for a long time due to it&amp;rsquo;s unschedulable which lead to chaotic performance impact.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
-      <link>https://techshinobi.org/posts/gensub-whisper/</link>
+      <link>http://localhost:1313/posts/gensub-whisper/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
+      <guid>http://localhost:1313/posts/gensub-whisper/</guid>
       <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/mayeaux/generate-subtitles&#34;&gt;Generate-subtitles &lt;/a&gt; as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.&lt;/p&gt;
 &lt;p&gt;When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are &lt;a href=&#34;https://www.nikse.dk/subtitleedit&#34;&gt;Subtitle Edit&lt;/a&gt; and
 &lt;a href=&#34;https://aegisub.org/&#34;&gt;Aegisub&lt;/a&gt;. SE provides a great &lt;a href=&#34;https://www.nikse.dk/subtitleedit/online&#34;&gt;online version&lt;/a&gt; and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support. Aegisub works with .ASS format which fits into &lt;a href=&#34;https://github.com/Kilo19/NixieVideoKit&#34;&gt;NixieVideoKit&lt;/a&gt; automated workflow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>https://techshinobi.org/posts/aisecph/</link>
+      <link>http://localhost:1313/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <guid>http://localhost:1313/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
-      <link>https://techshinobi.org/posts/cheapsd/</link>
+      <link>http://localhost:1313/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapsd/</guid>
+      <guid>http://localhost:1313/posts/cheapsd/</guid>
       <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
 &lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
 &lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
@@ -440,22 +461,23 @@ OS drive (128GB SSD).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
-      <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
+      <link>http://localhost:1313/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
+      <guid>http://localhost:1313/posts/bypass-chatgpt/</guid>
       <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2023-02-15
-The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;&lt;/blockquote&gt;
+The method we were using to access the ChatGPT raw models has been patched, unfortunately.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Therefore, the party is over. It was fun to play with those leaked models such as &lt;code&gt;text-davinci-002-render&lt;/code&gt;, &lt;code&gt;text-chat-davinci-002-20221122&lt;/code&gt;, and &lt;code&gt;text-chat-davinci-002-sh-alpha-aoruigiofdj83&lt;/code&gt;. They&amp;rsquo;re not as good as the official model &lt;code&gt;text-davinci-003&lt;/code&gt; after all as my &lt;a href=&#34;https://techshinobi.org/posts/playing-gpt/#late-to-the-party&#34;&gt;previous post&lt;/a&gt; said.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-api-instead-of-the-ordinary-way&#34;&gt;Why use API instead of the Ordinary Way&lt;/h2&gt;
 &lt;p&gt;After OpenAI fired up their paid subscription for ChatGPT, availability issue like response error, rate limit and throttling become more often.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
-      <link>https://techshinobi.org/posts/playing-gpt/</link>
+      <link>http://localhost:1313/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
+      <guid>http://localhost:1313/posts/playing-gpt/</guid>
       <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
 &lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
 &lt;ul&gt;
@@ -475,9 +497,9 @@ The method we were using to access the ChatGPT raw models has been patched, unfo
     </item>
     <item>
       <title>Unblock URLs from My Own Filter Lists</title>
-      <link>https://techshinobi.org/posts/unblock-podcast/</link>
+      <link>http://localhost:1313/posts/unblock-podcast/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/unblock-podcast/</guid>
+      <guid>http://localhost:1313/posts/unblock-podcast/</guid>
       <description>&lt;h2 id=&#34;podcast-doesnt-fetch&#34;&gt;Podcast doesn&amp;rsquo;t fetch&lt;/h2&gt;
 &lt;p&gt;I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.&lt;/p&gt;
 &lt;p&gt;Recently, I found out there is a broken one in my podcast subscriptions.&lt;/p&gt;
@@ -485,18 +507,18 @@ The method we were using to access the ChatGPT raw models has been patched, unfo
     </item>
     <item>
       <title>Nokia N900, postmarketOS and Ideology</title>
-      <link>https://techshinobi.org/posts/pmos/</link>
+      <link>http://localhost:1313/posts/pmos/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/pmos/</guid>
+      <guid>http://localhost:1313/posts/pmos/</guid>
       <description>&lt;h2 id=&#34;0x00-before-start&#34;&gt;0x00 Before Start&lt;/h2&gt;
 &lt;p&gt;Recently, I just gave my iPhone 4S away. This phone runs smoothly with jailbreak iOS 6.1.3. It was siting in my nostalgia box for years and has never been my daily driver.&lt;/p&gt;
 &lt;p&gt;Back in time, I was a big fun of Motorola Milestone/Droid series and my main phone was the last of these QWERTY phones, Photon Q (XT897). Its keyboard was fantastic and CyanogenMod 11 (Android 4.4 KitKat) with XPosed framework was perfect in both productivity and aesthetics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kali and Anonsurf</title>
-      <link>https://techshinobi.org/posts/kalianon/</link>
+      <link>http://localhost:1313/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/kalianon/</guid>
+      <guid>http://localhost:1313/posts/kalianon/</guid>
       <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
 &lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;
@@ -504,9 +526,9 @@ The method we were using to access the ChatGPT raw models has been patched, unfo
     </item>
     <item>
       <title>Edge TTS Reader</title>
-      <link>https://techshinobi.org/posts/edgetts/</link>
+      <link>http://localhost:1313/posts/edgetts/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/edgetts/</guid>
+      <guid>http://localhost:1313/posts/edgetts/</guid>
       <description>&lt;h2 id=&#34;back-to-the-command-line&#34;&gt;Back to the Command-line&lt;/h2&gt;
 &lt;p&gt;For some reason, MS Edge for Linux does not have the Read Aloud feature which is the only reason I would like to use Edge. The TTS engine made by Microsoft sounds incomparable to those poorly made chrome extensions.&lt;/p&gt;
 &lt;p&gt;Therefore, I found a work around with &lt;a href=&#34;https://github.com/rany2/edge-tts&#34;&gt;edge-tts&lt;/a&gt;. This is a CLI tool uses Edge TTS service. The instruction on its Github repo is very good.&lt;/p&gt;
@@ -514,27 +536,27 @@ The method we were using to access the ChatGPT raw models has been patched, unfo
     </item>
     <item>
       <title>Tweaking the Mouse</title>
-      <link>https://techshinobi.org/posts/tweakingmouse/</link>
+      <link>http://localhost:1313/posts/tweakingmouse/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tweakingmouse/</guid>
+      <guid>http://localhost:1313/posts/tweakingmouse/</guid>
       <description>&lt;h2 id=&#34;acceleration&#34;&gt;Acceleration&lt;/h2&gt;
 &lt;p&gt;During my teenage years, I was really into FPS and RTS games. That&amp;rsquo;s why I&amp;rsquo;m kind of picky on computer mouses and being paranoid of acceleration in the OS.&lt;/p&gt;
 &lt;p&gt;Permanently disabling acceleration for Windows is simple. Besides unchecking the &amp;ldquo;Enhance pointer precision&amp;rdquo; in the &lt;code&gt;main.cpl&lt;/code&gt;, some registry hacks such as the good old classic &amp;ldquo;CPL Mouse Fix&amp;rdquo; or the later &amp;ldquo;MarkC&amp;rdquo; would do it &lt;a href=&#34;http://www.esreality.com/?a=post&amp;amp;id=1846538&#34;&gt;easily by a REG/batch file&lt;/a&gt;. It is also possible &lt;a href=&#34;https://www.pcgamingwiki.com/wiki/Glossary:Mouse_acceleration&#34;&gt;doing manually&lt;/a&gt; if you want.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Little Things Behind This Website</title>
-      <link>https://techshinobi.org/posts/little-things-behind/</link>
+      <link>http://localhost:1313/posts/little-things-behind/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/little-things-behind/</guid>
+      <guid>http://localhost:1313/posts/little-things-behind/</guid>
       <description>&lt;h2 id=&#34;aliases-standby&#34;&gt;#aliases: [&amp;ldquo;standby&amp;rdquo;]&lt;/h2&gt;
 &lt;p&gt;This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.&lt;/p&gt;
 &lt;p&gt;All the steps I have done are very similar to &lt;a href=&#34;https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7?gi=5d5639ec8417&#34;&gt;this article&lt;/a&gt;, except making the Personal Access Token and Custom Domain (these are easy to find separately).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Started This Blog</title>
-      <link>https://techshinobi.org/posts/why-i-started/</link>
+      <link>http://localhost:1313/posts/why-i-started/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/why-i-started/</guid>
+      <guid>http://localhost:1313/posts/why-i-started/</guid>
       <description>&lt;h2 id=&#34;in-this-day-and-age&#34;&gt;In This Day and Age?&lt;/h2&gt;
 &lt;p&gt;Back then, when MySpace and 000webhost was the thing. I wrote blog regularly about my life and hobby. That was the beginning of my Internet journey and tweaking CSS code while posting an article was fun.&lt;/p&gt;
 &lt;p&gt;Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or telegram channel but here I am. Because I feel most comfortable this way.&lt;/p&gt;

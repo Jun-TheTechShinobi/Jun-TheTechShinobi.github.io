@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Generate-Subtitles on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/generate-subtitles/</link>
+    <link>http://localhost:1313/tags/generate-subtitles/</link>
     <description>Recent content in Generate-Subtitles on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/generate-subtitles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/generate-subtitles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
-      <link>https://techshinobi.org/posts/gensub-whisper/</link>
+      <link>http://localhost:1313/posts/gensub-whisper/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
+      <guid>http://localhost:1313/posts/gensub-whisper/</guid>
       <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/mayeaux/generate-subtitles&#34;&gt;Generate-subtitles &lt;/a&gt; as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.&lt;/p&gt;
 &lt;p&gt;When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are &lt;a href=&#34;https://www.nikse.dk/subtitleedit&#34;&gt;Subtitle Edit&lt;/a&gt; and
 &lt;a href=&#34;https://aegisub.org/&#34;&gt;Aegisub&lt;/a&gt;. SE provides a great &lt;a href=&#34;https://www.nikse.dk/subtitleedit/online&#34;&gt;online version&lt;/a&gt; and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support. Aegisub works with .ASS format which fits into &lt;a href=&#34;https://github.com/Kilo19/NixieVideoKit&#34;&gt;NixieVideoKit&lt;/a&gt; automated workflow.&lt;/p&gt;</description>

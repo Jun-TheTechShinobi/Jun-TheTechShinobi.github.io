@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Cheapskate&#39;s Stable Diffusion Server | Tech Shinobi</title>
 <meta name="keywords" content="StableDiffusion, Cheapskate, OpenAI, Opensource, ChatGPT, API, AUTOMATIC1111, debian, script, Self-Healing, hardware">
 <meta name="description" content="No DALL-E, No Midjourney and No Colab
@@ -21,16 +21,16 @@ The TRUTH about OpenAI
 
 I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.">
 <meta name="author" content="Jun">
-<link rel="canonical" href="https://techshinobi.org/posts/cheapsd/">
+<link rel="canonical" href="http://localhost:1313/posts/cheapsd/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://techshinobi.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://techshinobi.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://techshinobi.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://techshinobi.org/apple-touch-icon.png">
-<link rel="mask-icon" href="https://techshinobi.org/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://techshinobi.org/posts/cheapsd/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/cheapsd/">
 <noscript>
     <style>
         #theme-toggle,
@@ -39,93 +39,7 @@ I have been using ChatGPT and its API regulary. Since my last post, the API has 
         }
 
     </style>
-</noscript><meta property="og:url" content="https://techshinobi.org/posts/cheapsd/">
-  <meta property="og:site_name" content="Tech Shinobi">
-  <meta property="og:title" content="Cheapskate&#39;s Stable Diffusion Server">
-  <meta property="og:description" content="No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here’s some comments on OpenAI:
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source? ChatGPT, how did you get here? It was a long journey through open source AI When big AI labs refuse to open source their models, the community steps in Artificial Intelligence: Last Week Tonight with John Oliver (HBO) The TRUTH about OpenAI I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-03-28T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-03-28T00:00:00+00:00">
-    <meta property="article:tag" content="StableDiffusion">
-    <meta property="article:tag" content="Cheapskate">
-    <meta property="article:tag" content="OpenAI">
-    <meta property="article:tag" content="Opensource">
-    <meta property="article:tag" content="ChatGPT">
-    <meta property="article:tag" content="Api">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cheapskate&#39;s Stable Diffusion Server">
-<meta name="twitter:description" content="No DALL-E, No Midjourney and No Colab
-This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.
-Before we start, here&rsquo;s some comments on OpenAI:
-
-The history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing
-OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit
-Will ChatGPT be open source?
-ChatGPT, how did you get here? It was a long journey through open source AI
-When big AI labs refuse to open source their models, the community steps in
-Artificial Intelligence: Last Week Tonight with John Oliver (HBO)
-The TRUTH about OpenAI
-
-I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://techshinobi.org/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Cheapskate's Stable Diffusion Server",
-      "item": "https://techshinobi.org/posts/cheapsd/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Cheapskate's Stable Diffusion Server",
-  "name": "Cheapskate\u0027s Stable Diffusion Server",
-  "description": "No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.\nBefore we start, here\u0026rsquo;s some comments on OpenAI:\nThe history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source? ChatGPT, how did you get here? It was a long journey through open source AI When big AI labs refuse to open source their models, the community steps in Artificial Intelligence: Last Week Tonight with John Oliver (HBO) The TRUTH about OpenAI I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.\n",
-  "keywords": [
-    "StableDiffusion", "Cheapskate", "OpenAI", "Opensource", "ChatGPT", "API", "AUTOMATIC1111", "debian", "script", "Self-Healing", "hardware"
-  ],
-  "articleBody": "No DALL-E, No Midjourney and No Colab This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.\nBefore we start, here’s some comments on OpenAI:\nThe history of ChatGPT creator OpenAI, which Elon Musk helped found before parting ways and criticizing OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit Will ChatGPT be open source? ChatGPT, how did you get here? It was a long journey through open source AI When big AI labs refuse to open source their models, the community steps in Artificial Intelligence: Last Week Tonight with John Oliver (HBO) The TRUTH about OpenAI I have been using ChatGPT and its API regulary. Since my last post, the API has been upgraded to gpt-3.5-turbo which broke my program and gpt-4 seems coming up soon. Therefore, I may not fix my code proactively.\nI also built a customized chatbot project which was running on the web version of ChatGPT. However, one day it suddenly got blocked by OpenAI’s cloudflare filter.\nI believe that was done on purpose —by tightening up the IP range of all popular VPN providers. I have to switch over to a proxy login endpoint https://bypass.duti.tech/api/, thanks to acheong08’s Reverse engineered ChatGPT API. By doing this, it compromises some of security but it’s better than using the paid API.\nThe reason why I keep trying this route is not just for saving money, but to counter attack against the Big Tech companies.\nThere are a list of alternatives to OpenAI’s GPT. I would like to test llama.cpp sometime, as it can run on as low-profile as a Raspberry Pi.\nThe stand I’m taking is simple. I love the technology but I have problem with big tech company. I’ll work against it unless the product goes truly open source and their business model goes nonprofit —because neutrality and transparency is crucial for such technology.\nAI itself is not a threat but the capital behind it.\nHardware Requirements This article is for both old GPUs and CPU. If using a GPU, make sure it supports FP16. Otherwise, just run it on CPU regardless because it will run into VRAM issues.\n2GB or larger Nvidia card of Maxwell 1 (745, 750, and 750ti)\nAccording to this buying guide, my spare GTX 750 Ti with 2GB VRAM is the oldest GPU that supports FP16.\nRAM size should be larger than 8GB. According to my test, 4GB won’t even run and 8GB works only with small models. So 12~16GB is the minimum for non-testing.\nHard drive is not important, minimum is 20GB (debian clean install + base sd-webui + 2 pruned models).\nUsing SSD can increase the speed of loading weights (switching models) but not the generating speed.\nMy mini Server Build Because of the 2GB VRAM on 750ti is barely enough for real production (Restore faces+Hires. fix+VAE+LoRA+multi-ControlNet+inpainting+upscaling). After working for hours, SD crashes quite often. Therefore, I had to heavily rely on my Self-Healing Daemon.\nFinally, I decided to build a dedicated GPU server which is smaller and more capable for various AI projects.\nHP Z2 G4 Mini Workstation - $85 Barebones w/o AC adapter C246 Chipset w/ P600 Mobile GPU (rare 4GB version) HP 230W Power Supply - $18 19.5V 11.8A 7.4mm x 5.0mm Connector HSTNN-xxxx for EliteBook Mobile Workstations Intel Pentium Gold G5420 $22 3.8 GHz 2 cores 4 threads 54W LGA1151 revision 2 for Coffee Lake Spare RAM sticks - $0/$40 DDR4 16+4GB 2133MHz SODIMM Spare SSD - $0/$30 512GB NVMe M.2 2280 Total cost for me is about $120. For buying everything from scratch would be around $200.\nNote:\nThese are all used parts on ebay, so price and availability changes quite a bit. Performance should be similar between different Pascal mobile GPUs, e.g. Quadro P500, P520, P600, P620, P1000, MX1x0 and GTX10x0. Even between Maxwell (750ti) and Pascal (P600), I don’t gain noticible speed improvement but doubled VRAM for capability. CPU does not matter for SD running on GPU mode. So Pentium/Celeron is good enough for generating images. However, using tensorflow based tools like Dreambooth (for training) requires CPU to support AVX Instructions. In this case, i3-8100 or Xeon E-2124 (more $$) can be considered, however, software workaround is also available for tinkers. Although I don’t intend to do any training on this build. Creativity takes time to think and plan before take the shot. People who like spray and pray tend to spend more and hope for the best but it’s far from the way. Both bolt-action and full-auto have their value, but I’d perfer doing it just right. Asuka Benchmark If you don’t understand the naming, never mind, it’s just the “hello world” test for SD, a.k.a. “hello asuka” test.\nThis was the gold standard in the community.\nSampler: Euler Seed: 2870305590 CFG: 12 Resolution: 512x512 Prompt: masterpiece, best quality, masterpiece, asuka langley sitting cross legged on a chair Negative Prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name Results:\nRun on Quadro P600 (384CUDA4G) - 0:56 per asuka, 2.80s/it Run on GTX 750 Ti (640CUDA2G) - 1:09 per asuka, 3.47s/it Run on E5-2670 (8C16T) - 3:45 per asuka, 10s/it Run on E3-1245 (4C8T) - 5:30 per asuka, 16s/it Run on i5-2300 (4C4T) - 6:40 per asuka, 20s/it Run on i5-2520M (2C4T) - 12:30 per asuka, 37s/it Run on G5420 (2C4T) - 12:50 per asuka, 38s/it Installation Debian Linux Why Linux?\nBecause it runs efficient and open-source.\nWhy Debian?\nI’ve tried RPM distros and that didn’t went well. Then I found the script says:\nTested on Debian 11 (Bullseye)\nSo just go to debian.org and get debian-11.6.0-amd64-netinst.iso\nUse Etcher or Rufus to flash the ISO file into a USB drive\nBoot into the USB installer we just created and select Graphical install\nBefore going into the network configuring step, connect the Ethernet cable so this can let it configure network interfaces automatically.\nAfter setup root and user credentials, I used entire disk while partitioning since this device is dedicated for SD.\nOther steps are good by default. Except software selection.\nDo not install any desktop environment since it may cause trouble while installing graphics driver later on.\nEnable SSH server because we want to use SD from other machines within a local network.\nWhile installing GRUB, in my case the HDD is /dev/sda.\nAfter installation finish and reboot, log in with root account.\nRun apt-get install sudo -y then usermod -aG sudo username to add the user account as sudoer. Reboot to apply this change.\nRun ip a to get the IP address, in my case the ethernet is enp0s25.\nUse mRemoteNG, Remmina or terminal to SSH into the SD dedicated machine from a daily driver computer.\nInstall the dependencies:\napt install wget git python3 python3-venv libgl1 git-lfs libglib2.0-0 Troubleshooting NIC If the ethernet doesn’t work, saying something like “Missing firmware rtl81xxxxx.fw”, then we will need to install firmware-realtek driver package.\nDownload firmware-realtek_20210315-3_all.deb from another machine, copy it to a USB drive and plug in.\nRun lsblk to confirm the USB drive is sdb1 then\nmount /dev/sdb1 /mnt\ncd /mnt\napt install /mnt/firmware-realtek_20210315-3_all.deb\nAfter installing the driver, we need to make sure the network config is right.\nnano /etc/network/interfaces\nauto enp2s0 allow-hotplug eth0 iface enp2s0 inet dhcp Run systemctl restart networking then ip a the network connection should be working now.\nUse umount /mnt to eject the USB drive.\nNVIDIA Driver and CUDA Toolkit I didn’t follow debian wiki to install the driver. By that way, it will install stable version 470 but we can install latest 530 with CUDA Toolkit.\nwget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run apt install linux-headers-`uname -r` build-essential libglu1-mesa-dev libx11-dev libxi-dev libxmu-dev -y chmod +x cuda_12.1.0_530.30.02_linux.run sh cuda_12.1.0_530.30.02_linux.run Select Driver and Toolkit, after installation run nvidia-smi to verify:\n+---------------------------------------------------------------------------------------+ | NVIDIA-SMI 530.30.02 Driver Version: 530.30.02 CUDA Version: 12.1 | |-----------------------------------------+----------------------+----------------------+ | GPU Name Persistence-M| Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap| Memory-Usage | GPU-Util Compute M. | | | | MIG M. | |=========================================+======================+======================| | 0 NVIDIA GeForce GTX 750 Ti Off| 00000000:03:00.0 Off | N/A | | 42% 32C P8 1W / 52W| 527MiB / 2048MiB | 0% Default | | | | N/A | +-----------------------------------------+----------------------+----------------------+ +---------------------------------------------------------------------------------------+ | Processes: | | GPU GI CI PID Type Process name GPU Memory | | ID ID Usage | |=======================================================================================| | 0 N/A N/A 277320 C python3 524MiB | +---------------------------------------------------------------------------------------+ Troubleshooting nvidia Disable Nouveau driver if needed\nbash -c \"echo blacklist nouveau \u003e /etc/modprobe.d/blacklist-nvidia-nouveau.conf\" bash -c \"echo options nouveau modeset=0 \u003e\u003e /etc/modprobe.d/blacklist-nvidia-nouveau.conf\" update-initramfs -u update-grub reboot Stable Diffusion web UI Thanks to AUTOMATIC1111 made everything so easy.\nAlthough, I am aware of both cmdr2’s and InvokeAI’s project, but AUTOMATIC1111’s is the most mature and supported.\nRun this script with user account to install:\nbash \u003c(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh) It may returns some errors on non-GPU devices and that’s fine.\nGo into the SD’s directory:\ncd stable-diffusion-webui/\nEdit #export COMMANDLINE_ARGS=\"\" line in the config file:\nnano webui-user.sh\nFor old GPU (like my 750ti):\nexport COMMANDLINE_ARGS=\"--lowvram --listen --xformers --always-batch-cond-uncond --opt-split-attention --enable-insecure-extension-access\" export PYTORCH_CUDA_ALLOC_CONF=\"garbage_collection_threshold:0.6,max_split_size_mb:24\" For CPU only:\nexport COMMANDLINE_ARGS=\"--listen --skip-torch-cuda-test --use-cpu all --no-half --no-half-vae --opt-split-attention --enable-insecure-extension-access\" Then run ./webui.sh to start\nNote: Even with those optimization commands above, it may still get CUDA out of memory error under heavy load. Cases could be:\nSending to img2img/inpaint/sketch back and forth Increasing Batch size or Width/Height Using SD upscale script with large Batch count Using large size ControlNet models (only with control_*.safetensors, coadapter-*.pth and t2iadapter_*.safetensors work fine even with muli-controlnet) Working with caution can avoid the issue most of the time. When CUDA out of memory occurs, just refresh the web page and generate again. If it persist, go to SSH, Ctrl+C to terminate webui process and ./webui.sh to restart.\nHowever, when I need to use those large controlnet models, such as normal,hed,mlsd and scribble. I have to switch the COMMANDLINE_ARGS into CPU only. By this way, cpu mode can handle larger model and heavier load by using RAM as VRAM. Therefore, the capacity increases from 2GB to 16GB at the cost of slow generating.\nBasic Usage Open the IP 192.168.1.x:7860 from a modern browser to start using SD.\nFrom the SD server machine or through SSH, run watch -n 2 nvidia-smi to monitor the GPU status. For CPU usage, simply use top or apt install bpytop then bpytop.\nGo to Civitai and Hugging Face to find and download models. Use wget or git-lfs to download models via SSH directly onto the server. Or use scp/rsync/sftp/syncthing to transfer files between local and remote.\nFor Civitai, right click Download button and Copy Link, then go to SSH run wget https://civitai.com/api/download/models/xxxxx --content-disposition. For Hugging Face, just use ‘wget’ with raw file link.\nFor example, if you want to batch download a collection of anime models, use git clone https://huggingface.co/AIARTCHAN/aichan_blend then mv aichan_blend/*.safetensors stable-diffusion-webui/models/Stable-diffusion/\nTo batch download ControlNet models, use git clone https://huggingface.co/webui/ControlNet-modules-safetensors then mv T2I-Adapter/models/*.safetensors stable-diffusion-webui/extensions/sd-webui-controlnet/models/\nGo to the official wiki to find and download extensions or use the webui built-in extensions page.\nUse git pull to update the webui when needed.\nManage/remove styles by nano stable-diffusion-webui/styles.csv\nLearn more from the SD RESOURCE GOLDMINE and Educational MegaGrid.\nControlNet Learn everything from these:\nControlNet: Control human pose in Stable Diffusion A1111 ControlNet extension - explained like you’re 5 Dummy ControlNet guide NEXT-GEN MULTI-CONTROLNET INPAINTING Preprocessor and Model Combinations:\ncanny -\u003e control_canny - t2iadapter_canny mlsd -\u003e control_mlsd hed -\u003e control_hed scribble -\u003e control_scribble - t2iadapter_sketch fake_scribble -\u003e control_scribble - t2iadapter_sketch openpose -\u003e control_openpose - t2iadapter_openpose - t2iadapter_keypose openpose_hand -\u003e control_openpose - t2iadapter_openpose segmentation -\u003e control_seg - t2iadapter_seg depth -\u003e control_depth - t2iadapter_depth depth_leres -\u003e control_depth - t2iadapter_depth depth_leres_boost -\u003e control_depth - t2iadapter_depth normal_map -\u003e control_normal binary -\u003e control_scribble - t2iadapter_sketch color -\u003e t2iadapter_color pidinet -\u003e control_hed clip_vision -\u003e t2iadapter_style Self-Healing Daemon To make webui auto restart in the background when it crashes, we need to use another script. Thanks to this guide.\nnano webuid.sh\n#!/bin/bash #Scripts to restart services if not running ps -ef | grep python3 |grep -v grep \u003e /dev/null if [ $? != 0 ] then echo \"restarting sd-webui\" \u0026\u0026 cd /home/$username/stable-diffusion-webui \u0026\u0026 ./webui.sh fi sudo chmod 755 /home/$username/stable-diffusion-webui/webuid.sh\nRun ./webuid.sh to test it\nEdit crontab -e to make it auto start\n@reboot /home/$username/stable-diffusion-webui/webuid.sh */1 * * * * /home/$username/stable-diffusion-webui/webuid.sh PS: This script may conflicts with other python tools such as bpytop, so using top instead.\nTo see the output from webui.sh, put exec \u0026\u003e \u003e(tee -a \"webui.log\") in the beginning of webui-user.sh, use tail -f webui.log to see it like before, and use pkill python3 to force restart it.\n",
-  "wordCount" : "2127",
-  "inLanguage": "en",
-  "datePublished": "2023-03-28T00:00:00Z",
-  "dateModified": "2023-03-28T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "Jun"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://techshinobi.org/posts/cheapsd/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Tech Shinobi",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://techshinobi.org/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class=" dark" id="top">
@@ -139,7 +53,7 @@ I have been using ChatGPT and its API regulary. Since my last post, the API has 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://techshinobi.org/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -165,22 +79,22 @@ I have been using ChatGPT and its API regulary. Since my last post, the API has 
         </div>
         <ul id="menu">
             <li>
-                <a href="https://techshinobi.org/archives" title="Archive">
+                <a href="http://localhost:1313/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://techshinobi.org/categories/" title="Categories">
+                <a href="http://localhost:1313/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://techshinobi.org/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://techshinobi.org/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -191,7 +105,7 @@ I have been using ChatGPT and its API regulary. Since my last post, the API has 
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://techshinobi.org/">Home</a>&nbsp;»&nbsp;<a href="https://techshinobi.org/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Cheapskate&#39;s Stable Diffusion Server
     </h1>
@@ -273,7 +187,8 @@ I have been using ChatGPT and its API regulary. Since my last post, the API has 
 <h3 id="requirements">Requirements<a hidden class="anchor" aria-hidden="true" href="#requirements">#</a></h3>
 <p>This article is for both old GPUs and CPU. If using a GPU, make sure it supports FP16. Otherwise, just run it on CPU regardless because it will run into VRAM issues.</p>
 <blockquote>
-<p>2GB or larger Nvidia card of Maxwell 1 (745, 750, and 750ti)</p></blockquote>
+<p>2GB or larger Nvidia card of Maxwell 1 (745, 750, and 750ti)</p>
+</blockquote>
 <p>According to <a href="https://rentry.org/stablediffgpubuy">this buying guide</a>, my spare GTX 750 Ti with 2GB VRAM is the oldest GPU that supports FP16.</p>
 <p>RAM size should be larger than 8GB. According to my test, 4GB won&rsquo;t even run and 8GB works only with small models. So 12~16GB is the minimum for non-testing.</p>
 <p>Hard drive is not important, minimum is 20GB (debian clean install + base sd-webui + 2 pruned models).</p>
@@ -347,7 +262,8 @@ Negative Prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, e
 <p>Why Debian?</p>
 <p>I&rsquo;ve tried RPM distros and that didn&rsquo;t went well. Then I found <a href="https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh">the script says</a>:</p>
 <blockquote>
-<p>Tested on Debian 11 (Bullseye)</p></blockquote>
+<p>Tested on Debian 11 (Bullseye)</p>
+</blockquote>
 <p>So just go to <a href="https://www.debian.org/download">debian.org</a> and get <code>debian-11.6.0-amd64-netinst.iso</code></p>
 <p>Use <a href="https://www.balena.io/etcher">Etcher</a> or <a href="https://rufus.ie/en/">Rufus</a> to flash the ISO file into a USB drive</p>
 <p>Boot into the USB installer we just created and select <code>Graphical install</code></p>
@@ -521,25 +437,25 @@ fi
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://techshinobi.org/tags/stablediffusion/">StableDiffusion</a></li>
-      <li><a href="https://techshinobi.org/tags/cheapskate/">Cheapskate</a></li>
-      <li><a href="https://techshinobi.org/tags/openai/">OpenAI</a></li>
-      <li><a href="https://techshinobi.org/tags/opensource/">Opensource</a></li>
-      <li><a href="https://techshinobi.org/tags/chatgpt/">ChatGPT</a></li>
-      <li><a href="https://techshinobi.org/tags/api/">Api</a></li>
-      <li><a href="https://techshinobi.org/tags/automatic1111/">AUTOMATIC1111</a></li>
-      <li><a href="https://techshinobi.org/tags/debian/">Debian</a></li>
-      <li><a href="https://techshinobi.org/tags/script/">Script</a></li>
-      <li><a href="https://techshinobi.org/tags/self-healing/">Self-Healing</a></li>
-      <li><a href="https://techshinobi.org/tags/hardware/">Hardware</a></li>
+      <li><a href="http://localhost:1313/tags/stablediffusion/">StableDiffusion</a></li>
+      <li><a href="http://localhost:1313/tags/cheapskate/">Cheapskate</a></li>
+      <li><a href="http://localhost:1313/tags/openai/">OpenAI</a></li>
+      <li><a href="http://localhost:1313/tags/opensource/">Opensource</a></li>
+      <li><a href="http://localhost:1313/tags/chatgpt/">ChatGPT</a></li>
+      <li><a href="http://localhost:1313/tags/api/">Api</a></li>
+      <li><a href="http://localhost:1313/tags/automatic1111/">AUTOMATIC1111</a></li>
+      <li><a href="http://localhost:1313/tags/debian/">Debian</a></li>
+      <li><a href="http://localhost:1313/tags/script/">Script</a></li>
+      <li><a href="http://localhost:1313/tags/self-healing/">Self-Healing</a></li>
+      <li><a href="http://localhost:1313/tags/hardware/">Hardware</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://techshinobi.org/posts/aisecph/">
+  <a class="prev" href="http://localhost:1313/posts/aisecph/">
     <span class="title">« Prev</span>
     <br>
     <span>AI CyberSecurity, ChatGPT and Post-humanism</span>
   </a>
-  <a class="next" href="https://techshinobi.org/posts/bypass-chatgpt/">
+  <a class="next" href="http://localhost:1313/posts/bypass-chatgpt/">
     <span class="title">Next »</span>
     <br>
     <span>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</span>
@@ -550,7 +466,7 @@ fi
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on x"
-            href="https://x.com/intent/tweet/?text=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f&amp;hashtags=StableDiffusion%2cCheapskate%2cOpenAI%2cOpensource%2cChatGPT%2cAPI%2cAUTOMATIC1111%2cdebian%2cscript%2cSelf-Healing%2chardware">
+            href="https://x.com/intent/tweet/?text=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f&amp;hashtags=StableDiffusion%2cCheapskate%2cOpenAI%2cOpensource%2cChatGPT%2cAPI%2cAUTOMATIC1111%2cdebian%2cscript%2cSelf-Healing%2chardware">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -559,7 +475,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f&amp;title=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;summary=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;source=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f">
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f&amp;title=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;summary=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -568,7 +484,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f&title=Cheapskate%27s%20Stable%20Diffusion%20Server">
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f&title=Cheapskate%27s%20Stable%20Diffusion%20Server">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -577,7 +493,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on facebook"
-            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f">
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
@@ -586,7 +502,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on whatsapp"
-            href="https://api.whatsapp.com/send?text=Cheapskate%27s%20Stable%20Diffusion%20Server%20-%20https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f">
+            href="https://api.whatsapp.com/send?text=Cheapskate%27s%20Stable%20Diffusion%20Server%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -595,7 +511,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on telegram"
-            href="https://telegram.me/share/url?text=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f">
+            href="https://telegram.me/share/url?text=Cheapskate%27s%20Stable%20Diffusion%20Server&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -604,7 +520,7 @@ fi
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cheapskate&#39;s Stable Diffusion Server on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=Cheapskate%27s%20Stable%20Diffusion%20Server&u=https%3a%2f%2ftechshinobi.org%2fposts%2fcheapsd%2f">
+            href="https://news.ycombinator.com/submitlink?t=Cheapskate%27s%20Stable%20Diffusion%20Server&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fcheapsd%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path
@@ -619,7 +535,7 @@ fi
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://techshinobi.org/">Tech Shinobi</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">Tech Shinobi</a></span> · 
 
     <span>
         Powered by

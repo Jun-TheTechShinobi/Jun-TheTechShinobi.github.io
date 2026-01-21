@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Harbor on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/harbor/</link>
+    <link>http://localhost:1313/tags/harbor/</link>
     <description>Recent content in Harbor on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/harbor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/harbor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating Harbor instance from Linux to WSL2</title>
-      <link>https://techshinobi.org/posts/harbor-wsl/</link>
+      <link>http://localhost:1313/posts/harbor-wsl/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
+      <guid>http://localhost:1313/posts/harbor-wsl/</guid>
       <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
 &lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
-      <link>https://techshinobi.org/posts/easy-local-llm/</link>
+      <link>http://localhost:1313/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
+      <guid>http://localhost:1313/posts/easy-local-llm/</guid>
       <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
 &lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>

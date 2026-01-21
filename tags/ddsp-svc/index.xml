@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DDSP-SVC on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/ddsp-svc/</link>
+    <link>http://localhost:1313/tags/ddsp-svc/</link>
     <description>Recent content in DDSP-SVC on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/ddsp-svc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ddsp-svc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
-      <link>https://techshinobi.org/posts/voice-vits/</link>
+      <link>http://localhost:1313/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/voice-vits/</guid>
+      <guid>http://localhost:1313/posts/voice-vits/</guid>
       <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
 &lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
 &lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;

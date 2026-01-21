@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in AI on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>https://techshinobi.org/posts/learn-ai/</link>
+      <link>http://localhost:1313/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/learn-ai/</guid>
+      <guid>http://localhost:1313/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
-      <link>https://techshinobi.org/posts/gensub-whisper/</link>
+      <link>http://localhost:1313/posts/gensub-whisper/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
+      <guid>http://localhost:1313/posts/gensub-whisper/</guid>
       <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/mayeaux/generate-subtitles&#34;&gt;Generate-subtitles &lt;/a&gt; as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.&lt;/p&gt;
 &lt;p&gt;When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are &lt;a href=&#34;https://www.nikse.dk/subtitleedit&#34;&gt;Subtitle Edit&lt;/a&gt; and
 &lt;a href=&#34;https://aegisub.org/&#34;&gt;Aegisub&lt;/a&gt;. SE provides a great &lt;a href=&#34;https://www.nikse.dk/subtitleedit/online&#34;&gt;online version&lt;/a&gt; and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support. Aegisub works with .ASS format which fits into &lt;a href=&#34;https://github.com/Kilo19/NixieVideoKit&#34;&gt;NixieVideoKit&lt;/a&gt; automated workflow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>https://techshinobi.org/posts/aisecph/</link>
+      <link>http://localhost:1313/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <guid>http://localhost:1313/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>

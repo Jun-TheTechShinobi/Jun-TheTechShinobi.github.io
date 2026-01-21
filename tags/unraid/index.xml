@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Unraid on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/unraid/</link>
+    <link>http://localhost:1313/tags/unraid/</link>
     <description>Recent content in Unraid on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/unraid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/unraid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
-      <link>https://techshinobi.org/posts/cheapnas/</link>
+      <link>http://localhost:1313/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/cheapnas/</guid>
+      <guid>http://localhost:1313/posts/cheapnas/</guid>
       <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
 &lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
 &lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;

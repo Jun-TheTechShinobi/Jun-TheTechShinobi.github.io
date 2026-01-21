@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nodejs on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/nodejs/</link>
+    <link>http://localhost:1313/tags/nodejs/</link>
     <description>Recent content in Nodejs on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
-      <link>https://techshinobi.org/posts/playing-gpt/</link>
+      <link>http://localhost:1313/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
+      <guid>http://localhost:1313/posts/playing-gpt/</guid>
       <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
 &lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
 &lt;ul&gt;

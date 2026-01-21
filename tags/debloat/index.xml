@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Debloat on Tech Shinobi</title>
-    <link>https://techshinobi.org/tags/debloat/</link>
+    <link>http://localhost:1313/tags/debloat/</link>
     <description>Recent content in Debloat on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/tags/debloat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/debloat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
-      <link>https://techshinobi.org/posts/tpc13/</link>
+      <link>http://localhost:1313/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <guid>http://localhost:1313/posts/tpc13/</guid>
       <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
 &lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;
@@ -23,9 +23,9 @@
     </item>
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
-      <link>https://techshinobi.org/posts/opn30/</link>
+      <link>http://localhost:1313/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opn30/</guid>
+      <guid>http://localhost:1313/posts/opn30/</guid>
       <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
 &lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
 &lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>

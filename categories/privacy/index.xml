@@ -2,37 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Privacy on Tech Shinobi</title>
-    <link>https://techshinobi.org/categories/privacy/</link>
+    <link>http://localhost:1313/categories/privacy/</link>
     <description>Recent content in Privacy on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>https://techshinobi.org/posts/ytproxy/</link>
+      <link>http://localhost:1313/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ytproxy/</guid>
+      <guid>http://localhost:1313/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;There are many ways to get around this IP block. Because I think switching VPN server is too heavy just for this, I would like to use a proxy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operational Security with Documents</title>
-      <link>https://techshinobi.org/posts/opsecdocs/</link>
+      <link>http://localhost:1313/posts/opsecdocs/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opsecdocs/</guid>
+      <guid>http://localhost:1313/posts/opsecdocs/</guid>
       <description>&lt;p&gt;Recently, I started sending/receiving documents to/from untrusted sources. In my threat model, this requires extra operational security to prevent privacy exposure and security risk.&lt;/p&gt;
 &lt;p&gt;Since the &lt;a href=&#34;https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#windows&#34;&gt;offical guide&lt;/a&gt; is not so detailed for Windows, I decided to write one while installing on a &lt;a href=&#34;https://techshinobi.org/posts/tiny11wtg/#windows-11-ltsc-double-debloat&#34;&gt;Windows 11 LTSC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First, in Windows Terminal/PowerShell, run &lt;code&gt;wsl --install&lt;/code&gt; to setup WSL2. Read &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;my previous post&lt;/a&gt; for more detail.&lt;/p&gt;
@@ -40,9 +41,9 @@
     </item>
     <item>
       <title>How to Scan, OCR and Share a Book Anonymously</title>
-      <link>https://techshinobi.org/posts/bookscan/</link>
+      <link>http://localhost:1313/posts/bookscan/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/bookscan/</guid>
+      <guid>http://localhost:1313/posts/bookscan/</guid>
       <description>&lt;p&gt;Recently, I have encountered a very rare out-of-print book that I decided to save it for the world with modern technology.&lt;/p&gt;
 &lt;p&gt;Because I don&amp;rsquo;t have a real scanner, I tested all sorts of scanner android apps that are open source.&lt;/p&gt;
 &lt;ul&gt;
@@ -57,9 +58,9 @@
     </item>
     <item>
       <title>Migrating Harbor instance from Linux to WSL2</title>
-      <link>https://techshinobi.org/posts/harbor-wsl/</link>
+      <link>http://localhost:1313/posts/harbor-wsl/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
+      <guid>http://localhost:1313/posts/harbor-wsl/</guid>
       <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
 &lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
@@ -70,34 +71,34 @@
     </item>
     <item>
       <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
-      <link>https://techshinobi.org/posts/proton-shit/</link>
+      <link>http://localhost:1313/posts/proton-shit/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/proton-shit/</guid>
+      <guid>http://localhost:1313/posts/proton-shit/</guid>
       <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
-      <link>https://techshinobi.org/posts/easy-local-llm/</link>
+      <link>http://localhost:1313/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
+      <guid>http://localhost:1313/posts/easy-local-llm/</guid>
       <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
 &lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
-      <link>https://techshinobi.org/posts/menero-wallet/</link>
+      <link>http://localhost:1313/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
+      <guid>http://localhost:1313/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
-      <link>https://techshinobi.org/posts/tpc13/</link>
+      <link>http://localhost:1313/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tpc13/</guid>
+      <guid>http://localhost:1313/posts/tpc13/</guid>
       <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
 &lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;
@@ -108,27 +109,27 @@
     </item>
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
-      <link>https://techshinobi.org/posts/opn30/</link>
+      <link>http://localhost:1313/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opn30/</guid>
+      <guid>http://localhost:1313/posts/opn30/</guid>
       <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
 &lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
 &lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>https://techshinobi.org/posts/aisecph/</link>
+      <link>http://localhost:1313/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/aisecph/</guid>
+      <guid>http://localhost:1313/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unblock URLs from My Own Filter Lists</title>
-      <link>https://techshinobi.org/posts/unblock-podcast/</link>
+      <link>http://localhost:1313/posts/unblock-podcast/</link>
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/unblock-podcast/</guid>
+      <guid>http://localhost:1313/posts/unblock-podcast/</guid>
       <description>&lt;h2 id=&#34;podcast-doesnt-fetch&#34;&gt;Podcast doesn&amp;rsquo;t fetch&lt;/h2&gt;
 &lt;p&gt;I have multiple devices that are using different URL based filter methods. Some are at the router level and some are at the system level, e.g., Hosts file, DNS and VPN built-in.&lt;/p&gt;
 &lt;p&gt;Recently, I found out there is a broken one in my podcast subscriptions.&lt;/p&gt;
@@ -136,9 +137,9 @@
     </item>
     <item>
       <title>Kali and Anonsurf</title>
-      <link>https://techshinobi.org/posts/kalianon/</link>
+      <link>http://localhost:1313/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/kalianon/</guid>
+      <guid>http://localhost:1313/posts/kalianon/</guid>
       <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
 &lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;
@@ -146,9 +147,9 @@
     </item>
     <item>
       <title>Little Things Behind This Website</title>
-      <link>https://techshinobi.org/posts/little-things-behind/</link>
+      <link>http://localhost:1313/posts/little-things-behind/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/little-things-behind/</guid>
+      <guid>http://localhost:1313/posts/little-things-behind/</guid>
       <description>&lt;h2 id=&#34;aliases-standby&#34;&gt;#aliases: [&amp;ldquo;standby&amp;rdquo;]&lt;/h2&gt;
 &lt;p&gt;This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.&lt;/p&gt;
 &lt;p&gt;All the steps I have done are very similar to &lt;a href=&#34;https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7?gi=5d5639ec8417&#34;&gt;this article&lt;/a&gt;, except making the Personal Access Token and Custom Domain (these are easy to find separately).&lt;/p&gt;</description>

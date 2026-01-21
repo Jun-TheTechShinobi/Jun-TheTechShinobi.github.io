@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Security on Tech Shinobi</title>
-    <link>https://techshinobi.org/categories/security/</link>
+    <link>http://localhost:1313/categories/security/</link>
     <description>Recent content in Security on Tech Shinobi</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://techshinobi.org/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trying out Immutable/Atomic Linux: Secureblue, Guix and NixOS</title>
-      <link>https://techshinobi.org/posts/atomic/</link>
+      <link>http://localhost:1313/posts/atomic/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/atomic/</guid>
+      <guid>http://localhost:1313/posts/atomic/</guid>
       <description>&lt;h2 id=&#34;background-with-kicksecure&#34;&gt;Background with Kicksecure&lt;/h2&gt;
 &lt;p&gt;Last year, I set up my Monero Wallet with Kicksecure and happy about it. This distro is really lightweight and easy to use. However, it failed completely after a recent upgrade, which was a major version leap from Debian 12 to 13.&lt;/p&gt;
 &lt;p&gt;It lost drivers, desktop environment stopped working and probably much more which I couldn&amp;rsquo;t discover because I stacked at a login screen loop. After troubleshooting for a couple of hours, it turns out all lightdm related DEs are unusable and Gnome and KDE are working.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Harden AI Instances for Privacy and Security</title>
-      <link>https://techshinobi.org/posts/ai-privacy/</link>
+      <link>http://localhost:1313/posts/ai-privacy/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ai-privacy/</guid>
+      <guid>http://localhost:1313/posts/ai-privacy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Last month, &lt;a href=&#34;https://blogs.cisco.com/security/detecting-exposed-llm-servers-shodan-case-study-on-ollama&#34;&gt;Cisco researchers detected over 1,000 Ollama instances&lt;/a&gt; within the first 10 minutes using Shodan scanning on 11434 port. Other services such as vLLM/llama.cpp/LangChain on 8000, LM Studio on 1234, GPT4All on 4891, are also identified.&lt;/p&gt;
 &lt;p&gt;Later, &lt;a href=&#34;https://censys.com/blog/ollama-drama-investigating-the-prevalence-of-ollama-open-instances-with-censys&#34;&gt;Censys found 10.6K Ollama instances publicly available online, and 1.5K of these instances respond to prompts.&lt;/a&gt; That poses not only a great security risk of RCE, injection and poisoning, but also possible to expose private chat memory via unauthorized prompting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
-      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
+      <link>http://localhost:1313/posts/ddwrt-mr7350/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
+      <guid>http://localhost:1313/posts/ddwrt-mr7350/</guid>
       <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
 &lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
 &lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
-      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
+      <link>http://localhost:1313/posts/openwrt-flint2/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
+      <guid>http://localhost:1313/posts/openwrt-flint2/</guid>
       <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
 &lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>Making N100 mini-PC into a pfSense Box</title>
-      <link>https://techshinobi.org/posts/n100pfsense/</link>
+      <link>http://localhost:1313/posts/n100pfsense/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/n100pfsense/</guid>
+      <guid>http://localhost:1313/posts/n100pfsense/</guid>
       <description>&lt;p&gt;Since I was a teenager, I have started voluntarily helping people around me with my skill of technology. This time, I&amp;rsquo;m helping someone to build up a robust, secure and cost-effective firewall/gateway/soft router at home.&lt;/p&gt;
 &lt;p&gt;It ends up on a $100 worth N100 mini-pc with dual Ethernet port, which can be a great pfSense box for home or even business use.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-tweaks&#34;&gt;Hardware Tweaks&lt;/h2&gt;
@@ -57,20 +57,21 @@
     </item>
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>https://techshinobi.org/posts/ytproxy/</link>
+      <link>http://localhost:1313/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/ytproxy/</guid>
+      <guid>http://localhost:1313/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;YouTube has blocked your IP address from watching videos. Please try switching to a different VPN or proxy.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;There are many ways to get around this IP block. Because I think switching VPN server is too heavy just for this, I would like to use a proxy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operational Security with Documents</title>
-      <link>https://techshinobi.org/posts/opsecdocs/</link>
+      <link>http://localhost:1313/posts/opsecdocs/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/opsecdocs/</guid>
+      <guid>http://localhost:1313/posts/opsecdocs/</guid>
       <description>&lt;p&gt;Recently, I started sending/receiving documents to/from untrusted sources. In my threat model, this requires extra operational security to prevent privacy exposure and security risk.&lt;/p&gt;
 &lt;p&gt;Since the &lt;a href=&#34;https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#windows&#34;&gt;offical guide&lt;/a&gt; is not so detailed for Windows, I decided to write one while installing on a &lt;a href=&#34;https://techshinobi.org/posts/tiny11wtg/#windows-11-ltsc-double-debloat&#34;&gt;Windows 11 LTSC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First, in Windows Terminal/PowerShell, run &lt;code&gt;wsl --install&lt;/code&gt; to setup WSL2. Read &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;my previous post&lt;/a&gt; for more detail.&lt;/p&gt;
@@ -78,34 +79,34 @@
     </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>https://techshinobi.org/posts/learn-ai/</link>
+      <link>http://localhost:1313/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/learn-ai/</guid>
+      <guid>http://localhost:1313/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
-      <link>https://techshinobi.org/posts/menero-wallet/</link>
+      <link>http://localhost:1313/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
+      <guid>http://localhost:1313/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>USB Tethering a Portable Router into a Mobile WiFi Hotspot</title>
-      <link>https://techshinobi.org/posts/tethering-hotspot/</link>
+      <link>http://localhost:1313/posts/tethering-hotspot/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/tethering-hotspot/</guid>
+      <guid>http://localhost:1313/posts/tethering-hotspot/</guid>
       <description>&lt;p&gt;Recently I came down to want a mobile hotspot when going out of home, something like Netgear Nighthawk M series, but able to flash custom firmware (OpenWrt/pfSense equivalents) and cheap. However, there is no such thing on the market even without budget consideration.&lt;/p&gt;
 &lt;p&gt;So it has to be done with DIY, like &lt;a href=&#34;https://OpenWrt.org/docs/guide-user/network/wan/smartphone.usb.tethering&#34;&gt;USB tethering with a router&lt;/a&gt;. In the case of tethering or so called Ethernet over USB, we are using a phone as a cellular modem for our router.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recovering from Data Loss due to LUKS Failure</title>
-      <link>https://techshinobi.org/posts/recoverluks/</link>
+      <link>http://localhost:1313/posts/recoverluks/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://techshinobi.org/posts/recoverluks/</guid>
+      <guid>http://localhost:1313/posts/recoverluks/</guid>
       <description>&lt;h2 id=&#34;background-story&#34;&gt;Background Story&lt;/h2&gt;
 &lt;p&gt;Last week, I experienced a major data loss on my daily driver computer due to encryption failure. Last time I had encountered this sort of situation was over a decade ago with TrueCrypt on an external HDD and unfortunately lost everything that weren&amp;rsquo;t backed up. I&amp;rsquo;ve recovered everything from backup this time so I decide to document it.&lt;/p&gt;
 &lt;p&gt;The entire storage on my daily driver is encrypted with LUKS and it suddenly fails on boot decryption. I don&amp;rsquo;t have the header backed up and have stopped using &lt;a href=&#34;https://github.com/teejee2008/timeshift&#34;&gt;Timeshift&lt;/a&gt; for a long time due to it&amp;rsquo;s unschedulable which lead to chaotic performance impact.&lt;/p&gt;</description>
