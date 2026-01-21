@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mice on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/mice/</link>
+    <link>https://techshinobi.org/tags/mice/</link>
     <description>Recent content in Mice on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/mice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tweaking the Mouse</title>
-      <link>http://localhost:1313/posts/tweakingmouse/</link>
+      <link>https://techshinobi.org/posts/tweakingmouse/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tweakingmouse/</guid>
+      <guid>https://techshinobi.org/posts/tweakingmouse/</guid>
       <description>&lt;h2 id=&#34;acceleration&#34;&gt;Acceleration&lt;/h2&gt;
 &lt;p&gt;During my teenage years, I was really into FPS and RTS games. That&amp;rsquo;s why I&amp;rsquo;m kind of picky on computer mouses and being paranoid of acceleration in the OS.&lt;/p&gt;
 &lt;p&gt;Permanently disabling acceleration for Windows is simple. Besides unchecking the &amp;ldquo;Enhance pointer precision&amp;rdquo; in the &lt;code&gt;main.cpl&lt;/code&gt;, some registry hacks such as the good old classic &amp;ldquo;CPL Mouse Fix&amp;rdquo; or the later &amp;ldquo;MarkC&amp;rdquo; would do it &lt;a href=&#34;http://www.esreality.com/?a=post&amp;amp;id=1846538&#34;&gt;easily by a REG/batch file&lt;/a&gt;. It is also possible &lt;a href=&#34;https://www.pcgamingwiki.com/wiki/Glossary:Mouse_acceleration&#34;&gt;doing manually&lt;/a&gt; if you want.&lt;/p&gt;</description>

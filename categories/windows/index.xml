@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Windows on Tech Shinobi</title>
-    <link>http://localhost:1313/categories/windows/</link>
+    <link>https://techshinobi.org/categories/windows/</link>
     <description>Recent content in Windows on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Operational Security with Documents</title>
-      <link>http://localhost:1313/posts/opsecdocs/</link>
+      <link>https://techshinobi.org/posts/opsecdocs/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/opsecdocs/</guid>
+      <guid>https://techshinobi.org/posts/opsecdocs/</guid>
       <description>&lt;p&gt;Recently, I started sending/receiving documents to/from untrusted sources. In my threat model, this requires extra operational security to prevent privacy exposure and security risk.&lt;/p&gt;
 &lt;p&gt;Since the &lt;a href=&#34;https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#windows&#34;&gt;offical guide&lt;/a&gt; is not so detailed for Windows, I decided to write one while installing on a &lt;a href=&#34;https://techshinobi.org/posts/tiny11wtg/#windows-11-ltsc-double-debloat&#34;&gt;Windows 11 LTSC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First, in Windows Terminal/PowerShell, run &lt;code&gt;wsl --install&lt;/code&gt; to setup WSL2. Read &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;my previous post&lt;/a&gt; for more detail.&lt;/p&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>On Windows Nostalgia, Linux and Its Discontents</title>
-      <link>http://localhost:1313/posts/11-7-linux/</link>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/11-7-linux/</guid>
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
       <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
 &lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
 &lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
@@ -30,27 +30,27 @@
     </item>
     <item>
       <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
-      <link>http://localhost:1313/posts/tiny11wtg/</link>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tiny11wtg/</guid>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
       <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
 &lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
 &lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu on Windows via WSL2</title>
-      <link>http://localhost:1313/posts/wsl2/</link>
+      <link>https://techshinobi.org/posts/wsl2/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wsl2/</guid>
+      <guid>https://techshinobi.org/posts/wsl2/</guid>
       <description>&lt;h3 id=&#34;wsl-installation&#34;&gt;WSL Installation&lt;/h3&gt;
 &lt;p&gt;There are some special use cases where I would like to go through and show the process of setting up WSL. &lt;a href=&#34;https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/&#34;&gt;Ubuntu&amp;rsquo;s official document&lt;/a&gt; works well on Windows 11 LTSC for WSL installation, there is also a tutorial from &lt;a href=&#34;https://www.sitepoint.com/wsl2/&#34;&gt;sitepoint&lt;/a&gt; with more details.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m doing this on a double debloated version of Windows 11 from previous post of Tiny 11 WTG, where I downloaded &lt;a href=&#34;https://github.com/microsoft/winget-cli/releases&#34;&gt;WinGet&lt;/a&gt;, extracted &lt;code&gt;DesktopAppInstaller_Dependencies.zip&lt;/code&gt; and installed with PowerShell:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updating ThinkPad C13 Yoga</title>
-      <link>http://localhost:1313/posts/tpc13/</link>
+      <link>https://techshinobi.org/posts/tpc13/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tpc13/</guid>
+      <guid>https://techshinobi.org/posts/tpc13/</guid>
       <description>&lt;h2 id=&#34;2024-update&#34;&gt;2024 Update&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://mrchromebox.tech/#home&#34;&gt;MrChromebox.tech&lt;/a&gt; had a major update a few month ago, so I decide to move on as well.&lt;/p&gt;
 &lt;p&gt;But before that, use &lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; or &lt;code&gt;rsync -aHAXS&lt;/code&gt; to back up the 32 GB emmc first.&lt;/p&gt;

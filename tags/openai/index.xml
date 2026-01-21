@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenAI on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/openai/</link>
+    <link>https://techshinobi.org/tags/openai/</link>
     <description>Recent content in OpenAI on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating Harbor instance from Linux to WSL2</title>
-      <link>http://localhost:1313/posts/harbor-wsl/</link>
+      <link>https://techshinobi.org/posts/harbor-wsl/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/harbor-wsl/</guid>
+      <guid>https://techshinobi.org/posts/harbor-wsl/</guid>
       <description>&lt;p&gt;In the past, I have covered how to set up &lt;a href=&#34;https://techshinobi.org/posts/wsl2/&#34;&gt;Ubuntu in WSL2&lt;/a&gt; and &lt;a href=&#34;https://techshinobi.org/posts/easy-local-llm/#docker--harbor&#34;&gt;hosting local LLMs with Harbor&lt;/a&gt;, now I want to migrate my Harbor instance from baremetal Linux into WSL2 so that I don&amp;rsquo;t have to set it up from scratch.&lt;/p&gt;
 &lt;p&gt;First thing to do is to &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/networking&#34;&gt;open firewall port&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;netsh interface portproxy add v4tov4 listenport=33811 listenaddress=0.0.0.0 connectport=33801 connectaddress=172.xx.xxx.xxx
@@ -23,17 +23,17 @@
     </item>
     <item>
       <title>Self-hosting Local LLMs (DeepSeek-R1) Easily with Harbor (Ollama&#43;Open-WebUI&#43;SearXNG)</title>
-      <link>http://localhost:1313/posts/easy-local-llm/</link>
+      <link>https://techshinobi.org/posts/easy-local-llm/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/easy-local-llm/</guid>
+      <guid>https://techshinobi.org/posts/easy-local-llm/</guid>
       <description>&lt;p&gt;Lately, there is a need of private chatbot service as a complete alternative to OpenAI&amp;rsquo;s ChatGPT. So, I decide to implement one at home and make it accessible to everyone in my household alongside with my network printer and NAS (OpenMediaVault).&lt;/p&gt;
 &lt;p&gt;In the past, I used to recommend people using Llama series for English tasks and Qwen series for Chinese tasks. There was no open-source model that&amp;rsquo;s strong enough in multilingual tasks comparing to proprietary ones (GPT/Claude).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
-      <link>http://localhost:1313/posts/ethics-llm/</link>
+      <link>https://techshinobi.org/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ethics-llm/</guid>
+      <guid>https://techshinobi.org/posts/ethics-llm/</guid>
       <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
 &lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
@@ -51,27 +51,27 @@
     </item>
     <item>
       <title>Setting up a Wisper Server with GUI using Generate-subtitles</title>
-      <link>http://localhost:1313/posts/gensub-whisper/</link>
+      <link>https://techshinobi.org/posts/gensub-whisper/</link>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gensub-whisper/</guid>
+      <guid>https://techshinobi.org/posts/gensub-whisper/</guid>
       <description>&lt;p&gt;I use &lt;a href=&#34;https://github.com/mayeaux/generate-subtitles&#34;&gt;Generate-subtitles &lt;/a&gt; as an alternative or substitute to YouTube closed captions (CC) since it does not always work as expected.&lt;/p&gt;
 &lt;p&gt;When creating video contents, it comes very handy to have a high quality generated transcripts to start with. My favorite tools are &lt;a href=&#34;https://www.nikse.dk/subtitleedit&#34;&gt;Subtitle Edit&lt;/a&gt; and
 &lt;a href=&#34;https://aegisub.org/&#34;&gt;Aegisub&lt;/a&gt;. SE provides a great &lt;a href=&#34;https://www.nikse.dk/subtitleedit/online&#34;&gt;online version&lt;/a&gt; and works with .SRT format which fits great into my Adobe Premiere Pro workflow. It also has built-in Auto Translation and Whisper support. Aegisub works with .ASS format which fits into &lt;a href=&#34;https://github.com/Kilo19/NixieVideoKit&#34;&gt;NixieVideoKit&lt;/a&gt; automated workflow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>http://localhost:1313/posts/aisecph/</link>
+      <link>https://techshinobi.org/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/aisecph/</guid>
+      <guid>https://techshinobi.org/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
-      <link>http://localhost:1313/posts/cheapsd/</link>
+      <link>https://techshinobi.org/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cheapsd/</guid>
+      <guid>https://techshinobi.org/posts/cheapsd/</guid>
       <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
 &lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
 &lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;
@@ -88,9 +88,9 @@
     </item>
     <item>
       <title>Bypassing ChatGPT&#39;s Safeguard and Easiest Way to use API</title>
-      <link>http://localhost:1313/posts/bypass-chatgpt/</link>
+      <link>https://techshinobi.org/posts/bypass-chatgpt/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bypass-chatgpt/</guid>
+      <guid>https://techshinobi.org/posts/bypass-chatgpt/</guid>
       <description>&lt;p&gt;The latest news updated on &lt;a href=&#34;https://github.com/waylaidwanderer/node-chatgpt-api&#34;&gt;waylaidwanderer&amp;rsquo;s repo&lt;/a&gt; says:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2023-02-15
@@ -102,9 +102,9 @@ The method we were using to access the ChatGPT raw models has been patched, unfo
     </item>
     <item>
       <title>Playing with Different GPT-3 and ChatGPT models</title>
-      <link>http://localhost:1313/posts/playing-gpt/</link>
+      <link>https://techshinobi.org/posts/playing-gpt/</link>
       <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/playing-gpt/</guid>
+      <guid>https://techshinobi.org/posts/playing-gpt/</guid>
       <description>&lt;h2 id=&#34;the-original-flavors&#34;&gt;The Original Flavors&lt;/h2&gt;
 &lt;p&gt;In &lt;a href=&#34;https://platform.openai.com/docs/models/gpt-3&#34;&gt;OpenAI&amp;rsquo;s documentation&lt;/a&gt; there are 4 models under GPT-3 category and 2 coding models. They cost from $0.02 to $0.0004 per 1k tokens as the base model and the fine-tuned versions cost even more.&lt;/p&gt;
 &lt;ul&gt;

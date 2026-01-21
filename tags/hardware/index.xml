@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hardware on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/hardware/</link>
+    <link>https://techshinobi.org/tags/hardware/</link>
     <description>Recent content in Hardware on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing OpenWrt into a GL.iNet Flint 2 and Thoughts on Security</title>
-      <link>http://localhost:1313/posts/openwrt-flint2/</link>
+      <link>https://techshinobi.org/posts/openwrt-flint2/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/openwrt-flint2/</guid>
+      <guid>https://techshinobi.org/posts/openwrt-flint2/</guid>
       <description>&lt;p&gt;During the prime day, my friend grabbed a GL.iNet Flint 2 (GL-MT6000) for a fair price, thanks to the slickdeals community.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wikidevi.wi-cat.ru/GL.iNet_GL-MT6000_(Flint_2)&#34;&gt;The specs of this model&lt;/a&gt; feels like a beast to me, because I don&amp;rsquo;t have enough high-end devices and Internet plan to utilize that much of performance.&lt;/p&gt;
 &lt;p&gt;But what I can do is to boost its security and stability for my friend.&lt;/p&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Upgrading/Fixing Cheapskate&#39;s AI Server</title>
-      <link>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</link>
+      <link>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</guid>
+      <guid>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</guid>
       <description>&lt;p&gt;This is &lt;a href=&#34;https://techshinobi.org/posts/cheapai/&#34;&gt;the server I build back in 2023&lt;/a&gt;, based on a moded Dell Optiplex 3010 SFF motherboard with i5-2300 and Tesla M40. I wasn&amp;rsquo;t planning to put an Xeon E3 back then but something happened which changed my mind.&lt;/p&gt;
 &lt;p&gt;After approximately 1.5 years of 24/7 running, my CPU power extension cable melted.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Jun-TheTechShinobi/Jun-TheTechShinobi.github.io/45b89958caec4b3d2293d63c214ec871a2331a1e/posts/upgrade-ai-server/images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
@@ -31,17 +31,17 @@
     </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
-      <link>http://localhost:1313/posts/m58p/</link>
+      <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/m58p/</guid>
+      <guid>https://techshinobi.org/posts/m58p/</guid>
       <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
 &lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Windows Nostalgia, Linux and Its Discontents</title>
-      <link>http://localhost:1313/posts/11-7-linux/</link>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/11-7-linux/</guid>
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
       <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
 &lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
 &lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
@@ -49,27 +49,27 @@
     </item>
     <item>
       <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
-      <link>http://localhost:1313/posts/tiny11wtg/</link>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tiny11wtg/</guid>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
       <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
 &lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
 &lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
-      <link>http://localhost:1313/posts/opn30/</link>
+      <link>https://techshinobi.org/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/opn30/</guid>
+      <guid>https://techshinobi.org/posts/opn30/</guid>
       <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
 &lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
 &lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2</title>
-      <link>http://localhost:1313/posts/voice-vits/</link>
+      <link>https://techshinobi.org/posts/voice-vits/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/voice-vits/</guid>
+      <guid>https://techshinobi.org/posts/voice-vits/</guid>
       <description>&lt;h1 id=&#34;a-deep-dive-into-voice-cloning-with-softvc-vits-and-bert-vits2&#34;&gt;A Deep Dive into Voice Cloning with SoftVC VITS and Bert-VITS2&lt;/h1&gt;
 &lt;p&gt;In the &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#tts-generation-webui&#34;&gt;previous post&lt;/a&gt;, I have tried a little bit of &lt;a href=&#34;https://github.com/rsxdalv/tts-generation-webui&#34;&gt;TTS Generation WebUI&lt;/a&gt; and found it&amp;rsquo;s interesting. So, I decide to train a usable model with my own voice.&lt;/p&gt;
 &lt;p&gt;This voice cloning project explores both SVC for Voice Changing and &lt;a href=&#34;https://github.com/jaywalnut310/vits&#34;&gt;VITS&lt;/a&gt; for Text-to-Speech. There is no one tool does all jobs.&lt;/p&gt;
@@ -77,9 +77,9 @@
     </item>
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
-      <link>http://localhost:1313/posts/cheapnas/</link>
+      <link>https://techshinobi.org/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cheapnas/</guid>
+      <guid>https://techshinobi.org/posts/cheapnas/</guid>
       <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
 &lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
 &lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
@@ -87,18 +87,18 @@
     </item>
     <item>
       <title>Cheapskate&#39;s Homebrew AI Lab</title>
-      <link>http://localhost:1313/posts/cheapai/</link>
+      <link>https://techshinobi.org/posts/cheapai/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cheapai/</guid>
+      <guid>https://techshinobi.org/posts/cheapai/</guid>
       <description>&lt;h2 id=&#34;old-stories&#34;&gt;Old Stories&lt;/h2&gt;
 &lt;p&gt;The computer hardware used to be more playful and worth tinkering. My favorate platfom from a decade ago, Sandy Bridge on LGA 1155, can still be powerful even today.&lt;/p&gt;
 &lt;p&gt;Back in the days, I used to repair people&amp;rsquo;s electronics for free. Because of that, I also received a lots of spares and e-waste in exchange. One of the best was a LGA 1155 motherboard with i5-2300 on it. Then, I bought a cheap E3-1245 and GTX 750 Ti to make it a gaming rig. I played a lot of games on that, such as Dark Souls series and Metro series. Before it was sold, last games I played on this build was Metro Exodus and Elden Ring.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheapskate&#39;s Stable Diffusion Server</title>
-      <link>http://localhost:1313/posts/cheapsd/</link>
+      <link>https://techshinobi.org/posts/cheapsd/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cheapsd/</guid>
+      <guid>https://techshinobi.org/posts/cheapsd/</guid>
       <description>&lt;h2 id=&#34;no-dall-e-no-midjourney-and-no-colab&#34;&gt;No DALL-E, No Midjourney and No Colab&lt;/h2&gt;
 &lt;p&gt;This is a guide showing how to build your own stable diffusion server on what you already have or cheap used hardwares. It may not satisfy for a serious production use but pretty viable for learning, testing or casual use.&lt;/p&gt;
 &lt;p&gt;Before we start, here&amp;rsquo;s some comments on OpenAI:&lt;/p&gt;

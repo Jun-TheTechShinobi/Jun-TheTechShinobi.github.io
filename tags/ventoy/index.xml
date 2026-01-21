@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ventoy on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/ventoy/</link>
+    <link>https://techshinobi.org/tags/ventoy/</link>
     <description>Recent content in Ventoy on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ventoy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/ventoy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiny 11 LTSC WTG with Double Debloat and Ventoy</title>
-      <link>http://localhost:1313/posts/tiny11wtg/</link>
+      <link>https://techshinobi.org/posts/tiny11wtg/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tiny11wtg/</guid>
+      <guid>https://techshinobi.org/posts/tiny11wtg/</guid>
       <description>&lt;h3 id=&#34;the-end-of-timelessness&#34;&gt;The End of Timelessness?&lt;/h3&gt;
 &lt;p&gt;As a free and open source provocateur, I use Linux on my old and new hardware. But when installing OS for non-tech-savvy people, most of time, Windows is my only option. Nevertheless, I often install and recommend open source tools on Windows platform for them.&lt;/p&gt;
 &lt;p&gt;During Windows 8 to 10 LTSB period, I wasn&amp;rsquo;t so interested into installing the latest Windows. However, when M$ decide to block hardware in their installer either via TPM or CPU generations, I started installing later version of Windows just for bypassing the restrictions.&lt;/p&gt;</description>

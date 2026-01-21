@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nostalgia on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/nostalgia/</link>
+    <link>https://techshinobi.org/tags/nostalgia/</link>
     <description>Recent content in Nostalgia on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nostalgia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/nostalgia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nokia N900, postmarketOS and Ideology</title>
-      <link>http://localhost:1313/posts/pmos/</link>
+      <link>https://techshinobi.org/posts/pmos/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pmos/</guid>
+      <guid>https://techshinobi.org/posts/pmos/</guid>
       <description>&lt;h2 id=&#34;0x00-before-start&#34;&gt;0x00 Before Start&lt;/h2&gt;
 &lt;p&gt;Recently, I just gave my iPhone 4S away. This phone runs smoothly with jailbreak iOS 6.1.3. It was siting in my nostalgia box for years and has never been my daily driver.&lt;/p&gt;
 &lt;p&gt;Back in time, I was a big fun of Motorola Milestone/Droid series and my main phone was the last of these QWERTY phones, Photon Q (XT897). Its keyboard was fantastic and CyanogenMod 11 (Android 4.4 KitKat) with XPosed framework was perfect in both productivity and aesthetics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tweaking the Mouse</title>
-      <link>http://localhost:1313/posts/tweakingmouse/</link>
+      <link>https://techshinobi.org/posts/tweakingmouse/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tweakingmouse/</guid>
+      <guid>https://techshinobi.org/posts/tweakingmouse/</guid>
       <description>&lt;h2 id=&#34;acceleration&#34;&gt;Acceleration&lt;/h2&gt;
 &lt;p&gt;During my teenage years, I was really into FPS and RTS games. That&amp;rsquo;s why I&amp;rsquo;m kind of picky on computer mouses and being paranoid of acceleration in the OS.&lt;/p&gt;
 &lt;p&gt;Permanently disabling acceleration for Windows is simple. Besides unchecking the &amp;ldquo;Enhance pointer precision&amp;rdquo; in the &lt;code&gt;main.cpl&lt;/code&gt;, some registry hacks such as the good old classic &amp;ldquo;CPL Mouse Fix&amp;rdquo; or the later &amp;ldquo;MarkC&amp;rdquo; would do it &lt;a href=&#34;http://www.esreality.com/?a=post&amp;amp;id=1846538&#34;&gt;easily by a REG/batch file&lt;/a&gt;. It is also possible &lt;a href=&#34;https://www.pcgamingwiki.com/wiki/Glossary:Mouse_acceleration&#34;&gt;doing manually&lt;/a&gt; if you want.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Started This Blog</title>
-      <link>http://localhost:1313/posts/why-i-started/</link>
+      <link>https://techshinobi.org/posts/why-i-started/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-i-started/</guid>
+      <guid>https://techshinobi.org/posts/why-i-started/</guid>
       <description>&lt;h2 id=&#34;in-this-day-and-age&#34;&gt;In This Day and Age?&lt;/h2&gt;
 &lt;p&gt;Back then, when MySpace and 000webhost was the thing. I wrote blog regularly about my life and hobby. That was the beginning of my Internet journey and tweaking CSS code while posting an article was fun.&lt;/p&gt;
 &lt;p&gt;Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or telegram channel but here I am. Because I feel most comfortable this way.&lt;/p&gt;

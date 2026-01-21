@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PaperMod on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/papermod/</link>
+    <link>https://techshinobi.org/tags/papermod/</link>
     <description>Recent content in PaperMod on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Little Things Behind This Website</title>
-      <link>http://localhost:1313/posts/little-things-behind/</link>
+      <link>https://techshinobi.org/posts/little-things-behind/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/little-things-behind/</guid>
+      <guid>https://techshinobi.org/posts/little-things-behind/</guid>
       <description>&lt;h2 id=&#34;aliases-standby&#34;&gt;#aliases: [&amp;ldquo;standby&amp;rdquo;]&lt;/h2&gt;
 &lt;p&gt;This is my 2nd time using HUGO and hosting a site on Github Pages. It&amp;rsquo;s so convenient compare to self hosting. I don&amp;rsquo;t have to set up DDNS or CDN, also not have to patch up or update everything periodically to keep it secure.&lt;/p&gt;
 &lt;p&gt;All the steps I have done are very similar to &lt;a href=&#34;https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7?gi=5d5639ec8417&#34;&gt;this article&lt;/a&gt;, except making the Personal Access Token and Custom Domain (these are easy to find separately).&lt;/p&gt;</description>

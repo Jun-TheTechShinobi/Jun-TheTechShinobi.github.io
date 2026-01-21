@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tor on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/tor/</link>
+    <link>https://techshinobi.org/tags/tor/</link>
     <description>Recent content in Tor on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/tor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>http://localhost:1313/posts/ytproxy/</link>
+      <link>https://techshinobi.org/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ytproxy/</guid>
+      <guid>https://techshinobi.org/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -22,17 +22,17 @@
     </item>
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
-      <link>http://localhost:1313/posts/menero-wallet/</link>
+      <link>https://techshinobi.org/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/menero-wallet/</guid>
+      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kali and Anonsurf</title>
-      <link>http://localhost:1313/posts/kalianon/</link>
+      <link>https://techshinobi.org/posts/kalianon/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kalianon/</guid>
+      <guid>https://techshinobi.org/posts/kalianon/</guid>
       <description>&lt;h2 id=&#34;kali-linux--freshtomato&#34;&gt;Kali Linux &amp;amp; FreshTomato&lt;/h2&gt;
 &lt;p&gt;Parrot OS was on my old ThinkPad for many years. I recently upgraded it and had some issue with my multi-bootloader. Although it&amp;rsquo;s not Parrot OS&amp;rsquo;s fault, I switched to Kali Linux as a workaround.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve been using this pentesting system since early BackTrack era but never felt it ought to be installed on a hard drive.&lt;/p&gt;

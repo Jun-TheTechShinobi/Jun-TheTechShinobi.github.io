@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Userscript on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/userscript/</link>
+    <link>https://techshinobi.org/tags/userscript/</link>
     <description>Recent content in Userscript on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/userscript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/userscript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing Missing Scrollbar for ChatGPT with ChatGPT</title>
-      <link>http://localhost:1313/posts/chat-scroll/</link>
+      <link>https://techshinobi.org/posts/chat-scroll/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chat-scroll/</guid>
+      <guid>https://techshinobi.org/posts/chat-scroll/</guid>
       <description>&lt;p&gt;Recently, I encountered a scrolling problem on ChatGPT web like &lt;a href=&#34;https://community.openai.com/t/after-submitting-query-to-chatgpt-cant-scroll-at-all/696051/58?page=4&#34;&gt;this&lt;/a&gt;. I don&amp;rsquo;t use any userscript or extensions for OpenAI&amp;rsquo;s products and this problem occors in my unhardened Chrome based browser which I do not want to switch from.&lt;/p&gt;
 &lt;p&gt;Based on the workaround in the threads, I made an userscript out of it which solves the problem by running in tampermonkey.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(function () {

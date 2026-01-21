@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mind on Tech Shinobi</title>
-    <link>http://localhost:1313/categories/mind/</link>
+    <link>https://techshinobi.org/categories/mind/</link>
     <description>Recent content in Mind on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/mind/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/categories/mind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guidelines for Shinobi Hackerspace and Tool Library</title>
-      <link>http://localhost:1313/posts/hackerspace/</link>
+      <link>https://techshinobi.org/posts/hackerspace/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hackerspace/</guid>
+      <guid>https://techshinobi.org/posts/hackerspace/</guid>
       <description>&lt;p&gt;Welcome to Shinobi Hackerspace. I am the host, Shinobi.&lt;/p&gt;
 &lt;p&gt;You are seeing this probably because you have visited the Hackerspace. As the host, I am suppose to give you an on-site Orientation for the first time, but unfortunately this article is all we have right now.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll be updating this guideline while we are moving forward!&lt;/p&gt;
@@ -29,87 +29,87 @@
     </item>
     <item>
       <title>Shutting Off Annoying Autoupdate Notification for Mullvad Browser</title>
-      <link>http://localhost:1313/posts/mullvad/</link>
+      <link>https://techshinobi.org/posts/mullvad/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mullvad/</guid>
+      <guid>https://techshinobi.org/posts/mullvad/</guid>
       <description>&lt;p&gt;This has been a problem for a while now. That green dot and popup notification persisted on my Mullvad browser makes me feel like using a bloatware than a FOSS.&lt;/p&gt;
 &lt;p&gt;The right way to do this is either follow their upstream Tor browser update model—just force updating seamlessly without any user interaction. Or, like LibreWolf, manual update with the system package manager.&lt;/p&gt;
 &lt;p&gt;This situation might be because of I&amp;rsquo;m using the portable version of Mullvad browser. If that&amp;rsquo;s the case, I shouldn&amp;rsquo;t blame it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On iPhone, Design and Jailbreak (Updated)</title>
-      <link>http://localhost:1313/posts/on-iphone/</link>
+      <link>https://techshinobi.org/posts/on-iphone/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/on-iphone/</guid>
+      <guid>https://techshinobi.org/posts/on-iphone/</guid>
       <description>&lt;p&gt;This post was originally published on February 2025, and I recently updated the IPATool section in the end as a alternative method to prior ones.&lt;/p&gt;
 &lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
 &lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flashing DD-WRT into a Linksys MR7350 with Basic Hardening</title>
-      <link>http://localhost:1313/posts/ddwrt-mr7350/</link>
+      <link>https://techshinobi.org/posts/ddwrt-mr7350/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ddwrt-mr7350/</guid>
+      <guid>https://techshinobi.org/posts/ddwrt-mr7350/</guid>
       <description>&lt;p&gt;It has been a while since my WiFi is getting more and more unstable, and I finally decided to retire my NETGEAR R6300v2 which has served me well since in 2017.&lt;/p&gt;
 &lt;p&gt;It was in used condition when I bought it, so this is a good time to get a &amp;ldquo;new&amp;rdquo; router.&lt;/p&gt;
 &lt;p&gt;Because the ISPs in my area are very bad, I still have to stick with the low speed Internet for probably quite some time. So I decided to buy a used &lt;a href=&#34;https://wikidevi.wi-cat.ru/Linksys_MR7350&#34;&gt;Linksys MR7350&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The HackerNoon Problems</title>
-      <link>http://localhost:1313/posts/hackernoon/</link>
+      <link>https://techshinobi.org/posts/hackernoon/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hackernoon/</guid>
+      <guid>https://techshinobi.org/posts/hackernoon/</guid>
       <description>&lt;p&gt;To boost my article visibility on the fractured internet, reposting to larger platforms is my strategy to grow and HackerNoon has been my choice for years.&lt;/p&gt;
 &lt;p&gt;However, this platform is a boat which sinks even faster than Medium. I have been rejected arbitrarily by the editor earlier this year just for minor formatting improvements, which is still tolerable.&lt;/p&gt;
 &lt;p&gt;This time, they not only rejected my submission, but also banned me from the platform for no reason whatsoever. I can&amp;rsquo;t find any information in my Inbox, notifications or anywhere else. Whenever I&amp;rsquo;m trying to edit or write a post, I get a red warning saying &amp;ldquo;You have been banned&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
-      <link>http://localhost:1313/posts/mineru/</link>
+      <link>https://techshinobi.org/posts/mineru/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mineru/</guid>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
       <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
 &lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Increasing Video Resolution and Frame Rate with video2x</title>
-      <link>http://localhost:1313/posts/video2x/</link>
+      <link>https://techshinobi.org/posts/video2x/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/video2x/</guid>
+      <guid>https://techshinobi.org/posts/video2x/</guid>
       <description>&lt;p&gt;Recently, I downloaded an old documentary made in early 2000s. The original resolution was 854×480 with a less than 1000 KB/S bitrate. Because I like the content so there is enough reason to enhance my watching experience.&lt;/p&gt;
 &lt;p&gt;Download installer instead of the zip pack from &lt;a href=&#34;https://github.com/k4yt3x/video2x/releases/&#34;&gt;k4yt3x&amp;rsquo;s github repo&lt;/a&gt;, this will install all binaries and dependencies for Windows.&lt;/p&gt;
 &lt;p&gt;After restart the system, open video2x and load a video, it can automatically detect the GPU if it exists. Gaming GPU with higher frequency/hashrate is preferred over larger VRAM in this case.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>http://localhost:1313/posts/learn-ai/</link>
+      <link>https://techshinobi.org/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/learn-ai/</guid>
+      <guid>https://techshinobi.org/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating VMs from ESXi to Proxmox VE</title>
-      <link>http://localhost:1313/posts/migratevm/</link>
+      <link>https://techshinobi.org/posts/migratevm/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/migratevm/</guid>
+      <guid>https://techshinobi.org/posts/migratevm/</guid>
       <description>&lt;p&gt;There are many reasons why I&amp;rsquo;m doing this. In the days when Virtual Machine was the thing, VMware Workstation was the go-to option for a Windows host to run VMs. We have to find cracked version for personal use, since there was no VirtualBox neither Hyper-V.&lt;/p&gt;
 &lt;p&gt;Many years ago, when I first decided to have a proper homelab in my household, I went blindly into ESXi just because VMware Workstation has already installed on all of my computers. Although I was pretty like Proxmox during that time, it was considered for not so serious projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
-      <link>http://localhost:1313/posts/m58p/</link>
+      <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/m58p/</guid>
+      <guid>https://techshinobi.org/posts/m58p/</guid>
       <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
 &lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Windows Nostalgia, Linux and Its Discontents</title>
-      <link>http://localhost:1313/posts/11-7-linux/</link>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/11-7-linux/</guid>
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
       <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
 &lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
 &lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
@@ -117,9 +117,9 @@
     </item>
     <item>
       <title>Cheapskate&#39;s NAS Migration from Unraid to Openmediavault</title>
-      <link>http://localhost:1313/posts/cheapnas/</link>
+      <link>https://techshinobi.org/posts/cheapnas/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cheapnas/</guid>
+      <guid>https://techshinobi.org/posts/cheapnas/</guid>
       <description>&lt;h1 id=&#34;cheapskates-nas-migration-from-unraid-to-openmediavault&#34;&gt;Cheapskate&amp;rsquo;s NAS Migration from Unraid to Openmediavault&lt;/h1&gt;
 &lt;p&gt;For decades, I come across a lot of abandoned computers and recycled parts out of them.&lt;/p&gt;
 &lt;p&gt;This article is about the recycled &lt;a href=&#34;https://techshinobi.org/posts/cheapai/#old-stories&#34;&gt;Dell Vostro 220s with LGA771 to LGA775 Mod&lt;/a&gt; I mentioned in the last post.&lt;/p&gt;
@@ -127,18 +127,18 @@
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>http://localhost:1313/posts/aisecph/</link>
+      <link>https://techshinobi.org/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/aisecph/</guid>
+      <guid>https://techshinobi.org/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Started This Blog</title>
-      <link>http://localhost:1313/posts/why-i-started/</link>
+      <link>https://techshinobi.org/posts/why-i-started/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-i-started/</guid>
+      <guid>https://techshinobi.org/posts/why-i-started/</guid>
       <description>&lt;h2 id=&#34;in-this-day-and-age&#34;&gt;In This Day and Age?&lt;/h2&gt;
 &lt;p&gt;Back then, when MySpace and 000webhost was the thing. I wrote blog regularly about my life and hobby. That was the beginning of my Internet journey and tweaking CSS code while posting an article was fun.&lt;/p&gt;
 &lt;p&gt;Today, I&amp;rsquo;m supposed to post my stuff on somewhere like mastodon or telegram channel but here I am. Because I feel most comfortable this way.&lt;/p&gt;

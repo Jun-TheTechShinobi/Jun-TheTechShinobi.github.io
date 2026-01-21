@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prompt Engineering on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/prompt-engineering/</link>
+    <link>https://techshinobi.org/tags/prompt-engineering/</link>
     <description>Recent content in Prompt Engineering on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
-      <link>http://localhost:1313/posts/mineru/</link>
+      <link>https://techshinobi.org/posts/mineru/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mineru/</guid>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
       <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
 &lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My AI Learning Materials and News Feeds (Updated)</title>
-      <link>http://localhost:1313/posts/learn-ai/</link>
+      <link>https://techshinobi.org/posts/learn-ai/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/learn-ai/</guid>
+      <guid>https://techshinobi.org/posts/learn-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is the 3rd time updating the lists, where I added a section of Prompt Engineering upon requests since it is a good starting point for those not into self-hosting nor theory. The term &amp;ldquo;Prompt Engineering&amp;rdquo; is a bit controversial but people will get better understanding after learning the listed materials.&lt;/p&gt;
 &lt;p&gt;As a lifelong self-learner, I use all sorts of methods to learn new things, and AI is what I&amp;rsquo;m currently into. Although I&amp;rsquo;ve been using AI tools since 2022, my background wasn&amp;rsquo;t focused on AI. So, like everyone else, I had to do some &amp;ldquo;AI For Dummies&amp;rdquo; level study in order to get more involved. Below is a list of learning materials that I find very helpful for myself to get started with and might also be helpful for someone else in the same situation.&lt;/p&gt;</description>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OxygenOS on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/oxygenos/</link>
+    <link>https://techshinobi.org/tags/oxygenos/</link>
     <description>Recent content in OxygenOS on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/oxygenos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/oxygenos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dehaunting OnePlus Nord N30 5G</title>
-      <link>http://localhost:1313/posts/opn30/</link>
+      <link>https://techshinobi.org/posts/opn30/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/opn30/</guid>
+      <guid>https://techshinobi.org/posts/opn30/</guid>
       <description>&lt;p&gt;Last year, I bought a Metro locked Oneplus Nord N30 5G (CPH2513/CPH2515) for $60 during a very slick deal.&lt;/p&gt;
 &lt;p&gt;However, this phone was completely unusable due to it is haunted with tons of bloatware and spyware. So I decided to let it sit in a drawer for 180 days and then see what I can do with it.&lt;/p&gt;
 &lt;p&gt;A few days ago, I unlocked it by simply go to &lt;code&gt;About Phone&lt;/code&gt; then click &lt;code&gt;Unlock&lt;/code&gt;.&lt;/p&gt;</description>

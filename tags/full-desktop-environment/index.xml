@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Full Desktop Environment on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/full-desktop-environment/</link>
+    <link>https://techshinobi.org/tags/full-desktop-environment/</link>
     <description>Recent content in Full Desktop Environment on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/full-desktop-environment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/full-desktop-environment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu on Windows via WSL2</title>
-      <link>http://localhost:1313/posts/wsl2/</link>
+      <link>https://techshinobi.org/posts/wsl2/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wsl2/</guid>
+      <guid>https://techshinobi.org/posts/wsl2/</guid>
       <description>&lt;h3 id=&#34;wsl-installation&#34;&gt;WSL Installation&lt;/h3&gt;
 &lt;p&gt;There are some special use cases where I would like to go through and show the process of setting up WSL. &lt;a href=&#34;https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/&#34;&gt;Ubuntu&amp;rsquo;s official document&lt;/a&gt; works well on Windows 11 LTSC for WSL installation, there is also a tutorial from &lt;a href=&#34;https://www.sitepoint.com/wsl2/&#34;&gt;sitepoint&lt;/a&gt; with more details.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m doing this on a double debloated version of Windows 11 from previous post of Tiny 11 WTG, where I downloaded &lt;a href=&#34;https://github.com/microsoft/winget-cli/releases&#34;&gt;WinGet&lt;/a&gt;, extracted &lt;code&gt;DesktopAppInstaller_Dependencies.zip&lt;/code&gt; and installed with PowerShell:&lt;/p&gt;</description>

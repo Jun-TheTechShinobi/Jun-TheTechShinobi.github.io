@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ideology on Tech Shinobi</title>
-    <link>http://localhost:1313/categories/ideology/</link>
+    <link>https://techshinobi.org/categories/ideology/</link>
     <description>Recent content in Ideology on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ideology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/categories/ideology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shutting Off Annoying Autoupdate Notification for Mullvad Browser</title>
-      <link>http://localhost:1313/posts/mullvad/</link>
+      <link>https://techshinobi.org/posts/mullvad/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mullvad/</guid>
+      <guid>https://techshinobi.org/posts/mullvad/</guid>
       <description>&lt;p&gt;This has been a problem for a while now. That green dot and popup notification persisted on my Mullvad browser makes me feel like using a bloatware than a FOSS.&lt;/p&gt;
 &lt;p&gt;The right way to do this is either follow their upstream Tor browser update model—just force updating seamlessly without any user interaction. Or, like LibreWolf, manual update with the system package manager.&lt;/p&gt;
 &lt;p&gt;This situation might be because of I&amp;rsquo;m using the portable version of Mullvad browser. If that&amp;rsquo;s the case, I shouldn&amp;rsquo;t blame it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trying out Immutable/Atomic Linux: Secureblue, Guix and NixOS</title>
-      <link>http://localhost:1313/posts/atomic/</link>
+      <link>https://techshinobi.org/posts/atomic/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/atomic/</guid>
+      <guid>https://techshinobi.org/posts/atomic/</guid>
       <description>&lt;h2 id=&#34;background-with-kicksecure&#34;&gt;Background with Kicksecure&lt;/h2&gt;
 &lt;p&gt;Last year, I set up my Monero Wallet with Kicksecure and happy about it. This distro is really lightweight and easy to use. However, it failed completely after a recent upgrade, which was a major version leap from Debian 12 to 13.&lt;/p&gt;
 &lt;p&gt;It lost drivers, desktop environment stopped working and probably much more which I couldn&amp;rsquo;t discover because I stacked at a login screen loop. After troubleshooting for a couple of hours, it turns out all lightdm related DEs are unusable and Gnome and KDE are working.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On iPhone, Design and Jailbreak (Updated)</title>
-      <link>http://localhost:1313/posts/on-iphone/</link>
+      <link>https://techshinobi.org/posts/on-iphone/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/on-iphone/</guid>
+      <guid>https://techshinobi.org/posts/on-iphone/</guid>
       <description>&lt;p&gt;This post was originally published on February 2025, and I recently updated the IPATool section in the end as a alternative method to prior ones.&lt;/p&gt;
 &lt;h2 id=&#34;iphone-talks&#34;&gt;iPhone Talks&lt;/h2&gt;
 &lt;p&gt;There are a many cellphones that make me feel nostalgic. None of them is Android nor iPhone. Some of them are &lt;a href=&#34;https://techshinobi.org/posts/pmos/&#34;&gt;QWERTY&lt;/a&gt;, some are flip phones. Phones were much interesting back in the days when Motorola, Nokia, Sony, Sharp, Blackberry and more are still competitive in the market. Today&amp;rsquo;s smartphones are indifferent and rather being &amp;ldquo;boredphones&amp;rdquo;. And all of these boredness are rooted in the &amp;ldquo;iPhone Moment&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosting a Multi-Lingual GitBook on GitHub Pages</title>
-      <link>http://localhost:1313/posts/osway/</link>
+      <link>https://techshinobi.org/posts/osway/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/osway/</guid>
+      <guid>https://techshinobi.org/posts/osway/</guid>
       <description>&lt;p&gt;Contributing back to the community has been my duty consciously for years. Lately, I&amp;rsquo;m working on the &lt;a href=&#34;https://github.com/theopensourcewaycn/guidebook&#34;&gt;translation project&lt;/a&gt; of &lt;a href=&#34;https://github.com/theopensourceway/guidebook&#34;&gt;The Open Source Way&lt;/a&gt; ebook.&lt;/p&gt;
 &lt;p&gt;Fork a downstream repo of the project and &lt;code&gt;git clone https://github.com/Jun-TheTechShinobi/guidebook.git &amp;amp;&amp;amp; cd guidebook&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/package-manager/all&#34;&gt;Node.js/NPM&lt;/a&gt; through cli package manager&lt;/p&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Bypassing YouTube IP block with FreeTube and optimized Tor</title>
-      <link>http://localhost:1313/posts/ytproxy/</link>
+      <link>https://techshinobi.org/posts/ytproxy/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ytproxy/</guid>
+      <guid>https://techshinobi.org/posts/ytproxy/</guid>
       <description>&lt;p&gt;Recently, YouTube is messing with user disobedience again. For the sake of that, &lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt; has been updating with fix multiple times.&lt;/p&gt;
 &lt;p&gt;Although FreeTube has fixed the API block done by YouTube, I have to deal with a new IP block from my end as its aftermath.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>How to Scan, OCR and Share a Book Anonymously</title>
-      <link>http://localhost:1313/posts/bookscan/</link>
+      <link>https://techshinobi.org/posts/bookscan/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bookscan/</guid>
+      <guid>https://techshinobi.org/posts/bookscan/</guid>
       <description>&lt;p&gt;Recently, I have encountered a very rare out-of-print book that I decided to save it for the world with modern technology.&lt;/p&gt;
 &lt;p&gt;Because I don&amp;rsquo;t have a real scanner, I tested all sorts of scanner android apps that are open source.&lt;/p&gt;
 &lt;ul&gt;
@@ -78,26 +78,26 @@
     </item>
     <item>
       <title>Dealing with the Enshittification of ProtonVPN&#39;s Free Plan (WireGuard&#43;NextDNS)</title>
-      <link>http://localhost:1313/posts/proton-shit/</link>
+      <link>https://techshinobi.org/posts/proton-shit/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/proton-shit/</guid>
+      <guid>https://techshinobi.org/posts/proton-shit/</guid>
       <description>&lt;p&gt;This post is originally composed on 2024-11-28. I&amp;rsquo;m updating it for combining NextDNS, since I have started using a new freemium app with nasty ADs in it. ProtonVPN&amp;rsquo;s free plan doesn&amp;rsquo;t allow me to configure AD blocking DNS, especially with their official app. But with WireGuard app, this can be trivial. Thank to the &lt;a href=&#34;https://reddit.com/r/ProtonVPN/comments/15x7q1q/guide_nextdns_proton_vpn_wireguard_doh3_on_ios&#34;&gt;original guide on reddit&lt;/a&gt;, the newly added part is in the end of this article.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;As a early adopter of Protonmail, I use their later coming VPN product as well, regularly yet lightly. Although I&amp;rsquo;m a potential customer but still not paying for any of their plan, for many reasons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating VMs from ESXi to Proxmox VE</title>
-      <link>http://localhost:1313/posts/migratevm/</link>
+      <link>https://techshinobi.org/posts/migratevm/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/migratevm/</guid>
+      <guid>https://techshinobi.org/posts/migratevm/</guid>
       <description>&lt;p&gt;There are many reasons why I&amp;rsquo;m doing this. In the days when Virtual Machine was the thing, VMware Workstation was the go-to option for a Windows host to run VMs. We have to find cracked version for personal use, since there was no VirtualBox neither Hyper-V.&lt;/p&gt;
 &lt;p&gt;Many years ago, when I first decided to have a proper homelab in my household, I went blindly into ESXi just because VMware Workstation has already installed on all of my computers. Although I was pretty like Proxmox during that time, it was considered for not so serious projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Upgrading/Fixing Cheapskate&#39;s AI Server</title>
-      <link>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</link>
+      <link>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/upgrade-ai-server/upgrade-ai-server/</guid>
+      <guid>https://techshinobi.org/posts/upgrade-ai-server/upgrade-ai-server/</guid>
       <description>&lt;p&gt;This is &lt;a href=&#34;https://techshinobi.org/posts/cheapai/&#34;&gt;the server I build back in 2023&lt;/a&gt;, based on a moded Dell Optiplex 3010 SFF motherboard with i5-2300 and Tesla M40. I wasn&amp;rsquo;t planning to put an Xeon E3 back then but something happened which changed my mind.&lt;/p&gt;
 &lt;p&gt;After approximately 1.5 years of 24/7 running, my CPU power extension cable melted.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;meltdown1&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Jun-TheTechShinobi/Jun-TheTechShinobi.github.io/45b89958caec4b3d2293d63c214ec871a2331a1e/posts/upgrade-ai-server/images/meltdown1.JPG&#34;&gt;&lt;/p&gt;
@@ -106,17 +106,17 @@
     </item>
     <item>
       <title>Reviving ThinkCentre M58p in 2024</title>
-      <link>http://localhost:1313/posts/m58p/</link>
+      <link>https://techshinobi.org/posts/m58p/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/m58p/</guid>
+      <guid>https://techshinobi.org/posts/m58p/</guid>
       <description>&lt;p&gt;Days before mini-PC become a thing, there was no NUC, MinisForum or Beelink. It was the time of thin client and SFF (small-form-factor), manufacturers such as Shuttle, Dell and Lenovo were made a lot of these.&lt;/p&gt;
 &lt;p&gt;Back then, the performance of SoC was too weak so that even laptops wouldn&amp;rsquo;t use them. But my first dedicated home lab machine was an Atom D525, which was called embedded industrial computer. It served as a router rather than server due to its performance and heat. That was also the time when I got into the world of m0n0wall derivatives (pfSense/FreeNAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Windows Nostalgia, Linux and Its Discontents</title>
-      <link>http://localhost:1313/posts/11-7-linux/</link>
+      <link>https://techshinobi.org/posts/11-7-linux/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/11-7-linux/</guid>
+      <guid>https://techshinobi.org/posts/11-7-linux/</guid>
       <description>&lt;h2 id=&#34;windows-nostalgia&#34;&gt;Windows Nostalgia&lt;/h2&gt;
 &lt;p&gt;A recent video on Windows 7 as daily driver OS by &lt;a href=&#34;https://youtu.be/RE08P0iqCzY&#34;&gt;Brodie Robertson&lt;/a&gt; was hilarious but also arguable.&lt;/p&gt;
 &lt;p&gt;For me, XP is the best OS ever made by M$. However, it has became not so useful nowadays neither for retro gaming (which 98SE is the king) nor for day-to-day usage, due to both hardware and software incompatibility.&lt;/p&gt;
@@ -124,9 +124,9 @@
     </item>
     <item>
       <title>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</title>
-      <link>http://localhost:1313/posts/ethics-llm/</link>
+      <link>https://techshinobi.org/posts/ethics-llm/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ethics-llm/</guid>
+      <guid>https://techshinobi.org/posts/ethics-llm/</guid>
       <description>&lt;h2 id=&#34;the-open-source-ai-manifesto&#34;&gt;the &amp;ldquo;Open Source AI Manifesto&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Mark Zuckerberg has been &lt;a href=&#34;https://stallman.org/facebook.html&#34;&gt;hated by Richard Stallman&lt;/a&gt; for decades and he is the only person who appears on both cover image of the video essays: &lt;a href=&#34;https://youtu.be/oLLxpAZzy0s&#34;&gt;How the Internet was Stolen&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/BQTXv5jm6s4&#34;&gt;How AI was Stolen&lt;/a&gt; by Then &amp;amp; Now.&lt;/p&gt;
 &lt;p&gt;However, things has changed recently after his adoption of the Fediverse and &lt;a href=&#34;https://youtu.be/lJ_NRIKbRKc&#34;&gt;open-sourcing of Llama&lt;/a&gt; continuously.&lt;/p&gt;
@@ -144,18 +144,18 @@
     </item>
     <item>
       <title>AI CyberSecurity, ChatGPT and Post-humanism</title>
-      <link>http://localhost:1313/posts/aisecph/</link>
+      <link>https://techshinobi.org/posts/aisecph/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/aisecph/</guid>
+      <guid>https://techshinobi.org/posts/aisecph/</guid>
       <description>&lt;p&gt;This is the text for a lecture I&amp;rsquo;m going to give recently. Thanks for &lt;a href=&#34;https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/&#34;&gt;Daniela Baron&amp;rsquo;s guide&lt;/a&gt; which helped me tremendously for creating &lt;a href=&#34;https://techshinobi.org/AI-CyberSec-PH-presentation/&#34;&gt;the slides&lt;/a&gt; with &lt;a href=&#34;https://github.com/hakimel/reveal.js/&#34;&gt;RevealJS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hey everyone. Well, first, I have to confess and apologize that I could not prepare this enough. Because I have to working on my dissertation, which also discusses about AI augmented APT attack such as using ChatGPT to create phishing email and ransomware code.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t know if anyone is interested in that direction, but I digressed, let&amp;rsquo;s get to start.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nokia N900, postmarketOS and Ideology</title>
-      <link>http://localhost:1313/posts/pmos/</link>
+      <link>https://techshinobi.org/posts/pmos/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pmos/</guid>
+      <guid>https://techshinobi.org/posts/pmos/</guid>
       <description>&lt;h2 id=&#34;0x00-before-start&#34;&gt;0x00 Before Start&lt;/h2&gt;
 &lt;p&gt;Recently, I just gave my iPhone 4S away. This phone runs smoothly with jailbreak iOS 6.1.3. It was siting in my nostalgia box for years and has never been my daily driver.&lt;/p&gt;
 &lt;p&gt;Back in time, I was a big fun of Motorola Milestone/Droid series and my main phone was the last of these QWERTY phones, Photon Q (XT897). Its keyboard was fantastic and CyanogenMod 11 (Android 4.4 KitKat) with XPosed framework was perfect in both productivity and aesthetics.&lt;/p&gt;</description>

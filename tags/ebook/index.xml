@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ebook on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/ebook/</link>
+    <link>https://techshinobi.org/tags/ebook/</link>
     <description>Recent content in Ebook on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ebook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/ebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosting a Multi-Lingual GitBook on GitHub Pages</title>
-      <link>http://localhost:1313/posts/osway/</link>
+      <link>https://techshinobi.org/posts/osway/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/osway/</guid>
+      <guid>https://techshinobi.org/posts/osway/</guid>
       <description>&lt;p&gt;Contributing back to the community has been my duty consciously for years. Lately, I&amp;rsquo;m working on the &lt;a href=&#34;https://github.com/theopensourcewaycn/guidebook&#34;&gt;translation project&lt;/a&gt; of &lt;a href=&#34;https://github.com/theopensourceway/guidebook&#34;&gt;The Open Source Way&lt;/a&gt; ebook.&lt;/p&gt;
 &lt;p&gt;Fork a downstream repo of the project and &lt;code&gt;git clone https://github.com/Jun-TheTechShinobi/guidebook.git &amp;amp;&amp;amp; cd guidebook&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Install &lt;a href=&#34;https://nodejs.org/en/download/package-manager/all&#34;&gt;Node.js/NPM&lt;/a&gt; through cli package manager&lt;/p&gt;
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
-      <link>http://localhost:1313/posts/mineru/</link>
+      <link>https://techshinobi.org/posts/mineru/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mineru/</guid>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
       <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
 &lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>

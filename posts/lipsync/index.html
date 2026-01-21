@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Experimenting Lip Syncing Deepfake Tools | Tech Shinobi</title>
 <meta name="keywords" content="SadTalker, SadTalker-Video-Lip-Sync, Opensource, AI-generated Video, ffmpeg, Wav2Lip, stable diffusion, deepfake, face swap, so-vits-svc">
 <meta name="description" content="AI-Generated content can be fun or &ldquo;slop&rdquo; according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.
 Some of my readers may have already known that recently I&rsquo;m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.">
 <meta name="author" content="Jun">
-<link rel="canonical" href="http://localhost:1313/posts/lipsync/">
+<link rel="canonical" href="https://techshinobi.org/posts/lipsync/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://techshinobi.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://techshinobi.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://techshinobi.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://techshinobi.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://techshinobi.org/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lipsync/">
+<link rel="alternate" hreflang="en" href="https://techshinobi.org/posts/lipsync/">
 <noscript>
     <style>
         #theme-toggle,
@@ -28,7 +28,81 @@ Some of my readers may have already known that recently I&rsquo;m working on a s
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://techshinobi.org/posts/lipsync/">
+  <meta property="og:site_name" content="Tech Shinobi">
+  <meta property="og:title" content="Experimenting Lip Syncing Deepfake Tools">
+  <meta property="og:description" content="AI-Generated content can be fun or “slop” according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.
+Some of my readers may have already known that recently I’m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-08T00:00:00+00:00">
+    <meta property="article:tag" content="SadTalker">
+    <meta property="article:tag" content="SadTalker-Video-Lip-Sync">
+    <meta property="article:tag" content="Opensource">
+    <meta property="article:tag" content="AI-Generated Video">
+    <meta property="article:tag" content="Ffmpeg">
+    <meta property="article:tag" content="Wav2Lip">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Experimenting Lip Syncing Deepfake Tools">
+<meta name="twitter:description" content="AI-Generated content can be fun or &ldquo;slop&rdquo; according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.
+Some of my readers may have already known that recently I&rsquo;m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://techshinobi.org/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Experimenting Lip Syncing Deepfake Tools",
+      "item": "https://techshinobi.org/posts/lipsync/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Experimenting Lip Syncing Deepfake Tools",
+  "name": "Experimenting Lip Syncing Deepfake Tools",
+  "description": "AI-Generated content can be fun or \u0026ldquo;slop\u0026rdquo; according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.\nSome of my readers may have already known that recently I\u0026rsquo;m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.\n",
+  "keywords": [
+    "SadTalker", "SadTalker-Video-Lip-Sync", "Opensource", "AI-generated Video", "ffmpeg", "Wav2Lip", "stable diffusion", "deepfake", "face swap", "so-vits-svc"
+  ],
+  "articleBody": "AI-Generated content can be fun or “slop” according to Simon Willison, but also can be malevolent due to its abuse in phishing attacks.\nSome of my readers may have already known that recently I’m working on a side project , which based onchatgpt-html and uses LLMs to detect phishing emails. I think at some point, the tool should be able to detect phishing attempt from video content too. Because deepfake technology is so accessible nowadays and its generated content can be quite convincing.\nPreviously, I have played with image generating and audio generating. It’s time to play around with videos so let’s get started.\nSadTalker SadTalker is an image to video lip sync tool. Since I have updated my Stable Diffusion this year, and SadTalker SD extension does not work for SD v1.8. So I’m using the standalone version instead.\nInstall is pretty simple, according to the official repo:\ngit clone https://github.com/OpenTalker/SadTalker.git cd SadTalker conda create -n sadtalker python=3.8 conda activate sadtalker pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113 conda install ffmpeg pip install -r requirements.txt pip install tts --no-cache bash scripts/download_models.sh python app_sadtalker.py Troubleshooting Fix AttributeError: 'Row' object has no attribute 'style' Using app_sadtalker.zip\nFix FFmpeg cannot edit existing files in-place with pip install gradio==4.1.1\nFix OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v' Or resize the image into 256x256/512x512.\nTo serve on LAN, edit app_sadtalker.py with launch(server_name=\"0.0.0.0\", server_port=7860).\nNotes With low resolution input image, the video length is up to 5 mins for my 24GB vram (256px/512px, no still, no GFPGAN). With high resolution input image (2k), the video length can’t get longer than 1 minute due to OOM.\nGFPGAN makes mouse very clear. full makes ghosting head movement, still reduce it.\nresize doesn’t work, have to manually prepare square sized photos (512x512) instead.\nGenerating anime style image with smile tag (in SD) to increase detectability, the art style must have nose and mouth visible (many anime style checkpoints don’t).\nTo reduce OOM\nedit --batch_size =2 to 1 in inference.py. run in linux cli export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:32 or edit in app_sadtalker.py with import os os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"] = \"max_split_size_mb:32\" batch_size = 1 SadTalker-Video-Lip-Sync SadTalker-Video-Lip-Sync is a video to video lip sync tool. It works well for a little bit more motion in the results, but also consume more vram.\nThe installation takes more effort since lack of documentations.\ngit clone https://github.com/Zz-ww/SadTalker-Video-Lip-Sync.git cd SadTalker-Video-Lip-Sync conda create -n SadTalker-Video-Lip-Sync python=3.8 conda activate SadTalker-Video-Lip-Sync pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113 conda install ffmpeg pip install -r requirements.txt python -m pip install paddlepaddle-gpu==2.3.2.post112 \\ -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html download pretrained model: https://drive.google.com/file/d/1lW4mf5YNtS4MAD7ZkAauDDWp2N3_Qzs7/view?usp=sharing tar -zxvf checkpoints.tar.gz replace `SadTalker-Video-Lip-Sync/checkpoints` directory Samples Using so-vits-svc or vits-simple-api to generate an audio sample.\nThe input video is preferred to be mouth closed with stable head position.\nUsing ffmpeg to match length between input video and audio\nffmpeg -t 30 -i tts_output_audio.wav audio.wav ffmpeg -ss 00:00:00 -to 00:00:30 -i input_video.mp4 -c copy video.mp4 Note: For my 24GB VRAM, length of under 60s is safe from OOM error.\nInference python inference.py --driven_audio \\ --source_video \\ --enhancer \\ #(null for lip) none:do not enhance; \\ lip:only enhance lip region \\ face: enhance (skin nose eye brow lip) I used it like this python inference.py --driven_audio \"/home/user/SadTalker-Video-Lip-Sync/audio.wav\" --source_video \"/home/user/SadTalker-Video-Lip-Sync/video.mp4\" --enhancer face\nBefore start inferencing, it will download and load more models.\nIf the input video is mouth closed, use --enhancer lip. If the input video is speaking, then use --enhancer face.\nI couldn’t get DAIN to work at this point, but the result is already satisfying without it.\nTroubleshooting Fix for AttributeError: _2D edit src/face3d/extract_kp_videos.py replace face_alignment.LandmarksType._2D to face_alignment.LandmarksType.TWO_D\nWav2Lip STUDIO Wav2Lip STUDIO is another video to video lip sync tool. I choose the SD extension rather than the standalone. It gives more controls than SadTalker-Video-Lip-Sync. More interestingly, it has the face swap function!\nThe install is really easy following the official guide.\nIn case of installing SD, my old article has been outdated, so the new way to do:\nconda create --name stablediffusion python=3.10 conda activate stablediffusion conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia cd stable-diffusion-webui git pull pip install -r requirements.txt python launch.py --listen --enable-insecure-extension-access --no-half-vae Note: launching with --no-half-vae because the limitation of my old GPU.\nMy Workflow Use Edge TTS and/or so-vits-svc to generate a audio file with desired voice and context.\nSlice the audio file into short pieces, for example ffmpeg -i input.wav -segment_time 00:01:00 -f segment output_file%03d.wav for 1 minute long.\nRun each audio slices through either SadTalker, SadTalker-Video-Lip-Sync or Wav2Lip STUDIO to generate the video with desired character.\nCombine all video pieces in video editing tools or ffmpeg.\nDisclaimer: This post is for educational purposes only. I am not responsible if you deepfaked your president and make your country into Fascism, commit genocide, create nuclear war, etc. You are using this at your own risk. However, it’s very likely this won’t happen… at least not because deepfake abuse : )​\n",
+  "wordCount" : "817",
+  "inLanguage": "en",
+  "datePublished": "2024-05-08T00:00:00Z",
+  "dateModified": "2024-05-08T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Jun"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techshinobi.org/posts/lipsync/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tech Shinobi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://techshinobi.org/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class=" dark" id="top">
@@ -42,7 +116,7 @@ Some of my readers may have already known that recently I&rsquo;m working on a s
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
+            <a href="https://techshinobi.org/" accesskey="h" title="Tech Shinobi (Alt + H)">Tech Shinobi</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -68,22 +142,22 @@ Some of my readers may have already known that recently I&rsquo;m working on a s
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives" title="Archive">
+                <a href="https://techshinobi.org/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
+                <a href="https://techshinobi.org/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://techshinobi.org/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://techshinobi.org/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -94,7 +168,7 @@ Some of my readers may have already known that recently I&rsquo;m working on a s
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://techshinobi.org/">Home</a>&nbsp;»&nbsp;<a href="https://techshinobi.org/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Experimenting Lip Syncing Deepfake Tools
     </h1>
@@ -278,24 +352,24 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/sadtalker/">SadTalker</a></li>
-      <li><a href="http://localhost:1313/tags/sadtalker-video-lip-sync/">SadTalker-Video-Lip-Sync</a></li>
-      <li><a href="http://localhost:1313/tags/opensource/">Opensource</a></li>
-      <li><a href="http://localhost:1313/tags/ai-generated-video/">AI-Generated Video</a></li>
-      <li><a href="http://localhost:1313/tags/ffmpeg/">Ffmpeg</a></li>
-      <li><a href="http://localhost:1313/tags/wav2lip/">Wav2Lip</a></li>
-      <li><a href="http://localhost:1313/tags/stable-diffusion/">Stable Diffusion</a></li>
-      <li><a href="http://localhost:1313/tags/deepfake/">Deepfake</a></li>
-      <li><a href="http://localhost:1313/tags/face-swap/">Face Swap</a></li>
-      <li><a href="http://localhost:1313/tags/so-vits-svc/">So-Vits-Svc</a></li>
+      <li><a href="https://techshinobi.org/tags/sadtalker/">SadTalker</a></li>
+      <li><a href="https://techshinobi.org/tags/sadtalker-video-lip-sync/">SadTalker-Video-Lip-Sync</a></li>
+      <li><a href="https://techshinobi.org/tags/opensource/">Opensource</a></li>
+      <li><a href="https://techshinobi.org/tags/ai-generated-video/">AI-Generated Video</a></li>
+      <li><a href="https://techshinobi.org/tags/ffmpeg/">Ffmpeg</a></li>
+      <li><a href="https://techshinobi.org/tags/wav2lip/">Wav2Lip</a></li>
+      <li><a href="https://techshinobi.org/tags/stable-diffusion/">Stable Diffusion</a></li>
+      <li><a href="https://techshinobi.org/tags/deepfake/">Deepfake</a></li>
+      <li><a href="https://techshinobi.org/tags/face-swap/">Face Swap</a></li>
+      <li><a href="https://techshinobi.org/tags/so-vits-svc/">So-Vits-Svc</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/ethics-llm/">
+  <a class="prev" href="https://techshinobi.org/posts/ethics-llm/">
     <span class="title">« Prev</span>
     <br>
     <span>Ethics of Local LLMs: A Response to Zuckerberg&#39;s &#39;&#39;Open Source AI Manifesto&#39;&#39;</span>
   </a>
-  <a class="next" href="http://localhost:1313/posts/tpc13/">
+  <a class="next" href="https://techshinobi.org/posts/tpc13/">
     <span class="title">Next »</span>
     <br>
     <span>Updating ThinkPad C13 Yoga</span>
@@ -306,7 +380,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on x"
-            href="https://x.com/intent/tweet/?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f&amp;hashtags=SadTalker%2cSadTalker-Video-Lip-Sync%2cOpensource%2cAI-generatedVideo%2cffmpeg%2cWav2Lip%2cstablediffusion%2cdeepfake%2cfaceswap%2cso-vits-svc">
+            href="https://x.com/intent/tweet/?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f&amp;hashtags=SadTalker%2cSadTalker-Video-Lip-Sync%2cOpensource%2cAI-generatedVideo%2cffmpeg%2cWav2Lip%2cstablediffusion%2cdeepfake%2cfaceswap%2cso-vits-svc">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -315,7 +389,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f&amp;title=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;summary=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f">
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f&amp;title=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;summary=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;source=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -324,7 +398,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on reddit"
-            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f&title=Experimenting%20Lip%20Syncing%20Deepfake%20Tools">
+            href="https://reddit.com/submit?url=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f&title=Experimenting%20Lip%20Syncing%20Deepfake%20Tools">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -333,7 +407,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on facebook"
-            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f">
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
@@ -342,7 +416,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on whatsapp"
-            href="https://api.whatsapp.com/send?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f">
+            href="https://api.whatsapp.com/send?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools%20-%20https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -351,7 +425,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on telegram"
-            href="https://telegram.me/share/url?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f">
+            href="https://telegram.me/share/url?text=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&amp;url=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -360,7 +434,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Experimenting Lip Syncing Deepfake Tools on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&u=http%3a%2f%2flocalhost%3a1313%2fposts%2flipsync%2f">
+            href="https://news.ycombinator.com/submitlink?t=Experimenting%20Lip%20Syncing%20Deepfake%20Tools&u=https%3a%2f%2ftechshinobi.org%2fposts%2flipsync%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path
@@ -375,7 +449,7 @@ python launch.py --listen --enable-insecure-extension-access --no-half-vae
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Tech Shinobi</a></span> · 
+        <span>&copy; 2026 <a href="https://techshinobi.org/">Tech Shinobi</a></span> · 
 
     <span>
         Powered by

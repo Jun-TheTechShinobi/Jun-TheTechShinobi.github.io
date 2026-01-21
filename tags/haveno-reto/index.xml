@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Haveno-Reto on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/haveno-reto/</link>
+    <link>https://techshinobi.org/tags/haveno-reto/</link>
     <description>Recent content in Haveno-Reto on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/haveno-reto/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/haveno-reto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Set up Monero Wallet Securely with Anonymity</title>
-      <link>http://localhost:1313/posts/menero-wallet/</link>
+      <link>https://techshinobi.org/posts/menero-wallet/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/menero-wallet/</guid>
+      <guid>https://techshinobi.org/posts/menero-wallet/</guid>
       <description>&lt;p&gt;Eventually, I found myself with enough leisure and motivation to set up a crypto wallet. For my situation, investing time and money into my skills, knowledge, and projects yields more return and safer than in finance.&lt;/p&gt;
 &lt;p&gt;But in this time, I found some good VPN deals which I would like to pay with XMR. Plus it&amp;rsquo;s convenient to have some spare crypto in wallet  for making donations to my favorite creators and projects, so it&amp;rsquo;s time to set things up.&lt;/p&gt;</description>
     </item>

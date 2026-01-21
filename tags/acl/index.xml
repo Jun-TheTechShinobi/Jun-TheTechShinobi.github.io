@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ACL on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/acl/</link>
+    <link>https://techshinobi.org/tags/acl/</link>
     <description>Recent content in ACL on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/acl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/acl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheapskate&#39;s TrueNAS Build with 6 Drives RAID-Z2</title>
-      <link>http://localhost:1313/posts/truenas/</link>
+      <link>https://techshinobi.org/posts/truenas/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/truenas/</guid>
+      <guid>https://techshinobi.org/posts/truenas/</guid>
       <description>&lt;p&gt;After almost two years later, the hardware of &lt;a href=&#34;https://techshinobi.org/posts/cheapnas/#old-stories&#34;&gt;my Openmediavault NAS&lt;/a&gt; is going to be upgraded from Vostro to Precision. Which is a big leap, that I don&amp;rsquo;t have to do any hardware modification to use Xeon CPUs.&lt;/p&gt;
 &lt;p&gt;Thanks for my friend&amp;rsquo;s donation. This junkstation comes with E3-1245, 16GB and 4 SATA HDD port. What I added is a ASMedia 106x SATA PCIE card for 2 more SATA HDD capacity (6 HDD in total), and a PCIe to NVMe adapter for accommodating a
 OS drive (128GB SSD).&lt;/p&gt;</description>

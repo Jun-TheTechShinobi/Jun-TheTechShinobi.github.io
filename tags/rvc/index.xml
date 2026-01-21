@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RVC on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/rvc/</link>
+    <link>https://techshinobi.org/tags/rvc/</link>
     <description>Recent content in RVC on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rvc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/rvc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revisiting Voice Cloning with GPT-SoVITS and so on</title>
-      <link>http://localhost:1313/posts/vits-re/</link>
+      <link>https://techshinobi.org/posts/vits-re/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vits-re/</guid>
+      <guid>https://techshinobi.org/posts/vits-re/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Forewords&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://techshinobi.org/posts/voice-vits/&#34;&gt;My last article&lt;/a&gt; on voice cloning is more than a year ago, and here we are again for adopting some latest advancement.&lt;/p&gt;
 &lt;p&gt;Refering to some Chinese source such as &lt;a href=&#34;https://www.tangshuang.net/9063.html&#34;&gt;this blog&lt;/a&gt; and &lt;a href=&#34;https://www.bilibili.com/video/BV1hukmYhEJX&#34;&gt;this video&lt;/a&gt;, I was attempting to adopt new tools for my audio book service, such as &lt;a href=&#34;%5Bhttps://github.com/FunAudioLLM/CosyVoice&#34;&gt;CosyVoice&lt;/a&gt;, &lt;a href=&#34;https://github.com/SWivid/F5-TTS/&#34;&gt;F5-TTS&lt;/a&gt;, &lt;a href=&#34;https://github.com/RVC-Boss/GPT-SoVITS&#34;&gt;GPT-SoVITS&lt;/a&gt;, and &lt;a href=&#34;https://github.com/fishaudio/fish-speech&#34;&gt;fish-speech&lt;/a&gt;.&lt;/p&gt;

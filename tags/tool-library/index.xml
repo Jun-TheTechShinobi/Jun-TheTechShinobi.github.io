@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tool Library on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/tool-library/</link>
+    <link>https://techshinobi.org/tags/tool-library/</link>
     <description>Recent content in Tool Library on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tool-library/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/tool-library/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guidelines for Shinobi Hackerspace and Tool Library</title>
-      <link>http://localhost:1313/posts/hackerspace/</link>
+      <link>https://techshinobi.org/posts/hackerspace/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hackerspace/</guid>
+      <guid>https://techshinobi.org/posts/hackerspace/</guid>
       <description>&lt;p&gt;Welcome to Shinobi Hackerspace. I am the host, Shinobi.&lt;/p&gt;
 &lt;p&gt;You are seeing this probably because you have visited the Hackerspace. As the host, I am suppose to give you an on-site Orientation for the first time, but unfortunately this article is all we have right now.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll be updating this guideline while we are moving forward!&lt;/p&gt;

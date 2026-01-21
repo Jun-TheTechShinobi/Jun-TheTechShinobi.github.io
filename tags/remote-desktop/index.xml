@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Remote Desktop on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/remote-desktop/</link>
+    <link>https://techshinobi.org/tags/remote-desktop/</link>
     <description>Recent content in Remote Desktop on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/remote-desktop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/remote-desktop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosting RustDesk Server via Docker Compose</title>
-      <link>http://localhost:1313/posts/rustdesk-server/</link>
+      <link>https://techshinobi.org/posts/rustdesk-server/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rustdesk-server/</guid>
+      <guid>https://techshinobi.org/posts/rustdesk-server/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34;&gt;RustDesk&lt;/a&gt; is my favorite remote desktop tool which is the best alternative to any closed-source solutions, such as TeamViewer and Anydesk. It&amp;rsquo;s kinda like Bitwarden in the post-breach era of the cloud password manager (LastPass/1Password) market.&lt;/p&gt;
 &lt;p&gt;As a light user of RustDesk, I use it only occasionally. So I didn&amp;rsquo;t setup my own RD server on VPS even though &lt;a href=&#34;https://www.reddit.com/r/rustdesk/comments/1cr8kfv/should_you_selfhost_a_rustdesk_server/&#34;&gt;I suppose to&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For some reason, one of my RustDesk client got blocked to the official servers. So now I have enough reason to properly making it up.&lt;/p&gt;</description>

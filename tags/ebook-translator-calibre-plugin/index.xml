@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ebook-Translator-Calibre-Plugin on Tech Shinobi</title>
-    <link>http://localhost:1313/tags/ebook-translator-calibre-plugin/</link>
+    <link>https://techshinobi.org/tags/ebook-translator-calibre-plugin/</link>
     <description>Recent content in Ebook-Translator-Calibre-Plugin on Tech Shinobi</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ebook-translator-calibre-plugin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://techshinobi.org/tags/ebook-translator-calibre-plugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating EPUB from Scanned PDF with MinerU and LLMs</title>
-      <link>http://localhost:1313/posts/mineru/</link>
+      <link>https://techshinobi.org/posts/mineru/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mineru/</guid>
+      <guid>https://techshinobi.org/posts/mineru/</guid>
       <description>&lt;p&gt;As a book reader, I read over a hundred books each year and collect much more. The preferred format is absolutely EPUB, however, I can&amp;rsquo;t always get books in EPUB/MOBI especially for rare or old books.&lt;/p&gt;
 &lt;p&gt;Usually, they are available in PDF if at all. Some of these PDFs are manually scanned in a barely readable condition. I wouldn&amp;rsquo;t blame on them since &lt;a href=&#34;https://techshinobi.org/posts/opsecdocs/&#34;&gt;I&amp;rsquo;ve been doing that before&lt;/a&gt; and know that is not easy. What I need is a tool to convert the not so readable book into a readable one with OCR and LLM, that is MinerU.&lt;/p&gt;</description>
     </item>
